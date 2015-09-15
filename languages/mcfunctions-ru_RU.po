@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: My Custom Functions\n"
+"POT-Creation-Date: 2015-08-30 16:22+0300\n"
+"PO-Revision-Date: 2015-08-30 17:30+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: my-custom-functions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/settings_page.php:22
+msgid "Custom functions updated successfully."
+msgstr "Пользовательские функции успешно обновлены."
+
+#: inc/settings_page.php:33
+msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
+msgstr ""
+"Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
+
+#: inc/settings_page.php:34
+msgid "Please, check the code and try again."
+msgstr "Пожалуйста, проверьте код и попробуйте еще раз."
+
+#. Plugin Name of the plugin/theme
+#: inc/settings_page.php:44 my-custom-functions.php:68
+msgid "My Custom Functions"
+msgstr ""
+
+#: inc/settings_page.php:47
+msgid ""
+"by <a href=\"http://mycyberuniverse.com/author.html\" target=\"_blank\" "
+"style=\"display:inline; padding:0;\">Arthur \"Berserkr\" Gareginyan</a>"
+msgstr ""
+
+#: inc/settings_page.php:56
+msgid ""
+"This plugin allows you to EASILY and SAFELY add your own functions, snippets "
+"or any custom code to your site."
+msgstr ""
+"Этот плагин позволяет легко и безопасно добавлять свои собственные функции, "
+"сниппеты или любой пользовательский код на ваш веб-сайт."
+
+#: inc/settings_page.php:59
+msgid ""
+"To use, enter your custom functions, then click \"Update Custom Functions\". "
+"It's that simple!"
+msgstr ""
+"Для использования, введите ваши пользовательские функции, затем нажмите "
+"кнопку \"Обновить Пользовательские Функции\". Это так просто!"
+
+#: inc/settings_page.php:61
+msgid "Update Custom Functions"
+msgstr "Обновить Пользовательские Функции"
+
+#: my-custom-functions.php:55
+msgid "Settings"
+msgstr "Настройки"
+
+#: my-custom-functions.php:68
+msgid "Custom Functions"
+msgstr "Пользовательские Функции"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html ‎"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"EASILY and SAFELY add your own functions, snippets or any custom codes "
+"directly out of your WordPress Dashbord without need of an external editor."
+msgstr ""
+"ПРОСТО и БЕЗОПАСНО добавляйте свои собственные функции, сниппеты или любые "
+"пользовательские коды непосредственно из вашего WordPress Dashboard без "
+"необходимости во внешнем редакторе."
+
+#. Author of the plugin/theme
+msgid "Arthur \"Berserkr\" Gareginyan"
+msgstr "Артур “Берсерк” Гарегинян"
+
+#. Author URI of the plugin/theme
+msgid "http://mycyberuniverse.com/author.html"
+msgstr ""
