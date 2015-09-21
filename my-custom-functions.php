@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: My Custom Functions
- * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html ‎
+ * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html
  * Description: EASILY and SAFELY add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.3
+ * Version: 1.4
  * License: GPL3
  * Text Domain: mcfunctions
  * Domain Path: /languages/
@@ -113,7 +113,7 @@ add_action( 'admin_enqueue_scripts', 'anarcho_enqueue_codemirror_scripts' );
 /**
  * Execute My Custom Functions
  *
- * @since 1.0
+ * @since 1.4
  */
 function anarcho_cfunctions_exec() {
      // Read from BD
@@ -124,13 +124,15 @@ function anarcho_cfunctions_exec() {
      $content = trim( $content );
      $content = trim( $content, '<?php' );
 
-     // Reset error value
-     update_option( 'anarcho_cfunctions_error', '0' );
-
      // Parsing and execute safe
-     if( false === @eval( $content ) ) {
-		// ERROR
-		update_option( 'anarcho_cfunctions_error', '1' );
+     if ( !empty($content) ) {
+        if( false === @eval( $content ) ) {
+            //ERROR
+            update_option( 'anarcho_cfunctions_error', '1' );
+        } else {
+            // Reset error value
+            update_option( 'anarcho_cfunctions_error', '0' );
+        }
      }
 }
 anarcho_cfunctions_exec();

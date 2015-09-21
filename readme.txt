@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.2
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -78,7 +78,7 @@ I don't limit the number of characters.
 Yes. But If your language is not available then you can make one. This plugin is ready for translation. The .pot file is included and placed in "languages" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
 = Where to report bug if found? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html) and report.
+Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
 
 = Where to share any ideas or suggestions to make the plugin better? =
 Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html) and share.
@@ -111,9 +111,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](http://mycyberuniverse.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html)
+* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions)
 
 
 == Changelog ==
+= 1.4 =
+* Fixed the issue due to which the alert message was appearing after installation.
 = 1.3 =
 * .pot file included.
 * Minor fixes.
@@ -132,6 +135,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.4 =
+Please update to new version!
 = 1.3 =
 Please update to new version!
 = 1.2 =
