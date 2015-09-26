@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.4
+ * Version: 1.5
  * License: GPL3
  * Text Domain: mcfunctions
  * Domain Path: /languages/
@@ -92,21 +92,15 @@ add_action( 'admin_init', 'anarcho_cfunctions_register_settings' );
 /**
  * Enqueue the CodeMirror scripts and styles
  *
- * @since 1.2
+ * @since 1.5
  */
 function anarcho_enqueue_codemirror_scripts($hook) {
     if ( 'appearance_page_my-custom-functions' != $hook ) {
         return;
     }
 
-    wp_enqueue_script('codemirror', plugin_dir_url(__FILE__) . 'inc/codemirror/lib/codemirror.js');
-    wp_enqueue_script('codemirror_xml', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/xml.js');
-    wp_enqueue_script('codemirror_javascript', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/javascript.js');
-    wp_enqueue_script('codemirror_css', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/css.js');
-    wp_enqueue_script('codemirror_htmlmixed', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/htmlmixed.js');
-    wp_enqueue_script('codemirror_clike', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/clike.js');
-    wp_enqueue_script('codemirror_php', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/php.js');
-    wp_enqueue_style('codemirror_style', plugin_dir_url(__FILE__) . 'inc/codemirror/lib/codemirror.css');
+    wp_enqueue_script('codemirror', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror-compressed.js');
+    wp_enqueue_style('codemirror_style', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror.css');
 }
 add_action( 'admin_enqueue_scripts', 'anarcho_enqueue_codemirror_scripts' );
 
@@ -137,7 +131,6 @@ function anarcho_cfunctions_exec() {
 }
 anarcho_cfunctions_exec();
 
-
 /**
  * Delete Options on Uninstall
  *
@@ -148,7 +141,6 @@ function anarcho_cfunctions_uninstall() {
         delete_option( 'anarcho_cfunctions_error' );
 }
 register_uninstall_hook( __FILE__, 'anarcho_cfunctions_uninstall' );
-
 
 /* That's all folks! */
 ?>

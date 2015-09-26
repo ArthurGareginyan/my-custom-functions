@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,7 @@ This is a simple and perfect tool to use as your site's functionality plugin.
 * Line numbering (by CodeMirror).
 * Input areas allow for tab indentation.
 * Ready for translation (.pot file included).
+* CodeMirror scripts are combined and minified.
 
 **Coming soon:**
 
@@ -115,6 +116,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.5 =
+* CodeMirror scripts are combined and minified.
 = 1.4 =
 * Fixed the issue due to which the alert message was appearing after installation.
 = 1.3 =
@@ -135,6 +138,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.5 =
+CodeMirror scripts are combined and minified.
 = 1.4 =
 Please update to new version!
 = 1.3 =
