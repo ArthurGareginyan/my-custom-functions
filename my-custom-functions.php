@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.5
+ * Version: 1.6
  * License: GPL3
  * Text Domain: mcfunctions
  * Domain Path: /languages/
@@ -82,10 +82,11 @@ require_once( plugin_dir_path( __FILE__ ) . 'inc/settings_page.php' );
 /**
  * Register settings
  *
- * @since 0.1
+ * @since 1.6
  */
 function anarcho_cfunctions_register_settings() {
 	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_settings' );
+	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_pro_error' );
 }
 add_action( 'admin_init', 'anarcho_cfunctions_register_settings' );
 
@@ -138,7 +139,7 @@ anarcho_cfunctions_exec();
  */
 function anarcho_cfunctions_uninstall() {
 	delete_option( 'anarcho_cfunctions_settings' );
-        delete_option( 'anarcho_cfunctions_error' );
+	delete_option( 'anarcho_cfunctions_error' );
 }
 register_uninstall_hook( __FILE__, 'anarcho_cfunctions_uninstall' );
 

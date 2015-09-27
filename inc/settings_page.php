@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.2
+ * @since 1.6
  */
 function anarcho_cfunctions_render_submenu_page() {
 
@@ -71,8 +71,9 @@ function anarcho_cfunctions_render_submenu_page() {
                                 </p>
 				<?php do_action( 'anarcho_cfunctions-sidebar-bottom' ); ?>
 			</div>
-			<!-- END-SIDEBAR -->
-			<!-- FORM -->
+                        <!-- END-SIDEBAR -->
+
+                        <!-- FORM -->
 			<div id="container" style="margin-right:210px;">
 				<?php do_action( 'anarcho_cfunctions-form-top' ); ?>
 				<div>
@@ -81,21 +82,31 @@ function anarcho_cfunctions_render_submenu_page() {
 				<?php do_action( 'anarcho_cfunctions-textarea-bottom' ); ?>
 				<?php do_action( 'anarcho_cfunctions-form-bottom' ); ?>
 			</div>
+                        <!-- END-FORM -->
+
+                        <!-- SCRIPT -->
 			<script type="text/javascript" language="javascript">
-                                var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('anarcho_cfunctions_settings[anarcho_cfunctions-content]'), {
+				var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('anarcho_cfunctions_settings[anarcho_cfunctions-content]'), {
 				     lineNumbers: true,
 				     matchBrackets: true,
 				     mode: 'application/x-httpd-php',
 				     indentUnit: 4
 				});
+				setTimeout(function() {
+				     myCodeMirror.refresh();
+				},1);
 			</script>
+                        <!-- END-SCRIPT -->
+
+                        <!-- STYLE -->
 			<style>
 				.CodeMirror {
 					border: 1px solid cornflowerblue;
 					height: auto;
 				}
 			</style>
-			<!-- END-FORM -->
+                        <!-- END-STYLE -->
+
 		</form>
 	   </div>
 	<?php

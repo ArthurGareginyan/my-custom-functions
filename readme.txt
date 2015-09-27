@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,6 +37,7 @@ This is a simple and perfect tool to use as your site's functionality plugin.
 **Coming soon:**
 
 * Trigger to temporary disable the custom code.
+* Backuping the custom code to a file.
 * (Got more ideas? Tell me!)
 
 For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html)
@@ -116,6 +117,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.6 =
+* Fixed the issue due to which nothing appears below line 26 until you click below that line.
+* Added “register_setting” for error option.
+* Corrected comments to source code.
 = 1.5 =
 * CodeMirror scripts are combined and minified.
 = 1.4 =
@@ -138,6 +143,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.6 =
+* Fixed the issue due to which nothing appears below line 26 until you click below that line.
+* Added “register_setting” for error option.
+* Corrected comments to source code.
 = 1.5 =
 CodeMirror scripts are combined and minified.
 = 1.4 =
