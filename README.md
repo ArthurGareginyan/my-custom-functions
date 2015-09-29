@@ -66,8 +66,8 @@ Arthur Garegnyan aka Berserkr
 
 ---
 Logos:
-[![WordPress](https://s.w.org/about/images/black-120x45.png)](https://wordpress.org)
-[![HTML5](http://www.w3.org/html/logo/downloads/HTML5_Logo_64.png)]()
+[![WordPress](https://cdn2.iconfinder.com/data/icons/publicons/64/wordpress-64.png)](https://wordpress.org)
+[![HTML5](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-64.png)]()
 [![PHP](http://php.net/images/logos/php-med-trans-light.gif)]()
 [![JS](https://upload.wikimedia.org/wikipedia/commons/3/34/Javascript_icon.svg)]()
 [![License](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.html)
