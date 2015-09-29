@@ -23,7 +23,7 @@ If you discover a security vulnerability within this plugin, please send an e-ma
 
 ## License
 
-The plugin "My Custom Functions Pro" is open-sourced software licensed under the [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html)
+The plugin "My Custom Functions" is open-sourced software licensed under the [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html)
 
 
 ## Author
