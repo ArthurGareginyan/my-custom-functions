@@ -11,6 +11,24 @@ And your website will keep on working, no matter how many times you upgrade or s
 This is a simple and perfect tool to use as your site's functionality plugin.
 
 
+## Features
+
+**Current features:**
+
+* Safety execution code (Checks the entered code for fatal errors).
+* Syntax highlighting (by CodeMirror).
+* Line numbering (by CodeMirror).
+* Input areas allow for tab indentation.
+* Ready for translation (.pot file included).
+* CodeMirror scripts are combined and minified.
+
+**Coming soon:**
+
+* Trigger to temporary disable the custom code.
+* Backuping the custom code to a file.
+* (Got more ideas? Tell me!)
+
+
 ## Contributing
 
 Thank you for considering contributing to the plugin "My Custom Functions"! The contribution guide can be found in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/CONTRIBUTING.md).
