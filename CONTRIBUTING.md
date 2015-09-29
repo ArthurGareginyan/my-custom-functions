@@ -1,7 +1,6 @@
 # How to contribute
 
-When contributing to "My Custom Functions" you have to follow some conventions and a simple
-workflow. It allows me to handle the requests quickly and ensure best quality
+When contributing to "My Custom Functions" you have to follow some conventions and a simple workflow. It allows me to handle the requests quickly and ensure best quality
 for the "My Custom Functions" core code.
 
 Following guidelines will result in less work for both you and me. Please take the time and read the following guide from beginning to the end.
