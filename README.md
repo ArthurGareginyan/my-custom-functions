@@ -30,7 +30,7 @@ The plugin "My Custom Functions" is open-sourced software licensed under the [GN
 
 Arthur Garegnyan aka Berserkr
 
-* Email: [arthurgareginyan@gmail.com](arthurgareginyan@gmail.com)
+* Email: arthurgareginyan@gmail.com
 
 * GitHub: [https://github.com/ArthurGareginyan/](https://github.com/ArthurGareginyan/)
 
