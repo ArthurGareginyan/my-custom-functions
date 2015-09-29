@@ -1,5 +1,4 @@
 # My Custom Functions
-===
 
 An easy to use WordPress plugin that lets you EASILY and SAFELY add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard without any need of an external editor. This plugin allows you to add more then one field.
 
