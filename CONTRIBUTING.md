@@ -38,7 +38,7 @@ The preferred way to report bugs is to use the [GitHub issue tracker](https://gi
 ([how to create a pull request](https://help.github.com/articles/fork-a-repo)).
   Don't put more than one feature/fix in a single pull request.
 
-By contributing code to "My Custom Functions" you
+By contributing code to "My Custom Functions" you:
 
  - agree to license the contributed code under [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html).
 
