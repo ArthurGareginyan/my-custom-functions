@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -79,6 +79,13 @@ I don't limit the number of characters.
 = Can I use this plugin on my language? =
 Yes. But If your language is not available then you can make one. This plugin is ready for translation. The .pot file is included and placed in "languages" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
+= What to do if this plugin caused the white screen? =
+This plugin is not perfect, so there are times when the entered custom code causes the error and white screen. If this happened with you then do the following.
+
+Your code stored in the Database of your web-site. For getting your code, you can go to the Database —> Table “wp_options” —> Option “anarcho_cfunctions_settings” —> “option_value”.
+
+Or you can use the FTP method, for access to plugin's settings page. Go to plugin's folder (in wp-content/plugins/). Open "my-custom-functions.php" file. Find this line of code: "anarcho_cfunctions_exec();" and comment it by placing two slashes( // ) in beginning. Then you can go to plugin's settings page and edit your entered custom code. After editing, just delete two slashes which you written before.
+
 = Where to report bug if found? =
 Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
 
@@ -122,7 +129,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The javascript from settings_page.php moved to separate file.
 * Textdomain changed to "mcfunctions".
 * Changed the style of title in plugin's page.
-* The LICENSE file are renamed to LICENSE.txt
+* The LICENSE file renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 * Added “register_setting” for error option.
@@ -154,7 +161,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The javascript from settings_page.php moved to separate file.
 * Textdomain changed to "mcfunctions".
 * Changed the style of title in plugin's page.
-* The LICENSE file are renamed to LICENSE.txt
+* The LICENSE file renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 * Added “register_setting” for error option.
