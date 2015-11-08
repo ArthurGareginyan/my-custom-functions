@@ -117,6 +117,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.7 =
+* The stylesheet of plugin's page moved to separate file.
+* The javascript from settings_page.php moved to separate file.
+* Textdomain changed to "mcfunctions".
+* Changed the style of title in plugin's page.
+* The LICENSE file are renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 * Added “register_setting” for error option.
@@ -143,6 +149,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.7 =
+* The stylesheet of plugin's page moved to separate file.
+* The javascript from settings_page.php moved to separate file.
+* Textdomain changed to "mcfunctions".
+* Changed the style of title in plugin's page.
+* The LICENSE file are renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 * Added “register_setting” for error option.
