@@ -16,7 +16,7 @@ An easy to use WordPress plugin that lets you EASILY and SAFELY add your own fun
 
 It’s purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your code in the field on the page and this plugin will do the rest for you.
 
-No any more “Fatal error”. These codes will run safely and will not generate fatal errors, so your website won't break if you make a typo in your code.
+No any more "Fatal error". These codes will run safely and will not generate fatal errors, so your website won't break if you make a typo in your code.
 
 And your website will keep on working, no matter how many times you upgrade or switch your theme.
 
@@ -47,24 +47,24 @@ For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.c
 * Your votes really make a difference! Thanks.
 
 == Installation ==
-Install "My Custom Functions" just as you would any other WP Plugin.
+Install "My Custom Functions" just as you would any other WordPress Plugin.
 
 Automatically via WordPress:
 
 1. Log into WordPress Dashboard of your website.
-2. Go to "Plugins" —> “add new plugins".
+2. Go to "`Plugins`" —> "`add new plugins`".
 3. Find this plugin and click install.
-4. Activate this plugin through the "Plugins" tab.
+4. Activate this plugin through the "`Plugins`" tab.
 
 Manual via FTP:
 
 1. Download a copy (zip file) of this plugin from WordPress.org.
 2. Unzip the zip file.
-3. Upload the unzipped directory to your website's plugin directory (/wp-content/plugins/).
+3. Upload the unzipped directory to your website's plugin directory (`/wp-content/plugins/`).
 4. Log into WordPress Dashboard of your website.
-5. Activate this plugin through the "Plugins" tab.
+5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "Custom Functions” menu item will appear in the “Appearance" section. Click on this in order to view plugin's administration page.
+After installation, a "`Custom Functions`" menu item will appear in the "`Appearance`" section. Click on this in order to view plugin's administration page.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -77,14 +77,16 @@ Sorry, this plugin is available for use only on self-hosted (WordPress.org) webs
 I don't limit the number of characters.
 
 = Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The .pot file is included and placed in "languages" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
 = What to do if this plugin caused the white screen? =
 This plugin is not perfect, so there are times when the entered custom code causes the error and white screen. If this happened with you then do the following.
 
-Your code stored in the Database of your web-site. For getting your code, you can go to the Database —> Table “wp_options” —> Option “anarcho_cfunctions_settings” —> “option_value”.
+Your code stored in the Database of your web-site. For getting your code, you can go to the `Database` —> Table "`wp_options`" —> Option "`anarcho_cfunctions_settings`" —> "`option_value`".
 
-Or you can use the FTP method, for access to plugin's settings page. Go to plugin's folder (in wp-content/plugins/). Open "my-custom-functions.php" file. Find this line of code: "anarcho_cfunctions_exec();" and comment it by placing two slashes( // ) in beginning. Then you can go to plugin's settings page and edit your entered custom code. After editing, just delete two slashes which you written before.
+Or you can use the FTP method, for access to plugin's settings page. Go to plugin's folder (in `wp-content/plugins/`). Open "`my-custom-functions.php`" file. Find this line of code:
+`anarcho_cfunctions_exec();`
+and comment it by placing two slashes (`//`) in beginning. Then you can go to plugin's settings page and edit your entered custom code. After editing, just delete two slashes which you written before.
 
 = Where to report bug if found? =
 Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
@@ -132,7 +134,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The LICENSE file renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
-* Added “register_setting” for error option.
+* Added "register_setting" for error option.
 * Corrected comments to source code.
 = 1.5 =
 * CodeMirror scripts are combined and minified.
@@ -164,7 +166,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The LICENSE file renamed to LICENSE.txt
 = 1.6 =
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
-* Added “register_setting” for error option.
+* Added "register_setting" for error option.
 * Corrected comments to source code.
 = 1.5 =
 CodeMirror scripts are combined and minified.

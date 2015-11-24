@@ -96,6 +96,8 @@ add_action( 'admin_init', 'anarcho_cfunctions_register_settings' );
  * @since 1.7
  */
 function anarcho_enqueue_codemirror_scripts($hook) {
+
+    // Return if the page is not a settings page of this plugin
     if ( 'appearance_page_my-custom-functions' != $hook ) {
         return;
     }
