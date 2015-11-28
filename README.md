@@ -72,4 +72,5 @@ Logos:
 [![PHP](http://php.net/images/logos/php-med-trans-light.gif)]()
 [![JS](https://upload.wikimedia.org/wikipedia/commons/3/34/Javascript_icon.svg)]()
 [![WordPress](https://cdn2.iconfinder.com/data/icons/publicons/64/wordpress-64.png)](https://wordpress.org)
+[![CodeMirror](https://codemirror.net/doc/logo.png)]()
 [![License](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.html)
