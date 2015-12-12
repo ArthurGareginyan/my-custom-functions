@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.7
+ * Version: 1.8
  * License: GPL3
  * Text Domain: mcfunctions
  * Domain Path: /languages/

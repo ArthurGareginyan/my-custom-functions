@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * CodeMirror editor
- * @since 1.7
+ * @since 1.8
  * @agareginyan
  */
 
@@ -10,7 +10,7 @@
 var editor = CodeMirror.fromTextArea(document.getElementById('anarcho_cfunctions_settings[anarcho_cfunctions-content]'), {
     lineNumbers: true,
     matchBrackets: true,
-    mode: 'application/x-httpd-php',
+    mode: 'text/x-php', // PHP='text/x-php', HTML+PHP='application/x-httpd-php'.
     indentUnit: 4
 });
 

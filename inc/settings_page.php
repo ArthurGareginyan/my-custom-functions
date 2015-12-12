@@ -8,15 +8,13 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.7
+ * @since 1.8
  */
 function anarcho_cfunctions_render_submenu_page() {
 
 	// Variables
 	$options = get_option( 'anarcho_cfunctions_settings' );
-	$content = isset( $options['anarcho_cfunctions-content'] ) && ! empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '<?php
-
-/* Enter Your Custom Functions Here */';
+	$content = isset( $options['anarcho_cfunctions-content'] ) && ! empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '/* Enter Your Custom Functions Here */';
     $error = get_option( 'anarcho_cfunctions_error' );
 
 	// Settings update message
@@ -57,7 +55,6 @@ function anarcho_cfunctions_render_submenu_page() {
 
 			<!-- SIDEBAR -->
 			<div id="templateside">
-				<?php do_action( 'anarcho_cfunctions-sidebar-top' ); ?>
 				<p>
 					<?php _e( 'This plugin allows you to EASILY and SAFELY add your own functions, snippets or any custom code to your site.', 'mcfunctions' ) ?>
 				</p>
@@ -70,18 +67,14 @@ function anarcho_cfunctions_render_submenu_page() {
                                                 <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                                         </a>
                                 </p>
-				<?php do_action( 'anarcho_cfunctions-sidebar-bottom' ); ?>
 			</div>
 			<!-- END-SIDEBAR -->
 
 			<!-- FORM -->
 			<div id="container">
-				<?php do_action( 'anarcho_cfunctions-form-top' ); ?>
 				<div>
 					<textarea cols="70" rows="30" name="anarcho_cfunctions_settings[anarcho_cfunctions-content]" id="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php echo esc_attr( $content ); ?></textarea>
 				</div>
-				<?php do_action( 'anarcho_cfunctions-textarea-bottom' ); ?>
-				<?php do_action( 'anarcho_cfunctions-form-bottom' ); ?>
 			</div>
 			<!-- END-FORM -->
 
