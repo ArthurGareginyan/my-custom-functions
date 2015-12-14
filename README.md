@@ -42,6 +42,7 @@ If you discover a security vulnerability within this plugin, please send an e-ma
 ## License
 
 This plugin is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
 
