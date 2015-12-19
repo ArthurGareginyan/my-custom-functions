@@ -96,10 +96,9 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Screenshots ==
-1. Plugin’s page.
-2. Plugin’s page with custom code added.
-3. Success message.
-4. «Fatal error» message.
+1. Plugin’s page with custom code added.
+2. Success message.
+3. «Fatal error» message.
 
 
 == Other Notes ==
