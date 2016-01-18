@@ -47,7 +47,7 @@ function anarcho_cfunctions_render_submenu_page() {
             <?php _e( 'My Custom Functions', 'mcfunctions' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'mcfunctions' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'mcfunctions' ); ?>
             <span/>
         </h2>
         <form name="anarcho_cfunctions-form" action="options.php" method="post" enctype="multipart/form-data">

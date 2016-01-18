@@ -119,7 +119,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Links**
 
-* [Developer Website](http://mycyberuniverse.com)
+* [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions)
 

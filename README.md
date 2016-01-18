@@ -56,7 +56,7 @@ Arthur Garegnyan aka Berserkr
 
 * GitHub: [https://github.com/ArthurGareginyan/](https://github.com/ArthurGareginyan/)
 
-* My Website: [http://mycyberuniverse.com/author.html](http://mycyberuniverse.com/author.html)
+* My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
 
 
 ## Links

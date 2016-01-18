@@ -39,7 +39,7 @@ msgstr ""
 
 #: inc/settings_page.php:47
 msgid ""
-"by <a href=\"http://mycyberuniverse.com/author.html\" target=\"_blank\" "
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\" "
 "style=\"display:inline; padding:0;\">Arthur \"Berserkr\" Gareginyan</a>"
 msgstr ""
 
@@ -83,5 +83,5 @@ msgid "Arthur \"Berserkr\" Gareginyan"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://mycyberuniverse.com/author.html"
+msgid "http://www.arthurgareginyan.com"
 msgstr ""
