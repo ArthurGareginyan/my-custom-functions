@@ -65,7 +65,7 @@ Arthur Garegnyan aka Berserkr
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-functions/)
 
-* [Donation Page](http://mycyberuniverse.com/donate.html)
+* [Donation Page](http://www.arthurgareginyan.com/donate.html)
 
 
 ---
