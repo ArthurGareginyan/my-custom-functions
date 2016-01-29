@@ -57,7 +57,7 @@ learn about dealing with it at: [https://help.github.com/articles/dealing-with-l
 
 #### Coding standards
 
-- 2 spaces per indentation level, no tabs.
+- 4 spaces per indentation level, no tabs.
 
 
 ## Contributing translations
