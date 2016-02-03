@@ -1,4 +1,6 @@
-# WP Plugin "My Custom Functions"
+# My Custom Functions
+
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
