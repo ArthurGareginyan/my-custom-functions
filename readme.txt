@@ -1,10 +1,10 @@
 === My Custom Functions ===
 Contributors: Arthur Gareginyan
 Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax,
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.8
+Stable tag: 1.9
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,17 +70,17 @@ After installation, a "`Custom Functions`" menu item will appear in the "`Appear
 
 
 == Frequently Asked Questions ==
-= Will this Plugin work on my WordPress.com website? =
-Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+= Q. Will this Plugin work on my WordPress.com website? =
+A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
-= How much of PHP code (characters) I can enter in the text field? =
-I don't limit the number of characters.
+= Q. How much of PHP code (characters) I can enter in the text field? =
+A. I don't limit the number of characters.
 
-= Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+= Q. Can I use this plugin on my language? =
+A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
-= What to do if this plugin caused the white screen? =
-This plugin is not perfect, so there are times when the entered custom code causes the error and white screen. If this happened with you then do the following.
+= Q. What to do if this plugin caused the white screen? =
+A. This plugin is not perfect, so there are times when the entered custom code causes the error and white screen. If this happened with you then do the following.
 
 Your code stored in the Database of your web-site. For getting your code, you can go to the `Database` —> Table "`wp_options`" —> Option "`anarcho_cfunctions_settings`" —> "`option_value`".
 
@@ -88,11 +88,11 @@ Or you can use the FTP method, for access to plugin's settings page. Go to plugi
 `anarcho_cfunctions_exec();`
 and comment it by placing two slashes (`//`) in beginning. Then you can go to plugin's settings page and edit your entered custom code. After editing, just delete two slashes which you written before.
 
-= Where to report bug if found? =
-Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
+= Q. Where to report bug if found? =
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
 
-= Where to share any ideas or suggestions to make the plugin better? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html) and share.
+= Q. Where to share any ideas or suggestions to make the plugin better? =
+A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html) and share.
 
 
 == Screenshots ==
@@ -102,6 +102,9 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Other Notes ==
+
+"My Custom Functions" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html)
@@ -110,7 +113,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Support**
 
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8). Your contribution would be greatly appreciated.
+* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
 * Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html)
 
 **Please Vote and Enjoy**
@@ -125,6 +128,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.9 =
+* Authors URI changed.
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
+* Russian translation updated.
 = 1.8 =
 * The mode of CodeMirror editor changed from 'application/x-httpd-php' (HTML+PHP) to 'text/x-php' (PHP).
 * Placeholder of <textarea> changed to "/* Enter Your Custom Functions Here */".
@@ -161,6 +170,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.9 =
+* Authors URI changed.
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
+* Russian translation updated.
 = 1.8 =
 * The mode of CodeMirror editor changed from 'application/x-httpd-php' (HTML+PHP) to 'text/x-php' (PHP).
 * Placeholder of <textarea> changed to "/* Enter Your Custom Functions Here */".

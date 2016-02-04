@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.8
+ * @since 1.9
  */
 function anarcho_cfunctions_render_submenu_page() {
 
@@ -62,8 +62,8 @@ function anarcho_cfunctions_render_submenu_page() {
 					<?php _e( 'To use, enter your custom functions, then click "Update Custom Functions". It\'s that simple!', 'mcfunctions' ) ?>
 				</p>
 				<?php submit_button( __( 'Update Custom Functions', 'mcfunctions' ), 'primary', 'submit', true ); ?>
-                                <p class="donate">If you find it useful, consider making a donation:
-                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JG3SB73K86FA8" target="_blank" rel="nofollow">
+                                <p class="donate"><?php _e( 'If you find it useful, consider making a donation:', 'mcfunctions' ) ?>
+                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                                                 <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                                         </a>
                                 </p>
