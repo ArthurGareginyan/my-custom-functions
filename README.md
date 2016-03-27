@@ -19,18 +19,20 @@ This is a simple and perfect tool to use as your site's functionality plugin.
 
 **Current features:**
 
-* Safety execution code (Checks the entered code for fatal errors).
-* Syntax highlighting (by CodeMirror).
-* Line numbering (by CodeMirror).
-* Input areas allow for tab indentation.
-* Ready for translation (.pot file included).
-* CodeMirror scripts are combined and minified.
+* Safety execution code (Checks the entered code for fatal errors)
+* Syntax highlighting (by CodeMirror)
+* Line numbering (by CodeMirror)
+* Input areas allow for tab indentation
+* Ready for translation (.pot file included)
+* Russian translation
+* CodeMirror scripts are combined and minified
 
 **Coming soon:**
 
-* Trigger to temporary disable the custom code.
-* Backuping the custom code to a file.
-* (Got more ideas? Tell me!)
+* Trigger to temporary disable the custom code
+* Backuping the custom code to a file
+
+**Got more ideas? Tell me!**
 
 
 ## Contributing
@@ -62,8 +64,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-functions/)
 
