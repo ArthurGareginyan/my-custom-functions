@@ -8,11 +8,11 @@ Stable tag: 1.9
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-EASILY and SAFELY add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
+Easily and safely add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
 
 
 == Description ==
-An easy to use WordPress plugin that lets you EASILY and SAFELY add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard without any need of an external editor. 
+An easy to use WordPress plugin that lets you easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard without any need of an external editor. 
 
 It’s purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your code in the field on the page and this plugin will do the rest for you.
 
@@ -22,27 +22,31 @@ And your website will keep on working, no matter how many times you upgrade or s
 
 This is a simple and perfect tool to use as your site's functionality plugin.
 
-
 = Features =
 
 **Current features:**
 
-* Safety execution code (Checks the entered code for fatal errors).
-* Syntax highlighting (by CodeMirror).
-* Line numbering (by CodeMirror).
-* Input areas allow for tab indentation.
-* Ready for translation (.pot file included).
-* CodeMirror scripts are combined and minified.
+* Safety execution code (Checks the entered code for fatal errors)
+* Syntax highlighting (by CodeMirror)
+* Line numbering (by CodeMirror)
+* Input areas allow for tab indentation
+* Ready for translation (.pot file included)
+* Russian translation
+* CodeMirror scripts are combined and minified
 
 **Coming soon:**
 
-* Trigger to temporary disable the custom code.
-* Backuping the custom code to a file.
-* (Got more ideas? Tell me!)
+* Trigger to temporary disable the custom code
+* Backuping the custom code to a file
+
+**Got more ideas? Tell me!**
+
+If you have any suggestions to make this plugin better, don't hesitate to contact me.
 
 **Please Vote and Enjoy**
 
-* Your votes really make a difference! Thanks.
+Your votes really make a difference! Thanks.
+
 
 == Installation ==
 Install "My Custom Functions" just as you would any other WordPress Plugin.
@@ -98,6 +102,9 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow? =
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
 1. Plugin’s page with custom code added.
@@ -115,6 +122,10 @@ This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)
 and is distributed free of charge.
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
+**Credits**
+
+[CodeMirror](https://codemirror.net/) is an open-source project shared under an [MIT license](https://codemirror.net/LICENSE).
+
 **Support**
 
 * Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
@@ -131,6 +142,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.0 =
+* New design of settings page (new layout).
+* Constants variables added.
+* editor.js deleted.
+* js-functions.js (file with all js functions) created.
+* Prefixes changed to "MCFunctions".
+* Text domain changed to "MCFunctions".
+* Plugin URI changed to GitHub repository.
+* Added my personal ad about freelance.
+* .pot file updated.
+* Russian translation updated.
 = 1.9 =
 * Authors URI changed.
 * Donate link changed.
@@ -173,37 +195,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
-= 1.9 =
-* Authors URI changed.
-* Donate link changed.
-* Localization improved.
-* .pot file updated.
-* Russian translation updated.
-= 1.8 =
-* The mode of CodeMirror editor changed from 'application/x-httpd-php' (HTML+PHP) to 'text/x-php' (PHP).
-* Placeholder of <textarea> changed to "/* Enter Your Custom Functions Here */".
-* Removed more unused do_action() from settings_page.php file.
-= 1.7 =
-* The stylesheet of plugin's page moved to separate file.
-* The javascript from settings_page.php moved to separate file.
-* Textdomain changed to "mcfunctions".
-* Changed the style of title in plugin's page.
-* The LICENSE file renamed to LICENSE.txt
-= 1.6 =
-* Fixed the issue due to which nothing appears below line 26 until you click below that line.
-* Added "register_setting" for error option.
-* Corrected comments to source code.
-= 1.5 =
-CodeMirror scripts are combined and minified.
-= 1.4 =
-Please update to new version!
-= 1.3 =
-Please update to new version!
-= 1.2 =
-Added the syntax highlighting and line numbering.
-= 1.1 =
-Fixed positioning of the sidebar at the plugin page.
+= 2.0 =
+Please update to new release!
 = 1.0 =
-Please update to first stable release! Added the check for safety execution code.
+Please update to first stable release!
 = 0.2 =
 Please update to beta version.

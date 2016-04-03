@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * Style sheet for plugin's page
- * @since 1.7
+ * @since 2.0
  * @agareginyan
  */
 
@@ -28,29 +28,82 @@ h2 span a {
     padding: 0;
 }
 
-#templateside {
-    position: fixed;
-    right: 20px;
+h3.title {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    border-bottom: 1px solid #eee;
 }
 
-#templateside p {
-    margin-top: 0;
+.inner-sidebar h3.title {
+    text-align: center;
+}
+
+td.help-text {
+    font-style: italic;
+    font-size: 12px !important;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0px !important;
+}
+
+.postbox a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline !important;
 }
 
 .CodeMirror {
-    border: 1px solid cornflowerblue;
-    height: auto;
+    height: 100% !important;
+    border: 1px solid grey;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-#container {
-    margin-right: 210px;
+button.button-primary.showHide {
+    float:right;
+    margin-right: 10px;
+    font-family: Helvetica;
 }
 
-.donate {
-    margin-top: 20px;
-    border: 1px solid rgb(184, 186, 184);
-    border-radius: 5px;
-    padding: 3px;
+button.button-primary.deleteSection {
+    float:right;
+    margin-right: 10px;
+    font-family: Helvetica;
+}
+
+button.button-primary.addSection {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#side-sortables {
+    position: relative;
+}
+
+#about {
     text-align: center;
-    background: rgb(234, 234, 234);
+}
+
+#using {
+    text-align: center;
+}
+
+#help {
+    text-align: center;
+}
+
+#donate {
+    text-align: center;
+}
+
+#freelance {
+    text-align: center;
 }

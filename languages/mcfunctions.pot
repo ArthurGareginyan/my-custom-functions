@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-02-04 19:35+0300\n"
+"POT-Creation-Date: 2016-04-03 12:38+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,65 +20,109 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:25
+#: inc/settings_page.php:21
 msgid "Custom functions updated successfully."
 msgstr ""
 
-#: inc/settings_page.php:36
+#: inc/settings_page.php:32
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 
-#: inc/settings_page.php:37
+#: inc/settings_page.php:33
 msgid "Please, check the code and try again."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:47 my-custom-functions.php:71
+#: inc/settings_page.php:43 my-custom-functions.php:73
 msgid "My Custom Functions"
 msgstr ""
 
-#: inc/settings_page.php:50
+#: inc/settings_page.php:46
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "\"Berserkr\" Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:59
-msgid ""
-"This plugin allows you to EASILY and SAFELY add your own functions, snippets "
-"or any custom code to your site."
+#: inc/settings_page.php:57
+msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:62
+#: inc/settings_page.php:59
 msgid ""
-"To use, enter your custom functions, then click \"Update Custom Functions\". "
-"It's that simple!"
+"This plugin allows you to easily and safely add your own functions, snippets "
+"or any custom code to your website."
 msgstr ""
 
 #: inc/settings_page.php:64
-msgid "Update Custom Functions"
+msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:65
-msgid "If you find it useful, consider making a donation:"
+#: inc/settings_page.php:66
+msgid ""
+"To use, enter your custom functions, then click \"Save Changes\". It's that "
+"simple!"
 msgstr ""
 
-#: my-custom-functions.php:58
+#: inc/settings_page.php:71
+msgid "Help"
+msgstr ""
+
+#: inc/settings_page.php:73
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+
+#: inc/settings_page.php:79
+msgid "Donate"
+msgstr ""
+
+#: inc/settings_page.php:82
+msgid ""
+"If you like this plugin and find it useful, help me to make this plugin even "
+"better and keep it up-to-date."
+msgstr ""
+
+#: inc/settings_page.php:86
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/settings_page.php:91
+msgid "Freelance"
+msgstr ""
+
+#: inc/settings_page.php:94
+msgid ""
+"Hello, my name is Arthur and I'm a freelance web designer and developer."
+msgstr ""
+
+#: inc/settings_page.php:95
+msgid ""
+"Share your thoughts with me. You may have a brilliant idea in your mind and "
+"I can make it happen, so let’s get started!"
+msgstr ""
+
+#: inc/settings_page.php:119
+msgid "Functions"
+msgstr ""
+
+#: inc/settings_page.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: my-custom-functions.php:60
 msgid "Settings"
 msgstr ""
 
-#: my-custom-functions.php:71
+#: my-custom-functions.php:73
 msgid "Custom Functions"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid ""
-"http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-functions.html"
+msgid "https://github.com/ArthurGareginyan/my-custom-functions"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"EASILY and SAFELY add your own functions, snippets or any custom codes "
+"Easily and safely add your own functions, snippets or any custom codes "
 "directly out of your WordPress Dashboard without need of an external editor."
 msgstr ""
 
