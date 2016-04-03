@@ -93,7 +93,7 @@ A. This plugin is not perfect, so there are times when the entered custom code c
 Your code stored in the Database of your web-site. For getting your code, you can go to the `Database` —> Table "`wp_options`" —> Option "`anarcho_cfunctions_settings`" —> "`option_value`".
 
 Or you can use the FTP method, for access to plugin's settings page. Go to plugin's folder (in `wp-content/plugins/`). Open "`my-custom-functions.php`" file. Find this line of code:
-`anarcho_cfunctions_exec();`
+`MCFunctions_exec();`
 and comment it by placing two slashes (`//`) in beginning. Then you can go to plugin's settings page and edit your entered custom code. After editing, just delete two slashes which you written before.
 
 = Q. Where to report bug if found? =
