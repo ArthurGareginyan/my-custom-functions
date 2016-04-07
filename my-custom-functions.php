@@ -3,14 +3,14 @@
  * Plugin Name: My Custom Functions
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-functions
  * Description: Easily and safely add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
- * Author: Arthur "Berserkr" Gareginyan
+ * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0
+ * Version: 2.1
  * License: GPL3
  * Text Domain: MCFunctions
  * Domain Path: /languages/
  *
- * Copyright 2014-2015  Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2014-2016  Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "My Custom Functions".
  *
@@ -86,7 +86,7 @@ add_action( 'admin_menu', 'MCFunctions_register_submenu_page' );
 /**
  * Attach Settings Page
  *
- * @since 0.2
+ * @since 2.0
  */
 require_once( MCFUNC_PATH . 'inc/settings_page.php' );
 
@@ -163,5 +163,4 @@ function MCFunctions_uninstall() {
 }
 register_uninstall_hook( __FILE__, 'MCFunctions_uninstall' );
 
-/* That's all folks! */
 ?>

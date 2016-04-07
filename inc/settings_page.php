@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.0
+ * @since 2.1
  */
 function MCFunctions_render_submenu_page() {
 
@@ -18,7 +18,7 @@ function MCFunctions_render_submenu_page() {
     if ( isset( $_GET['settings-updated'] ) ) :
         ?>
             <div id="message" class="updated">
-                <p><?php _e( 'Custom functions updated successfully.', 'mcfunctions' ); ?></p>
+                <p><?php _e( 'Custom functions updated successfully.', 'MCFunctions' ); ?></p>
             </div>
         <?php
     endif;
@@ -78,10 +78,10 @@ function MCFunctions_render_submenu_page() {
                     <div id="donate" class="postbox">
                         <h3 class="title"><?php _e( 'Donate', 'MCFunctions' ) ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('thanks.png', __FILE__); ?>">
+                            <img src="<?php echo plugins_url('images/thanks.png', __FILE__); ?>">
                             <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'MCFunctions' ) ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
+                                <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
                             <p><?php _e( 'Thanks for your support!', 'MCFunctions' ) ?></p>
                         </div>
@@ -90,7 +90,7 @@ function MCFunctions_render_submenu_page() {
                     <div id="freelance" class="postbox">
                         <h3 class="title"><?php _e( 'Freelance', 'MCFunctions' ) ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('author.png', __FILE__); ?>">
+                            <img src="<?php echo plugins_url('images/author.png', __FILE__); ?>">
                             <p><?php _e( 'Hello, my name is Arthur and I\'m a freelance web designer and developer.', 'MCFunctions' ) ?></p>
                             <p><?php _e( 'Share your thoughts with me. You may have a brilliant idea in your mind and I can make it happen, so let’s get started!', 'MCFunctions' ) ?></p>
                             <p><a href="http://www.arthurgareginyan.com/" target="_blank">www.arthurgareginyan.com</a></p>
@@ -126,11 +126,11 @@ function MCFunctions_render_submenu_page() {
                             <?php submit_button( __( 'Save Changes', 'MCFunctions' ), 'primary', 'submit', true ); ?>
 
                         </form>
-                        <!-- END-FORM -->
 
                     </div>
                 </div>
             </div>
+            <!-- END-FORM -->
 
         </div>
 

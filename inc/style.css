@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * Style sheet for plugin's page
- * @since 2.0
+ * @since 2.1
  * @agareginyan
  */
 
@@ -51,37 +51,11 @@ td.help-text {
     text-decoration: none;
 }
 
-.hide {
-    display: none;
-}
-
-.show {
-    display: inline !important;
-}
-
 .CodeMirror {
     height: 100% !important;
     border: 1px solid grey;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-button.button-primary.showHide {
-    float:right;
-    margin-right: 10px;
-    font-family: Helvetica;
-}
-
-button.button-primary.deleteSection {
-    float:right;
-    margin-right: 10px;
-    font-family: Helvetica;
-}
-
-button.button-primary.addSection {
-    float: left;
-    margin-right: 15px;
-    margin-top: 10px;
 }
 
 #side-sortables {
