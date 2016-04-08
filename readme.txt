@@ -1,6 +1,6 @@
 === My Custom Functions ===
 Contributors: Arthur Gareginyan
-Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax,
+Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax, highlighting, highlighter,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
@@ -107,9 +107,10 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 
 == Screenshots ==
-1. Plugin’s page with custom code added.
-2. Success message.
-3. «Fatal error» message.
+1. Plugin’s page.
+2. Plugin’s page with custom code added.
+3. Success message.
+4. «Fatal error» message.
 
 
 == Other Notes ==
@@ -133,6 +134,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.2 =
+* Added Chinese (Taiwan) translation. (Thanks Gordon Yu)
+* Text domain changed to "my-custom-functions".
+* Added compatibility with the translate.wordpress.org.
 = 2.1 =
 * In the settings_page.php, on the line 21, fixed typo.
 * Removed extra rules in style.css file.
