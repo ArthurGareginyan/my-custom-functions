@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax, highlighting, highlighter,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 2.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
