@@ -71,7 +71,7 @@ Arthur Garegnyan aka Berserkr
 
 
 ---
-Logos:
+#### Technologies:
 
 [![HTML5](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-64.png)]()
 [![CSS3](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png)]()
