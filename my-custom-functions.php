@@ -5,12 +5,12 @@
  * Description: Easily and safely add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.2
+ * Version: 2.3
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
  *
- * Copyright 2014-2016  Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2014-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "My Custom Functions".
  *
@@ -37,7 +37,7 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Plugin constants
+ * Define constants
  *
  * @since 2.0
  */
@@ -97,14 +97,14 @@ require_once( MCFUNC_PATH . 'inc/settings_page.php' );
  */
 function MCFunctions_register_settings() {
 	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_settings' );
-	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_pro_error' );
+	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_error' );
 }
 add_action( 'admin_init', 'MCFunctions_register_settings' );
 
 /**
- * Enqueue the CodeMirror scripts and style sheet for setting's page
+ * Enqueue the CodeMirror scripts and style sheet for settings page
  *
- * @since 2.0
+ * @since 2.3
  */
 function MCFunctions_enqueue_codemirror_scripts($hook) {
 
@@ -118,7 +118,7 @@ function MCFunctions_enqueue_codemirror_scripts($hook) {
     wp_enqueue_style('codemirror_style', MCFUNC_URL . 'inc/codemirror/codemirror.css');
 
     // JS functions
-    wp_enqueue_script('js-functions', MCFUNC_URL . 'inc/js-functions.js', array(), false, true);
+    wp_enqueue_script('js-functions', MCFUNC_URL . 'inc/functions.js', array(), false, true);
 
     // Style sheet
     wp_enqueue_style('styles', MCFUNC_URL . 'inc/style.css');
@@ -126,34 +126,90 @@ function MCFunctions_enqueue_codemirror_scripts($hook) {
 add_action( 'admin_enqueue_scripts', 'MCFunctions_enqueue_codemirror_scripts' );
 
 /**
- * Execute My Custom Functions
+ * Prepare the user entered code for execution
  *
- * @since 1.4
+ * @since 2.3
+ */
+function MCFunctions_prepare() {
+
+    // Read from DB
+    $options = get_option( 'anarcho_cfunctions_settings' );
+    $content = $options['anarcho_cfunctions-content'];
+    
+    // Cleaning
+    $content = trim( $content );
+    $content = ltrim( $content, '<?php' );
+    $content = rtrim( $content, '?>' );
+
+    // Return prepared code
+    return $content;
+}
+
+/**
+ * Check the user entered code for duplicate names of functions
+ *
+ * @since 2.3
+ */
+function MCFunctions_duplicates() {
+
+    // Find names of user entered functions and check for duplicates
+    $user_func = MCFunctions_prepare();
+    preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $user_func, $user_func_names);
+    $user_func_a = count( $user_func_names[1] );
+    $user_func_b = count( array_unique( $user_func_names[1] ) );
+
+    // Find all names of declared user functions and mutch with names of user entered functions
+    $declared_func = get_defined_functions();
+    $declared_func_user = array_intersect( $user_func_names[1], $declared_func['user'] );
+    $declared_func_internal = array_intersect( $user_func_names[1], $declared_func['internal'] );
+
+    // Update error status
+    if ( $user_func_a != $user_func_b OR count( $declared_func_user ) > 0 OR count( $declared_func_internal ) > 0 ) {
+        update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
+        $duplicates_status = '1';
+    } else {
+        update_option( 'anarcho_cfunctions_error', '0' );  // RESET ERROR VALUE
+        $duplicates_status = '0';
+    }
+
+    // Return error status
+    return $duplicates_status;
+}
+
+/**
+ * Execute the user code
+ *
+ * @since 2.3
  */
 function MCFunctions_exec() {
-     // Read from BD
-     $options = get_option( 'anarcho_cfunctions_settings' );
-     $content = $options['anarcho_cfunctions-content'];
 
-     // Cleaning
-     $content = trim( $content );
-     $content = trim( $content, '<?php' );
+    // Get the error status
+    $error_status = get_option( 'anarcho_cfunctions_error' );
+    $duplicates_status = MCFunctions_duplicates();
 
-     // Parsing and execute safe
-     if ( !empty($content) ) {
-        if( false === @eval( $content ) ) {
-            //ERROR
-            update_option( 'anarcho_cfunctions_error', '1' );
-        } else {
-            // Reset error value
-            update_option( 'anarcho_cfunctions_error', '0' );
+    if ( $error_status > 0 OR $duplicates_status > 0 ) {
+        return;   // EXIT
+    } else {
+
+        // Get the user entered functions by calling the "prepare" function
+        $content = MCFunctions_prepare();
+
+        if ( !empty($content) AND $content != ' ' ) {
+
+            // Parsing and execute by Eval
+            if( false === @eval( $content ) ) {
+                update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
+                return;   // EXIT
+            } else {
+                update_option( 'anarcho_cfunctions_error', '0' );   // RESET ERROR VALUE
+            }
         }
-     }
+    }
 }
 MCFunctions_exec();
 
 /**
- * Delete Options on Uninstall
+ * Delete options on uninstall
  *
  * @since 0.1
  */

@@ -1,12 +1,14 @@
 /*
  * My Custom Functions
  * JS functions
- * @since 2.0
+ * @since 2.3
  * @agareginyan
  */
 
 
 (function(){
+    "use strict";
+
     jQuery(document).ready(function($) {
 
         // Find all textareas on page
@@ -26,5 +28,13 @@
                     editor.refresh();
             },1);
         });
+
+        // Remove the message about successful saving
+        if (".updated") {
+            setTimeout(function() {
+                   $(".updated").fadeOut();
+            }, 3000);
+        }
     });
+
 }());

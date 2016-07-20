@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * Style sheet for plugin's page
- * @since 2.1
+ * @since 2.3
  * @agareginyan
  */
 
@@ -10,6 +10,7 @@
     text-align: center;
 }
 
+/* Titles */
 h2 {
     text-align: center;
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
@@ -33,24 +34,12 @@ h3.title {
     border-bottom: 1px solid #eee;
 }
 
-.inner-sidebar h3.title {
-    text-align: center;
+/* Messages */
+#setting-error-settings_updated {
+    display: none;
 }
 
-td.help-text {
-    font-style: italic;
-    font-size: 12px !important;
-    float: left;
-    clear: left;
-    color: #797979;
-    line-height: 15px;
-    padding-top: 0px !important;
-}
-
-.postbox a {
-    text-decoration: none;
-}
-
+/* CodeMirror Editor */
 .CodeMirror {
     height: 100% !important;
     border: 1px solid grey;
@@ -58,26 +47,31 @@ td.help-text {
     margin-right: 5px;
 }
 
+/* Sidebar */
 #side-sortables {
     position: relative;
 }
 
-#about {
+.inner-sidebar h3.title {
     text-align: center;
 }
 
-#using {
-    text-align: center;
+.postbox a {
+    text-decoration: none;
 }
 
-#help {
-    text-align: center;
-}
-
+#about,
+#using,
+#help,
 #donate {
     text-align: center;
 }
 
-#freelance {
-    text-align: center;
+#help p {
+    margin: 0;
+}
+
+#donate img,
+#donate p {
+    margin-top: 5px;
 }

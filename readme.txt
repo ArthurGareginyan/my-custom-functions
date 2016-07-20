@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.1
+Stable tag: 2.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,32 +12,24 @@ Easily and safely add your own functions, snippets or any custom codes directly 
 
 
 == Description ==
-An easy to use WordPress plugin that lets you easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard without any need of an external editor. 
-
-It’s purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your code in the field on the page and this plugin will do the rest for you.
-
-No any more "Fatal error". These codes will run safely and will not generate fatal errors, so your website won't break if you make a typo in your code.
-
-And your website will keep on working, no matter how many times you upgrade or switch your theme.
-
-This is a simple and perfect tool to use as your site's functionality plugin.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
 = Features =
 
 **Current features:**
 
-* Safety execution code (Checks the entered code for fatal errors)
+* Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
 * Line numbering (by CodeMirror)
-* Input areas allow for tab indentation
 * Ready for translation (.pot file included)
 * Russian translation
-* CodeMirror scripts are combined and minified
 
-**Coming soon:**
+**Coming soon:*** Trigger for temporary disable the custom functions (PHP code)
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
+* Easier disable/enable option for WSOD
 
-* Trigger to temporary disable the custom code
-* Backuping the custom code to a file
 
 >**Contribution**
 >
@@ -87,8 +79,17 @@ A. Absolutely not. This plugin is added/configured entirely from the website's A
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
+= Q. On the plugin settings page, an error message appears. What could be wrong? =
+
+A. Here are a few of the most likely causes of the error message:
+
+1. You make a syntax error in the code that you have entered. Check the syntax of your code and try again.
+2. You entered two functions with the same name. Use a unique names for your functions.
+3. You have entered function with a name that is already occupied by another function. Use a unique name for your function.
+4. You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.
+
 = Q. What to do if this plugin caused the white screen? =
-A. This plugin is not perfect, so there are times when the entered custom code causes the error and white screen. If this happened with you then do the following.
+A. This plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). If this happened with you then do the following.
 
 Your code stored in the Database of your web-site. For getting your code, you can go to the `Database` —> Table "`wp_options`" —> Option "`anarcho_cfunctions_settings`" —> "`option_value`".
 
@@ -125,7 +126,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-[CodeMirror](https://codemirror.net/) is an open-source project shared under an [MIT license](https://codemirror.net/LICENSE).
+[CodeMirror](https://codemirror.net/) is an open-source project shared under a [MIT license](https://codemirror.net/LICENSE).
 
 **Links**
 
@@ -134,6 +135,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.3 =
+* Added function to check for duplicate function names. Compares the names of all functions (internal, user).
+* Added function for automatic remove the message about successful saving after 3 seconds.
+* Removed the default message about successful saving.
+* The function of user code cleaning modified.
+* File js-functions.js renamed to functions.js.
+* Removed my personal ad about freelance.
 = 2.2 =
 * Added Chinese (Taiwan) translation. (Thanks Gordon Yu)
 * Text domain changed to "my-custom-functions".

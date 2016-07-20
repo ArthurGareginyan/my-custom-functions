@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-04-08 14:08+0300\n"
+"POT-Creation-Date: 2016-07-20 12:12+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -40,7 +40,7 @@ msgstr ""
 #: inc/settings_page.php:46
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
 
 #: inc/settings_page.php:57
@@ -68,7 +68,7 @@ msgid "Help"
 msgstr ""
 
 #: inc/settings_page.php:73
-msgid "If you want more options then tell me and I will be happy to add it."
+msgid "Got something to say? Need help?"
 msgstr ""
 
 #: inc/settings_page.php:79
@@ -85,26 +85,11 @@ msgstr ""
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:91
-msgid "Freelance"
-msgstr ""
-
-#: inc/settings_page.php:94
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr ""
-
-#: inc/settings_page.php:95
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-
-#: inc/settings_page.php:119
+#: inc/settings_page.php:109
 msgid "Functions"
 msgstr ""
 
-#: inc/settings_page.php:126
+#: inc/settings_page.php:116
 msgid "Save Changes"
 msgstr ""
 
