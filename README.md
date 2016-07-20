@@ -4,35 +4,24 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that lets you easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard without any need of an external editor.
-
-It’s purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your code in the field on the page and this plugin will do the rest for you.
-
-No any more “Fatal error”. These codes will run safely and will not generate fatal errors, so your website won't break if you make a typo in your code.
-
-And your website will keep on working, no matter how many times you upgrade or switch your theme.
-
-This is a simple and perfect tool to use as your site's functionality plugin.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
 
 ## Features
 
 **Current features:**
 
-* Safety execution code (Checks the entered code for fatal errors)
+* Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
 * Line numbering (by CodeMirror)
-* Input areas allow for tab indentation
 * Ready for translation (.pot file included)
 * Russian translation
-* CodeMirror scripts are combined and minified
 
-**Coming soon:**
-
-* Trigger to temporary disable the custom code
-* Backuping the custom code to a file
-
-**Got more ideas? Tell me!**
+**Coming soon:*** Trigger for temporary disable the custom functions (PHP code)
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
+* Easier disable/enable option for WSOD
 
 
 ## Contributing
