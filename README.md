@@ -10,17 +10,17 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 ## Features
 
-**Current features:**
-
 * Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
 * Line numbering (by CodeMirror)
+* Trigger for temporary disable the custom functions (PHP code)
 * Ready for translation (.pot file included)
 * Russian translation
 
-**Coming soon:*** Trigger for temporary disable the custom functions (PHP code)
+**Coming soon:**
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
+* Backup of all custom functions to file
 * Easier disable/enable option for WSOD
 
 

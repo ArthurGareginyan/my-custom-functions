@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.2
+Stable tag: 2.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,17 +17,17 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 = Features =
 
-**Current features:**
-
 * Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
 * Line numbering (by CodeMirror)
+* Trigger for temporary disable the custom functions (PHP code)
 * Ready for translation (.pot file included)
 * Russian translation
 
-**Coming soon:*** Trigger for temporary disable the custom functions (PHP code)
+**Coming soon:**
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
+* Backup of all custom functions to file
 * Easier disable/enable option for WSOD
 
 
@@ -135,6 +135,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.4 =
+* Added trigger for temporary disable the custom functions (PHP code).
+* Functions _prepare, _duplicates, and _exec optimized.
 = 2.3 =
 * Added function to check for duplicate function names. Compares the names of all functions (internal, user).
 * Added function for automatic remove the message about successful saving after 3 seconds.

@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * Style sheet for plugin's page
- * @since 2.3
+ * @since 2.4
  * @agareginyan
  */
 
@@ -32,6 +32,7 @@ h2 span a {
 h3.title {
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
     border-bottom: 1px solid #eee;
+    height: 25px;
 }
 
 /* Messages */
@@ -74,4 +75,79 @@ h3.title {
 #donate img,
 #donate p {
     margin-top: 5px;
+}
+
+/* On/Off Trigger
+ -------------------------------------------------------------- */
+.slider {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -20px;
+    height: 23px;
+    padding-top: 5px;
+    width: 80px;
+    background: #f2f2f2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.slider:after {
+    content: 'ON';
+    margin-top: -3px;
+    font: 12px/26px Arial, sans-serif;
+    color: #00bf00;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+
+.slider:before {
+    content: 'OFF';
+    margin-top: -3px;
+    font: 12px/26px Arial, sans-serif;
+    color: #ff0000;
+    position: absolute;
+    left: 10px;
+    z-index: 0;
+    font-weight: bold;
+}
+
+.slider label {
+    display: block;
+    width: 37px;
+    height: 24px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 2px 0 #006799;
+}
+.slider label:hover {
+    background: #008ec2;
+}
+
+.slider input[type=checkbox] {
+    visibility: hidden;
+}
+
+.slider input[type=checkbox]:checked + label {
+    left: 43px;
 }

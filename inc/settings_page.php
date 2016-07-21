@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.3
+ * @since 2.4
  */
 function MCFunctions_render_submenu_page() {
 
@@ -102,11 +102,16 @@ function MCFunctions_render_submenu_page() {
                             <?php
                                 // Declare variables
                                 $options = get_option( 'anarcho_cfunctions_settings' );
-                                $content = isset( $options['anarcho_cfunctions-content'] ) && ! empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '/* Enter Your Custom Functions Here */';
+                                $content = isset( $options['anarcho_cfunctions-content'] ) && !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '/* Enter Your Custom Functions Here */';
+                                $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) && $options['enable'] == "on" ? 'checked' : ' ';
                             ?>
                             <div class="postbox">
                                 <h3 class="title">
                                     <label for="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php _e( 'Functions', 'my-custom-functions' ) ?></label>
+                                    <div class="slider">
+                                        <input type="checkbox" name="anarcho_cfunctions_settings[enable]" id="anarcho_cfunctions_settings[enable]" <?php echo $enable; ?> >
+                                        <label for="anarcho_cfunctions_settings[enable]"></label>
+                                    </div>
                                 </h3>
                                 <div class="inside">
                                     <textarea name="anarcho_cfunctions_settings[anarcho_cfunctions-content]" id="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php echo esc_attr( $content ); ?></textarea>
