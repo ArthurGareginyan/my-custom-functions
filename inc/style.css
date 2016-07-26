@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * Style sheet for plugin's page
- * @since 2.4
+ * @since 2.5
  * @agareginyan
  */
 
@@ -10,7 +10,8 @@
     text-align: center;
 }
 
-/* Titles */
+/* Titles
+ -------------------------------------------------------------- */
 h2 {
     text-align: center;
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
@@ -32,23 +33,25 @@ h2 span a {
 h3.title {
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
     border-bottom: 1px solid #eee;
-    height: 25px;
 }
 
-/* Messages */
+/* Messages
+ -------------------------------------------------------------- */
 #setting-error-settings_updated {
     display: none;
 }
 
-/* CodeMirror Editor */
+/* CodeMirror Editor
+ -------------------------------------------------------------- */
 .CodeMirror {
     height: 100% !important;
-    border: 1px solid grey;
+    border: 1px solid #ddd;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-/* Sidebar */
+/* Sidebar
+ -------------------------------------------------------------- */
 #side-sortables {
     position: relative;
 }
@@ -77,9 +80,20 @@ h3.title {
     margin-top: 5px;
 }
 
+/* Responsive
+ -------------------------------------------------------------- */
+@media (max-width: 860px) {
+    .inner-sidebar {
+        display: none !important;
+    }
+    #post-body-content {
+        margin-right: 0 !important;
+    }
+}
+
 /* On/Off Trigger
  -------------------------------------------------------------- */
-.slider {
+.trigger {
     margin-left: auto;
     margin-right: 0;
     margin-top: -20px;
@@ -96,7 +110,7 @@ h3.title {
     box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
 }
 
-.slider:after {
+.trigger:after {
     content: 'ON';
     margin-top: -3px;
     font: 12px/26px Arial, sans-serif;
@@ -108,7 +122,7 @@ h3.title {
     text-shadow: 1px 1px 0px rgba(255,255,255,.15);
 }
 
-.slider:before {
+.trigger:before {
     content: 'OFF';
     margin-top: -3px;
     font: 12px/26px Arial, sans-serif;
@@ -119,7 +133,7 @@ h3.title {
     font-weight: bold;
 }
 
-.slider label {
+.trigger label {
     display: block;
     width: 37px;
     height: 24px;
@@ -140,14 +154,14 @@ h3.title {
     -webkit-box-shadow: 0 1px 0 #006799;
     box-shadow: 0 2px 0 #006799;
 }
-.slider label:hover {
+.trigger label:hover {
     background: #008ec2;
 }
 
-.slider input[type=checkbox] {
+.trigger input[type=checkbox] {
     visibility: hidden;
 }
 
-.slider input[type=checkbox]:checked + label {
+.trigger input[type=checkbox]:checked + label {
     left: 43px;
 }

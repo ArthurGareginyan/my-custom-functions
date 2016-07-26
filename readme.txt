@@ -4,25 +4,27 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.3
+Stable tag: 2.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
+Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
 
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custome functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
 It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
 = Features =
 
+* Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
-* Line numbering (by CodeMirror)
-* Trigger for temporary disable the custom functions (PHP code)
+* Line numbering
+* Active line highlighting
+* Editor allow for tab indentation
+* Trigger for temporary disable the custom functions
 * Ready for translation (.pot file included)
-* Russian translation
 
 **Coming soon:**
 * Reload the settings page at same position after pushing the save button
@@ -30,6 +32,11 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 * Backup of all custom functions to file
 * Easier disable/enable option for WSOD
 
+= Translation =
+
+* English
+* Russian
+* Chinese (Taiwan)
 
 >**Contribution**
 >
@@ -135,12 +142,20 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.5 =
+* Added active-line addon to CodeMirror.
+* Extra update_option() removed from the _duplicates function.
+* The _exec function optimized.
+* CSS class "slider" renamed to "trigger".
+* Styles of settings page optimized for mobile devices.
+* The styles.css file better commented.
+* The _enqueue_codemirror_scripts function renamed to mcstyles_load_scripts.
 = 2.4 =
-* Added trigger for temporary disable the custom functions (PHP code).
+* Added trigger for temporary disable the custom functions.
 * Functions _prepare, _duplicates, and _exec optimized.
 = 2.3 =
-* Added function to check for duplicate function names. Compares the names of all functions (internal, user).
-* Added function for automatic remove the message about successful saving after 3 seconds.
+* Added function to check for duplicate function names. Compares the names of all functions (internal, user). The _duplicates function added.
+* Added function for automatic remove the "successful" message after 3 seconds.
 * Removed the default message about successful saving.
 * The function of user code cleaning modified.
 * File js-functions.js renamed to functions.js.

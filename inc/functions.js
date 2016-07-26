@@ -1,7 +1,7 @@
 /*
  * My Custom Functions
  * JS functions
- * @since 2.3
+ * @since 2.5
  * @agareginyan
  */
 
@@ -20,7 +20,8 @@
                                     firstLineNumber: 1,
                                     matchBrackets: true,
                                     indentUnit: 4,
-                                    mode: 'text/x-php'
+                                    mode: 'text/x-php',
+                                    styleActiveLine: true
             });
 
             // Refresh CodeMirror editor after 1 second
@@ -29,7 +30,7 @@
             },1);
         });
 
-        // Remove the message about successful saving
+        // Remove the "successful" message after 3 seconds
         if (".updated") {
             setTimeout(function() {
                    $(".updated").fadeOut();

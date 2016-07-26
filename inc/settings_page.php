@@ -10,18 +10,20 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.4
+ * @since 2.5
  */
 function MCFunctions_render_submenu_page() {
 
-    // Settings update message
-    if ( isset( $_GET['settings-updated'] ) ) :
+    // After settings updated
+    if ( isset( $_GET['settings-updated'] ) ) {
+
+        // Successful message
         ?>
             <div id="message" class="updated">
                 <p><?php _e( 'Custom functions updated successfully.', 'my-custom-functions' ); ?></p>
             </div>
         <?php
-    endif;
+    }
 
     // Error message
     $error = get_option( 'anarcho_cfunctions_error' );
@@ -56,7 +58,7 @@ function MCFunctions_render_submenu_page() {
                     <div id="about" class="postbox">
                         <h3 class="title"><?php _e( 'About', 'my-custom-functions' ) ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily and safely add your own functions, snippets or any custom code to your website.', 'my-custom-functions' ) ?></p>
+                            <p><?php _e( 'This plugin allows you to easily and safely add your custome functions (PHP code) to your website.', 'my-custom-functions' ) ?></p>
                         </div>
                     </div>
 
@@ -107,8 +109,8 @@ function MCFunctions_render_submenu_page() {
                             ?>
                             <div class="postbox">
                                 <h3 class="title">
-                                    <label for="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php _e( 'Functions', 'my-custom-functions' ) ?></label>
-                                    <div class="slider">
+                                    <label for="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php _e( 'Functions (PHP code)', 'my-custom-functions' ) ?></label>
+                                    <div class="trigger">
                                         <input type="checkbox" name="anarcho_cfunctions_settings[enable]" id="anarcho_cfunctions_settings[enable]" <?php echo $enable; ?> >
                                         <label for="anarcho_cfunctions_settings[enable]"></label>
                                     </div>

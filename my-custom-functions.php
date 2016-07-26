@@ -2,10 +2,10 @@
 /**
  * Plugin Name: My Custom Functions
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-functions
- * Description: Easily and safely add your own functions, snippets or any custom codes directly out of your WordPress Dashboard without need of an external editor.
+ * Description: Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.4
+ * Version: 2.5
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -52,7 +52,7 @@ defined('MCFUNC_PATH') or define('MCFUNC_PATH', plugin_dir_path(__FILE__));
  * @since 2.2
  */
 function MCFunctions_textdomain() {
-	load_plugin_textdomain( 'my-custom-functions', false, MCFUNC_DIR . '/languages/' );
+    load_plugin_textdomain( 'my-custom-functions', false, MCFUNC_DIR . '/languages/' );
 }
 add_action( 'init', 'MCFunctions_textdomain' );
 
@@ -67,9 +67,9 @@ add_action( 'init', 'MCFunctions_textdomain' );
  * @return array        Array of links to be output on Plugin Admin page.
  */
 function MCFunctions_settings_link( $links ) {
-	$settings_page = '<a href="' . admin_url( 'themes.php?page=my-custom-functions.php' ) .'">' . __( 'Settings', 'my-custom-functions' ) . '</a>';
-	array_unshift( $links, $settings_page );
-	return $links;
+    $settings_page = '<a href="' . admin_url( 'themes.php?page=my-custom-functions.php' ) .'">' . __( 'Settings', 'my-custom-functions' ) . '</a>';
+    array_unshift( $links, $settings_page );
+    return $links;
 }
 add_filter( "plugin_action_links_".MCFUNC_BASE, 'MCFunctions_settings_link' );
 
@@ -79,7 +79,7 @@ add_filter( "plugin_action_links_".MCFUNC_BASE, 'MCFunctions_settings_link' );
  * @since 2.2
  */
 function MCFunctions_register_submenu_page() {
-	add_theme_page( __( 'My Custom Functions', 'my-custom-functions' ), __( 'Custom Functions', 'my-custom-functions' ), 'edit_theme_options', basename( __FILE__ ), 'MCFunctions_render_submenu_page' );
+    add_theme_page( __( 'My Custom Functions', 'my-custom-functions' ), __( 'Custom Functions', 'my-custom-functions' ), 'edit_theme_options', basename( __FILE__ ), 'MCFunctions_render_submenu_page' );
 }
 add_action( 'admin_menu', 'MCFunctions_register_submenu_page' );
 
@@ -96,17 +96,17 @@ require_once( MCFUNC_PATH . 'inc/settings_page.php' );
  * @since 2.0
  */
 function MCFunctions_register_settings() {
-	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_settings' );
-	register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_error' );
+    register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_settings' );
+    register_setting( 'anarcho_cfunctions_settings_group', 'anarcho_cfunctions_error' );
 }
 add_action( 'admin_init', 'MCFunctions_register_settings' );
 
 /**
- * Enqueue the CodeMirror scripts and style sheet for settings page
+ * Load scripts and style sheet for settings page
  *
- * @since 2.3
+ * @since 2.5
  */
-function MCFunctions_enqueue_codemirror_scripts($hook) {
+function MCFunctions_load_scripts($hook) {
 
     // Return if the page is not a settings page of this plugin
     if ( 'appearance_page_my-custom-functions' != $hook ) {
@@ -116,6 +116,7 @@ function MCFunctions_enqueue_codemirror_scripts($hook) {
     // CodeMirror
     wp_enqueue_script('codemirror', MCFUNC_URL . 'inc/codemirror/codemirror-compressed.js');
     wp_enqueue_style('codemirror_style', MCFUNC_URL . 'inc/codemirror/codemirror.css');
+    wp_enqueue_script('codemirror-active-line', MCFUNC_URL . 'inc/codemirror/addons/active-line.js');
 
     // JS functions
     wp_enqueue_script('js-functions', MCFUNC_URL . 'inc/functions.js', array(), false, true);
@@ -123,7 +124,7 @@ function MCFunctions_enqueue_codemirror_scripts($hook) {
     // Style sheet
     wp_enqueue_style('styles', MCFUNC_URL . 'inc/style.css');
 }
-add_action( 'admin_enqueue_scripts', 'MCFunctions_enqueue_codemirror_scripts' );
+add_action( 'admin_enqueue_scripts', 'MCFunctions_load_scripts' );
 
 /**
  * Prepare the user entered code for execution
@@ -144,7 +145,7 @@ function MCFunctions_prepare($content) {
 /**
  * Check the user entered code for duplicate names of functions
  *
- * @since 2.4
+ * @since 2.5
  */
 function MCFunctions_duplicates($content) {
 
@@ -163,7 +164,6 @@ function MCFunctions_duplicates($content) {
         update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
         $error_status = '1';
     } else {
-        update_option( 'anarcho_cfunctions_error', '0' );   // RESET ERROR VALUE
         $error_status = '0';
     }
 
@@ -172,35 +172,33 @@ function MCFunctions_duplicates($content) {
 }
 
 /**
- * Execute the user code
+ * Execute the user entered code
  *
- * @since 2.4
+ * @since 2.5
  */
 function MCFunctions_exec() {
     
     // Read data from DB
     $options = get_option( 'anarcho_cfunctions_settings' );
-    $content = isset( $options['anarcho_cfunctions-content'] ) && ! empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : ' ';
+    $content = isset( $options['anarcho_cfunctions-content'] ) && !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : ' ';
     $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';
-    
-    // Get the error status
-    $duplicates = MCFunctions_duplicates($content);
 
-    // If the custom code is disabled...
-    if ( $enable == "on") {
+    // If the user entered code is disabled...
+    if ( $enable == 'on') {
         return;   // EXIT
     }
 
-    // If the duplicates functions finded...
-    if ( $duplicates != 0 ) {
-        return;   // EXIT
-    }
-
-    // Get the user entered functions by calling the "prepare" function
+    // Prepare the user entered functions by calling the "prepare" function
     $content = MCFunctions_prepare($content);
 
     // If content is empty...
     if ( empty($content) OR $content == ' ' ) {
+        return;   // EXIT
+    }
+
+    // If the duplicates functions finded...
+    $duplicates = MCFunctions_duplicates($content);
+    if ( $duplicates != 0 ) {
         return;   // EXIT
     }
 
@@ -220,8 +218,8 @@ MCFunctions_exec();
  * @since 0.1
  */
 function MCFunctions_uninstall() {
-	delete_option( 'anarcho_cfunctions_settings' );
-	delete_option( 'anarcho_cfunctions_error' );
+    delete_option( 'anarcho_cfunctions_settings' );
+    delete_option( 'anarcho_cfunctions_error' );
 }
 register_uninstall_hook( __FILE__, 'MCFunctions_uninstall' );
 

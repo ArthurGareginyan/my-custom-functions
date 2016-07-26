@@ -4,24 +4,32 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily and safely add your own functions, snippets or any custom codes for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custome functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
 It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
 
 ## Features
 
+* Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
 * Syntax highlighting (by CodeMirror)
-* Line numbering (by CodeMirror)
-* Trigger for temporary disable the custom functions (PHP code)
+* Line numbering
+* Active line highlighting
+* Editor allow for tab indentation
+* Trigger for temporary disable the custom functions
 * Ready for translation (.pot file included)
-* Russian translation
 
 **Coming soon:**
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
 * Backup of all custom functions to file
 * Easier disable/enable option for WSOD
+
+**Translation:**
+
+* English
+* Russian
+* Chinese (Taiwan)
 
 
 ## Contributing

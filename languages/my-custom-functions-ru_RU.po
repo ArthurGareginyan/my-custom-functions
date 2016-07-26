@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-07-20 12:12+0300\n"
-"PO-Revision-Date: 2016-07-20 12:13+0300\n"
+"POT-Creation-Date: 2016-07-26 19:52+0300\n"
+"PO-Revision-Date: 2016-07-26 19:52+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -21,25 +21,25 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:21
+#: inc/settings_page.php:23
 msgid "Custom functions updated successfully."
 msgstr "Пользовательские функции успешно обновлены."
 
-#: inc/settings_page.php:32
+#: inc/settings_page.php:34
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 "Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
 
-#: inc/settings_page.php:33
+#: inc/settings_page.php:35
 msgid "Please, check the code and try again."
 msgstr "Пожалуйста, проверьте код и попробуйте еще раз."
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:43 my-custom-functions.php:82
+#: inc/settings_page.php:45 my-custom-functions.php:82
 msgid "My Custom Functions"
 msgstr ""
 
-#: inc/settings_page.php:46
+#: inc/settings_page.php:48
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -47,23 +47,23 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/settings_page.php:57
+#: inc/settings_page.php:59
 msgid "About"
 msgstr "О плагине"
 
-#: inc/settings_page.php:59
+#: inc/settings_page.php:61
 msgid ""
-"This plugin allows you to easily and safely add your own functions, snippets "
-"or any custom code to your website."
+"This plugin allows you to easily and safely add your custome functions (PHP "
+"code) to your website."
 msgstr ""
-"Этот плагин позволяет легко и безопасно добавлять свои собственные функции, "
-"сниппеты или любой пользовательский код на ваш веб-сайт."
+"Этот плагин даёт вам возможность легко и безопасно добавлять ваши "
+"пользовательские функции (PHP код) на ваш веб-сайт."
 
-#: inc/settings_page.php:64
+#: inc/settings_page.php:66
 msgid "Using"
 msgstr "Использование:"
 
-#: inc/settings_page.php:66
+#: inc/settings_page.php:68
 msgid ""
 "To use, enter your custom functions, then click \"Save Changes\". It's that "
 "simple!"
@@ -71,19 +71,19 @@ msgstr ""
 "Для использования, введите ваши пользовательские функции, затем нажмите "
 "кнопку “Сохранить изменения”. Это так просто!"
 
-#: inc/settings_page.php:71
+#: inc/settings_page.php:73
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:73
+#: inc/settings_page.php:75
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/settings_page.php:79
+#: inc/settings_page.php:81
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:82
+#: inc/settings_page.php:84
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
@@ -91,15 +91,15 @@ msgstr ""
 "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
 "сделать его ещё лучше."
 
-#: inc/settings_page.php:86
+#: inc/settings_page.php:88
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:109
-msgid "Functions"
-msgstr "Функции"
+#: inc/settings_page.php:112
+msgid "Functions (PHP code)"
+msgstr "Функции (PHP код)"
 
-#: inc/settings_page.php:116
+#: inc/settings_page.php:123
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
@@ -117,12 +117,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your own functions, snippets or any custom codes "
-"directly out of your WordPress Dashboard without need of an external editor."
+"Easily and safely add your custome functions (PHP code) directly out of your "
+"WordPress Dashboard without need of an external editor."
 msgstr ""
-"Просто и безопасно добавляйте свои собственные функции, сниппеты или любые "
-"пользовательские коды непосредственно из вашего WordPress Dashboard без "
-"необходимости во внешнем редакторе."
+"Просто и безопасно добавляйте ваши пользовательские функции ((PHP code) "
+"непосредственно из админ панели вашего WordPress вебсайта, без необходимости "
+"во внешнем редакторе."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -131,6 +131,25 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Functions"
+#~ msgstr "Функции"
+
+#~ msgid ""
+#~ "This plugin allows you to easily and safely add your own functions, "
+#~ "snippets or any custom code to your website."
+#~ msgstr ""
+#~ "Этот плагин позволяет легко и безопасно добавлять свои собственные "
+#~ "функции, сниппеты или любой пользовательский код на ваш веб-сайт."
+
+#~ msgid ""
+#~ "Easily and safely add your own functions, snippets or any custom codes "
+#~ "directly out of your WordPress Dashboard without need of an external "
+#~ "editor."
+#~ msgstr ""
+#~ "Просто и безопасно добавляйте свои собственные функции, сниппеты или "
+#~ "любые пользовательские коды непосредственно из вашего WordPress Dashboard "
+#~ "без необходимости во внешнем редакторе."
 
 #~ msgid ""
 #~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
