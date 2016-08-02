@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax, highlighting, highlighter,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.5
-Stable tag: 2.4
+Tested up to: 4.6
+Stable tag: 2.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,9 +42,9 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 >
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
->* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/my-custom-functions?rate=5#postform) this plugin.
->* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
+>* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-functions?rate=5#postform) this plugin.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -142,8 +142,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.5.1 =
+* The update_option() returned into _duplicates function.
 = 2.5 =
-* Added active-line addon to CodeMirror.
+* Added active-line add-on to CodeMirror.
 * Extra update_option() removed from the _duplicates function.
 * The _exec function optimized.
 * CSS class "slider" renamed to "trigger".
@@ -155,7 +157,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Functions _prepare, _duplicates, and _exec optimized.
 = 2.3 =
 * Added function to check for duplicate function names. Compares the names of all functions (internal, user). The _duplicates function added.
-* Added function for automatic remove the "successful" message after 3 seconds.
+* Added function of automatic remove the "successful" message after 3 seconds.
 * Removed the default message about successful saving.
 * The function of user code cleaning modified.
 * File js-functions.js renamed to functions.js.

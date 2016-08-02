@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.5
+ * Version: 2.5.1
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -145,7 +145,7 @@ function MCFunctions_prepare($content) {
 /**
  * Check the user entered code for duplicate names of functions
  *
- * @since 2.5
+ * @since 2.5.1
  */
 function MCFunctions_duplicates($content) {
 
@@ -164,6 +164,7 @@ function MCFunctions_duplicates($content) {
         update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
         $error_status = '1';
     } else {
+        update_option( 'anarcho_cfunctions_error', '0' );   // RESET ERROR VALUE
         $error_status = '0';
     }
 

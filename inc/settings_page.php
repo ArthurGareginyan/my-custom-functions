@@ -58,14 +58,14 @@ function MCFunctions_render_submenu_page() {
                     <div id="about" class="postbox">
                         <h3 class="title"><?php _e( 'About', 'my-custom-functions' ) ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily and safely add your custome functions (PHP code) to your website.', 'my-custom-functions' ) ?></p>
+                            <p><?php _e( 'This plugin allows you to easily and safely add your custome functions (PHP code) to your website.', 'my-custom-functions' ); ?></p>
                         </div>
                     </div>
 
                     <div id="using" class="postbox">
                         <h3 class="title"><?php _e( 'Using', 'my-custom-functions' ) ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'To use, enter your custom functions, then click "Save Changes". It\'s that simple!', 'my-custom-functions' ) ?></p>
+                            <p><?php _e( 'To use, enter your custom functions, then click "Save Changes". It\'s that simple!', 'my-custom-functions' ); ?></p>
                         </div>
                     </div>
 
@@ -81,11 +81,11 @@ function MCFunctions_render_submenu_page() {
                         <h3 class="title"><?php _e( 'Donate', 'my-custom-functions' ) ?></h3>
                         <div class="inside">
                             <img src="<?php echo plugins_url('images/thanks.png', __FILE__); ?>">
-                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'my-custom-functions' ) ?></p>
+                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'my-custom-functions' ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                                 <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
-                            <p><?php _e( 'Thanks for your support!', 'my-custom-functions' ) ?></p>
+                            <p><?php _e( 'Thanks for your support!', 'my-custom-functions' ); ?></p>
                         </div>
                     </div>
 
