@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-07-26 19:52+0300\n"
-"PO-Revision-Date: 2016-07-26 19:52+0300\n"
+"POT-Creation-Date: 2016-08-23 04:35+0300\n"
+"PO-Revision-Date: 2016-08-23 05:20+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -83,23 +83,23 @@ msgstr "Есть что сказать? Нужна помощь?"
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:84
+#: inc/settings_page.php:83
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-"сделать его ещё лучше."
+"Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
+"помогите мне сделать его ещё лучше."
 
-#: inc/settings_page.php:88
+#: inc/settings_page.php:87
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:112
+#: inc/settings_page.php:111
 msgid "Functions (PHP code)"
 msgstr "Функции (PHP код)"
 
-#: inc/settings_page.php:123
+#: inc/settings_page.php:122
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
@@ -131,6 +131,13 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+#~ "сделать его ещё лучше."
 
 #~ msgid "Functions"
 #~ msgstr "Функции"

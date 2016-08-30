@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-04-08 14:08+0300\n"
-"PO-Revision-Date: 2016-04-08 14:08+0300\n"
+"POT-Creation-Date: 2016-08-23 05:40+0300\n"
+"PO-Revision-Date: 2016-08-23 05:40+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -20,98 +20,77 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:21
+#: inc/settings_page.php:23
 msgid "Custom functions updated successfully."
 msgstr "自訂功能已成功更新"
 
-#: inc/settings_page.php:32
+#: inc/settings_page.php:34
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr "抱歉！您的程式碼造成了「嚴重錯誤」，所以並沒有套用它！"
 
-#: inc/settings_page.php:33
+#: inc/settings_page.php:35
 msgid "Please, check the code and try again."
 msgstr "請重新檢查程式碼再試一次"
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:43 my-custom-functions.php:82
+#: inc/settings_page.php:45 my-custom-functions.php:82
 msgid "My Custom Functions"
 msgstr "我的自訂功能"
 
-#: inc/settings_page.php:46
+#: inc/settings_page.php:48
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
-"作者 <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>，繁體中文 <a href=\"http://gordon168.tw\" target="
-"\"_blank\">高登</a>"
 
-#: inc/settings_page.php:57
+#: inc/settings_page.php:59
 msgid "About"
 msgstr "關於"
 
-#: inc/settings_page.php:59
+#: inc/settings_page.php:61
 msgid ""
-"This plugin allows you to easily and safely add your own functions, snippets "
-"or any custom code to your website."
+"This plugin allows you to easily and safely add your custome functions (PHP "
+"code) to your website."
 msgstr ""
-"這個外掛讓你簡單而且安全地加上自已的功能、程式片斷或任何自訂程式碼到你的網站"
 
-#: inc/settings_page.php:64
+#: inc/settings_page.php:66
 msgid "Using"
 msgstr "用法"
 
-#: inc/settings_page.php:66
+#: inc/settings_page.php:68
 msgid ""
 "To use, enter your custom functions, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 "要使用它，請輸入您的自訂功能然後按下「儲存變更」就可以了，就是這麼簡單！"
 
-#: inc/settings_page.php:71
+#: inc/settings_page.php:73
 msgid "Help"
 msgstr "幫助"
 
-#: inc/settings_page.php:73
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr "如果您還想要更多的選項請跟我說，我會很樂意加上去"
+#: inc/settings_page.php:75
+msgid "Got something to say? Need help?"
+msgstr ""
 
-#: inc/settings_page.php:79
+#: inc/settings_page.php:81
 msgid "Donate"
 msgstr "捐款"
 
-#: inc/settings_page.php:82
+#: inc/settings_page.php:83
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
-"如果您喜歡這個外掛而且發覺有幫到您的話，請贊助這個外掛讓它更好以及可以持續更"
-"新"
 
-#: inc/settings_page.php:86
+#: inc/settings_page.php:87
 msgid "Thanks for your support!"
 msgstr "謝謝您的贊助！"
 
-#: inc/settings_page.php:91
-msgid "Freelance"
-msgstr "自由工作者"
+#: inc/settings_page.php:111
+msgid "Functions (PHP code)"
+msgstr ""
 
-#: inc/settings_page.php:94
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr "嗨！我的名字叫 Arthur 是一個網頁設計及開發的自由工作者"
-
-#: inc/settings_page.php:95
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr "請跟我分享您的想法，我可以讓您傑出的點子成真，所以請提供您的建議！"
-
-#: inc/settings_page.php:119
-msgid "Functions"
-msgstr "程式碼"
-
-#: inc/settings_page.php:126
+#: inc/settings_page.php:122
 msgid "Save Changes"
 msgstr "儲存變更"
 
@@ -129,11 +108,9 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your own functions, snippets or any custom codes "
-"directly out of your WordPress Dashboard without need of an external editor."
+"Easily and safely add your custome functions (PHP code) directly out of your "
+"WordPress Dashboard without need of an external editor."
 msgstr ""
-"簡單而且安全地在您的 WordPress 控制台加上功能、程式片斷或是任何自訂程式碼！不"
-"需額外的編輯器"
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -142,3 +119,51 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "\"Berserkr\" Gareginyan</a>"
+#~ msgstr ""
+#~ "作者 <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "\"Berserkr\" Gareginyan</a>，繁體中文 <a href=\"http://gordon168.tw\" "
+#~ "target=\"_blank\">高登</a>"
+
+#~ msgid ""
+#~ "This plugin allows you to easily and safely add your own functions, "
+#~ "snippets or any custom code to your website."
+#~ msgstr ""
+#~ "這個外掛讓你簡單而且安全地加上自已的功能、程式片斷或任何自訂程式碼到你的網"
+#~ "站"
+
+#~ msgid "If you want more options then tell me and I will be happy to add it."
+#~ msgstr "如果您還想要更多的選項請跟我說，我會很樂意加上去"
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "如果您喜歡這個外掛而且發覺有幫到您的話，請贊助這個外掛讓它更好以及可以持續"
+#~ "更新"
+
+#~ msgid "Freelance"
+#~ msgstr "自由工作者"
+
+#~ msgid ""
+#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
+#~ msgstr "嗨！我的名字叫 Arthur 是一個網頁設計及開發的自由工作者"
+
+#~ msgid ""
+#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
+#~ "and I can make it happen, so let’s get started!"
+#~ msgstr "請跟我分享您的想法，我可以讓您傑出的點子成真，所以請提供您的建議！"
+
+#~ msgid "Functions"
+#~ msgstr "程式碼"
+
+#~ msgid ""
+#~ "Easily and safely add your own functions, snippets or any custom codes "
+#~ "directly out of your WordPress Dashboard without need of an external "
+#~ "editor."
+#~ msgstr ""
+#~ "簡單而且安全地在您的 WordPress 控制台加上功能、程式片斷或是任何自訂程式"
+#~ "碼！不需額外的編輯器"

@@ -18,6 +18,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 * Editor allow for tab indentation
 * Trigger for temporary disable the custom functions
 * Ready for translation (.pot file included)
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
 * Reload the settings page at same position after pushing the save button

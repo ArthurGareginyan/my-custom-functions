@@ -24,7 +24,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 * Active line highlighting
 * Editor allow for tab indentation
 * Trigger for temporary disable the custom functions
-* Ready for translation (.pot file included)
+* Ready for translation (POT file included)
 
 **Coming soon:**
 * Reload the settings page at same position after pushing the save button
@@ -34,7 +34,9 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 = Translation =
 
-* English
+Please keep in mind that not all translations are up to date. You are welcome to contribute!
+
+* English (default)
 * Russian
 * Chinese (Taiwan)
 
@@ -44,7 +46,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 >
 >* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 >* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-functions?rate=5#postform) this plugin.
->* [Share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-functions) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -115,8 +117,8 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 
 == Screenshots ==
-1. Plugin’s page.
-2. Plugin’s page with custom code added.
+1. Plugin page.
+2. Plugin page with custom code added.
 3. Success message.
 4. «Fatal error» message.
 
@@ -133,7 +135,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-[CodeMirror](https://codemirror.net/) is an open-source project shared under a [MIT license](https://codemirror.net/LICENSE).
+[CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 
 **Links**
 
@@ -142,6 +144,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.0 =
+* The structure of files changed.
+* Style sheet of settings page improved and better commented.
+* JS code improved.
+* The "thanks.png" image removed.
+* POT file updated.* Russian translation updated.* Chinese (Taiwan) translation updated.
 = 2.5.1 =
 * The update_option() returned into _duplicates function.
 = 2.5 =

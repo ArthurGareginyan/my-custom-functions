@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.5
+ * @since 3.0
  */
 function MCFunctions_render_submenu_page() {
 
@@ -56,14 +56,14 @@ function MCFunctions_render_submenu_page() {
                 <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
                     <div id="about" class="postbox">
-                        <h3 class="title"><?php _e( 'About', 'my-custom-functions' ) ?></a></h3>
+                        <h3 class="title"><?php _e( 'About', 'my-custom-functions' ); ?></a></h3>
                         <div class="inside">
                             <p><?php _e( 'This plugin allows you to easily and safely add your custome functions (PHP code) to your website.', 'my-custom-functions' ); ?></p>
                         </div>
                     </div>
 
                     <div id="using" class="postbox">
-                        <h3 class="title"><?php _e( 'Using', 'my-custom-functions' ) ?></a></h3>
+                        <h3 class="title"><?php _e( 'Using', 'my-custom-functions' ); ?></a></h3>
                         <div class="inside">
                             <p><?php _e( 'To use, enter your custom functions, then click "Save Changes". It\'s that simple!', 'my-custom-functions' ); ?></p>
                         </div>
@@ -78,12 +78,11 @@ function MCFunctions_render_submenu_page() {
                     </div>
 
                     <div id="donate" class="postbox">
-                        <h3 class="title"><?php _e( 'Donate', 'my-custom-functions' ) ?></h3>
+                        <h3 class="title"><?php _e( 'Donate', 'my-custom-functions' ); ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('images/thanks.png', __FILE__); ?>">
-                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'my-custom-functions' ); ?></p>
+                            <p><?php _e( 'If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date.', 'my-custom-functions' ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
+                                <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
                             <p><?php _e( 'Thanks for your support!', 'my-custom-functions' ); ?></p>
                         </div>
@@ -109,7 +108,7 @@ function MCFunctions_render_submenu_page() {
                             ?>
                             <div class="postbox">
                                 <h3 class="title">
-                                    <label for="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php _e( 'Functions (PHP code)', 'my-custom-functions' ) ?></label>
+                                    <label for="anarcho_cfunctions_settings[anarcho_cfunctions-content]" ><?php _e( 'Functions (PHP code)', 'my-custom-functions' ); ?></label>
                                     <div class="trigger">
                                         <input type="checkbox" name="anarcho_cfunctions_settings[enable]" id="anarcho_cfunctions_settings[enable]" <?php echo $enable; ?> >
                                         <label for="anarcho_cfunctions_settings[enable]"></label>

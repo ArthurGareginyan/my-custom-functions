@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-07-26 19:52+0300\n"
+"POT-Creation-Date: 2016-08-23 04:20+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -75,21 +75,21 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:84
+#: inc/settings_page.php:83
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
 
-#: inc/settings_page.php:88
+#: inc/settings_page.php:87
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:112
+#: inc/settings_page.php:111
 msgid "Functions (PHP code)"
 msgstr ""
 
-#: inc/settings_page.php:123
+#: inc/settings_page.php:122
 msgid "Save Changes"
 msgstr ""
 

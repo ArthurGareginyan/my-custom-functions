@@ -1,14 +1,10 @@
 /*
- * My Custom Functions
- * Style sheet for plugin's page
- * @since 2.5
- * @agareginyan
+ * Style sheet for plugin settings page
+ *
+ * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ * All Rights Reserved.
  */
 
-
-.aligncenter {
-    text-align: center;
-}
 
 /* Titles
  -------------------------------------------------------------- */
@@ -41,6 +37,35 @@ h3.title {
     display: none;
 }
 
+/* Sidebar
+ -------------------------------------------------------------- */
+#side-sortables {
+    position: relative;
+}
+
+#side-sortables .postbox {
+    text-align: center;
+}
+
+#side-sortables p {
+    text-align: center;
+}
+
+#side-sortables #help p {
+    margin: 0;
+}
+
+/* Responsive page
+ -------------------------------------------------------------- */
+@media (max-width: 860px) {
+    .inner-sidebar {
+        display: none !important;
+    }
+    #post-body-content {
+        margin-right: 0 !important;
+    }
+}
+
 /* CodeMirror Editor
  -------------------------------------------------------------- */
 .CodeMirror {
@@ -50,45 +75,10 @@ h3.title {
     margin-right: 5px;
 }
 
-/* Sidebar
+/* Other
  -------------------------------------------------------------- */
-#side-sortables {
-    position: relative;
-}
-
-.inner-sidebar h3.title {
-    text-align: center;
-}
-
 .postbox a {
     text-decoration: none;
-}
-
-#about,
-#using,
-#help,
-#donate {
-    text-align: center;
-}
-
-#help p {
-    margin: 0;
-}
-
-#donate img,
-#donate p {
-    margin-top: 5px;
-}
-
-/* Responsive
- -------------------------------------------------------------- */
-@media (max-width: 860px) {
-    .inner-sidebar {
-        display: none !important;
-    }
-    #post-body-content {
-        margin-right: 0 !important;
-    }
 }
 
 /* On/Off Trigger

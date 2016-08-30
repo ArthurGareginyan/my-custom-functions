@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.5.1
+ * Version: 3.0
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -86,9 +86,9 @@ add_action( 'admin_menu', 'MCFunctions_register_submenu_page' );
 /**
  * Attach Settings Page
  *
- * @since 2.0
+ * @since 3.0
  */
-require_once( MCFUNC_PATH . 'inc/settings_page.php' );
+require_once( MCFUNC_PATH . 'inc/php/settings_page.php' );
 
 /**
  * Register settings
@@ -104,7 +104,7 @@ add_action( 'admin_init', 'MCFunctions_register_settings' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.5
+ * @since 3.0
  */
 function MCFunctions_load_scripts($hook) {
 
@@ -113,16 +113,17 @@ function MCFunctions_load_scripts($hook) {
         return;
     }
 
-    // CodeMirror
-    wp_enqueue_script('codemirror', MCFUNC_URL . 'inc/codemirror/codemirror-compressed.js');
-    wp_enqueue_style('codemirror_style', MCFUNC_URL . 'inc/codemirror/codemirror.css');
-    wp_enqueue_script('codemirror-active-line', MCFUNC_URL . 'inc/codemirror/addons/active-line.js');
-
-    // JS functions
-    wp_enqueue_script('js-functions', MCFUNC_URL . 'inc/functions.js', array(), false, true);
-
     // Style sheet
-    wp_enqueue_style('styles', MCFUNC_URL . 'inc/style.css');
+    wp_enqueue_style( 'admin-css', MCFUNC_URL . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', MCFUNC_URL . 'inc/js/admin.js', array(), false, true );
+
+    // CodeMirror
+    wp_enqueue_style( 'codemirror-css', MCFUNC_URL . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( 'codemirror-js', MCFUNC_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
+    wp_enqueue_script( 'codemirror-active-line', MCFUNC_URL . 'inc/lib/codemirror/addons/active-line.js' );
+
 }
 add_action( 'admin_enqueue_scripts', 'MCFunctions_load_scripts' );
 
