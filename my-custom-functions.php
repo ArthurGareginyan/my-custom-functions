@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0
+ * Version: 3.1
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -29,6 +29,7 @@
  *
  */
 
+
 /**
  * Prevent Direct Access
  *
@@ -39,12 +40,13 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define constants
  *
- * @since 2.0
+ * @since 3.1
  */
 defined('MCFUNC_DIR') or define('MCFUNC_DIR', dirname(plugin_basename(__FILE__)));
 defined('MCFUNC_BASE') or define('MCFUNC_BASE', plugin_basename(__FILE__));
 defined('MCFUNC_URL') or define('MCFUNC_URL', plugin_dir_url(__FILE__));
 defined('MCFUNC_PATH') or define('MCFUNC_PATH', plugin_dir_path(__FILE__));
+defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '3.1');
 
 /**
  * Register text domain
@@ -104,7 +106,7 @@ add_action( 'admin_init', 'MCFunctions_register_settings' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function MCFunctions_load_scripts($hook) {
 
@@ -114,15 +116,15 @@ function MCFunctions_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style( 'admin-css', MCFUNC_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'MCFunctions-admin-css', MCFUNC_URL . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( 'admin-js', MCFUNC_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( 'MCFunctions-admin-js', MCFUNC_URL . 'inc/js/admin.js', array(), false, true );
 
     // CodeMirror
-    wp_enqueue_style( 'codemirror-css', MCFUNC_URL . 'inc/lib/codemirror/codemirror.css' );
-    wp_enqueue_script( 'codemirror-js', MCFUNC_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
-    wp_enqueue_script( 'codemirror-active-line', MCFUNC_URL . 'inc/lib/codemirror/addons/active-line.js' );
+    wp_enqueue_style( 'MCFunctions-codemirror-css', MCFUNC_URL . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( 'MCFunctions-codemirror-js', MCFUNC_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
+    wp_enqueue_script( 'MCFunctions-codemirror-active-line', MCFUNC_URL . 'inc/lib/codemirror/addons/active-line.js' );
 
 }
 add_action( 'admin_enqueue_scripts', 'MCFunctions_load_scripts' );

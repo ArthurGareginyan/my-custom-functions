@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 2.5
+Stable tag: 3.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -144,6 +144,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.1 =
+* Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script().
+* Added constant for storing the plugin version number.
 = 3.0 =
 * The structure of files changed.
 * Style sheet of settings page improved and better commented.
@@ -232,6 +235,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 3.0 =
+Please update to new release!
 = 2.0 =
 Please update to new release!
 = 1.0 =
