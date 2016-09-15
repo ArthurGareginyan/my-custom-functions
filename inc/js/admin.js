@@ -25,14 +25,14 @@ jQuery(document).ready(function($) {
 
         // Refresh CodeMirror editor after 1 second
         setTimeout(function() {
-                editor.refresh();
+            editor.refresh();
         },1);
     });
 
     // Remove the "successful" message after 3 seconds
     if (".updated") {
         setTimeout(function() {
-                $(".updated").fadeOut();
+            $(".updated").fadeOut();
         }, 3000);
     }
 
