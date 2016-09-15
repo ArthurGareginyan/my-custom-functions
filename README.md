@@ -12,25 +12,32 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 * Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
+* Trigger for temporary disable the custom functions
+* Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
 * Active line highlighting
 * Editor allow for tab indentation
-* Trigger for temporary disable the custom functions
-* Ready for translation (.pot file included)
+* Ready for translation (POT file included)
 * Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
-* Backup of all custom functions to file
-* Easier disable/enable option for WSOD
 
 **Translation:**
 
 * English
 * Russian
 * Chinese (Taiwan)
+
+**Consider Going Pro For Additional Features!**
+
+>**Pro Features**
+>
+>* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporary disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented
+>
+>[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
 
 ## Contributing
