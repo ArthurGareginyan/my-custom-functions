@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-08-23 05:40+0300\n"
-"PO-Revision-Date: 2016-08-23 05:40+0300\n"
+"POT-Creation-Date: 2016-09-20 03:22+0300\n"
+"PO-Revision-Date: 2016-09-20 03:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -20,85 +20,90 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Custom functions updated successfully."
 msgstr "自訂功能已成功更新"
 
-#: inc/settings_page.php:34
+#: inc/php/settings_page.php:34
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr "抱歉！您的程式碼造成了「嚴重錯誤」，所以並沒有套用它！"
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid "Please, check the code and try again."
 msgstr "請重新檢查程式碼再試一次"
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:45 my-custom-functions.php:82
+#: inc/php/settings_page.php:45 my-custom-functions.php:85
 msgid "My Custom Functions"
 msgstr "我的自訂功能"
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:59
+#: inc/php/settings_page.php:59
 msgid "About"
 msgstr "關於"
 
-#: inc/settings_page.php:61
+#: inc/php/settings_page.php:61
 msgid ""
 "This plugin allows you to easily and safely add your custome functions (PHP "
 "code) to your website."
 msgstr ""
 
-#: inc/settings_page.php:66
+#: inc/php/settings_page.php:66
 msgid "Using"
 msgstr "用法"
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid ""
 "To use, enter your custom functions, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 "要使用它，請輸入您的自訂功能然後按下「儲存變更」就可以了，就是這麼簡單！"
 
-#: inc/settings_page.php:73
+#: inc/php/settings_page.php:73
 msgid "Help"
 msgstr "幫助"
 
-#: inc/settings_page.php:75
+#: inc/php/settings_page.php:75
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/settings_page.php:81
+#: inc/php/settings_page.php:81
+msgid "Upgrade"
+msgstr ""
+
+#: inc/php/settings_page.php:90
 msgid "Donate"
 msgstr "捐款"
 
-#: inc/settings_page.php:83
+#: inc/php/settings_page.php:92
 msgid ""
-"If you like this plugin and find it useful, please help me to make this "
-"plugin even better and keep it up-to-date."
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
 msgstr ""
 
-#: inc/settings_page.php:87
+#: inc/php/settings_page.php:96
 msgid "Thanks for your support!"
 msgstr "謝謝您的贊助！"
 
-#: inc/settings_page.php:111
+#: inc/php/settings_page.php:120
 msgid "Functions (PHP code)"
 msgstr ""
 
-#: inc/settings_page.php:122
+#: inc/php/settings_page.php:131
 msgid "Save Changes"
 msgstr "儲存變更"
 
-#: my-custom-functions.php:70
+#: my-custom-functions.php:73
 msgid "Settings"
 msgstr "設定"
 
-#: my-custom-functions.php:82
+#: my-custom-functions.php:85
 msgid "Custom Functions"
 msgstr "自訂功能"
 

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.2
+ * Version: 3.3
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -46,6 +46,7 @@ defined('MCFUNC_DIR') or define('MCFUNC_DIR', dirname(plugin_basename(__FILE__))
 defined('MCFUNC_BASE') or define('MCFUNC_BASE', plugin_basename(__FILE__));
 defined('MCFUNC_URL') or define('MCFUNC_URL', plugin_dir_url(__FILE__));
 defined('MCFUNC_PATH') or define('MCFUNC_PATH', plugin_dir_path(__FILE__));
+defined('MCFUNC_TEXT') or define('MCFUNC_TEXT', 'my-custom-functions');
 defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '3.1');
 
 /**
@@ -54,7 +55,7 @@ defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '3.1');
  * @since 2.2
  */
 function MCFunctions_textdomain() {
-    load_plugin_textdomain( 'my-custom-functions', false, MCFUNC_DIR . '/languages/' );
+    load_plugin_textdomain( MCFUNC_TEXT, false, MCFUNC_DIR . '/languages/' );
 }
 add_action( 'init', 'MCFunctions_textdomain' );
 
@@ -69,11 +70,11 @@ add_action( 'init', 'MCFunctions_textdomain' );
  * @return array        Array of links to be output on Plugin Admin page.
  */
 function MCFunctions_settings_link( $links ) {
-    $settings_page = '<a href="' . admin_url( 'themes.php?page=my-custom-functions.php' ) .'">' . __( 'Settings', 'my-custom-functions' ) . '</a>';
+    $settings_page = '<a href="' . admin_url( 'themes.php?page=my-custom-functions.php' ) .'">' . __( 'Settings', MCFUNC_TEXT ) . '</a>';
     array_unshift( $links, $settings_page );
     return $links;
 }
-add_filter( "plugin_action_links_".MCFUNC_BASE, 'MCFunctions_settings_link' );
+add_filter( 'plugin_action_links_'.MCFUNC_BASE, 'MCFunctions_settings_link' );
 
 /**
  * Register "Custom Functions" submenu in "Appearance" Admin Menu
@@ -81,7 +82,7 @@ add_filter( "plugin_action_links_".MCFUNC_BASE, 'MCFunctions_settings_link' );
  * @since 2.2
  */
 function MCFunctions_register_submenu_page() {
-    add_theme_page( __( 'My Custom Functions', 'my-custom-functions' ), __( 'Custom Functions', 'my-custom-functions' ), 'edit_theme_options', basename( __FILE__ ), 'MCFunctions_render_submenu_page' );
+    add_theme_page( __( 'My Custom Functions', MCFUNC_TEXT ), __( 'Custom Functions', MCFUNC_TEXT ), 'edit_theme_options', basename( __FILE__ ), 'MCFunctions_render_submenu_page' );
 }
 add_action( 'admin_menu', 'MCFunctions_register_submenu_page' );
 

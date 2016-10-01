@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2016-08-23 04:35+0300\n"
-"PO-Revision-Date: 2016-09-13 16:58+0300\n"
+"POT-Creation-Date: 2016-10-01 04:16+0300\n"
+"PO-Revision-Date: 2016-10-01 04:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -21,25 +21,25 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Custom functions updated successfully."
 msgstr "Пользовательские функции успешно обновлены."
 
-#: inc/settings_page.php:34
+#: inc/php/settings_page.php:34
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 "Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid "Please, check the code and try again."
 msgstr "Пожалуйста, проверьте код и попробуйте ещё раз."
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:45 my-custom-functions.php:82
+#: inc/php/settings_page.php:45 my-custom-functions.php:85
 msgid "My Custom Functions"
 msgstr ""
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -47,11 +47,11 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/settings_page.php:59
+#: inc/php/settings_page.php:59
 msgid "About"
 msgstr "О плагине"
 
-#: inc/settings_page.php:61
+#: inc/php/settings_page.php:61
 msgid ""
 "This plugin allows you to easily and safely add your custome functions (PHP "
 "code) to your website."
@@ -59,55 +59,61 @@ msgstr ""
 "Этот плагин даёт вам возможность легко и безопасно добавлять ваши "
 "пользовательские функции (PHP код) на ваш веб-сайт."
 
-#: inc/settings_page.php:66
+#: inc/php/settings_page.php:66
 msgid "Using"
-msgstr "Использование:"
+msgstr "Как пользоваться"
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid ""
 "To use, enter your custom functions, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 "Для использования, введите ваши пользовательские функции, затем нажмите "
-"кнопку “Сохранить Изменения”. Это так просто!"
+"кнопку “Сохранить изменения”. Это так просто!"
 
-#: inc/settings_page.php:73
+#: inc/php/settings_page.php:73
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:75
+#: inc/php/settings_page.php:75
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/settings_page.php:81
-msgid "Donate"
-msgstr "Пожертвование"
-
-#: inc/settings_page.php:83
-msgid ""
-"If you like this plugin and find it useful, please help me to make this "
-"plugin even better and keep it up-to-date."
+#: inc/php/settings_page.php:81
+msgid "Upgrade"
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
-"помогите мне сделать его ещё лучше."
 
-#: inc/settings_page.php:87
+#: inc/php/settings_page.php:90
+msgid "Donate"
+msgstr "Поддержать разработку"
+
+#: inc/php/settings_page.php:92
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+"Я независимый разработчик, без регулярного дохода, так что каждый маленький "
+"вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
+"создание программ для людей как вы."
+
+#: inc/php/settings_page.php:96
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:111
+#: inc/php/settings_page.php:120
 msgid "Functions (PHP code)"
 msgstr "Функции (PHP код)"
 
-#: inc/settings_page.php:122
+#: inc/php/settings_page.php:131
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: my-custom-functions.php:70
+#: my-custom-functions.php:73
 msgid "Settings"
 msgstr "Настройки"
 
-#: my-custom-functions.php:82
+#: my-custom-functions.php:85
 msgid "Custom Functions"
 msgstr "Пользовательские Функции"
 
@@ -131,6 +137,13 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, please help me to make this "
+#~ "plugin even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
+#~ "помогите мне сделать его ещё лучше."
 
 #~ msgid ""
 #~ "If you like this plugin and find it useful, help me to make this plugin "
