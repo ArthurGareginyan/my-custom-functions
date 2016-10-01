@@ -40,14 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define constants
  *
- * @since 3.1
+ * @since 3.3
  */
 defined('MCFUNC_DIR') or define('MCFUNC_DIR', dirname(plugin_basename(__FILE__)));
 defined('MCFUNC_BASE') or define('MCFUNC_BASE', plugin_basename(__FILE__));
 defined('MCFUNC_URL') or define('MCFUNC_URL', plugin_dir_url(__FILE__));
 defined('MCFUNC_PATH') or define('MCFUNC_PATH', plugin_dir_path(__FILE__));
 defined('MCFUNC_TEXT') or define('MCFUNC_TEXT', 'my-custom-functions');
-defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '3.1');
+defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '3.3');
 
 /**
  * Register text domain
