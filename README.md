@@ -30,6 +30,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 * English
 * Russian
 * Chinese (Taiwan)
+* Spanish
 
 **Consider Going Pro For Additional Features!**
 
