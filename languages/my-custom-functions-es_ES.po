@@ -1,0 +1,676 @@
+# Translation of Plugins - My Custom Functions - Development Readme (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - My Custom Functions - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-28 15:00+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - My Custom Functions - Development Readme (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Short description.
+msgid "Easily and safely add your custom functions (PHP code) directly out of your WordPress Dashboard without need of an external editor."
+msgstr "Añade de forma fácil y segura tus funciones personalizadas (código PHP) directamente a tu Panel de Control de WordPress sin necesidad de un editor externo."
+
+#. Name.
+msgid "My Custom Functions"
+msgstr "My Custom Functions"
+
+#. Found in remaining content list item.
+msgid "<a href=\"https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html\">Premium Version</a>"
+msgstr "<a href=\"https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html\">Versión Premium</a>"
+
+#. Found in faq paragraph.
+msgid "Go to plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>). Rename the \"<code>START</code>\" file to \"<code>STOP</code>\". Then you can go to plugin settings page and edit your entered custom code. After editing, just rename the \"<code>STOP</code>\" file which you written before to \"<code>START</code>\"."
+msgstr "Selecciona la carpeta del plugin (en <code>wp-content/plugins/my-custom-functions/</code>). Renombra el archivo \"<code>START</code>\" a \"<code>STOP</code>\". Luego dirígete a la página de ajustes del plugin y edita el código personalizado que ingresaste. Al terminar la edición, sólo renombra el archivo \"<code>STOP</code>\" que antes habías cambiado a \"<code>START</code>\"."
+
+#. Found in faq paragraph.
+msgid "A. Yes. But you need to do it properly, like this:"
+msgstr "R. Sí. Pero necesitas hacerlo de forma apropiada, como puedes ver aquí:"
+
+#. Found in faq paragraph.
+msgid "A. Just place your PHP code to the field and click \"Save Changes\". Example of PHP code:"
+msgstr "R. Sólo coloca tu código PHP en el campo y haz clic en \"Guardar Cambios\". Ejemplo de código PHP:"
+
+#. Found in faq header.
+msgid "Q. Can I use HTML/CSS/JS code integrated in PHP code?"
+msgstr "P. ¿Puedo usar código HTML/CSS/JS integrado en el código PHP?"
+
+#. Found in faq header.
+msgid "Q. How does it work?"
+msgstr "P. ¿Cómo funciona?"
+
+#. Found in installation list item.
+msgid "Log into Dashboard of your WordPress website."
+msgstr "Ingresa en el Panel de tu sitio de WordPress."
+
+#. Found in description paragraph.
+msgid "<a href=\"https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html\">Get the premium version now!</a>"
+msgstr "<a href=\"https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html\">¡Obtener la versión premium ya!</a>"
+
+#. Found in description paragraph.
+msgid "<strong>Pro Features</strong>"
+msgstr "<strong>Funciones Pro</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Consider Going Pro For Additional Features!</strong>"
+msgstr "<strong>¡Considera actualizar a la versión PRO para disfrutar las funciones adicionales!</strong>"
+
+#. Found in description list item.
+msgid "Well documented"
+msgstr "Bien documentado"
+
+#. Found in description list item.
+msgid "Sidebar items can be collapsed or expanded"
+msgstr "Los elementos de la barra lateral se pueden cerrar o expandir"
+
+#. Found in description list item.
+msgid "Button for collapse/expand the field with code"
+msgstr "Botón para cerrar/expandir el campo con código"
+
+#. Found in description list item.
+msgid "Trigger for temporary disable the certain functions"
+msgstr "Activar para deshabilitar temporalmente ciertas funciones"
+
+#. Found in description list item.
+msgid "Automatic backup of all functions to a file"
+msgstr "Respaldo automático de todas las funciones en un archivo"
+
+#. Found in description list item.
+msgid "Unlimited number of functions"
+msgstr "Ilimitado número de funciones"
+
+#. Found in description list item.
+msgid "Chinese-Taiwan (Thanks Gordon Yu)"
+msgstr "Chino-Taiwanés (Gracias a Gordon Yu)"
+
+#. Found in description list item.
+msgid "Easy disable option for WSOD"
+msgstr "Fácil opción de deshabilitación para WSOD"
+
+#. Found in description paragraph.
+msgid "Please keep in mind that not all translations are up to date. You are welcome to contribute!"
+msgstr "Ten presente que no todas las traducciones están actualizadas. ¡Tu colaboración será bien recibida!"
+
+#. Found in description list item.
+msgid "English (default)"
+msgstr "Inglés (por defecto)"
+
+#. Found in description list item.
+msgid "Russian"
+msgstr "Ruso"
+
+#. Found in description list item.
+msgid "Editor allow for tab indentation"
+msgstr "Permitir en el editor la indentación por tabulador"
+
+#. Found in description list item.
+msgid "Active line highlighting"
+msgstr "Activar resaltado de línea"
+
+#. Found in description list item.
+msgid "Line numbering"
+msgstr "Numeración de línea"
+
+#. Found in description list item.
+msgid "Responsive &amp; Mobile optimized settings page"
+msgstr "Página de ajustes optimizados para Móviles"
+
+#. Found in description header.
+msgid "Translation"
+msgstr "Traducción"
+
+#. Found in faq paragraph.
+msgid "A. Here are a few of the most likely causes of the error message:"
+msgstr "R. Estas son algunas causas probables del mensaje de error:"
+
+#. Found in faq list item.
+msgid "You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks."
+msgstr "Estás tratando de sobreescribir una función existente (de WordPress, de tema o de plugin). Prueba usando filtros y ganchos."
+
+#. Found in faq list item.
+msgid "You have entered function with a name that is already occupied by another function. Use a unique name for your function."
+msgstr "Has ingresado una función cuyo nombre ya está ocupado por otra función. Usa un nombre único para cada función."
+
+#. Found in faq list item.
+msgid "You entered two functions with the same name. Use a unique names for your functions."
+msgstr "Has ingresado dos funciones con el mismo nombre. Usa nombres únicos para cada función."
+
+#. Found in faq list item.
+msgid "You make a syntax error in the code that you have entered. Check the syntax of your code and try again."
+msgstr "Tienes un error de sintaxis en el código que has introducido. Revisa la sintaxis de tu código y prueba de nuevo."
+
+#. Found in faq header.
+msgid "Q. On the plugin settings page, an error message appears. What could be wrong?"
+msgstr "P. En la página de ajustes del plugin aparece un mensaje de error. ¿Qué puede estar fallando?"
+
+#. Found in description paragraph.
+msgid "On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation."
+msgstr "En la página del plugin encontrarás el editor de PHP proporcionado por CodeMirror. Habilita las opciones de resaltado de sintaxis y numeración de línea. Este editor también soporta indentación por tabulador."
+
+#. Found in description paragraph.
+msgid "It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme."
+msgstr "Es muy útil en caso de actualización de un tema, porque tu código PHP no será reescrito. Tu código PHP seguirá funcionando, sin importar el número de veces que actualices o cambies de tema."
+
+#. Found in description list item.
+msgid "Multisite network support"
+msgstr "Soporte de red multisitio"
+
+#. Found in description list item.
+msgid "Reload the settings page at same position after pushing the save button"
+msgstr "Recarga la página de ajustes en la misma posición después de presionar el botón de guardar"
+
+#. Found in description list item.
+msgid "Checks the entered code for fatal errors (simple checks)"
+msgstr "Revisa si el código introducido produce errores fatales (revisión simple)"
+
+#. Found in remaining content paragraph.
+msgid "<a href=\"https://codemirror.net/\">CodeMirror</a> is an open-source project shared under the <a href=\"https://codemirror.net/LICENSE\">MIT license</a>."
+msgstr "<a href=\"https://codemirror.net/\">CodeMirror</a> es un proyecto de código abierto compartido bajo <a href=\"https://codemirror.net/LICENSE\">licencia del MIT</a>."
+
+#. Found in remaining content paragraph.
+msgid "<strong>Credits</strong>"
+msgstr "<strong>Créditos</strong>"
+
+#. Found in faq paragraph.
+msgid "A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! <a href=\"http://www.arthurgareginyan.com/donate.html\">My website</a>"
+msgstr "R. Sí, ¡cualquier contribución financiera es bienvenida! Sólo visita mi sitio y haz clic en \"donar\". ¡Te lo agradezco! <a href=\"http://www.arthurgareginyan.com/donate.html\">Mi stio web</a>"
+
+#. Found in faq paragraph.
+msgid "A. Please send me email <a href=\"mailto:arthurgareginyan@gmail.com\">arthurgareginyan@gmail.com</a>."
+msgstr "R. Puedes enviarme un email <a href=\"mailto:arthurgareginyan@gmail.com\">arthurgareginyan@gmail.com</a>."
+
+#. Found in faq paragraph.
+msgid "A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr "R. Al igual que con cualquier plugin, es posible que las cosas no funcionen. El motivo más común es que el plugin tenga un conflicto con otro plugin que estés usando. No puedo decirte exctatamente qué está fallanado, pero si me envias una solicitud en el foro de soporte del plugin en WordPress.org, estaré encantado de ayudarte. Por favor, remite la mayor cantidad de información posible, incluyendo un enlace al sitio web que presenta el problema."
+
+#. Found in faq paragraph.
+msgid "A. Absolutely not. This plugin is added/configured entirely from the website's Admin section."
+msgstr "R. Absolutamente no. Este plugin se añade y se configura totalmente desde la sección Admin del sitio web."
+
+#. Found in faq header.
+msgid "Q. I love this plugin! Can I help somehow?"
+msgstr "P. ¡Me gusta este plugin! ¿Cómo puedo ayudar?"
+
+#. Found in faq header.
+msgid "Q. It's not working. What could be wrong?"
+msgstr "P. No funciona. ¿Qué puede estar fallando?"
+
+#. Found in faq header.
+msgid "Q. Does this plugin require modification to the theme?"
+msgstr "P. ¿Este plugin requiere alguna modificación del tema?"
+
+#. Found in remaining content paragraph.
+msgid "\"My Custom Functions\" is one of the personal software projects of <a href=\"http://www.arthurgareginyan.com\">Arthur Gareginyan</a>."
+msgstr "\"My Custom Functions\" es uno de los proyectos personales de software de <a href=\"http://www.arthurgareginyan.com\">Arthur Gareginyan</a>."
+
+#. Found in remaining content list item.
+msgid "<a href=\"http://www.arthurgareginyan.com\">Developer Website</a>"
+msgstr "<a href=\"http://www.arthurgareginyan.com\">Sitio web del desarrollador</a>"
+
+#. Found in remaining content paragraph.
+msgid "<strong>Links</strong>"
+msgstr "<strong>Enlaces</strong>"
+
+#. Found in remaining content paragraph.
+msgid ""
+"This plugin is licensed under the <a href=\"http://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License, version 3 (GPLv3)</a>\n"
+"and is distributed free of charge.\n"
+"Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request."
+msgstr ""
+"Este plugin está bajo licencia <a href=\"http://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License, version 3 (GPLv3)</a> y se distribuye sin costo alguno.\n"
+"Para licencias comerciales (por ejemplo, proyectos que no pueden usar una licencia de código abierto) está disponible por solicitud."
+
+#. Found in remaining content paragraph.
+msgid "<strong>License</strong>"
+msgstr "<strong>Licencia</strong>"
+
+#. Found in remaining content list item.
+msgid "<a href=\"https://github.com/ArthurGareginyan/my-custom-functions\">Dedicated Plugin Page on GitHub</a>"
+msgstr "<a href=\"https://github.com/ArthurGareginyan/my-custom-functions\">Página en GitHub dedicada al plugin</a>"
+
+#. Found in remaining content header.
+msgid "Other Notes"
+msgstr "Otras acotaciones"
+
+#. Found in faq paragraph.
+msgid "A. Please visit <a href=\"https://github.com/ArthurGareginyan/my-custom-functions\">Dedicated Plugin Page on GitHub</a> and report."
+msgstr "P. Por favor visita <a href=\"https://github.com/ArthurGareginyan/my-custom-functions\">La página en GitHub dedicada al plugin</a> y haz un reporte."
+
+#. Found in faq paragraph.
+msgid "This plugin stored you entered code in the Database of your website. For getting your code, you also can go to the <code>Database</code> —&gt; Table \"<code>wp_options</code>\" —&gt; Option \"<code>anarcho_cfunctions_settings</code>\" —&gt; \"<code>option_value</code>\"."
+msgstr "Este plugin almacena el código que hayas ingresado en la Base de datos de tu sitio web. Para obtener tu código, también puedes ir a <code>Database</code> —&gt; Table \"<code>wp_options</code>\" —&gt; Option \"<code>anarcho_cfunctions_settings</code>\" —&gt; \"<code>option_value</code>\"."
+
+#. Found in faq paragraph.
+msgid "A. This plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). If this happened with you then do the following."
+msgstr "R. Este plugin no es perfecto, por tanto existe la posibilidad de que el código personalizado que ingresasate cause error y una pantalla en blanco (WSOD). Si te ocurre esto, haz lo siguiente."
+
+#. Found in faq paragraph.
+msgid "A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The <code>.pot</code> file is included and placed in \"<code>languages</code>\" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (<code>*.po, *.mo</code>) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update."
+msgstr "R. Sí. Pero si tu idioma no está disponible, puedes hacerlo. Este plugin está listo para traducción. El archivo <code>.pot</code> está en la carpeta \"<code>languages</code>\". Muchos usuarios estarían encantados de que compartas tu traducción con la comunidad. Sólo envíame los archivos de traducción (<code>*.po, *.mo</code>) a arthurgareginyan@gmail.com y yo incluiré la traducción en la próxima actualización del plugin."
+
+#. Found in faq paragraph.
+msgid "A. I don't limit the number of characters."
+msgstr "R. No se limita el número de caracteres."
+
+#. Found in faq paragraph.
+msgid "A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites."
+msgstr "R. Lo siento, este plugin está disponible sólo para sitios web hechos en WordPress.org que tengan hospedaje propio."
+
+#. Found in faq header.
+msgid "Q. Where to share any ideas or suggestions to make the plugin better?"
+msgstr "P: ¿Dónde puedo compartir ideas o sugerencias para mejorar este plugin?"
+
+#. Found in faq header.
+msgid "Q. Where to report bug if found?"
+msgstr "P. ¿Dónde puedo reportar un error que haya encontrado?"
+
+#. Found in faq header.
+msgid "Q. What to do if this plugin caused the white screen?"
+msgstr "P: ¿Qué hago si este plugin causa una pantalla en blanco?"
+
+#. Found in faq header.
+msgid "Q. Can I use this plugin on my language?"
+msgstr "P. ¿Puedo usar este plugin en mi idioma?"
+
+#. Found in faq header.
+msgid "Q. How much of PHP code (characters) I can enter in the text field?"
+msgstr "P: ¿Cuántos caracteres de código PHP puedo entrar en el campo de texto?"
+
+#. Found in faq header.
+msgid "Q. Will this plugin work on my WordPress.COM website?"
+msgstr "P. ¿Este plugin funcionará en mi sitio web hecho en WordPress.com?"
+
+#. Found in installation paragraph.
+msgid "<a href=\"http://codex.wordpress.org/Managing_Plugins#Installing_Plugins\" title=\"WordPress Codex: Installing Plugins\">More help installing Plugins</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Managing_Plugins#Installing_Plugins\" title=\"WordPress Codex: Installing Plugins\">Más ayuda sobre instalación de plugins</a>"
+
+#. Found in installation paragraph.
+msgid "After installation, a \"<code>Custom Functions</code>\" menu item will appear in the \"<code>Appearance</code>\" section. Click on this in order to view plugin's administration page."
+msgstr "Después de la instalación, aparecerá una opción de menú \"<code>Custom Functions</code>\" en la sección \"<code>Appearance</code>\". Haz clic para entrar en la página de configuración del plugin."
+
+#. Found in installation paragraph.
+msgid "Manual via FTP:"
+msgstr "Manual vía FTP:"
+
+#. Found in installation paragraph.
+msgid "Automatically via WordPress:"
+msgstr "Automáticamente vía WordPress:"
+
+#. Found in installation paragraph.
+msgid "Install \"My Custom Functions\" just as you would any other WordPress Plugin."
+msgstr "Instala \"My Custom Functions\" como lo haces con cualquier plugin de WordPress."
+
+#. Found in installation list item.
+msgid "Upload the unzipped catalog to your website's plugin directory (<code>/wp-content/plugins/</code>)."
+msgstr "Sube el catálogo descomprimido al directorio de plugins de tu sitio web (<code>/wp-content/plugins/</code>)."
+
+#. Found in installation list item.
+msgid "Unzip the ZIP file."
+msgstr "Descomprime el archivo ZIP."
+
+#. Found in installation list item.
+msgid "Download a copy (ZIP file) of this plugin from WordPress.org."
+msgstr "Descarga una copia (el archivo ZIP) de este plugin desde WordPress.org."
+
+#. Found in installation list item.
+msgid "Activate this plugin through the \"<code>Plugins</code>\" tab."
+msgstr "Activa este plugin desde la pestaña \"<code>Plugins</code>\"."
+
+#. Found in installation list item.
+msgid "Find this plugin and click install."
+msgstr "Busca el plugin y haz clic en Install."
+
+#. Found in installation list item.
+msgid "Go to \"<code>Plugins</code>\" —&gt; \"<code>Add New</code>\"."
+msgstr "Dirígete a \"<code>Plugins</code>\" —&gt; \"<code>Add New</code>\"."
+
+#. Found in description paragraph.
+msgid "<strong>Coming soon:</strong>"
+msgstr "<strong>Pronto:</strong>"
+
+#. Found in description paragraph.
+msgid "This is a simple and perfect tool to use as your site's functionality plugin."
+msgstr "Esta es una herramienta sencilla e ideal para usar como plugin de funciones en tu sitio."
+
+#. Found in description paragraph.
+msgid "It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you."
+msgstr "Su propósito es ofrecer una experiencia familiar a los usuarios de WordPress. Ya no tendrás que editar el archivo functions.php de tu tema. Sólo añade el código PHP en el campo correspondiente en la página de configuración del plugin y él hará el resto por ti."
+
+#. Found in description paragraph.
+msgid "An easy to use WordPress plugin that gives you the ability to easily and safely add your custome functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor."
+msgstr "Un plugin de WordPress fácil de usar que te permite añadir de forma segura tus funciones personalizadas (en código PHP) para ejecutarlas en el ambiente de WordPress directamente desde tu Panel de Control en WordPress, sin necesidad de un editor externo."
+
+#. Found in description list item.
+msgid "Trigger for temporary disable the custom functions"
+msgstr "Activar para deshabilitar temporalmente las funciones personalizadas"
+
+#. Found in description list item.
+msgid "Ready for translation (POT file included)"
+msgstr "Listo para traducción (archivo POT incluido)"
+
+#. Found in description list item.
+msgid "Syntax highlighting (by CodeMirror)"
+msgstr "Resaltado de sintaxis (por CodeMirror)"
+
+#. Found in description header.
+msgid "Features"
+msgstr "Funciones"
+
+#. Screenshot description.
+msgid "«Fatal error» message."
+msgstr "Mensaje «Error fatal»."
+
+#. Screenshot description.
+msgid "Success message."
+msgstr "Mensaje de ejecución exitosa."
+
+#. Screenshot description.
+msgid "Plugin page with custom code added."
+msgstr "Página del plugin con el código personalizado añadido."
+
+#. Screenshot description.
+msgid "Plugin page."
+msgstr "Página del plugin."
+
+#. Found in changelog list item.
+msgid "Russian translation improved."
+msgstr "Traducción al ruso mejorada."
+
+#. Found in changelog list item.
+msgid "Added global constant for plugin text-domain."
+msgstr "Inlcuye una constante global para el dominio de texto del plugin."
+
+#. Found in changelog list item.
+msgid "User's PHP code displayed on settings page are escaped for output by <code>htmlentities()</code> instead of <code>esc_attr()</code> for prevent converting characters to HTML entities."
+msgstr "El código PHP del usuario mostrado en la página de ajustes se remite en la salida de <code>htmlentities()</code> en vez de <code>esc_attr()</code> para prevenir que los caracteres se conviertan en entidades HTML."
+
+#. Found in changelog list item.
+msgid "Added the Readme.txt file for translation contribution."
+msgstr "Archivo Readme.txt incluido para contribuciones de traducción."
+
+#. Found in changelog list item.
+msgid "The Readme.txt file improved."
+msgstr "El archivo Readme.txt mejorado."
+
+#. Found in changelog list item.
+msgid "On the settings page added an advertisement about the PRO version of this plugin."
+msgstr "En la página de ajustes se incluye una publicidad sobre la versión PRO de este plugin."
+
+#. Found in changelog list item.
+msgid "Style sheet of settings page improved."
+msgstr "Página de Hoja de estilos mejorada."
+
+#. Found in changelog list item.
+msgid "Added option for easy disable the custom code for cases of WSOD."
+msgstr "Incluye una opción de fácil uso para deshabilitar el código personalizado en caso de WSOD."
+
+#. Found in changelog list item.
+msgid "Added constant for storing the plugin version number."
+msgstr "Añade una constante para almacenar el número de versión del plugin."
+
+#. Found in changelog list item.
+msgid "Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script()."
+msgstr "Prefijos agregados a los nombres de hojas de estilo y de scripts cuando use wp_enqueue_style() and wp_enqueue_script()."
+
+#. Found in changelog list item.
+msgid "Chinese (Taiwan) translation updated."
+msgstr "Traducción a chino (Taiwan) actualizada."
+
+#. Found in changelog list item.
+msgid "POT file updated."
+msgstr "Archivo POT actualizado."
+
+#. Found in changelog list item.
+msgid "The \"thanks.png\" image removed."
+msgstr "Removida la imagen \"thanks.png\"."
+
+#. Found in changelog list item.
+msgid "JS code improved."
+msgstr "Código JS mejorado."
+
+#. Found in changelog list item.
+msgid "Style sheet of settings page improved and better commented."
+msgstr "Hoja de estilo de ajustes mejorada y mejor documentada."
+
+#. Found in changelog list item.
+msgid "The structure of files changed."
+msgstr "Se cambió la estructura de archivos."
+
+#. Found in changelog list item.
+msgid "The update_option() returned into _duplicates function."
+msgstr "Update_option() ahora está en la la función into _duplicates."
+
+#. Found in changelog list item.
+msgid "Added function of automatic remove the \"successful\" message after 3 seconds."
+msgstr "Función añadida para quitar automáticamente el mensaje de \"operación exitosa\" después de 3 segundos."
+
+#. Found in changelog list item.
+msgid "Added function to check for duplicate function names. Compares the names of all functions (internal, user). The _duplicates function added."
+msgstr "Función añadida para revisar nombres de función duplicados. Compara los nombres de todas las funciones (internas y del usuario). Se agregó la función _duplicates."
+
+#. Found in changelog list item.
+msgid "The _enqueue_codemirror_scripts function renamed to mcstyles_load_scripts."
+msgstr "La función _enqueue_codemirror_scripts ahora se llama mcstyles_load_scripts."
+
+#. Found in changelog list item.
+msgid "The styles.css file better commented."
+msgstr "El archivo styles.css está mejor comentado."
+
+#. Found in changelog list item.
+msgid "Styles of settings page optimized for mobile devices."
+msgstr "La página de ajustes ahora está optimizada para dispositivos móviles."
+
+#. Found in changelog list item.
+msgid "CSS class \"slider\" renamed to \"trigger\"."
+msgstr "Clase \"slider\" de CSS se renombró a \"trigger\"."
+
+#. Found in changelog list item.
+msgid "The _exec function optimized."
+msgstr "La función _exec fue optimizada."
+
+#. Found in changelog list item.
+msgid "Extra update_option() removed from the _duplicates function."
+msgstr "La opción adicional update_option() fue removida de la función _duplicates."
+
+#. Found in changelog list item.
+msgid "Added active-line add-on to CodeMirror."
+msgstr "Se agregó la extensión de línea activa para CodeMirror."
+
+#. Found in changelog list item.
+msgid "Functions _prepare, _duplicates, and _exec optimized."
+msgstr "Las funciones _prepare, _duplicates y _exec fueron optimizadas."
+
+#. Found in changelog list item.
+msgid "Added trigger for temporary disable the custom functions."
+msgstr "Se añadió un ´trigger´para deshabilitar temporalmente las funciones personalizadas."
+
+#. Found in changelog list item.
+msgid "Removed my personal ad about freelance."
+msgstr "Removí mi publicidad personal como freelance."
+
+#. Found in changelog list item.
+msgid "File js-functions.js renamed to functions.js."
+msgstr "El archivo js-functions.js se renombró como functions.js."
+
+#. Found in changelog list item.
+msgid "The function of user code cleaning modified."
+msgstr "La función de limpiar el código del usuario fue modificada."
+
+#. Found in changelog list item.
+msgid "Removed the default message about successful saving."
+msgstr "El mensaje por defecto de guardado exitoso fue eliminado."
+
+#. Found in changelog list item.
+msgid "Added compatibility with the translate.wordpress.org."
+msgstr "Ahora es compatible con translate.wordpress.org."
+
+#. Found in changelog list item.
+msgid "Text domain changed to \"my-custom-functions\"."
+msgstr "El dominio de texto cambió a \"my-custom-functions\"."
+
+#. Found in changelog list item.
+msgid "Added Chinese (Taiwan) translation. (Thanks Gordon Yu)"
+msgstr "Incluye traducción al chino (Taiwan). (Gracias a Gordon Yu)"
+
+#. Found in changelog list item.
+msgid "Image \"btn_donateCC_LG.gif\" is now located in the \"images\" directory."
+msgstr "La imagen \"btn_donateCC_LG.gif\" ahora está en el directorio \"images\"."
+
+#. Found in changelog list item.
+msgid "All images are moved to the directory \"images\"."
+msgstr "Todas las imágenes se movieron al directorio \"images\"."
+
+#. Found in changelog list item.
+msgid "Removed extra rules in style.css file."
+msgstr "Se quitaron reglas extra en el archivo style.css."
+
+#. Found in changelog list item.
+msgid "In the settings_page.php, on the line 21, fixed typo."
+msgstr "En el archivo settings_page.php, en la línea 21, se corrigió el typo."
+
+#. Found in changelog list item.
+msgid "Added my personal ad about freelance."
+msgstr "Agregada mi publicidad personal como freelance."
+
+#. Found in changelog list item.
+msgid "Plugin URI changed to GitHub repository."
+msgstr "La URL del plugin cambió al repositorio de GitHub."
+
+#. Found in changelog list item.
+msgid "Text domain changed to \"MCFunctions\"."
+msgstr "El dominio de texto cambió a \"MCFunctions\"."
+
+#. Found in changelog list item.
+msgid "Prefixes changed to \"MCFunctions\"."
+msgstr "Prefijos cambiados a \"MCFunctions\"."
+
+#. Found in changelog list item.
+msgid "js-functions.js (file with all js functions) created."
+msgstr "Se creó el archivo js-functions.js (contiene todas las funciones js)."
+
+#. Found in changelog list item.
+msgid "editor.js deleted."
+msgstr "Eliminado editor.js."
+
+#. Found in changelog list item.
+msgid "Constants variables added."
+msgstr "Añadidas variables/constantes."
+
+#. Found in changelog list item.
+msgid "New design of settings page (new layout)."
+msgstr "Nuevo diseño de la página de ajustes."
+
+#. Found in changelog list item.
+msgid "Russian translation updated."
+msgstr "Actualizada la traducción al ruso."
+
+#. Found in changelog list item.
+msgid ".pot file updated."
+msgstr "Archivo .pot actualizado."
+
+#. Found in changelog list item.
+msgid "Localization improved."
+msgstr "Mejorada la localización."
+
+#. Found in changelog list item.
+msgid "Donate link changed."
+msgstr "El enlace para donación cambió."
+
+#. Found in changelog list item.
+msgid "Authors URI changed."
+msgstr "La URL de los autores cambió."
+
+#. Found in changelog list item.
+msgid "Removed more unused do_action() from settings_page.php file."
+msgstr "Removida unused do_action() del archivo settings_page.php."
+
+#. Found in changelog list item.
+msgid "Placeholder of  changed to \"/* Enter Your Custom Functions Here */\"."
+msgstr "Marcador de posición cambiado a \"/* Ingrese aquí sus funciones personalizadas */\"."
+
+#. Found in changelog list item.
+msgid "The mode of CodeMirror editor changed from 'application/x-httpd-php' (HTML+PHP) to 'text/x-php' (PHP)."
+msgstr "El modo de editor CodeMirror varió de 'application/x-httpd-php' (HTML+PHP) a 'text/x-php' (PHP)."
+
+#. Found in changelog list item.
+msgid "Alfa version."
+msgstr "Versión Alfa."
+
+#. Found in changelog list item.
+msgid "Beta version."
+msgstr "Versión beta."
+
+#. Found in changelog list item.
+msgid "Added ready for translation."
+msgstr "Ahora está listo para traducción."
+
+#. Found in changelog list item.
+msgid "Added the check for safety execution code."
+msgstr "Se agregó la verificación para una ejecución de código más segura."
+
+#. Found in changelog list item.
+msgid "Initial release."
+msgstr "Versión inicial."
+
+#. Found in changelog list item.
+msgid "Fixed positioning of the sidebar at the plugin page."
+msgstr "Posición fija en la barra lateral de la página del plugin."
+
+#. Found in changelog list item.
+msgid "Added the syntax highlighting and line numbering."
+msgstr "Se incorporó el resaltado de sintaxis y la numeración de línea."
+
+#. Found in changelog list item.
+msgid "Minor fixes."
+msgstr "Arreglos menores."
+
+#. Found in changelog list item.
+msgid ".pot file included."
+msgstr "Archivo .pot incluido."
+
+#. Found in changelog list item.
+msgid "Fixed the issue due to which the alert message was appearing after installation."
+msgstr "Se corrigió el error que mostraba un mensaje de alerta después de la instalación."
+
+#. Found in changelog list item.
+msgid "Corrected comments to source code."
+msgstr "Comentarios corregidos en el código fuente."
+
+#. Found in changelog list item.
+msgid "Added \"register_setting\" for error option."
+msgstr "Añadido \"register_setting\" para opciones de error."
+
+#. Found in changelog list item.
+msgid "Fixed the issue due to which nothing appears below line 26 until you click below that line."
+msgstr "Se corrigió la falla por la cual no aparecía nada debajo de la línea 26 hasta que hacías clic debajo de esa línea."
+
+#. Found in changelog list item.
+msgid "The LICENSE file renamed to LICENSE.txt"
+msgstr "El archivo LICENSE se renombró a LICENSE.txt"
+
+#. Found in changelog list item.
+msgid "Changed the style of title in plugin's page."
+msgstr "Cambió el estilo del título en la página del plugin."
+
+#. Found in changelog list item.
+msgid "Textdomain changed to \"mcfunctions\"."
+msgstr "El dominio de texto cambió a \"mcfunctions\"."
+
+#. Found in changelog list item.
+msgid "The javascript from settings_page.php moved to separate file."
+msgstr "El javascript del archivo settings_page.php fue movido a un archivo separado."
+
+#. Found in changelog list item.
+msgid "The stylesheet of plugin's page moved to separate file."
+msgstr "La hoja de estilo de la página del plugin se movió a un archivo separado."
+
+#. Found in changelog list item.
+msgid "CodeMirror scripts are combined and minified."
+msgstr "Los scripts CodeMirror se combinaron y fueron minificados."

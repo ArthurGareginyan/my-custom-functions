@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.3
+Stable tag: 3.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,7 +37,8 @@ Please keep in mind that not all translations are up to date. You are welcome to
 
 * English (default)
 * Russian
-* Chinese-Taiwan (Thanks Gordon Yu)
+* Chinese-Taiwan (translation by Gordon Yu)
+* Spanish (translation by [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 
 **Consider Going Pro For Additional Features!**>**Pro Features**>>* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporary disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented>>[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
@@ -153,6 +154,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.4 =
+* Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 = 3.3 =
 * User's PHP code displayed on settings page are escaped for output by `htmlentities()` instead of `esc_attr()` for prevent converting characters to HTML entities.
 * Added global constant for plugin text-domain.
