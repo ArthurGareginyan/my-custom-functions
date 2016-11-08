@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.4
+Stable tag: 3.4.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 == Description ==
 An easy to use WordPress plugin that gives you the ability to easily and safely add your custome functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
 = Features =
 
@@ -154,6 +154,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.4.1 =
+* Translations updated.
+* Readme for translations updated.
+* Link of banner image updated.
 = 3.4 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 = 3.3 =

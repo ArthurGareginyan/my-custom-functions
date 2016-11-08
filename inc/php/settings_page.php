@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.3
+ * @since 3.4.1
  */
 function MCFunctions_render_submenu_page() {
 
@@ -81,7 +81,7 @@ function MCFunctions_render_submenu_page() {
                         <h3 class="title"><?php _e( 'Upgrade', MCFUNC_TEXT ); ?></h3>
                         <div class="inside">
                             <a href="https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank">
-                                <img src="<?php echo plugins_url('../img/pro-version.png', __FILE__); ?>" alt="PRO">
+                                <img src="https://dl.dropboxusercontent.com/u/42808809/sale/pro-version.png" alt="PRO">
                             </a>
                         </div>
                     </div>
