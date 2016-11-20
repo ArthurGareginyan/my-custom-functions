@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: My Custom Functions\n"
+"POT-Creation-Date: 2016-11-20 16:32+0100\n"
+"PO-Revision-Date: 2016-11-20 16:51+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: my-custom-functions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/php/settings_page.php:23
+msgid "Custom functions updated successfully."
+msgstr "Custom functions mis à jour avec succès"
+
+#: inc/php/settings_page.php:34
+msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
+msgstr ""
+"Désolé, mais votre code provoque une \"erreur fatale\" ; il n'est donc pas "
+"appliqué."
+
+#: inc/php/settings_page.php:35
+msgid "Please, check the code and try again."
+msgstr "Svp, vérifiez le code et réessayez."
+
+#. Plugin Name of the plugin/theme
+#: inc/php/settings_page.php:45 my-custom-functions.php:85
+msgid "My Custom Functions"
+msgstr "My Custom Functions"
+
+#: inc/php/settings_page.php:48
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+msgstr ""
+"par <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+
+#: inc/php/settings_page.php:59
+msgid "About"
+msgstr "A propos"
+
+#: inc/php/settings_page.php:61
+msgid ""
+"This plugin allows you to easily and safely add your custome functions (PHP "
+"code) to your website."
+msgstr ""
+"Ce plugin vous permet d'ajouter facilement et en toute sécurité vos "
+"fonctions personnalisées (code PHP) au fichier functions.php de votre thème/"
+"site."
+
+#: inc/php/settings_page.php:66
+msgid "Using"
+msgstr "Mode d'emploi"
+
+#: inc/php/settings_page.php:68
+msgid ""
+"To use, enter your custom functions, then click \"Save Changes\". It's that "
+"simple!"
+msgstr ""
+"Pour utiliser ce plugin, entrez vos fonctions personnalisées, puis cliquez "
+"\"Enregistrer\". C'est aussi simple que ça !"
+
+#: inc/php/settings_page.php:73
+msgid "Help"
+msgstr "Aide"
+
+#: inc/php/settings_page.php:75
+msgid "Got something to say? Need help?"
+msgstr "Vous souhaitez nous contacter ? Vous avez besoin d'aide ?"
+
+#: inc/php/settings_page.php:81
+msgid "Upgrade"
+msgstr "Evolution"
+
+#: inc/php/settings_page.php:90
+msgid "Donate"
+msgstr "Faire un don"
+
+#: inc/php/settings_page.php:92
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+"Je suis un développeur indépendant, sans revenus réguliers, aussi chaque "
+"modeste contribution m'aide à couvrir les frais et me permet de consacrer "
+"plus de temps à créer des choses que vous appréciez."
+
+#: inc/php/settings_page.php:96
+msgid "Thanks for your support!"
+msgstr "Merci pour votre soutien !"
+
+#: inc/php/settings_page.php:120
+msgid "Functions (PHP code)"
+msgstr "Fonctions (code PHP)"
+
+#: inc/php/settings_page.php:131
+msgid "Save Changes"
+msgstr "Enregistrer"
+
+#: my-custom-functions.php:73
+msgid "Settings"
+msgstr "Réglages"
+
+#: my-custom-functions.php:85
+msgid "Custom Functions"
+msgstr "Custom Functions"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/my-custom-functions"
+msgstr "https://github.com/ArthurGareginyan/my-custom-functions"
+
+#. Description of the plugin/theme
+msgid ""
+"Easily and safely add your custome functions (PHP code) directly out of your "
+"WordPress Dashboard without need of an external editor."
+msgstr ""
+"Ajoutez facilement et en toute sécurité vos fonctions personnalisées (code "
+"PHP) au fichier functions.php directement depuis votre Panneau "
+"d'Administration Wordpress, sans passer par un éditeur externe. "
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Arthur Gareginyan"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr "http://www.arthurgareginyan.com"

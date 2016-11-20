@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.4.1
+Stable tag: 3.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -39,6 +39,7 @@ Please keep in mind that not all translations are up to date. You are welcome to
 * Russian
 * Chinese-Taiwan (translation by Gordon Yu)
 * Spanish (translation by [Ramiro Garcés](http://www.ramirogarces.com.ve/))
+* French (translation by Theophil Bethel)
 
 **Consider Going Pro For Additional Features!**>**Pro Features**>>* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporary disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented>>[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
@@ -154,6 +155,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.5 =
+* Added French translation. (Thanks Theophil Bethel)
+* Image of the donate button changed.
 = 3.4.1 =
 * Translations updated.
 * Readme for translations updated.
