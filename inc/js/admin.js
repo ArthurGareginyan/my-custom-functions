@@ -1,8 +1,11 @@
 /*
- * JS functions for plugin settings page
+ * Plugin JavaScript and JQuery code for the admin pages of website
  *
- * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
- * All Rights Reserved.
+ * @package     My Custom Functions
+ * @uthor       Arthur Gareginyan
+ * @link        http://www.arthurgareginyan.com
+ * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
+ * @since       4.0
  */
 
 
@@ -35,5 +38,23 @@ jQuery(document).ready(function($) {
             $(".updated").fadeOut();
         }, 3000);
     }
+
+    // Dynamic content
+    $( ".include-tab-author" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-author" );
+    $( ".include-tab-support" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-support" );
+    $( ".include-tab-family" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-family" );
+    $( ".additional-css" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/styles.html" );
+
+    // Add questions and answers into spoilers and color them in different colors
+    $(".panel-group .panel").each(function(i) {
+         $( ".question-" + (i+1) ).appendTo( $("h4", this) );
+         $( ".answer-" + (i+1) ).appendTo( $(".panel-body", this) );
+
+         if ( $(this).find("h4 div").hasClass('question-red') ) {
+             $(this).addClass('panel-danger');
+         } else {
+             $(this).addClass('panel-info');
+         }
+    });
 
 });

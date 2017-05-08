@@ -1,40 +1,128 @@
 /*
  * Style sheet for plugin settings page
  *
- * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
- * All Rights Reserved.
+ * @package     My Custom Functions
+ * @uthor       Arthur Gareginyan
+ * @link        http://www.arthurgareginyan.com
+ * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
+ * @since       4.0
  */
 
 
-/* Titles
+/* Main
+ -------------------------------------------------------------- */
+body {
+    background: #f1f1f1 !important;
+}
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+.postbox a {
+    text-decoration: none;
+}
+
+/* Title and Description of page
  -------------------------------------------------------------- */
 h2 {
+    padding: 30px 30px !important;
+    background-color: #333;
+    color: #e0dfdc !important;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif !important;
+    font-size: 60px !important;
     text-align: center;
-    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 -1px 0 #fff,
+                 0 1px 0 #2e2e2e,
+                 0 2px 0 #2a2a2a,
+                 0 3px 0 #262626,
+                 0 4px 0 #222,
+                 0 5px 0 #1e1e1e,
+                 0 6px 0 #1a1a1a,
+                 0 7px 0 #161616,
+                 0 8px 0 #121212,
+                 0 22px 30px rgba(0, 0, 0, 0.9);
+    letter-spacing: .1em;
+    line-height: 50px !important;
+    overflow: hidden;
 }
-
 h2 span {
-    margin-top: 1px;
-    font-size: 0.6em;
-    color: black;
-    display: inline;
-    padding: 0;
+    content: '\A';
+    display: block ;
+    margin-top: 15px;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 #fff,
+                 0 1px 0 #2e2e2e,
+                 0 2px 0 #2a2a2a,
+                 0 3px 0 #262626,
+                 0 4px 0 #222,
+                 0 5px 0 #1e1e1e,
+                 0 6px 0 #1a1a1a,
+                 0 7px 0 #161616,
+                 0 8px 0 #121212,
+                 0 22px 30px rgba(0, 0, 0, 0.9);
+    line-height: 20px !important;
+}
+h2 span a,
+h2 span a:hover {
+    color: #ffffff;
+}
+h2 span a:hover {
+    text-shadow: none;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-h2 span a {
-    display: inline;
-    padding: 0;
-}
-
+/* Titles and Descriptions of sections
+ -------------------------------------------------------------- */
 h3.title {
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 16px !important;
+    font-weight: 400;
     border-bottom: 1px solid #eee;
 }
 
-/* Messages
+/* Modal - PopUp windows
  -------------------------------------------------------------- */
-#setting-error-settings_updated {
-    display: none;
+.modal-dialog {
+    margin-top: 15% !important;
+}
+.hello-message .modal-body {
+    height: 180px;
+}
+.hello-message .modal-body img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.hello-message .modal-body p {
+    font-size: 16px;
+}
+.hello-message .modal-body p:first-of-type {
+    padding-top: 5%;
+}
+.error-message .modal-body {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Notes
+ -------------------------------------------------------------- */
+.note {
+    padding: 0.30em 1.0em;
+    border-left: 3px solid #05c2ff;
+    border-right: 3px solid #05c2ff;
+    background: rgba(5, 194, 255, 0.09);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    color: #646464;
+    padding-left: 15px;
+    letter-spacing: 0.1px;
 }
 
 /* Sidebar
@@ -51,16 +139,295 @@ h3.title {
     margin: 0;
 }
 
+#side-sortables .paypal {
+    font-size: 18px;
+}
+
+/* Support - addition section
+ -------------------------------------------------------------- */
+#support-addition {
+    display: none;
+}
+#support-addition .paypal {
+    font-size: 18px;
+}
+
 /* Responsive page
  -------------------------------------------------------------- */
 @media (max-width: 860px) {
     .inner-sidebar {
         display: none !important;
     }
+    #support-addition {
+        display: block;
+    }
     #post-body-content {
         margin-right: 0 !important;
     }
 }
+
+/* Tabs pages
+ -------------------------------------------------------------- */
+.tab-page {
+    display: none;
+}
+.tab-page.active {
+    display: block;
+}
+.tab-page li {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+
+/* Tabs navigation menu
+ -------------------------------------------------------------- */
+.tabs-nav {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin: -11px 0px 18px 0px;
+    background: #ffffff;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+    border-radius: 0.30rem;
+}
+.tabs-nav:after {
+    content: '';
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+.tabs-nav li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: 0px;
+}
+.tabs-nav li:first-of-type a {
+    border-radius: 3px 0 0 3px;
+}
+.tabs-nav li.active:before {
+    position: absolute;
+    content: '';
+    top: 0%;
+    right: 0px;
+    height: 100%;
+    width: 1px;
+    background: rgba(34, 36, 38, 0.1);
+}
+.tabs-nav li.active:after {
+    background-color: #f2f2f2;
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    margin: 0.8px 0em 0em;
+    width: 0.6em;
+    height: 0.6em;
+    border: none;
+    border-bottom: 1px solid #d4d4d5;
+    border-right: 1px solid #d4d4d5;
+    -webkit-transition: background 0.1s ease;
+    transition: background 0.1s ease;
+}
+
+.tabs-nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    line-height: 1.8;
+    color: grey;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #ffffff;
+}
+.tabs-nav li a:hover,
+.tabs-nav li a:focus {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.03);
+    border-color: #eeeeee;
+}
+.tabs-nav li.active a,
+.tabs-nav li.active a:hover,
+.tabs-nav li.active a:focus {
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.95);
+    font-weight: normal;
+    border-color: #eeeeee;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+@media (max-width:500px) {
+    .tabs-nav li:last-of-type {
+        display: none;
+    }
+}
+@media (max-width:413px) {
+    .tabs-nav li:nth-last-of-type(2) {
+        display: none;
+    }
+}
+
+/* Spoilers
+ -------------------------------------------------------------- */
+.panel-group {
+    margin-top: 10px;
+}
+.panel-heading a {
+    text-decoration: none !important;
+}
+.panel-title,
+.panel-title:before,
+.panel-body:before  {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6d6d6d !important;
+    text-shadow: 1px 1px 0px #fff;
+}
+.panel-title:before  {
+    content: "Q.";
+    display: inline-block;
+    color: red !important;
+    padding-right: 8px;
+}
+.panel-title:after {
+    content: "\25BC";
+    display: inline-block;
+    float: right;
+    margin: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: gray;
+}
+.panel-title > div {
+    display: inline;
+}
+.panel-body:before {
+    content: "A." !important;
+    display: inline-block !important;
+    color: #00a5e2 !important;
+    padding-right: 8px;
+}
+.panel-body {
+    display: inline-block;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+.panel-body > div {
+    display: inline;
+}
+
+/* Custom List Numbers
+ -------------------------------------------------------------- */
+.custom-counter {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+.custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 15px;
+}
+.custom-counter li::before {
+    content: counter(step-counter);
+    margin-left: -30px;
+    margin-right: 8px;
+    font-size: 90%;
+    background-color: rgb(0,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 4px 7px;
+    border-radius: 50%;
+}
+
+/* WordPress Color Picker
+ -------------------------------------------------------------- */
+.wp-picker-container a {
+    text-decoration: none !important;
+}
+.wp-color-result {
+    height: 30px;
+}
+.wp-color-result:after {
+    line-height: 28px;
+}
+
+/* ON/OFF Buttons
+ -------------------------------------------------------------- */
+.btn {
+    border-radius: 0 !important;
+}
+
+/* Form-table
+ -------------------------------------------------------------- */
+.form-table {
+    clear: none;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+.form-table tr {
+    vertical-align: top;
+}
+.form-table th,
+.form-table td {
+    padding-bottom: 10px;
+}
+
+/* Help text
+ -------------------------------------------------------------- */
+td.help-text {
+    width: 90%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px !important;
+    font-style: italic;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0px !important;
+}
+
+/* INPUT and TEXTAREA
+ -------------------------------------------------------------- */
+textarea {
+    max-width: 600px;
+    width: 90%;
+}
+.form-table input[type=text] {
+    max-width: 90%;
+}
+
+textarea,
+.form-table input[type=text] {
+    padding-top: 5px;
+    background: #fcfcfc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* SPECIFIC TO THIS PLUGIN
+ -------------------------------------------------------------- */
 
 /* CodeMirror Editor
  -------------------------------------------------------------- */
@@ -71,10 +438,10 @@ h3.title {
     margin-right: 5px;
 }
 
-/* Other
+/* Messages
  -------------------------------------------------------------- */
-.postbox a {
-    text-decoration: none;
+#setting-error-settings_updated {
+    display: none;
 }
 
 /* On/Off Trigger
@@ -82,8 +449,7 @@ h3.title {
 .trigger {
     margin-left: auto;
     margin-right: 0;
-    margin-top: -20px;
-    height: 23px;
+    margin-top: -26px;
     padding-top: 5px;
     width: 80px;
     background: #f2f2f2;
