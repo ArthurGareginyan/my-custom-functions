@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.5
+ * @since 4.0.1
  */
 function MCFunctions_render_submenu_page() {
 
@@ -136,11 +136,13 @@ function MCFunctions_render_submenu_page() {
                         <div class="answer-5"><?php _e( 'I don\'t limit the number of characters.', MCFUNC_TEXT ); ?></div>
 
                         <div class="question-6 question-red"><?php _e( 'On the plugin settings page, an error message appears. What could be wrong?', MCFUNC_TEXT ); ?></div>
-                        <div class="answer-6"><?php _e( 'Here are a few of the most likely causes of the error message:', MCFUNC_TEXT ); ?><br><br>
-                                              <?php _e( '1. You make a syntax error in the code that you have entered. Check the syntax of your code and try again.', MCFUNC_TEXT ); ?><br>
-                                              <?php _e( '2. You entered two functions with the same name. Use a unique names for your functions.', MCFUNC_TEXT ); ?><br>
-                                              <?php _e( '3. You have entered function with a name that is already occupied by another function. Use a unique name for your function.', MCFUNC_TEXT ); ?><br>
-                                              <?php _e( '4. You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.', MCFUNC_TEXT ); ?></div>
+                        <div class="answer-6"><?php _e( 'Here are a few of the most likely causes of the error message:', MCFUNC_TEXT ); ?>
+                                              <ol class="custom-counter">
+                                                    <li><?php _e( 'You make a syntax error in the code that you have entered. Check the syntax of your code and try again.', MCFUNC_TEXT ); ?></li>
+                                                    <li><?php _e( 'You entered two functions with the same name. Use a unique names for your functions.', MCFUNC_TEXT ); ?></li>
+                                                    <li><?php _e( 'You have entered function with a name that is already occupied by another function. Use a unique name for your function.', MCFUNC_TEXT ); ?></li>
+                                                    <li><?php _e( 'You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.', MCFUNC_TEXT ); ?></li>
+                                              </ol></div>
 
                         <div class="question-7"><?php _e( 'Does this plugin requires any modification of the theme?', MCFUNC_TEXT ); ?></div>
                         <div class="answer-7"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', MCFUNC_TEXT ); ?></div>

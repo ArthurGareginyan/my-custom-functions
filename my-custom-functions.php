@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom functions (PHP code) directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0
+ * Version: 4.0.1
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -62,7 +62,7 @@ defined('MCFUNC_BASE') or define('MCFUNC_BASE', plugin_basename(__FILE__));
 defined('MCFUNC_URL') or define('MCFUNC_URL', plugin_dir_url(__FILE__));
 defined('MCFUNC_PATH') or define('MCFUNC_PATH', plugin_dir_path(__FILE__));
 defined('MCFUNC_TEXT') or define('MCFUNC_TEXT', 'my-custom-functions');
-defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '4.0');
+defined('MCFUNC_VERSION') or define('MCFUNC_VERSION', '4.0.1');
 
 /**
  * Load the plugin modules

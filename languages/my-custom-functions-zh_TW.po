@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2017-05-07 13:23+0300\n"
-"PO-Revision-Date: 2017-05-07 13:23+0300\n"
+"POT-Creation-Date: 2017-05-12 21:53+0300\n"
+"PO-Revision-Date: 2017-05-12 21:53+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -87,11 +87,11 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:45 inc/php/page.php:197
+#: inc/php/page.php:45 inc/php/page.php:199
 msgid "Author"
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/page.php:206 inc/php/settings.php:37
+#: inc/php/page.php:46 inc/php/page.php:208 inc/php/settings.php:37
 #: inc/php/settings.php:90
 msgid "Support"
 msgstr ""
@@ -213,56 +213,56 @@ msgstr ""
 msgid "Here are a few of the most likely causes of the error message:"
 msgstr ""
 
-#: inc/php/page.php:140
-msgid ""
-"1. You make a syntax error in the code that you have entered. Check the "
-"syntax of your code and try again."
-msgstr ""
-
 #: inc/php/page.php:141
 msgid ""
-"2. You entered two functions with the same name. Use a unique names for your "
-"functions."
+"You make a syntax error in the code that you have entered. Check the syntax "
+"of your code and try again."
 msgstr ""
 
 #: inc/php/page.php:142
 msgid ""
-"3. You have entered function with a name that is already occupied by another "
-"function. Use a unique name for your function."
+"You entered two functions with the same name. Use a unique names for your "
+"functions."
 msgstr ""
 
 #: inc/php/page.php:143
 msgid ""
-"4. You are trying to overwrite an existing function (of WordPress, theme, or "
+"You have entered function with a name that is already occupied by another "
+"function. Use a unique name for your function."
+msgstr ""
+
+#: inc/php/page.php:144
+msgid ""
+"You are trying to overwrite an existing function (of WordPress, theme, or "
 "plugin). Instead, use filters and hooks."
 msgstr ""
 
-#: inc/php/page.php:145
+#: inc/php/page.php:147
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:146
+#: inc/php/page.php:148
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
 msgstr ""
 
-#: inc/php/page.php:148
+#: inc/php/page.php:150
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:151
 msgid ""
 "This plugin can be configured with no knowledge of HTML or CSS, using an "
 "easy-to-use plugin settings page. But you need to know the HTML or CSS in "
 "order to add/remove/modify the HTML or CSS code by using this plugin."
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:153
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:152
+#: inc/php/page.php:154
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -271,7 +271,7 @@ msgid ""
 "browser's cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:153
+#: inc/php/page.php:155
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
 "support request in the plugin's support forum on WordPress.org, I'd be happy "
@@ -279,11 +279,11 @@ msgid ""
 "possible, including a link to your website where the problem can be seen."
 msgstr ""
 
-#: inc/php/page.php:155
+#: inc/php/page.php:157
 msgid "What to do if this plugin caused the white screen (WSOD)?"
 msgstr ""
 
-#: inc/php/page.php:156
+#: inc/php/page.php:158
 msgid ""
 "This plugin is not perfect, so there are times when the entered custom code "
 "causes the error and white screen (WSOD). This is due to the fact that your "
@@ -291,25 +291,25 @@ msgid ""
 "happened with you then do the following and all will be fine."
 msgstr ""
 
-#: inc/php/page.php:158
+#: inc/php/page.php:160
 msgid ""
 "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-"
 "functions/</code>). Rename the \"START\" file to \"STOP\"."
 msgstr ""
 
-#: inc/php/page.php:159
+#: inc/php/page.php:161
 msgid "Return to the plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:160
+#: inc/php/page.php:162
 msgid "Edit/fix your custom code that you entered before the crash."
 msgstr ""
 
-#: inc/php/page.php:161
+#: inc/php/page.php:163
 msgid "Rename the \"STOP\" file to \"START\" and you're done!"
 msgstr ""
 
-#: inc/php/page.php:163
+#: inc/php/page.php:165
 msgid ""
 "This plugin stored you entered code in the Database of your website. For "
 "getting your code, you also can go to the <code>Database</code> &#10145; "
@@ -317,31 +317,31 @@ msgid ""
 "<code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>."
 msgstr ""
 
-#: inc/php/page.php:165
+#: inc/php/page.php:167
 msgid "Where to report bug if found?"
 msgstr ""
 
-#: inc/php/page.php:167
+#: inc/php/page.php:169
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 
-#: inc/php/page.php:173
+#: inc/php/page.php:175
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:175
+#: inc/php/page.php:177
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s "
 "arthurgareginyan@gmail.com %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:181
+#: inc/php/page.php:183
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:183
+#: inc/php/page.php:185
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, "
