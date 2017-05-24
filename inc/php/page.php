@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Page
  *
- * @since 4.0.1
+ * @since 4.1
  */
 function MCFunctions_render_submenu_page() {
 
@@ -24,7 +24,7 @@ function MCFunctions_render_submenu_page() {
     ?>
     <div class="wrap">
         <h2>
-            <?php _e( 'My Custom Functions', MCFUNC_TEXT ); ?>
+            <?php echo MCFUNC_NAME; ?>
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', MCFUNC_TEXT ),
@@ -47,7 +47,6 @@ function MCFunctions_render_submenu_page() {
                 <li><a href="#tab-family" data-toggle="tab"><?php _e( 'Family', MCFUNC_TEXT ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
-
 
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
@@ -91,7 +90,7 @@ function MCFunctions_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '13';
+                                $loopvalue = '14';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -164,24 +163,27 @@ function MCFunctions_render_submenu_page() {
                                               </ol>
                                               <?php _e( 'This plugin stored you entered code in the Database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>.', MCFUNC_TEXT ); ?></div>
 
-                        <div class="question-11 question-red"><?php _e( 'Where to report bug if found?', MCFUNC_TEXT ); ?></div>
-                        <div class="answer-11"><?php printf(
+                        <div class="question-11 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', MCFUNC_TEXT ); ?></div>
+                        <div class="answer-11"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', MCFUNC_TEXT ); ?></div>
+
+                        <div class="question-12 question-red"><?php _e( 'Where to report bug if found?', MCFUNC_TEXT ); ?></div>
+                        <div class="answer-12"><?php printf(
                                                             __( 'Please visit the %s Dedicated Plugin Page on GitHub %s and report.', MCFUNC_TEXT ),
                                                                 '<a href="https://github.com/ArthurGareginyan/my-custom-functions" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-12"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', MCFUNC_TEXT ); ?></div>
-                        <div class="answer-12"><?php printf(
+                        <div class="question-13"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', MCFUNC_TEXT ); ?></div>
+                        <div class="answer-13"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!', MCFUNC_TEXT ),
                                                                 '<a href="mailto:arthurgareginyan@gmail.com?subject=My Custom Functions">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-13"><?php _e( 'I love this plugin! Can I help somehow?', MCFUNC_TEXT ); ?></div>
-                        <div class="answer-13"><?php printf(
+                        <div class="question-14"><?php _e( 'I love this plugin! Can I help somehow?', MCFUNC_TEXT ); ?></div>
+                        <div class="answer-14"><?php printf(
                                                             __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', MCFUNC_TEXT ),
                                                                 '<a href="http://www.arthurgareginyan.com/donate.html" target="_blank">',
                                                                 '</a>'

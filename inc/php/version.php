@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Function for managing information about the version number of the plugin
  *
- * @since 4.0.1
+ * @since 4.1
  */
 function MCFunctions_plugin_version_number() {
 
@@ -19,7 +19,7 @@ function MCFunctions_plugin_version_number() {
     // - Make the "$info" array if the plugin service information in the database is not exist
     // - Get the current plugin version number from the database
     // - Get the new plugin version number from the global constant
-    $info = get_option( 'anarcho_cfunctions_service_info' );
+    $info = get_option( MCFUNC_SETTINGS . '_service_info' );
     if ( !is_array( $info ) ) {
         $info = array();
     }
@@ -39,7 +39,7 @@ function MCFunctions_plugin_version_number() {
         if ( $info['old_version'] == '1' ) {
 
             $info['old_version'] = '0';
-            update_option( 'anarcho_cfunctions_service_info', $info );
+            update_option( MCFUNC_SETTINGS . '_service_info', $info );
 
         }
 
@@ -54,7 +54,7 @@ function MCFunctions_plugin_version_number() {
 
         $info['version'] = $new_number;
         $info['old_version'] = '0';
-        update_option( 'anarcho_cfunctions_service_info', $info );
+        update_option( MCFUNC_SETTINGS . '_service_info', $info );
 
         return;
     }
@@ -65,7 +65,7 @@ function MCFunctions_plugin_version_number() {
     if ( $new_number < $current_number ) {
 
         $info['old_version'] = '1';
-        update_option( 'anarcho_cfunctions_service_info', $info );
+        update_option( MCFUNC_SETTINGS . '_service_info', $info );
 
         return;
     }

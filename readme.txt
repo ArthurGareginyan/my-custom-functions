@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.0.1
+Stable tag: 4.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -130,6 +130,9 @@ A. This plugin is not perfect, so there are times when the entered custom code c
 
 This plugin stored you entered code in the Database of your website. For getting your code, you also can go to the `Database` -> Table "`wp_options`" -> Option "`anarcho_cfunctions_settings`" -> "`option_value`".
 
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
+A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
+
 = Q. Where to report bug if found? =
 A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions) and report.
 
@@ -171,6 +174,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.1 =
+* Added new constants: "_SLUG", "_PREFIX", "_SETTINGS" and "_NAME".
+* Value of the "_VERSION" constant replaced with information from the plugin header data.
+* All references to the plugin name, slug, prefix are replaced with constants.
+* The "name" attribute removed from the "<form>" tag.
+* Code formatting improved.
+* F.A.Q. section updated.
 
 = 4.0.1 =
 * Fixed the bug due to which the the "Warning: Illegal string offset 'version' in" and the "Warning: Illegal string offset 'old_version' in" warnings are displayed. (Thanks to Sven Brill)
@@ -345,11 +356,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+
 = 4.0 =
 Please update to new release!
+
 = 3.0 =
 Please update to new release!
+
 = 2.0 =
 Please update to new release!
+
 = 1.0 =
 Please update to first stable release!

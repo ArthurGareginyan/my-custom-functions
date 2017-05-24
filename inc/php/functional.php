@@ -5,14 +5,14 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Prepare the user entered code for execution
  *
  * @since 2.4
  */
-function MCFunctions_prepare($content) {
+function MCFunctions_prepare( $content ) {
 
     // Cleaning
     $content = trim( $content );
@@ -26,9 +26,9 @@ function MCFunctions_prepare($content) {
 /**
  * Check the user entered code for duplicate names of functions
  *
- * @since 2.5.1
+ * @since 4.1
  */
-function MCFunctions_duplicates($content) {
+function MCFunctions_duplicates( $content ) {
 
     // Find names of user entered functions and check for duplicates
     preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $content, $user_func_names);
@@ -42,10 +42,10 @@ function MCFunctions_duplicates($content) {
 
     // Update error status
     if ( $user_func_a != $user_func_b OR count( $declared_func_user ) != 0 OR count( $declared_func_internal ) != 0 ) {
-        update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
+        update_option( MCFUNC_SETTINGS . '_error', '1' );   // ERROR
         $error_status = '1';
     } else {
-        update_option( 'anarcho_cfunctions_error', '0' );   // RESET ERROR VALUE
+        update_option( MCFUNC_SETTINGS . '_error', '0' );   // RESET ERROR VALUE
         $error_status = '0';
     }
 
@@ -56,7 +56,7 @@ function MCFunctions_duplicates($content) {
 /**
  * Execute the user entered code
  *
- * @since 3.2
+ * @since 4.1
  */
 function MCFunctions_exec() {
 
@@ -66,7 +66,7 @@ function MCFunctions_exec() {
     }
 
     // Read data from DB
-    $options = get_option( 'anarcho_cfunctions_settings' );
+    $options = get_option( MCFUNC_SETTINGS . '_settings' );
     $content = isset( $options['anarcho_cfunctions-content'] ) && !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : ' ';
     $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';
 
@@ -76,25 +76,25 @@ function MCFunctions_exec() {
     }
 
     // Prepare the user entered functions by calling the "prepare" function
-    $content = MCFunctions_prepare($content);
+    $content = MCFunctions_prepare( $content );
 
     // If content is empty...
-    if ( empty($content) OR $content == ' ' ) {
+    if ( empty( $content ) OR $content == ' ' ) {
         return;   // EXIT
     }
 
     // If the duplicates functions finded...
-    $duplicates = MCFunctions_duplicates($content);
+    $duplicates = MCFunctions_duplicates( $content );
     if ( $duplicates != 0 ) {
         return;   // EXIT
     }
 
     // Parsing and execute by Eval
     if ( false === @eval( $content ) ) {
-        update_option( 'anarcho_cfunctions_error', '1' );   // ERROR
+        update_option( MCFUNC_SETTINGS . '_error', '1' );   // ERROR
         return;   // EXIT
     } else {
-        update_option( 'anarcho_cfunctions_error', '0' );   // RESET ERROR VALUE
+        update_option( MCFUNC_SETTINGS . '_error', '0' );   // RESET ERROR VALUE
     }
 }
 MCFunctions_exec();

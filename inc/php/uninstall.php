@@ -5,15 +5,15 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
  *
- * @since 0.1
+ * @since 4.1
  */
 function MCFunctions_uninstall() {
-    delete_option( 'anarcho_cfunctions_settings' );
-    delete_option( 'anarcho_cfunctions_error' );
+    delete_option( MCFUNC_SETTINGS . '_settings' );
+    delete_option( MCFUNC_SETTINGS . '_error' );
 }
-register_uninstall_hook( __FILE__, 'MCFunctions_uninstall' );
+register_uninstall_hook( __FILE__, MCFUNC_PREFIX . '_uninstall' );

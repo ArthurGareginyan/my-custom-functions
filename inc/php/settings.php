@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 3.5
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -46,7 +46,7 @@ defined('ABSPATH') or die("Restricted access!");
                 <h3 class="title"><?php _e( 'Help', MCFUNC_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'Got something to say? Need help?', MCFUNC_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=My Custom Functions">arthurgareginyan@gmail.com</a></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo MCFUNC_NAME; ?>">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -59,14 +59,14 @@ defined('ABSPATH') or die("Restricted access!");
         <div id="post-body-content" class="has-sidebar-content">
             <div class="meta-box-sortabless">
 
-                <form name="anarcho_cfunctions-form" action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( 'anarcho_cfunctions_settings_group' ); ?>
+                <form action="options.php" method="post" enctype="multipart/form-data">
+                    <?php settings_fields( MCFUNC_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the BD
-                        $options = get_option( 'anarcho_cfunctions_settings' );
+                        $options = get_option( MCFUNC_SETTINGS . '_settings' );
 
-                        // Declare variables
+                        // Set default value if the option is empty
                         $content = isset( $options['anarcho_cfunctions-content'] ) && !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '/* Enter Your Custom Functions Here */';
                         $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) && $options['enable'] == "on" ? 'checked' : ' ';
                     ?>
@@ -86,7 +86,7 @@ defined('ABSPATH') or die("Restricted access!");
 
                     <?php submit_button( __( 'Save Changes', MCFUNC_TEXT ), 'primary', 'submit', true ); ?>
 
-                    <div id="support-addition" class="postbox">
+                    <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', MCFUNC_TEXT ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', MCFUNC_TEXT ); ?></p>
