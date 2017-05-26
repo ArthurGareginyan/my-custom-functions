@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.1
+Stable tag: 4.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -175,11 +175,22 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.2 =
+* Compatibility with PHP version 5.2 improved.
+* PHP shorthands improved.
+* Added function for generating the plugin constants.
+* Some constants now get the value from the plugin header data.
+* The "_plugin_version_number" function improved.
+* Added file "upgrade.php" for future upgrades.
+
+= 4.1.1 =
+* Fixed the bug due to which the "Warning: Constants may only evaluate to scalar values in" warning are displayed.
+
 = 4.1 =
 * Added new constants: "_SLUG", "_PREFIX", "_SETTINGS" and "_NAME".
 * Value of the "_VERSION" constant replaced with information from the plugin header data.
 * All references to the plugin name, slug, prefix are replaced with constants.
-* The "name" attribute removed from the "<form>" tag.
+* The "name" attribute removed from the "form" tag.
 * Code formatting improved.
 * F.A.Q. section updated.
 

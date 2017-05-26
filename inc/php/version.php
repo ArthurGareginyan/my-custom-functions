@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Function for managing information about the version number of the plugin
  *
- * @since 4.1
+ * @since 4.2
  */
 function MCFunctions_plugin_version_number() {
 
@@ -23,13 +23,16 @@ function MCFunctions_plugin_version_number() {
     if ( !is_array( $info ) ) {
         $info = array();
     }
-    $current_number = isset( $info['version'] ) && !empty( $info['version'] ) ? $info['version'] : '0';
+    $current_number = !empty( $info['version'] ) ? $info['version'] : '0';
     $new_number = MCFUNC_VERSION;
 
-    // Call the upgrade function if the version number in the database is smaller than the 1.0
-    //if ( $current_number < '1.0' ) {
-    //    MCFunctions_upgrade_1_0();
-    //}
+    // Update the "_service_info" data in the database if the version number is not number
+    if ( !is_numeric($current_number) ) {
+
+        $info['version'] = $new_number;
+        update_option( MCFUNC_SETTINGS . '_service_info', $info );
+
+    }
 
     // If the version number in the database is same as the new version number:
     // - Reset the "old_version" marker in the database
