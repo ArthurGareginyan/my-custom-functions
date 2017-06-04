@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2017-05-23 08:34+0300\n"
-"PO-Revision-Date: 2017-05-23 08:34+0300\n"
+"POT-Creation-Date: 2017-06-04 13:31+0300\n"
+"PO-Revision-Date: 2017-06-04 13:31+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -86,8 +86,8 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/page.php:210 inc/php/settings.php:37
-#: inc/php/settings.php:90
+#: inc/php/page.php:46 inc/php/page.php:210 inc/php/settings.php:38
+#: inc/php/settings.php:91
 msgid "Support"
 msgstr ""
 
@@ -275,29 +275,35 @@ msgid ""
 msgstr ""
 
 #: inc/php/page.php:156
-msgid "What to do if this plugin caused the white screen (WSOD)?"
+msgid "What to do if this plugin crashed the website?"
 msgstr ""
 
 #: inc/php/page.php:157
 msgid ""
-"This plugin is not perfect, so there are times when the entered custom code "
-"causes the error and white screen (WSOD). This is due to the fact that your "
-"custom code has a syntax error that this plugin could not detect. If this "
-"happened with you then do the following and all will be fine."
+"This plugin has a built-in functions for checking the custom code for syntax "
+"errors, duplicate functions names, and etc. But plugin is not perfect, so "
+"there are times when the entered custom code causes the error and white "
+"screen (WSOD). This is due to the fact that your custom code has a syntax "
+"error that this plugin could not detect. When this happens with you just do "
+"the following and all will be fine."
 msgstr ""
 
 #: inc/php/page.php:159
 msgid ""
 "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-"
-"functions/</code>). Rename the \"START\" file to \"STOP\"."
+"functions/</code>)."
 msgstr ""
 
 #: inc/php/page.php:160
-msgid "Return to the plugin settings page."
+msgid ""
+"Rename the \"START\" file to \"STOP\". This will stop the execution of your "
+"custom code."
 msgstr ""
 
 #: inc/php/page.php:161
-msgid "Edit/fix your custom code that you entered before the crash."
+msgid ""
+"Return to the plugin settings page and edit/fix your custom code that you "
+"entered before the crash."
 msgstr ""
 
 #: inc/php/page.php:162
@@ -306,7 +312,7 @@ msgstr ""
 
 #: inc/php/page.php:164
 msgid ""
-"This plugin stored you entered code in the Database of your website. For "
+"This plugin stored you entered code in the database of your website. For "
 "getting your code, you also can go to the <code>Database</code> &#10145; "
 "Table <code>wp_options</code> &#10145; Option "
 "<code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>."
@@ -368,38 +374,42 @@ msgid ""
 "code) to your website."
 msgstr ""
 
-#: inc/php/settings.php:28
+#: inc/php/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: inc/php/settings.php:29
 msgid "Upgrade"
 msgstr ""
 
-#: inc/php/settings.php:39 inc/php/settings.php:92
+#: inc/php/settings.php:40 inc/php/settings.php:93
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:40 inc/php/settings.php:93
+#: inc/php/settings.php:41 inc/php/settings.php:94
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:41 inc/php/settings.php:94
+#: inc/php/settings.php:42 inc/php/settings.php:95
 msgid "Thanks for your support!"
 msgstr "謝謝您的贊助！"
 
-#: inc/php/settings.php:46
+#: inc/php/settings.php:47
 msgid "Help"
 msgstr "幫助"
 
-#: inc/php/settings.php:48
+#: inc/php/settings.php:49
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings.php:76
+#: inc/php/settings.php:77
 msgid "Functions (PHP code)"
 msgstr ""
 
-#: inc/php/settings.php:87
+#: inc/php/settings.php:88
 msgid "Save Changes"
 msgstr "儲存變更"
 

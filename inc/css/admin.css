@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        http://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.0
+ * @since       4.3
  */
 
 
@@ -141,6 +141,10 @@ h3.title {
 
 #side-sortables .paypal {
     font-size: 18px;
+}
+#side-sortables .version {
+    color: #888888;
+    text-align: right;
 }
 
 /* Support - addition section

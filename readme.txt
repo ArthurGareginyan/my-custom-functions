@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: code, php, function, snippet, custom, execute, edit, editing, editor, functionality plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.7
-Stable tag: 4.2
+Tested up to: 4.8
+Stable tag: 4.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,9 +57,9 @@ If you would like to add a translation to this plugin then please head to our [T
 == Installation ==
 Install "My Custom Functions" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin area:
+Automatically via WordPress Admin Panel:
 
-1. Log into Admin area of your WordPress website.
+1. Log into Admin Panel of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -69,7 +69,7 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin area of your WordPress website.
+4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
 After installation, a "`Custom Functions`" menu item will appear in the "`Appearance`" section. Click on this in order to view plugin administration page.
@@ -120,15 +120,15 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. What to do if this plugin caused the white screen (WSOD)? =
-A. This plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. If this happened with you then do the following and all will be fine.
+= Q. What to do if this plugin crashed the website? =
+A. This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you just do the following and all will be fine.
 
-1. Via FTP, go to the plugin folder (in `wp-content/plugins/my-custom-functions/`). Rename the "`START`" file to "`STOP`".
-2. Return to the plugin settings page.
-3. Edit/fix your custom code that you entered before the crash.
-4. Rename the "`STOP`" file to "`START`" and you're done!
+1. Via FTP, go to the plugin folder (in 'wp-content/plugins/my-custom-functions/').
+2. Rename the "START" file to "STOP". This will stop the execution of your custom code.
+3. Return to the plugin settings page and edit/fix your custom code that you entered before the crash.
+4. Rename the "STOP" file to "START" and you're done!
 
-This plugin stored you entered code in the Database of your website. For getting your code, you also can go to the `Database` -> Table "`wp_options`" -> Option "`anarcho_cfunctions_settings`" -> "`option_value`".
+This plugin stored you entered code in the database of your website. For getting your code, you also can go to the `Database` -> Table "`wp_options`" -> Option "`anarcho_cfunctions_settings`" -> "`option_value`".
 
 = Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
@@ -174,6 +174,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.3 =
+* To the plugin settings page added information about the plugin version number.
+* The "Tested up to:" comment changed to 4.8 after full testing process.
+* The "version.php" file renamed to "versioning.php".
+* The "versioning.php" file updated to new version.
+* The "_plugin_version_number" function renamed to the "_versioning".
+* Content of the FAQ tab updated.
+* Values of the variables on the settings page are improved.
 
 = 4.2 =
 * Compatibility with PHP version 5.2 improved.

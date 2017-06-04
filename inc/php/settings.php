@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.2
+ * @since 4.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', MCFUNC_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily and safely add your custom functions (PHP code) to your website.', MCFUNC_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', MCFUNC_TEXT ); ?> <?php echo MCFUNC_VERSION; ?></p>
                 </div>
             </div>
 
@@ -67,8 +68,8 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $options = get_option( MCFUNC_SETTINGS . '_settings' );
 
                         // Set default value if option is empty
-                        $content = $options['anarcho_cfunctions-content'] ? $options['anarcho_cfunctions-content'] : '/* Enter your custom functions here */';
-                        $enable = ( $options['enable'] == "on" ) ? 'checked' : ' ';
+                        $content = !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : '/* Enter your custom functions here */';
+                        $enable = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : ' ';
                     ?>
 
                     <div class="postbox">
