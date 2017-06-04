@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - My Custom Functions - Development Readme (trunk)\n"
-"POT-Creation-Date: 2017-06-04 13:31+0300\n"
-"PO-Revision-Date: 2017-06-04 13:31+0300\n"
+"POT-Creation-Date: 2017-06-04 20:36+0300\n"
+"PO-Revision-Date: 2017-06-04 20:36+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: inc/php/messages.php:32
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it %s"
+msgid "Thank you for installing my plugin! I hope you will love it! %s"
 msgstr ""
 
 #: inc/php/messages.php:67

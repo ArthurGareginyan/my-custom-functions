@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2017-06-04 13:31+0300\n"
-"PO-Revision-Date: 2017-06-04 13:38+0300\n"
+"POT-Creation-Date: 2017-06-04 20:36+0300\n"
+"PO-Revision-Date: 2017-06-04 20:36+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -43,8 +43,8 @@ msgstr "Привет! Я Артур, автор этого плагина."
 
 #: inc/php/messages.php:32
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it %s"
-msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
+msgid "Thank you for installing my plugin! I hope you will love it! %s"
+msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится! %s"
 
 #: inc/php/messages.php:67
 msgid "You have installed an old version of this plugin."
@@ -456,6 +456,10 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Thank you for installing my plugin! I hope you will love it %s"
+#~ msgstr ""
+#~ "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
 
 #~ msgid "Return to the plugin settings page."
 #~ msgstr "Вернитесь на страницу настроек плагина."
