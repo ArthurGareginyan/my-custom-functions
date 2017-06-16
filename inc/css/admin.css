@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        http://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.3
+ * @since       4.4
  */
 
 
@@ -52,16 +52,7 @@ h2 span {
     display: block ;
     margin-top: 15px;
     font-size: 16px;
-    text-shadow: 0 -1px 0 #fff,
-                 0 1px 0 #2e2e2e,
-                 0 2px 0 #2a2a2a,
-                 0 3px 0 #262626,
-                 0 4px 0 #222,
-                 0 5px 0 #1e1e1e,
-                 0 6px 0 #1a1a1a,
-                 0 7px 0 #161616,
-                 0 8px 0 #121212,
-                 0 22px 30px rgba(0, 0, 0, 0.9);
+    text-shadow: none;
     line-height: 20px !important;
 }
 h2 span a,
@@ -73,6 +64,13 @@ h2 span a:hover {
     text-decoration: none;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+h2 .version {
+    position: absolute;
+    right: 40px;
+    color: #a6a6a6;
+    text-shadow: none;
+    letter-spacing: .1em;
 }
 
 /* Titles and Descriptions of sections
@@ -144,10 +142,6 @@ h3.title {
 
 #side-sortables .paypal {
     font-size: 18px;
-}
-#side-sortables .version {
-    color: #888888;
-    text-align: right;
 }
 
 /* Support - addition section

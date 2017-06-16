@@ -18,6 +18,7 @@ function MCFunctions_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = MCFUNC_VERSION;
     $settings = MCFUNC_SETTINGS;
 
