@@ -4,15 +4,15 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4
+Stable tag: 4.4.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area without need of an external editor.
+Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to have an external editor.
 
 
 == Description ==
-An easy to use, with intuitive interface WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
 It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
 = Features =
@@ -27,8 +27,8 @@ An easy to use, with intuitive interface WordPress plugin that gives you the abi
 
 **Key features include...**
 
-* Checks the entered code for fatal errors (simple checks)
-* Toggle for temporary disable the custom functions
+* Checks the entered code for fatal errors
+* Ability to temporary disable all custom functions
 * Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
@@ -36,9 +36,18 @@ An easy to use, with intuitive interface WordPress plugin that gives you the abi
 * Editor allow for tab indentation
 * And much, much more!
 
-**Coming soon:**
-* Reload the settings page at same position after pushing the save button
-* Multisite network support
+**PRO features include...**
+
+* Unlimited number of fields
+* Automatic backup of all functions to a file
+* Ability to temporary disable the certain function
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
+
+
+**Coming soon:*** Reload the settings page at same position after pushing the save button* Multisite network support
 
 = Translation =
 
@@ -50,12 +59,7 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish (translation by [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 * French (translation by Theophil Bethel)
 
-Maybe not all existed translations are up to date. You are welcome to contribute corrections!
-
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-functions).
-
-**Consider Going Pro For Additional Features!**>**Pro Features**>
-> All features from Free version included plus:>* Unlimited number of functions>* Automatic backup of all functions to a file>* Toggle for temporary disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented>>[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
 
 == Installation ==
@@ -144,7 +148,7 @@ A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurG
 A. Any suggestions are very welcome! Please send me an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [my website](http://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any financial contributions are welcome! Just visit [my website](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
 
 
 == Screenshots ==
@@ -156,7 +160,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 
 == Other Notes ==
 
-"My Custom Functions" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+"My Custom Functions" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
 **License**
 
@@ -165,19 +169,23 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * [CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](http://www.arthurgareginyan.com)
+* [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions)
 * [Premium Version](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
 
 == Changelog ==
+
+= 4.4.1 =
+* The HTTPS mixed content issue fixed by changing all links to HTTPS.
+* Content of the "FAQ" section updated.
 
 = 4.4 =
 * On the plugin settings page, text of buttons are corrected.

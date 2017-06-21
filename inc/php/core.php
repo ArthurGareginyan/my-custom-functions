@@ -37,10 +37,10 @@ add_filter( 'plugin_action_links_' . MCFUNC_BASE, MCFUNC_PREFIX . '_settings_lin
 /**
  * Print link to My Custom Functions PRO page
  *
- * @since 4.1
+ * @since 4.4.1
  */
 function MCFunctions_upgrade_link( $links ) {
-    $upgrade_page = '<a href="//www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', MCFUNC_TEXT ) . '</b></a>';
+    $upgrade_page = '<a href="https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', MCFUNC_TEXT ) . '</b></a>';
     array_unshift( $links, $upgrade_page );
     return $links;
 }
@@ -49,7 +49,7 @@ add_filter( 'plugin_action_links_' . MCFUNC_BASE, MCFUNC_PREFIX . '_upgrade_link
 /**
  * Print additional links to plugin meta row
  *
- * @since 4.1
+ * @since 4.4.1
  */
 function MCFunctions_plugin_row_meta( $links, $file ) {
 
@@ -57,7 +57,7 @@ function MCFunctions_plugin_row_meta( $links, $file ) {
 
         $new_links = array(
                            'donate' => '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', MCFUNC_TEXT ) . '</a>',
-                           'upgrage' => '<a href="//www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . __( 'Upgrade to PRO', MCFUNC_TEXT ) . '</a>'
+                           'upgrage' => '<a href="https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . __( 'Upgrade to PRO', MCFUNC_TEXT ) . '</a>'
                            );
         $links = array_merge( $links, $new_links );
     }

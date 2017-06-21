@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.4
+ * @since 4.4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -20,15 +20,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div id="about" class="postbox">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily and safely add your custom functions (PHP code) to your website.', $text ); ?></p>
+                    <p><?php _e( 'This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to have an external editor.', $text ); ?></p>
                 </div>
             </div>
 
             <div id="upgrade" class="postbox">
                 <h3 class="title"><?php _e( 'Upgrade', $text ); ?></h3>
                 <div class="inside">
-                    <a href="//www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank">
-                        <img src="//mycyberuniverse.com/public-files/sale/pro-version.png" alt="PRO">
+                    <a href="https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank">
+                        <img src="https://mycyberuniverse.com/public-files/sale/pro-version.png" alt="PRO">
                     </a>
                 </div>
             </div>

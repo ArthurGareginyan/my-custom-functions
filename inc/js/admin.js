@@ -3,9 +3,9 @@
  *
  * @package     My Custom Functions
  * @uthor       Arthur Gareginyan
- * @link        http://www.arthurgareginyan.com
+ * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.0
+ * @since       4.4.1
  */
 
 
@@ -40,10 +40,10 @@ jQuery(document).ready(function($) {
     }
 
     // Dynamic content
-    $( ".include-tab-author" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-author" );
-    $( ".include-tab-support" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-support" );
-    $( ".include-tab-family" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-family" );
-    $( ".additional-css" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/styles.html" );
+    $( ".include-tab-author" ).load( "https://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-author" );
+    $( ".include-tab-support" ).load( "https://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-support" );
+    $( ".include-tab-family" ).load( "https://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-family" );
+    $( ".additional-css" ).load( "https://mycyberuniverse.com/public-files/dynamic-content/styles.html" );
 
     // Add questions and answers into spoilers and color them in different colors
     $(".panel-group .panel").each(function(i) {

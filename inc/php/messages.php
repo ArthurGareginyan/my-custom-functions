@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.3
+ * @since 4.4.1
  */
 function MCFunctions_hello_message() {
 
@@ -25,7 +25,7 @@ function MCFunctions_hello_message() {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="http://mycyberuniverse.com/public-files/images/Arthur.png">
+                        <img src="https://mycyberuniverse.com/public-files/images/Arthur.png">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', MCFUNC_TEXT ); ?></p>
                         <p><?php printf(
