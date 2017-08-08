@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.4
+ * @since 4.5
  */
 function MCFunctions_load_scripts_admin( $hook ) {
 

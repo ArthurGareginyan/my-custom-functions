@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function MCFunctions_render_submenu_page() {
 
@@ -74,9 +74,9 @@ function MCFunctions_render_submenu_page() {
                             <li><?php _e( 'Place your PHP code in the field.', $text ); ?><br><br>
                                 <?php _e( 'Example of PHP code:', $text ); ?>
 <pre><code>function NameOfYourFunction {
-    
+
     ...
-    
+
 }</code></pre>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags.', $text ); ?></p>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Before use, please read the instructions on the F.A.Q. tab on what to do in case of a website crash.', $text ); ?></p>
@@ -140,11 +140,11 @@ function MCFunctions_render_submenu_page() {
                         <div class="question-4"><?php _e( 'Can I use HTML/CSS/JS code integrated in PHP code?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'Yes. But you need to do it properly, like this:', $text ); ?><br>
 <pre><code>function NameOfYourFunction {
-    
+
     echo "&lt;script&gt;
                 // Your JS code
           &lt;/script&gt;";
-    
+
 }</code></pre>
 </div>
 

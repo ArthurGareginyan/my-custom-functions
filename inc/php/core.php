@@ -37,7 +37,7 @@ add_filter( 'plugin_action_links_' . MCFUNC_BASE, MCFUNC_PREFIX . '_settings_lin
 /**
  * Print link to My Custom Functions PRO page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function MCFunctions_upgrade_link( $links ) {
     $upgrade_page = '<a href="https://www.spacexchimp.com/plugins/my-custom-functions-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', MCFUNC_TEXT ) . '</b></a>';
@@ -49,7 +49,7 @@ add_filter( 'plugin_action_links_' . MCFUNC_BASE, MCFUNC_PREFIX . '_upgrade_link
 /**
  * Print additional links to plugin meta row
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function MCFunctions_plugin_row_meta( $links, $file ) {
 

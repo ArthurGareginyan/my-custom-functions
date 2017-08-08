@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function MCFunctions_hello_message() {
 

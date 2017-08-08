@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.4.1
+ * @since       4.5
  */
 
 

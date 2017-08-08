@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.4.1
+ * @since 4.5
  */
 ?>
     <!-- SIDEBAR -->
