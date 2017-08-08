@@ -17,23 +17,23 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
     <div class="inner-sidebar">
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
-            <div id="about" class="postbox">
+            <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to have an external editor.', $text ); ?></p>
                 </div>
             </div>
 
-            <div id="upgrade" class="postbox">
+            <div class="postbox banner">
                 <h3 class="title"><?php _e( 'Upgrade', $text ); ?></h3>
                 <div class="inside">
-                    <a href="https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html" target="_blank">
-                        <img src="https://mycyberuniverse.com/public-files/sale/pro-version.png" alt="PRO">
+                    <a href="https://www.spacexchimp.com/plugins/my-custom-functions-pro.html" target="_blank">
+                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/plugin-upgrade.png" alt="PRO">
                     </a>
                 </div>
             </div>
 
-            <div id="support" class="postbox">
+            <div class="postbox support">
                 <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
@@ -42,12 +42,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
-            <div id="help" class="postbox">
+            <div class="postbox help">
                 <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
+
+            <div class="include-banner"></div>
 
         </div>
     </div>

@@ -65,7 +65,7 @@ function MCFunctions_exec() {
         return;   // EXIT
     }
 
-    // Read data from DB
+    // Read options from database and declare variables
     $options = get_option( MCFUNC_SETTINGS . '_settings' );
     $content = isset( $options['anarcho_cfunctions-content'] ) && !empty( $options['anarcho_cfunctions-content'] ) ? $options['anarcho_cfunctions-content'] : ' ';
     $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';

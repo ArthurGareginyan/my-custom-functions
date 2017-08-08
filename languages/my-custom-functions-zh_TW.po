@@ -96,7 +96,7 @@ msgid "Support"
 msgstr ""
 
 #: inc/php/page.php:54
-msgid "Family"
+msgid "Store"
 msgstr ""
 
 #: inc/php/page.php:71

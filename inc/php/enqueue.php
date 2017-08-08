@@ -28,12 +28,6 @@ function MCFunctions_load_scripts_admin( $hook ) {
     // Load jQuery library
     wp_enqueue_script( 'jquery' );
 
-    // Style sheet
-    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
-
-    // JavaScript
-    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
-
     // Bootstrap library
     wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
     wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
@@ -43,6 +37,12 @@ function MCFunctions_load_scripts_admin( $hook ) {
     wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/codemirror.css' );
     wp_enqueue_script( $prefix . '-codemirror-js', $url . 'inc/lib/codemirror/codemirror-compressed.js' );
     wp_enqueue_script( $prefix . '-codemirror-active-line-js', $url . 'inc/lib/codemirror/addons/active-line.js' );
+
+    // Style sheet
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
 }
 add_action( 'admin_enqueue_scripts', MCFUNC_PREFIX . '_load_scripts_admin' );

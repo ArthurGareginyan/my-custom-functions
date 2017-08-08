@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4.1
+Stable tag: 4.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,10 +12,11 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 
 == Description ==
+
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
 It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
-= Features =
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -44,12 +45,11 @@ An easy to use, with intuitive interface, WordPress plugin that gives you the ab
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
-[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
-
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
 **Coming soon:*** Reload the settings page at same position after pushing the save button* Multisite network support
 
-= Translation =
+**Translation**
 
 This plugin is ready for translation and has already been translated into several languages.
 
@@ -61,8 +61,17 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-functions).
 
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-functions?rate=5#postform) this plugin.
+* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-functions) if you have any ideas or suggestions to make this plugin better.
+
 
 == Installation ==
+
 Install "My Custom Functions" just as you would any other WordPress Plugin.
 
 Automatically via WordPress Admin Panel:
@@ -86,6 +95,7 @@ After installation and activation, the "`Custom Functions`" menu item will appea
 
 
 == Frequently Asked Questions ==
+
 = Q. Will this plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
@@ -152,6 +162,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](https:/
 
 
 == Screenshots ==
+
 1. Plugin page.
 2. Plugin page with custom code added.
 3. Success message.
@@ -159,6 +170,8 @@ A. Yes, any financial contributions are welcome! Just visit [my website](https:/
 
 
 == Other Notes ==
+
+****
 
 "My Custom Functions" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
@@ -178,10 +191,20 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-functions)
-* [Premium Version](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
+* [Premium Version](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
 
 == Changelog ==
+
+= 4.5 =
+* Stylesheet in the admin.css file improved.
+* The '!important' declarations in the admin.css file removed.
+* Code formatting in the admin.js file improved.
+* Code commenting improved.
+* Load of the additional remote CSS file removed from the admin.js file.
+* Changed the sorting of enqueueing of scripts.
+* The ''Family' page tab renamed to 'Store'.
+* Added ad banner of my store website.
 
 = 4.4.1 =
 * The HTTPS mixed content issue fixed by changing all links to HTTPS.
