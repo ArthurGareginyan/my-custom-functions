@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.5
+ * @since 4.6
  */
 function MCFunctions_render_submenu_page() {
 
@@ -49,17 +49,18 @@ function MCFunctions_render_submenu_page() {
                 <li class="active"><a href="#tab-core" data-toggle="tab"><?php _e( 'Main', $text ); ?></a></li>
                 <li><a href="#tab-usage" data-toggle="tab"><?php _e( 'Usage', $text ); ?></a></li>
                 <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', $text ); ?></a></li>
-                <li><a href="#tab-author" data-toggle="tab"><?php _e( 'Author', $text ); ?></a></li>
                 <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', $text ); ?></a></li>
+                <li><a href="#tab-author" data-toggle="tab"><?php _e( 'Author', $text ); ?></a></li>
                 <li><a href="#tab-store" data-toggle="tab"><?php _e( 'Store', $text ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
-
+                <!-- INCLUDE SIDEBAR -->
+                <?php require_once( MCFUNC_PATH . 'inc/php/sidebar.php' ); ?>
+                <!-- INCLUDE SETTINGS -->
                 <?php require_once( MCFUNC_PATH . 'inc/php/settings.php' ); ?>
-
             </div>
             <!-- END-TAB 1 -->
 
@@ -219,19 +220,30 @@ function MCFunctions_render_submenu_page() {
             <!-- END-TAB 3 -->
 
             <!-- TAB 4 -->
-            <div class="tab-page fade" id="tab-author">
+            <div class="tab-page fade" id="tab-support">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Author', $text ); ?></h3>
-                    <div class="inside include-tab-author"></div>
+                    <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
+                    <div class="inside">
+                        <img src="<?php echo MCFUNC_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!" class="pull-right">
+                            <p><?php _e( 'If you appreciate my work, you can buy me a coffee!', $text ); ?></p>
+                            <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and another things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default btn-labeled">
+                                    <span class="btn-label">
+                                        <img src="<?php echo MCFUNC_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                    </span>
+                                    <?php _e( 'Donate with PayPal', $text ); ?>
+                            </a>
+                            <p><?php _e( 'Thank you for your support!', $text ); ?></p>
+                    </div>
                 </div>
             </div>
             <!-- END-TAB 4 -->
 
             <!-- TAB 5 -->
-            <div class="tab-page fade" id="tab-support">
+            <div class="tab-page fade" id="tab-author">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
-                    <div class="inside include-tab-support"></div>
+                    <h3 class="title"><?php _e( 'Author', $text ); ?></h3>
+                    <div class="inside include-tab-author"></div>
                 </div>
             </div>
             <!-- END-TAB 5 -->
@@ -241,8 +253,6 @@ function MCFunctions_render_submenu_page() {
                 <div class="include-tab-store"></div>
             </div>
             <!-- END-TAB 6 -->
-
-            <div class="additional-css"></div>
 
         </div>
 

@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.5
+ * @since       4.6
  */
 
 
@@ -128,45 +128,45 @@ h2 .version {
 
 /* Sidebar
  -------------------------------------------------------------- */
- #side-sortables {
-     position: relative;
- }
- #side-sortables .postbox {
-     text-align: center;
- }
- #side-sortables .paypal {
-     max-width: 100%;
-     font-size: 18px;
-     overflow: hidden;
- }
- #side-sortables .banner .inside {
-     margin: 0;
-     padding: 5px 0;
- }
- #side-sortables .banner img {
-     width: 265px;
- }
+#side-sortables {
+    position: relative;
+}
+#side-sortables .postbox {
+    text-align: center;
+}
+#side-sortables .banner .inside {
+    margin: 0;
+    padding: 5px 0;
+}
+#side-sortables .banner img {
+    width: 265px;
+}
+
+/* PayPal button
+ -------------------------------------------------------------- */
+.paypal {
+    max-width: 100%;
+    font-size: 18px;
+    overflow: hidden;
+}
 
 /* Support - addition section
  -------------------------------------------------------------- */
 #support-addition {
     display: none;
 }
-#support-addition .paypal {
-    font-size: 18px;
-}
 
 /* Responsive page
  -------------------------------------------------------------- */
 @media (max-width: 860px) {
     .inner-sidebar {
-        display: none;
+        display: none !important;
     }
     #support-addition {
-        display: block;
+        display: block !important;
     }
     #post-body-content {
-        margin-right: 0;
+        margin-right: 0 !important;
     }
 }
 
@@ -330,6 +330,49 @@ h2 .version {
 }
 .panel-body > div {
     display: inline;
+}
+
+/* Buttons with label
+ -------------------------------------------------------------- */
+.btn-labeled {
+    margin: 5px 0 15px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 100%;
+    overflow: hidden;
+    color: #32689a;
+    font-family: "Lucida Grande", Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #fff;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px !important;
+    background-image: -moz-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(49%, rgba(255,255,255,.05)), color-stop(51%, rgba(0,0,0,.05)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+}
+.btn-labeled:hover,
+.btn-labeled:focus {
+    color: #32689a;
+    background-position: 0;
+    background-color: transparent;
+    background-image: -moz-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+    background-image: -ms-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+    background-image: -o-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.15)), color-stop(49%, rgba(255,255,255,.15)), color-stop(51%, rgba(0,0,0,.1)), to(rgba(0,0,0,.15)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+    background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+}
+.btn-labeled .btn-label {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    left: -12px;
+    padding: 6px 12px;
+    border-right: 1px solid #ccc;
 }
 
 /* Custom List Numbers

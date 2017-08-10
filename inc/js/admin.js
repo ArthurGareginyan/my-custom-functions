@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.5
+ * @since       4.6
  */
 
 
@@ -41,9 +41,7 @@ jQuery(document).ready(function($) {
 
     // Add dynamic content to page tabs. Needed for having an up to date content.
     $('.include-tab-author').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-author');
-    $('.include-tab-support').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-support');
     $('.include-tab-store').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-store');
-    $('.include-banner').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-banner');
 
     // Add questions and answers into spoilers and color them in different colors
     $('.panel-group .panel').each(function(i) {

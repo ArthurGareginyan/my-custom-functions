@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2017-06-21 14:13+0300\n"
-"PO-Revision-Date: 2017-06-21 14:13+0300\n"
+"POT-Creation-Date: 2017-08-10 15:59+0300\n"
+"PO-Revision-Date: 2017-08-10 15:59+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ru\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-functions.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: inc/php/core.php:31
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Параметры"
 
 #: inc/php/core.php:43 inc/php/core.php:60
 msgid "Upgrade to PRO"
-msgstr ""
+msgstr "Обновить до PRO"
 
 #: inc/php/core.php:59
 msgid "Donate"
-msgstr "Поддержать разработку"
+msgstr "Пожертвовать"
 
 #: inc/php/core.php:75
 msgid "Custom Functions"
@@ -80,7 +80,7 @@ msgstr "Версия"
 msgid "Main"
 msgstr "Главная"
 
-#: inc/php/page.php:50 inc/php/page.php:69
+#: inc/php/page.php:50 inc/php/page.php:70
 msgid "Usage"
 msgstr "Применение"
 
@@ -88,90 +88,96 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:52 inc/php/page.php:224
-msgid "Author"
-msgstr "Автор"
-
-#: inc/php/page.php:53 inc/php/page.php:233 inc/php/settings.php:37
-#: inc/php/settings.php:89
+#: inc/php/page.php:52 inc/php/page.php:225 inc/php/settings.php:48
+#: inc/php/sidebar.php:36
 msgid "Support"
 msgstr "Поддержка"
 
-#: inc/php/page.php:54
-msgid "Family"
-msgstr "Семья"
+#: inc/php/page.php:53 inc/php/page.php:245
+msgid "Author"
+msgstr "Автор"
 
-#: inc/php/page.php:71
+#: inc/php/page.php:54
+msgid "Store"
+msgstr "Магазин"
+
+#: inc/php/page.php:72
 msgid ""
 "To add your custom functions (the PHP code) to your website, simply follow "
 "these steps:"
 msgstr ""
+"Чтобы добавить свои пользовательские функции (код PHP) на свой сайт, просто "
+"выполните следующие действия:"
 
-#: inc/php/page.php:73
+#: inc/php/page.php:74
 msgid "Go to the \"Main\" tab."
 msgstr "Перейдите на вкладку «Главная»."
 
-#: inc/php/page.php:74
+#: inc/php/page.php:75
 msgid "Place your PHP code in the field."
 msgstr "Поместите ваш PHP-код в поле."
 
-#: inc/php/page.php:75
+#: inc/php/page.php:76
 msgid "Example of PHP code:"
 msgstr "Пример кода PHP:"
 
-#: inc/php/page.php:81 inc/php/page.php:82 inc/php/page.php:88
+#: inc/php/page.php:82 inc/php/page.php:83 inc/php/page.php:89
 msgid "Note!"
 msgstr "Примечание!"
 
-#: inc/php/page.php:81
+#: inc/php/page.php:82
 msgid ""
 "Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</"
 "code> HTML tags."
 msgstr ""
+"Пожалуйста, не помещайте свой PHP-код в <code>&lt;?php</code>...<code>?&gt;</"
+"code> HTML теги."
 
-#: inc/php/page.php:82
+#: inc/php/page.php:83
 msgid ""
 "Before use, please read the instructions on the F.A.Q. tab on what to do in "
 "case of a website crash."
 msgstr ""
+"Перед использованием пожалуйста, прочитайте инструкции на вкладке F.A.Q. что "
+"делать в случае сбоя веб-сайта."
 
-#: inc/php/page.php:84
+#: inc/php/page.php:85
 msgid "Switch the toggle to the \"ON\" position."
 msgstr "Переключите переключатель в положение «ON»."
 
-#: inc/php/page.php:85
+#: inc/php/page.php:86
 msgid "Click the \"Save changes\" button."
 msgstr "Нажмите кнопку «Сохранить изменения»."
 
-#: inc/php/page.php:86
+#: inc/php/page.php:87
 msgid "Enjoy the result of applying your PHP code."
 msgstr "Наслаждайтесь результатом применения вашего PHP-кода."
 
-#: inc/php/page.php:86
+#: inc/php/page.php:87
 msgid "It's that simple!"
-msgstr "Вот так просто!"
+msgstr "Это так просто!"
 
-#: inc/php/page.php:88
+#: inc/php/page.php:89
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 "Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
 "добавить их."
 
-#: inc/php/page.php:97
+#: inc/php/page.php:98
 msgid "Frequently Asked Questions"
 msgstr "Часто задаваемые вопросы"
 
-#: inc/php/page.php:101
+#: inc/php/page.php:102
 msgid ""
 "If you have a question, please read the Frequently Asked Questions below to "
 "see if the answer is here."
-msgstr ""
-
-#: inc/php/page.php:123
-msgid "Will this plugin work on my WordPress.COM website?"
-msgstr "Этот плагин будет работать на моем сайте WordPress.COM?"
+msgstr "Если у вас есть вопрос, пожалуйста, прочтите часто задаваемые вопросы."
 
 #: inc/php/page.php:124
+msgid "Will this plugin work on my WordPress.COM website?"
+msgstr "Будет ли этот плагин работать на моем веб-сайте WordPress.COM?"
+
+#: inc/php/page.php:125
 msgid ""
 "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
 "websites."
@@ -179,17 +185,17 @@ msgstr ""
 "К сожалению, этот плагин доступен для использования только на самостоятельно "
 "размещённых веб-сайтах (WordPress.ORG)."
 
-#: inc/php/page.php:126
+#: inc/php/page.php:127
 msgid "Can I use this plugin on my language?"
 msgstr "Можно ли использовать этот плагин на моём языке?"
 
-#: inc/php/page.php:127
+#: inc/php/page.php:128
 msgid ""
 "Yes. This plugin is ready for translation and has already been translated "
 "into several languages."
-msgstr ""
+msgstr "Да. Этот плагин готов к переводу и уже переведен на несколько языков."
 
-#: inc/php/page.php:129
+#: inc/php/page.php:130
 #, php-format
 msgid ""
 "If you want to help translate this plugin then please visit the %s. You can "
@@ -198,84 +204,104 @@ msgid ""
 "me at the %s and I will include this translation within the next plugin "
 "update."
 msgstr ""
+"Если вы хотите помочь перевести этот плагин, пожалуйста, посетите %s. Вы "
+"также можете использовать файл POT, который включён в плагин и помещён в "
+"папку «languages», чтобы создать PO файл перевода. Просто отправьте мне файл "
+"PO на %s и Я включу этот перевод в следующее обновление плагина."
 
-#: inc/php/page.php:134
+#: inc/php/page.php:135
 msgid ""
 "Maybe not all existed translations are up to date. You are welcome to "
 "contribute corrections!"
-msgstr ""
+msgstr "Может быть, не все переводы обновлены. Вы можете внести исправления!"
 
-#: inc/php/page.php:135
+#: inc/php/page.php:136
 msgid ""
 "Many of plugin users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
 msgstr ""
-
-#: inc/php/page.php:137
-msgid "How does it work?"
-msgstr "Как оно работает?"
+"Многие пользователи плагинов будут рады, если вы поделитесь своим переводом "
+"с сообществом. Спасибо за ваш вклад!"
 
 #: inc/php/page.php:138
+msgid "How does it work?"
+msgstr "Как это работает?"
+
+#: inc/php/page.php:139
 msgid ""
 "On the \"Main\" tab, place your PHP code in the field, switch the toggle to "
 "the \"ON\" position and click the \"Save changes\" button. Enjoy the result "
 "of applying your PHP code. It's that simple!"
 msgstr ""
-
-#: inc/php/page.php:140
-msgid "Can I use HTML/CSS/JS code integrated in PHP code?"
-msgstr ""
+"На вкладке «Основные» поместите ваш PHP код в поле, переключите "
+"переключатель в положение «ON» и нажмите кнопку «Сохранить изменения». "
+"Наслаждайтесь результатом применения вашего PHP кода. Это так просто!"
 
 #: inc/php/page.php:141
-msgid "Yes. But you need to do it properly, like this:"
-msgstr ""
+msgid "Can I use HTML/CSS/JS code integrated in PHP code?"
+msgstr "Можно ли использовать HTML/CSS/JS код, встроенный в PHP-код?"
 
-#: inc/php/page.php:151
-msgid "How much of PHP code (characters) I can enter in the text field?"
-msgstr ""
+#: inc/php/page.php:142
+msgid "Yes. But you need to do it properly, like this:"
+msgstr "Да. Но вам нужно сделать это правильно, например так:"
 
 #: inc/php/page.php:152
-msgid "I don't limit the number of characters."
-msgstr ""
+msgid "How much of PHP code (characters) I can enter in the text field?"
+msgstr "Сколько PHP-кода (символов) можно ввести в текстовом поле?"
 
-#: inc/php/page.php:154
+#: inc/php/page.php:153
+msgid "I don't limit the number of characters."
+msgstr "Я не ограничиваю количество символов."
+
+#: inc/php/page.php:155
 msgid ""
 "On the plugin settings page, an error message appears. What could be wrong?"
 msgstr ""
+"На странице настроек плагина появляется сообщение об ошибке. Что может быть "
+"не так?"
 
-#: inc/php/page.php:155
+#: inc/php/page.php:156
 msgid "Here are a few of the most likely causes of the error message:"
 msgstr ""
+"Вот некоторые из наиболее вероятных причин появления сообщение об ошибке:"
 
-#: inc/php/page.php:157
+#: inc/php/page.php:158
 msgid ""
 "You make a syntax error in the code that you have entered. Check the syntax "
 "of your code and try again."
 msgstr ""
+"Вы сделали синтаксическую ошибку в коде, который ввели. Проверьте синтаксис "
+"кода и повторите попытку."
 
-#: inc/php/page.php:158
+#: inc/php/page.php:159
 msgid ""
 "You entered two functions with the same name. Use a unique names for your "
 "functions."
 msgstr ""
+"Вы ввели несколько функций с одинаковым именем. Используйте уникальные имена "
+"для ваших функций."
 
-#: inc/php/page.php:159
+#: inc/php/page.php:160
 msgid ""
 "You have entered function with a name that is already occupied by another "
 "function. Use a unique name for your function."
 msgstr ""
+"Вы ввели функцию с именем, которое уже занята другой функцией. Используйте "
+"уникальное имя для вашей функции."
 
-#: inc/php/page.php:160
+#: inc/php/page.php:161
 msgid ""
 "You are trying to overwrite an existing function (of WordPress, theme, or "
 "plugin). Instead, use filters and hooks."
 msgstr ""
+"Вы пытаетесь перезаписать существующую функцию (из WordPress, темы или "
+"плагина). Вместо этого используйте фильтры и хуки."
 
-#: inc/php/page.php:163
+#: inc/php/page.php:164
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Этот плагин требует изменения темы?"
 
-#: inc/php/page.php:164
+#: inc/php/page.php:165
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
@@ -283,11 +309,11 @@ msgstr ""
 "Абсолютно нет. Этот плагин настраивается полностью на странице настроек "
 "плагина."
 
-#: inc/php/page.php:166
+#: inc/php/page.php:167
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Требуются ли какие-либо знания HTML или CSS?"
 
-#: inc/php/page.php:167
+#: inc/php/page.php:168
 msgid ""
 "This plugin can be configured with no knowledge of HTML or CSS, using an "
 "easy-to-use plugin settings page. But you need to know the HTML or CSS in "
@@ -298,11 +324,11 @@ msgstr ""
 "для того, чтобы добавить/удалить/изменить код HTML или CSS, используя этот "
 "плагин."
 
-#: inc/php/page.php:169
+#: inc/php/page.php:170
 msgid "It's not working. What could be wrong?"
 msgstr "Оно не работает. Что может быть не так?"
 
-#: inc/php/page.php:170
+#: inc/php/page.php:171
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -310,20 +336,31 @@ msgid ""
 "usage and server load. This is called the browser's cache.​ Clearing your "
 "browser's cache may solve the problem."
 msgstr ""
+"Как и в случае с любым другим плагином, что-то может не работать. Наиболее "
+"распространенной причиной этого является кеш веб-браузера. Каждый веб-"
+"браузер хранит кеш веб-сайтов, которые вы посещаете (страницы, изображения и "
+"т. д.) для того, чтобы уменьшить использование интернет канала и нагрузку на "
+"сервер. Это называется кешем браузера. Очистка кеша браузера может решить "
+"проблему."
 
-#: inc/php/page.php:171
+#: inc/php/page.php:172
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
 "support request in the plugin's support forum on WordPress.org, I'd be happy "
 "to give it a look and try to help out. Please include as much information as "
 "possible, including a link to your website where the problem can be seen."
 msgstr ""
-
-#: inc/php/page.php:173
-msgid "What to do if this plugin crashed the website?"
-msgstr ""
+"Невозможно точно сказать, что может быть неправильно, но если вы разместите "
+"запрос поддержки на форуме поддержки плагинов на WordPress.org, я с "
+"удовольствием посмотрю его и попытаюсь помочь. Пожалуйста, укажите как можно "
+"больше информации, включая ссылку на ваш сайт, на котором можно увидеть "
+"проблему."
 
 #: inc/php/page.php:174
+msgid "What to do if this plugin crashed the website?"
+msgstr "Что делать, если этот плагин сломал сайт?"
+
+#: inc/php/page.php:175
 msgid ""
 "This plugin has a built-in functions for checking the custom code for syntax "
 "errors, duplicate functions names, and etc. But plugin is not perfect, so "
@@ -332,44 +369,63 @@ msgid ""
 "error that this plugin could not detect. When this happens with you just do "
 "the following and all will be fine."
 msgstr ""
+"Этот плагин имеет встроенные функции для проверки пользовательского кода на "
+"синтаксические ошибки, дублирования имён функций и т. д. Но плагин не "
+"идеален, поэтому бывают случаи, когда введенный пользовательский код "
+"вызывает ошибку и белый экран (WSOD). Это связано с тем, что ваш "
+"пользовательский код имеет синтаксическую ошибку, которую этот плагин не "
+"смог обнаружить. Когда это произойдет с вами, просто выполните следующее, и "
+"все будет в порядке."
 
-#: inc/php/page.php:176
+#: inc/php/page.php:177
 msgid ""
 "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-"
 "functions/</code>)."
 msgstr ""
+"Через FTP, перейдите в папку плагина (в <code>wp-content/plugins/my-custom-"
+"functions/</code>)."
 
-#: inc/php/page.php:177
+#: inc/php/page.php:178
 msgid ""
 "Rename the \"START\" file to \"STOP\". This will stop the execution of your "
 "custom code."
 msgstr ""
+"Переименуйте файл «START» в «STOP». Это остановит выполнение "
+"пользовательского кода."
 
-#: inc/php/page.php:178
+#: inc/php/page.php:179
 msgid ""
 "Return to the plugin settings page and edit/fix your custom code that you "
 "entered before the crash."
 msgstr ""
+"Вернитесь на страницу настроек плагина и отредактируйте/исправьте свой код, "
+"который вы ввели до сбоя."
 
-#: inc/php/page.php:179
+#: inc/php/page.php:180
 msgid "Rename the \"STOP\" file to \"START\" and you're done!"
-msgstr "Переименуйте файл \"STOP\" в \"START\", и все готово!"
+msgstr "Переименуйте файл \"STOP\" в \"START\", и всё готово!"
 
-#: inc/php/page.php:181
+#: inc/php/page.php:182
 msgid ""
 "This plugin stored you entered code in the database of your website. For "
 "getting your code, you also can go to the <code>Database</code> &#10145; "
 "Table <code>wp_options</code> &#10145; Option "
 "<code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>."
 msgstr ""
+"Этот плагин хранит введённый код в базе данных вашего сайта. Для получения "
+"кода вы также можете перейти в <code>Database</code> &#10145; Table "
+"<code>wp_options</code> &#10145; Option <code>anarcho_cfunctions_settings</"
+"code> &#10145; <code>option_value</code>."
 
-#: inc/php/page.php:183
+#: inc/php/page.php:184
 msgid ""
 "The last WordPress update is preventing me from editing my website that is "
 "using this plugin. Why is this?"
 msgstr ""
+"Последнее обновление WordPress не позволяет мне редактировать мой сайт, "
+"который использует этот плагин. Почему так?"
 
-#: inc/php/page.php:184
+#: inc/php/page.php:185
 msgid ""
 "This plugin can not cause such problem. More likely, the problem are related "
 "to the settings of the website. It could just be a cache, so please try to "
@@ -377,67 +433,100 @@ msgid ""
 "service such as the CloudFlare) and then the cache of your web browser. Also "
 "please try to re-login to the website, this too can help."
 msgstr ""
+"Этот плагин не может вызвать такую проблему. Скорее всего, проблема связана "
+"с настройками веб-сайта. Это может быть кеш, поэтому попробуйте очистить кеш "
+"вашего сайта (возможно, вы используете плагин для кеширования или какой-либо "
+"веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера. Также "
+"попробуйте повторно войти на сайт, это тоже может помочь."
 
-#: inc/php/page.php:186
+#: inc/php/page.php:187
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:188
+#: inc/php/page.php:189
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 "Пожалуйста, посетите %s страницу плагина на GitHub %s и сообщите об ошибке."
 
-#: inc/php/page.php:194
+#: inc/php/page.php:195
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:196
+#: inc/php/page.php:197
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
 msgstr ""
+"Любые предложения приветствуются! Пожалуйста, пришлите мне электронное "
+"письмо на адрес %s. Спасибо!"
 
-#: inc/php/page.php:201
+#: inc/php/page.php:202
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
 
-#: inc/php/page.php:203
+#: inc/php/page.php:204
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, "
 "click on the donate button, and thank you!"
 msgstr ""
+"Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, "
+"нажмите на кнопку пожертвования. Спасибо!"
 
-#: inc/php/page.php:209
+#: inc/php/page.php:210
 msgid "My question wasn't answered here."
 msgstr "Моего вопроса здесь нет."
 
-#: inc/php/page.php:211
+#: inc/php/page.php:212
 #, php-format
 msgid ""
 "You can ask your question on the plugin support page %s. But please keep in "
 "mind that this plugin is free, and there is no a special support team, so I "
 "have no way to answer everyone."
 msgstr ""
+"Вы можете задать ваш вопрос на странице поддержки плагина %s. Но имейте в "
+"виду, что этот плагин является бесплатным и без специальной поддержки, "
+"поэтому у меня нет возможности ответить на все вопросы."
 
-#: inc/php/settings.php:21
-msgid "About"
-msgstr "О плагине"
+#: inc/php/page.php:228
+msgid "If you appreciate my work, you can buy me a coffee!"
+msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
-#: inc/php/settings.php:23
+#: inc/php/page.php:229
 msgid ""
-"This plugin allows you to easily and safely add your custom functions (PHP "
-"code) directly out of your WordPress Admin area, without the need to have an "
-"external editor."
+"I spend a lot of time and effort trying to make sure that the themes, "
+"plugins and another things I build are useful, and the ultimate proof of "
+"that for me is that you actually want to use them. But, I’m an independent "
+"developer, without a regular income, so every little contribution helps "
+"cover my costs and lets me spend more time building things for people like "
+"you to enjoy."
 msgstr ""
+"Я трачу много времени и сил, пытаясь убедиться в том, что темы, плагины и "
+"другие вещи, которые я создаю, полезны и окончательное доказательство этого "
+"для меня состоит в том, что вы на самом деле хотите их использовать. Но Я "
+"независимый разработчик, без регулярного дохода, поэтому каждый небольшой "
+"вклад помогает мне покрыть расходы и позволяет тратить больше времени на "
+"создание программ для людей как вы."
 
-#: inc/php/settings.php:28
-msgid "Upgrade"
-msgstr ""
+#: inc/php/page.php:234 inc/php/settings.php:55 inc/php/sidebar.php:43
+msgid "Donate with PayPal"
+msgstr "Пожертвовать через Pay Pal"
 
-#: inc/php/settings.php:39 inc/php/settings.php:91
+#: inc/php/page.php:236
+msgid "Thank you for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/php/settings.php:34
+msgid "Functions (PHP code)"
+msgstr "Функции (PHP код)"
+
+#: inc/php/settings.php:45
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: inc/php/settings.php:50 inc/php/sidebar.php:38
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -447,29 +536,36 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:40 inc/php/settings.php:92
-msgid "Donate with PayPal"
-msgstr ""
-
-#: inc/php/settings.php:41 inc/php/settings.php:93
+#: inc/php/settings.php:57 inc/php/sidebar.php:45
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings.php:46
+#: inc/php/sidebar.php:20
+msgid "About"
+msgstr "О плагине"
+
+#: inc/php/sidebar.php:22
+msgid ""
+"This plugin allows you to easily and safely add your custom functions (PHP "
+"code) directly out of your WordPress Admin area, without the need to have an "
+"external editor."
+msgstr ""
+"Этот плагин позволяет вам легко и безопасно добавлять ваши пользовательские "
+"функции (PHP-код) непосредственно из вашей WordPress админки, без "
+"необходимости иметь внешний редактор."
+
+#: inc/php/sidebar.php:27
+msgid "Upgrade"
+msgstr "Апгрейд"
+
+#: inc/php/sidebar.php:50
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/settings.php:48
+#: inc/php/sidebar.php:52
 msgid "If you have a question, please read the information in the FAQ section."
-msgstr "Есть что сказать? Нужна помощь?"
-
-#: inc/php/settings.php:75
-msgid "Functions (PHP code)"
-msgstr "Функции (PHP код)"
-
-#: inc/php/settings.php:86
-msgid "Save changes"
-msgstr "Сохранить изменения"
+msgstr ""
+"Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
 #. Plugin Name of the plugin/theme
 msgid "My Custom Functions"
@@ -484,9 +580,9 @@ msgid ""
 "Easily and safely add your custom functions (PHP code) directly out of your "
 "WordPress Admin area, without the need to have an external editor."
 msgstr ""
-"Просто и безопасно добавляйте ваши пользовательские функции (PHP код) "
-"непосредственно из админ панели вашего WordPress вебсайта, без необходимости "
-"во внешнем редакторе."
+"Легко и безопасно добавьте ваши пользовательские функции (PHP-код) "
+"непосредственно из вашей WordPress админки, без необходимости иметь внешний "
+"редактор."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -496,133 +592,5 @@ msgstr "Артур Гарегинян"
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
 
-#~ msgid ""
-#~ "This plugin allows you to easily and safely add your custom functions "
-#~ "(PHP code) to your website."
-#~ msgstr ""
-#~ "Этот плагин даёт вам возможность легко и безопасно добавлять ваши "
-#~ "пользовательские функции (PHP код) на ваш веб-сайт."
-
-#~ msgid "You can contact me by email %s"
-#~ msgstr "Вы можете связаться со мной по электронной почте %s"
-
-#~ msgid "Thank you for installing my plugin! I hope you will love it %s"
-#~ msgstr ""
-#~ "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
-
-#~ msgid "Return to the plugin settings page."
-#~ msgstr "Вернитесь на страницу настроек плагина."
-
-#~ msgid ""
-#~ "To use, enter your custom functions, then click \"Save changes\". It's "
-#~ "that simple!"
-#~ msgstr ""
-#~ "Для использования, введите ваши пользовательские функции, затем нажмите "
-#~ "кнопку “Сохранить изменения”. Это так просто!"
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "Gareginyan</a>"
-#~ msgstr ""
-#~ "от <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-#~ "Гарегинян</a>"
-
-#~ msgid "Using"
-#~ msgstr "Как пользоваться"
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, please help me to make this "
-#~ "plugin even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
-#~ "помогите мне сделать его ещё лучше."
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, help me to make this plugin "
-#~ "even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-#~ "сделать его ещё лучше."
-
-#~ msgid "Functions"
-#~ msgstr "Функции"
-
-#~ msgid ""
-#~ "This plugin allows you to easily and safely add your own functions, "
-#~ "snippets or any custom code to your website."
-#~ msgstr ""
-#~ "Этот плагин позволяет легко и безопасно добавлять свои собственные "
-#~ "функции, сниппеты или любой пользовательский код на ваш веб-сайт."
-
-#~ msgid ""
-#~ "Easily and safely add your own functions, snippets or any custom codes "
-#~ "directly out of your WordPress Dashboard without need of an external "
-#~ "editor."
-#~ msgstr ""
-#~ "Просто и безопасно добавляйте свои собственные функции, сниппеты или "
-#~ "любые пользовательские коды непосредственно из вашего WordPress Dashboard "
-#~ "без необходимости во внешнем редакторе."
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "\"Berserkr\" Gareginyan</a>"
-#~ msgstr ""
-#~ "от <a href=“https://www.arthurgareginyan.com” target=“_blank”>Артур "
-#~ "“Berserkr” Гарегинян</a>"
-
-#~ msgid "Freelance"
-#~ msgstr "Фриланс"
-
-#~ msgid ""
-#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
-#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#~ msgid ""
-#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
-#~ "and I can make it happen, so let’s get started!"
-#~ msgstr ""
-#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
-#~ "а я могу сделать её явью, так что давайте начнём!"
-
-#~ msgid "Arthur \"Berserkr\" Gareginyan"
-#~ msgstr "Артур “Берсерк” Гарегинян"
-
-#~ msgid ""
-#~ "EASILY and SAFELY add your own functions, snippets or any custom codes "
-#~ "directly out of your WordPress Dashboard without need of an external "
-#~ "editor."
-#~ msgstr ""
-#~ "ПРОСТО и БЕЗОПАСНО добавляйте свои собственные функции, сниппеты или "
-#~ "любые пользовательские коды непосредственно из вашего WordPress Dashboard "
-#~ "без необходимости во внешнем редакторе."
-
-#~ msgid ""
-#~ "To use, enter your custom functions, then click \"Update Custom Functions"
-#~ "\". It's that simple!"
-#~ msgstr ""
-#~ "Для использования, введите ваши пользовательские функции, затем нажмите "
-#~ "кнопку \"Обновить Пользовательские Функции\". Это так просто!"
-
-#~ msgid ""
-#~ "This plugin allows you to EASILY and SAFELY add your own functions, "
-#~ "snippets or any custom code to your site."
-#~ msgstr ""
-#~ "Этот плагин позволяет легко и безопасно добавлять свои собственные "
-#~ "функции, сниппеты или любой пользовательский код на ваш веб-сайт."
-
-#~ msgid "Update Custom Functions"
-#~ msgstr "Обновить Пользовательские Функции"
-
-#~ msgid "If you find it useful, consider making a donation:"
-#~ msgstr ""
-#~ "Если вы находите её полезной, рассмотрите возможность сделать "
-#~ "пожертвование:"
-
-#~ msgid ""
-#~ "EASILY and SAFELY add your own functions, snippets or any custom codes "
-#~ "directly out of your WordPress Dashbord without need of an external "
-#~ "editor."
-#~ msgstr ""
-#~ "ПРОСТО и БЕЗОПАСНО добавляйте свои собственные функции, сниппеты или "
-#~ "любые пользовательские коды непосредственно из вашего WordPress Dashboard "
-#~ "без необходимости во внешнем редакторе."
+#~ msgid "Family"
+#~ msgstr "Семья"
