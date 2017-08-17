@@ -13,8 +13,15 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.
+
+It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
+
+This is a simple and perfect tool to use as your site's functionality plugin.
+
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.
+
+On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
 **Features**
 
@@ -29,7 +36,7 @@ An easy to use, with intuitive interface, WordPress plugin that gives you the ab
 **Key features include...**
 
 * Checks the entered code for fatal errors
-* Ability to temporary disable all custom functions
+* Ability to temporarily disable all custom functions
 * Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
@@ -47,7 +54,10 @@ An easy to use, with intuitive interface, WordPress plugin that gives you the ab
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
-**Coming soon:*** Reload the settings page at same position after pushing the save button* Multisite network support
+**Coming soon:**
+
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
 
 **Translation**
 
@@ -325,7 +335,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Style sheet of settings page improved and better commented.
 * JS code improved.
 * The "thanks.png" image removed.
-* POT file updated.* Russian translation updated.* Chinese (Taiwan) translation updated.
+* POT file updated.
+* Russian translation updated.
+* Chinese (Taiwan) translation updated.
 
 = 2.5.1 =
 * The update_option() returned into _duplicates function.
@@ -426,7 +438,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Beta version.
 
 = 0.1 =
-* Alfa version.
+* Alpha version.
 
 
 == Upgrade Notice ==
