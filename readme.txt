@@ -48,7 +48,7 @@ On the plugin settings page you find the PHP editor powered by CodeMirror. It ha
 
 * Unlimited number of fields
 * Automatic backup of all functions to a file
-* Ability to temporary disable the certain function
+* Ability to temporarily disable the certain function
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
@@ -352,7 +352,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The _enqueue_codemirror_scripts function renamed to mcfunctions_load_scripts.
 
 = 2.4 =
-* Added a toggle for temporary disable the custom functions.
+* Added a toggle for temporarily disable the custom functions.
 * Functions _prepare, _duplicates, and _exec optimized.
 
 = 2.3 =

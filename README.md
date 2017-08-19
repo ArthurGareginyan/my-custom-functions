@@ -12,7 +12,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 * Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
-* Trigger for temporary disable the custom functions
+* Trigger for temporarily disable the custom functions
 * Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
@@ -37,7 +37,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 >**Pro Features**
 >
->* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporary disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented
+>* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporarily disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented
 >
 >[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
