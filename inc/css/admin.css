@@ -2,10 +2,9 @@
  * Style sheet for plugin settings page
  *
  * @package     My Custom Functions
- * @uthor       Arthur Gareginyan
+ * @author      Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.6
  */
 
 
@@ -83,49 +82,6 @@ h2 .version {
     border-bottom: 1px solid #eee;
 }
 
-/* Modal - PopUp windows
- -------------------------------------------------------------- */
-.modal-dialog {
-    margin-top: 15%;
-}
-.hello-message .modal-body {
-    height: 180px;
-}
-.hello-message .modal-body img {
-    float: left;
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    margin-right: 20px;
-    border-radius: 15px;
-}
-.hello-message .modal-body .emoji {
-    float: none;
-}
-.hello-message .modal-body p {
-    font-size: 16px;
-}
-.hello-message .modal-body p:first-of-type {
-    padding-top: 5%;
-}
-.error-message .modal-body {
-    padding: 30px;
-    text-align: center;
-}
-
-/* Notes
- -------------------------------------------------------------- */
-.note {
-    padding: 0.3em 1em;
-    border-left: 3px solid #05c2ff;
-    border-right: 3px solid #05c2ff;
-    background: #eafaff;
-    font-family: Verdana, Geneva, sans-serif;
-    color: #646464;
-    padding-left: 15px;
-    letter-spacing: 0.1px;
-}
-
 /* Sidebar
  -------------------------------------------------------------- */
 #side-sortables {
@@ -140,14 +96,6 @@ h2 .version {
 }
 #side-sortables .banner img {
     width: 265px;
-}
-
-/* PayPal button
- -------------------------------------------------------------- */
-.paypal {
-    max-width: 100%;
-    font-size: 18px;
-    overflow: hidden;
 }
 
 /* Support - addition section
@@ -282,6 +230,49 @@ h2 .version {
     }
 }
 
+/* Modal - PopUp windows
+ -------------------------------------------------------------- */
+.modal-dialog {
+    margin-top: 15%;
+}
+.hello-message .modal-body {
+    height: 180px;
+}
+.hello-message .modal-body img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.hello-message .modal-body .emoji {
+    float: none;
+}
+.hello-message .modal-body p {
+    font-size: 16px;
+}
+.hello-message .modal-body p:first-of-type {
+    padding-top: 5%;
+}
+.error-message .modal-body {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Notes
+ -------------------------------------------------------------- */
+.note {
+    padding: 0.3em 1em;
+    border-left: 3px solid #05c2ff;
+    border-right: 3px solid #05c2ff;
+    background: #eafaff;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #646464;
+    padding-left: 15px;
+    letter-spacing: 0.1px;
+}
+
 /* Spoilers
  -------------------------------------------------------------- */
 .panel-group {
@@ -332,9 +323,50 @@ h2 .version {
     display: inline;
 }
 
-/* Buttons with label
+/* Button: Save - Main
  -------------------------------------------------------------- */
-.btn-labeled {
+.button-save-main {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+/* Button: Save - Top
+ -------------------------------------------------------------- */
+.button-save-top {
+    position: fixed;
+    z-index: 999;
+    top: 32px;
+    width: 55px;
+    border-radius: 0;
+    text-align: left;
+    transition: all 300ms;
+}
+.button-save-top:hover {
+    width: 186px;
+}
+.button-save-top i {
+    font-size: 28px;
+    vertical-align: bottom;
+}
+.button-save-top span {
+    margin-left: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+.button-save-top:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 782px) {
+    .button-save-top {
+        top: 46px;
+    }
+}
+
+/* Button: Labeled
+ -------------------------------------------------------------- */
+.button-labeled {
     margin: 5px 0 15px 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -354,8 +386,8 @@ h2 .version {
     background-image: -webkit-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
     background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
 }
-.btn-labeled:hover,
-.btn-labeled:focus {
+.button-labeled:hover,
+.button-labeled:focus {
     color: #32689a;
     background-position: 0;
     background-color: transparent;
@@ -366,13 +398,21 @@ h2 .version {
     background-image: -webkit-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
     background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
 }
-.btn-labeled .btn-label {
+.button-labeled .btn-label {
     position: relative;
     display: inline-block;
     width: 48px;
     left: -12px;
     padding: 6px 12px;
     border-right: 1px solid #ccc;
+}
+
+/* Button: PayPal
+ -------------------------------------------------------------- */
+.paypal {
+    max-width: 100%;
+    font-size: 18px;
+    overflow: hidden;
 }
 
 /* Custom List Numbers
@@ -400,7 +440,7 @@ h2 .version {
     border-radius: 50%;
 }
 
-/* WordPress Color Picker
+/* Control: Color
  -------------------------------------------------------------- */
 .wp-picker-container a {
     text-decoration: none;
@@ -410,12 +450,6 @@ h2 .version {
 }
 .wp-color-result:after {
     line-height: 28px;
-}
-
-/* ON/OFF Buttons
- -------------------------------------------------------------- */
-.btn {
-    border-radius: 0;
 }
 
 /* Form-table
@@ -448,33 +482,39 @@ td.help-text {
     padding-top: 0;
 }
 
-/* INPUT and TEXTAREA
+/* Control: Field
  -------------------------------------------------------------- */
-textarea {
+.control-field,
+.control-textarea {
+    position: relative;
     max-width: 600px;
     width: 90%;
-}
-.form-table input[type=text] {
-    max-width: 90%;
-}
-textarea,
-.form-table input[type=text] {
     padding-top: 5px;
     background: #fcfcfc;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    position: relative;
-    -webkit-box-shadow: inset 0 1px 1px #f4f4f4, 0 1px 0 #d9d9d9;
-    -moz-box-shadow: inset 0 1px 1px #f4f4f4, 0 1px 0 #d9d9d9;
-    box-shadow: inset 0 1px 1px #f4f4f4, 0 1px 0 #d9d9d9;
+}
+
+/* Control: Number
+ -------------------------------------------------------------- */
+.control-number {
+    width: 150px;
+}
+.control-number input {
+    width: 100px;
+    height: 34px;
+}
+.control-number input[type=number]::-webkit-inner-spin-button,
+.control-number input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* SPECIFIC TO THIS PLUGIN
  -------------------------------------------------------------- */
 
-/* CodeMirror Editor
- -------------------------------------------------------------- */
+/* CodeMirror Editor */
 .CodeMirror {
     height: 100% !important;
     border: 1px solid #ddd;
@@ -482,82 +522,17 @@ textarea,
     margin-right: 5px;
 }
 
-/* Messages
- -------------------------------------------------------------- */
+/* Messages */
 #setting-error-settings_updated {
     display: none;
 }
 
-/* On/Off Trigger
- -------------------------------------------------------------- */
-.trigger {
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: -26px;
-    padding-top: 5px;
-    width: 80px;
-    background: #f2f2f2;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    position: relative;
-    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
-    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+/* Titles */
+.meta-box-sortabless .title label {
+    padding-top: 6px;
 }
 
-.trigger:after {
-    content: 'ON';
-    margin-top: -3px;
-    font: 12px/26px Arial, sans-serif;
-    color: #00bf00;
-    position: absolute;
-    right: 10px;
-    z-index: 0;
-    font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
-}
-
-.trigger:before {
-    content: 'OFF';
-    margin-top: -3px;
-    font: 12px/26px Arial, sans-serif;
-    color: #ff0000;
-    position: absolute;
-    left: 10px;
-    z-index: 0;
-    font-weight: bold;
-}
-
-.trigger label {
-    display: block;
-    width: 37px;
-    height: 24px;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    transition: all .4s ease;
-    cursor: pointer;
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    z-index: 1;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    background: #0085ba;
-    border-color: #0073aa #006799 #006799;
-    -webkit-box-shadow: 0 1px 0 #006799;
-    box-shadow: 0 2px 0 #006799;
-}
-.trigger label:hover {
-    background: #008ec2;
-}
-
-.trigger input[type=checkbox] {
-    visibility: hidden;
-}
-
-.trigger input[type=checkbox]:checked + label {
-    left: 43px;
+/* Switch */
+.control-switch-onoff ~ .btn-group {
+    font-family: Verdana, Geneva, sans-serif;
 }

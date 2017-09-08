@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.6
+Stable tag: 4.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,15 +13,8 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.
-
-It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
-
-This is a simple and perfect tool to use as your site's functionality plugin.
-
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.
-
-On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Admin area, without the need to have an external editor.It's purpose is to provide a familiar experience to WordPress users. No need anymore editing the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
 **Features**
 
@@ -54,10 +47,7 @@ On the plugin settings page you find the PHP editor powered by CodeMirror. It ha
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
-**Coming soon:**
-
-* Reload the settings page at same position after pushing the save button
-* Multisite network support
+**Coming soon:*** Reload the settings page at same position after pushing the save button* Multisite network support
 
 **Translation**
 
@@ -66,7 +56,7 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
 * Chinese-Taiwan (translation by Gordon Yu)
-* Spanish (translation by [Ramiro Garcés](http://www.ramirogarces.com.ve/))
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * French (translation by Theophil Bethel)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-functions).
@@ -206,6 +196,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.7 =
+* Added Spanish translation. (Thanks Patricio Toledo)
+* The group name of the '_service_info' option renamed to '_settings_group_si'.
+* The 'admin.css' file improved.
+* The "Font Awesome" library is integrated for use on the plugin settings page.
+* The ON/OFF switch replaced with new.
+* The 'bootstrap-checkbox.js' JavaScript plugin added.
+* Prefixes of the PHP functions changed to ''spacexchimp_p001_.
+* Prefixes of the PHP constants changed to ''SPACEXCHIMP_P001_.
+* Plugin data that saved in the database upgraded to version 0001.
+
 = 4.6 =
 * Russian translation updated.
 * The navigation of the tabs is rearranged.
@@ -335,9 +336,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Style sheet of settings page improved and better commented.
 * JS code improved.
 * The "thanks.png" image removed.
-* POT file updated.
-* Russian translation updated.
-* Chinese (Taiwan) translation updated.
+* POT file updated.* Russian translation updated.* Chinese (Taiwan) translation updated.
 
 = 2.5.1 =
 * The update_option() returned into _duplicates function.

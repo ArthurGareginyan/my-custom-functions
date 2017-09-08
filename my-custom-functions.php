@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to have an external editor.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.6
+ * Version: 4.7
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -45,43 +45,43 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
- *
- * @since 4.2
  */
-$plugin_data = get_file_data( __FILE__, array( 'name'=>'Plugin Name', 'version'=>'Version', 'text'=>'Text Domain' ) );
-function MCFunctions_define_constants( $constant_name, $value ) {
-    $constant_name = 'MCFUNC_' . $constant_name;
+$plugin_data = get_file_data( __FILE__,
+                              array(
+                                     'name'    => 'Plugin Name',
+                                     'version' => 'Version',
+                                     'text'    => 'Text Domain'
+                                   )
+                            );
+function spacexchimp_p001_define_constants( $constant_name, $value ) {
+    $constant_name = 'SPACEXCHIMP_P001_' . $constant_name;
     if ( !defined( $constant_name ) )
         define( $constant_name, $value );
 }
-MCFunctions_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
-MCFunctions_define_constants( 'BASE', plugin_basename( __FILE__ ) );
-MCFunctions_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
-MCFunctions_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
-MCFunctions_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
-MCFunctions_define_constants( 'NAME', $plugin_data['name'] );
-MCFunctions_define_constants( 'VERSION', $plugin_data['version'] );
-MCFunctions_define_constants( 'TEXT', $plugin_data['text'] );
-MCFunctions_define_constants( 'PREFIX', 'MCFunctions' );
-MCFunctions_define_constants( 'SETTINGS', 'anarcho_cfunctions' );
+spacexchimp_p001_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+spacexchimp_p001_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+spacexchimp_p001_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+spacexchimp_p001_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+spacexchimp_p001_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+spacexchimp_p001_define_constants( 'NAME', $plugin_data['name'] );
+spacexchimp_p001_define_constants( 'VERSION', $plugin_data['version'] );
+spacexchimp_p001_define_constants( 'TEXT', $plugin_data['text'] );
+spacexchimp_p001_define_constants( 'PREFIX', 'spacexchimp_p001' );
+spacexchimp_p001_define_constants( 'SETTINGS', 'spacexchimp_p001' );
 
 /**
  * Load the plugin modules
- *
- * @since 4.2
  */
-require_once( MCFUNC_PATH . 'inc/php/core.php' );
-require_once( MCFUNC_PATH . 'inc/php/upgrade.php' );
-require_once( MCFUNC_PATH . 'inc/php/versioning.php' );
-require_once( MCFUNC_PATH . 'inc/php/enqueue.php' );
-require_once( MCFUNC_PATH . 'inc/php/functional.php' );
-require_once( MCFUNC_PATH . 'inc/php/page.php' );
-require_once( MCFUNC_PATH . 'inc/php/messages.php' );
-require_once( MCFUNC_PATH . 'inc/php/uninstall.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/core.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/upgrade.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/versioning.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/enqueue.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/functional.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/page.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/messages.php' );
+require_once( SPACEXCHIMP_P001_PATH . 'inc/php/uninstall.php' );
