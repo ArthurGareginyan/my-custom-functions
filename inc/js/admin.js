@@ -3,8 +3,8 @@
  *
  * @package     My Custom Functions
  * @author      Arthur Gareginyan
- * @link        https://www.arthurgareginyan.com
- * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
+ * @link        https://www.spacexchimp.com
+ * @copyright   Copyright (c) 2016-2017 Space X-Chimp Studio. All Rights Reserved.
  */
 
 
@@ -20,7 +20,6 @@ jQuery(document).ready(function($) {
     }
 
     // Add dynamic content to page tabs. Needed for having an up to date content.
-    $('.include-tab-author').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-author');
     $('.include-tab-store').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-store');
 
     // Add questions and answers into spoilers and color them in different colors

@@ -3,8 +3,8 @@
  *
  * @package     My Custom Functions
  * @author      Arthur Gareginyan
- * @link        https://www.arthurgareginyan.com
- * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
+ * @link        https://www.spacexchimp.com
+ * @copyright   Copyright (c) 2016-2017 Space X-Chimp Studio. All Rights Reserved.
  */
 
 
@@ -50,6 +50,7 @@ h2 span {
     display: block;
     margin-top: 15px;
     font-size: 16px;
+    letter-spacing: .2em;
     text-shadow: none;
     line-height: 20px;
 }
@@ -98,8 +99,14 @@ h2 .version {
     width: 265px;
 }
 
-/* Support - addition section
+/* Support - Tab and Addition section
  -------------------------------------------------------------- */
+#tab-support .inside {
+    min-height: 270px;
+}
+#tab-support .image-with-button img[alt="Thanks!"] {
+    display: block;
+}
 #support-addition {
     display: none;
 }
