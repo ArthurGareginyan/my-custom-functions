@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to have an external editor.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.8
+ * Version: 4.9
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/

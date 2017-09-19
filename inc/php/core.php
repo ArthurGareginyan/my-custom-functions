@@ -91,6 +91,20 @@ function spacexchimp_p001_register_submenu_page() {
 add_action( 'admin_menu', 'spacexchimp_p001_register_submenu_page' );
 
 /**
+ * Remove the 'Space X-Chimp' sub menu item in the brand menu item
+ */
+function spacexchimp_p001_remove_submenu_item() {
+
+    // Read global variable
+    global $submenu;
+
+    if ( isset( $submenu['spacexchimp'] ) ) {
+        unset( $submenu['spacexchimp'][0] );
+    }
+}
+add_action( 'admin_menu', 'spacexchimp_p001_remove_submenu_item' );
+
+/**
  * Register settings
  */
 function spacexchimp_p001_register_settings() {
@@ -99,3 +113,24 @@ function spacexchimp_p001_register_settings() {
     register_setting( SPACEXCHIMP_P001_SETTINGS . '_settings_group', SPACEXCHIMP_P001_SETTINGS . '_error' );
 }
 add_action( 'admin_init', 'spacexchimp_p001_register_settings' );
+
+/**
+ * Branded footer text on the plugin's settings page
+ */
+function spacexchimp_p001_admin_footer_text() {
+
+    // Get current screen data
+    $current_screen = get_current_screen();
+
+    // Return if the page is not a settings page of this plugin
+    $settings_page = 'space-x-chimp_page_spacexchimp/' . SPACEXCHIMP_P001_SLUG;
+    if ( $settings_page != $current_screen->id ) return;
+
+    // Filter footer text
+    function spacexchimp_p001_new_admin_footer_text() {
+        $year = date('Y');
+        return "Copyright &copy; " . $year . " <a href='https://www.spacexchimp.com' target='_blank'>Space X-Chimp</a> Studio | Click <a href='https://www.spacexchimp.com/store.html' target='_blank'>here</a> to see my other products.";
+    }
+    add_filter( 'admin_footer_text', 'spacexchimp_p001_new_admin_footer_text', 11 );
+}
+add_action( 'current_screen', 'spacexchimp_p001_admin_footer_text' );
