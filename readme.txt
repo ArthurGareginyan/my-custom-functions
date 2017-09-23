@@ -89,7 +89,7 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`PHP Inserter`" menu item will appear in the "`Space X-Chimp`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`PHP Inserter`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -104,7 +104,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, place your PHP code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your PHP code. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Space X-Chimp`" -> "`PHP Inserter`".
+You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`PHP Inserter`".
 
 = Q. Can I use HTML/CSS/JS code integrated in PHP code? =
 A. Yes. But you need to do it properly, like this:
