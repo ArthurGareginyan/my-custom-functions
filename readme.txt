@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.9
+Stable tag: 4.10
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -195,6 +195,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.10 =
+* At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
+* In the "_register_submenu_page" function, "$capability" changed from the 'edit_theme_options' to 'manage_options'.
 
 = 4.9 =
 * Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.

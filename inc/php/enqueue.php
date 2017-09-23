@@ -16,7 +16,7 @@ function spacexchimp_p001_load_scripts_admin( $hook ) {
     $url = SPACEXCHIMP_P001_URL;
 
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'space-x-chimp_page_spacexchimp/' . $slug;
+    $settings_page = 'settings_page_' . $slug;
     if ( $settings_page != $hook ) return;
 
     // Load jQuery library
