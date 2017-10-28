@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2017-09-23 04:49+0300\n"
+"POT-Creation-Date: 2017-10-28 14:41+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -45,23 +45,23 @@ msgstr ""
 msgid "Thank you for installing my plugin! I hope you will love it! %s"
 msgstr ""
 
-#: inc/php/messages.php:61
+#: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
 msgstr ""
 
-#: inc/php/messages.php:62
+#: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
-#: inc/php/messages.php:84
+#: inc/php/messages.php:91
 msgid "Custom functions updated successfully."
 msgstr ""
 
-#: inc/php/messages.php:100
+#: inc/php/messages.php:107
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 
-#: inc/php/messages.php:101
+#: inc/php/messages.php:108
 msgid "Please, check the code and try again."
 msgstr ""
 

@@ -35,7 +35,14 @@ function spacexchimp_p001_hello_message() {
         </div>
         <script>
             jQuery(document).ready(function($) {
-                  $("#hello-message").modal();
+
+                // Show the message
+                $("#hello-message").modal();
+
+                // Hide the message after 7 seconds
+                setTimeout(function() {
+                    $('#hello-message').modal('hide');
+                }, 7000);
             });
         </script>
     <?php

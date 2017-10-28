@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - My Custom Functions - Development Readme (trunk)\n"
 "POT-Creation-Date: 2017-09-23 04:52+0300\n"
-"PO-Revision-Date: 2017-09-23 04:52+0300\n"
+"PO-Revision-Date: 2017-09-24 16:23+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -69,7 +69,7 @@ msgstr ""
 #: inc/php/page.php:32
 #, php-format
 msgid "by %s Space X-Chimp Studio %s"
-msgstr ""
+msgstr "por %s Space X-Chimp Studio %s"
 
 #: inc/php/page.php:38
 msgid "Version"
@@ -97,7 +97,7 @@ msgstr "Tienda"
 
 #: inc/php/page.php:65
 msgid "Usage Instructions"
-msgstr ""
+msgstr "Instrucciones de uso"
 
 #: inc/php/page.php:67
 msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: inc/php/page.php:220
 msgid "Support Me"
-msgstr ""
+msgstr "Apoyarme!"
 
 #: inc/php/page.php:228 inc/php/settings.php:50 inc/php/sidebar.php:39
 msgid "Donate with PayPal"
@@ -394,13 +394,15 @@ msgstr "Donar con PayPal"
 #: inc/php/page.php:233
 #, php-format
 msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp Studio %s."
-msgstr ""
+msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp Studio %s."
 
 #: inc/php/page.php:241
 msgid ""
 "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like "
 "what I'm doing and hope that you will be enriched by my projects too."
 msgstr ""
+"Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy realmente apasionado por mi trabajo, me gusta "
+"lo que estoy haciendo y espero que tú también te enriquezcas con mis proyectos."
 
 #: inc/php/page.php:242
 msgid ""
@@ -409,10 +411,14 @@ msgid ""
 "regular income, so every little contribution helps cover my costs and lets me spend more time building things for people "
 "like you to enjoy."
 msgstr ""
+"Paso mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyo sean útiles, "
+"y la prueba definitiva para mí de que son útiles, es que realmente desea utilizarlos. Pero, soy un desarrollador "
+"independiente, sin un ingreso regular, por lo que cada pequeña contribución me ayuda a cubrir mis costos y me deja pasar "
+"más tiempo construyendo cosas para que la gente como tú lo disfrute."
 
 #: inc/php/page.php:243
 msgid "If you appreciate my work, you can buy me a coffee!"
-msgstr ""
+msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
 
 #: inc/php/page.php:244
 msgid "Thank you for your support!"
