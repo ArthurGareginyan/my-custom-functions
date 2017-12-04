@@ -1,18 +1,25 @@
 # My Custom Functions
 
-**Free Premium WorPress Plugin**
+**Free Premium WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Dashboard and without any need for an external editor. 
+
+Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.
+
+This is a simple and perfect tool to use as your site's functionality plugin.
+
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.
+
+On the plugin page you find the PHP editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation.
 
 
 ## Features
 
 * Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
-* Trigger for temporarily disable the custom functions
+* Trigger for temporarily disabling the custom functions
 * Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
@@ -21,7 +28,8 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 * Ready for translation (POT file included)
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Coming soon:**
+**Coming soon:**
+
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
 
@@ -37,7 +45,12 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 >**Pro Features**
 >
->* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporarily disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented
+>* Unlimited number of functions
+>* Automatic backup of all functions to a file
+>* Trigger for temporarily disabling certain functions
+>* Button to collapse/expand the field with code
+>* Sidebar items can be collapsed or expanded
+>* Well documented
 >
 >[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
 
@@ -46,7 +59,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 
 Welcome and thanks! I appreciate you taking the initiative to contribute to this project.
 
-Contributing isn’t limited to just code. I encourage you to contribute in the way that best fits your abilities, by writing tutorials, making translation to your native language, giving a demo at your local meetup, helping other users with their support questions, or revising  the documentation for this project.
+Contributing isn’t limited to just code. I encourage you to contribute in the way that best fits your abilities, by writing tutorials, making translation to your native language, giving a demo at your local meetup, helping other users with their support questions, or revising the documentation for this project.
 
 Please take a moment to read the guidelines in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/CONTRIBUTING.md). Following them helps to communicate that you respect the time of the other contributors to the project. In turn, they’ll do their best to reciprocate that respect when working with you, across timezones and around the world.
 
