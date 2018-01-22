@@ -2,9 +2,10 @@
 # This file is distributed under the same license as the Plugins - My Custom Functions - Development Readme (trunk) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - My Custom Functions - Development Readme (trunk)\n"
-"POT-Creation-Date: 2017-09-23 04:52+0300\n"
-"PO-Revision-Date: 2017-09-24 16:23+0300\n"
+"Project-Id-Version: Plugins - My Custom Functions - Development Readme "
+"(trunk)\n"
+"POT-Creation-Date: 2018-01-22 11:47+0300\n"
+"PO-Revision-Date: 2018-01-22 11:47+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -12,12 +13,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-functions.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
-"esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -38,38 +40,38 @@ msgid "PHP Inserter"
 msgstr "PHP Inserter"
 
 #: inc/php/messages.php:26
-msgid "Hello. I'm Arthur, the author of this plugin."
-msgstr "Hola! Yo soy Arthur, el autor de este complemento."
+msgid "Hello. We are the team of Space X-Chimp."
+msgstr "Hola! Yo soy Space X-Chimp, el autor de este complemento."
 
 #: inc/php/messages.php:28
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it! %s"
+msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Gracias por instalar este complemento! Espero que te encante! %s"
 
-#: inc/php/messages.php:61
+#: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
 msgstr "Has instalado una versión antigua de este complemento."
 
-#: inc/php/messages.php:62
+#: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
-#: inc/php/messages.php:84
+#: inc/php/messages.php:91
 msgid "Custom functions updated successfully."
 msgstr ""
 
-#: inc/php/messages.php:100
+#: inc/php/messages.php:107
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 
-#: inc/php/messages.php:101
+#: inc/php/messages.php:108
 msgid "Please, check the code and try again."
 msgstr ""
 
 #: inc/php/page.php:32
 #, php-format
-msgid "by %s Space X-Chimp Studio %s"
-msgstr "por %s Space X-Chimp Studio %s"
+msgid "by %s Space X-Chimp %s"
+msgstr "por %s Space X-Chimp %s"
 
 #: inc/php/page.php:38
 msgid "Version"
@@ -87,7 +89,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:48 inc/php/settings.php:43 inc/php/sidebar.php:32
+#: inc/php/page.php:48 inc/php/settings.php:43 inc/php/sidebar.php:46
 msgid "Support"
 msgstr "Soporte"
 
@@ -100,7 +102,9 @@ msgid "Usage Instructions"
 msgstr "Instrucciones de uso"
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
+msgid ""
+"To add your custom functions (the PHP code) to your website, simply follow "
+"these steps:"
 msgstr ""
 
 #: inc/php/page.php:69
@@ -120,11 +124,15 @@ msgid "Note!"
 msgstr "¡Nota!"
 
 #: inc/php/page.php:77
-msgid "Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags."
+msgid ""
+"Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</"
+"code> HTML tags."
 msgstr ""
 
 #: inc/php/page.php:78
-msgid "Before use, please read the instructions on the F.A.Q. tab on what to do in case of a website crash."
+msgid ""
+"Before use, please read the instructions on the F.A.Q. tab on what to do in "
+"case of a website crash."
 msgstr ""
 
 #: inc/php/page.php:80
@@ -143,284 +151,361 @@ msgstr ""
 msgid "It's that simple!"
 msgstr "¡Es así de simple!"
 
-#: inc/php/page.php:84
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr "Si quieres más opciones, dímelo y estaré encantado de añadirlo."
+#: inc/php/page.php:85
+#, php-format
+msgid ""
+"If you want more options then %s tell us %s and we will be happy to add it."
+msgstr ""
+"Si quieres más opciones, %s díganos %s y estaremos encantados de añadirlo."
 
-#: inc/php/page.php:93
+#: inc/php/page.php:99
 msgid "Frequently Asked Questions"
 msgstr "Preguntas Frecuentes"
 
-#: inc/php/page.php:97
-msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
+#: inc/php/page.php:103
+msgid ""
+"If you have a question, please read the Frequently Asked Questions below to "
+"see if the answer is here."
 msgstr ""
-"Si tienes alguna pregunta, por favor lee las Preguntas Frecuentes a continuación, para ver si la respuesta está aquí."
+"Si tienes alguna pregunta, por favor lee las Preguntas Frecuentes a "
+"continuación, para ver si la respuesta está aquí."
 
-#: inc/php/page.php:119
+#: inc/php/page.php:125
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr "¿Funcionará este complemento en mi sitio web WordPress.COM?"
 
-#: inc/php/page.php:120
-msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
-msgstr "Lo sentimos, este complemento está disponible para su uso solo en sitios web alojados (WordPress.ORG)."
+#: inc/php/page.php:126
+msgid ""
+"Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
+"websites."
+msgstr ""
+"Lo sentimos, este complemento está disponible para su uso solo en sitios web "
+"alojados (WordPress.ORG)."
 
-#: inc/php/page.php:122
+#: inc/php/page.php:128
 msgid "Can I use this plugin on my language?"
 msgstr "¿Puedo usar este complemento en mi idioma?"
 
-#: inc/php/page.php:123
-msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
-msgstr "Sí. Este complemento está listo para ser traducido y ya ha sido traducido a varios idiomas."
-
-#: inc/php/page.php:125
-#, php-format
+#: inc/php/page.php:129
 msgid ""
-"If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and "
-"placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to me at the %s and I "
-"will include this translation within the next plugin update."
+"Yes. This plugin is ready for translation and has already been translated "
+"into several languages."
 msgstr ""
-"Si quieres ayudar a traducir este complemento, visita el %s. También puede utilizar el archivo POT, incluido y colocado "
-"en la carpeta \"languages\", para crear un archivo PO de traducción. Simplemente envíeme el archivo PO en el %s e "
-"incluiré esta traducción en la siguiente actualización del complemento."
-
-#: inc/php/page.php:130
-msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
-msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones!"
+"Sí. Este complemento está listo para ser traducido y ya ha sido traducido a "
+"varios idiomas."
 
 #: inc/php/page.php:131
+#, php-format
 msgid ""
-"Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
+"If you want to help translate this plugin then please visit the %s. You can "
+"also use the POT file, that is included and placed in the \"languages\" "
+"folder, in order to create a translation PO file. Just send the PO file to "
+"us at the %s and we will include this translation within the next plugin "
+"update."
 msgstr ""
-"Muchos de los usuarios de este complemento estarían encantados si compartes tu traducción con la comunidad. ¡Gracias por "
-"tu contribución!"
+"Si quieres ayudar a traducir este complemento, visita el %s. También puede "
+"utilizar el archivo POT, incluido y colocado en la carpeta “languages”, para "
+"crear un archivo PO de traducción. Simplemente envíeme el archivo PO en el "
+"%s e incluiremos esta traducción en la siguiente actualización del "
+"complemento."
 
-#: inc/php/page.php:133
+#: inc/php/page.php:136
+msgid ""
+"Maybe not all existed translations are up to date. You are welcome to "
+"contribute corrections!"
+msgstr ""
+"Quizás no todas las traducciones existentes estén actualizadas. Le invitamos "
+"a contribuir correcciones!"
+
+#: inc/php/page.php:137
+msgid ""
+"Many of plugin users would be delighted if you share your translation with "
+"the community. Thanks for your contribution!"
+msgstr ""
+"Muchos de los usuarios de este complemento estarían encantados si compartes "
+"tu traducción con la comunidad. ¡Gracias por tu contribución!"
+
+#: inc/php/page.php:139
 msgid "How does it work?"
 msgstr "¿Como funciona?"
 
-#: inc/php/page.php:134
+#: inc/php/page.php:140
 msgid ""
-"On the \"Main\" tab, place your PHP code in the field, switch the toggle to the \"ON\" position and click the \"Save "
-"changes\" button. Enjoy the result of applying your PHP code. It's that simple!"
+"On the \"Main\" tab, place your PHP code in the field, switch the toggle to "
+"the \"ON\" position and click the \"Save changes\" button. Enjoy the result "
+"of applying your PHP code. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:136
+#: inc/php/page.php:142
 msgid "Can I use HTML/CSS/JS code integrated in PHP code?"
 msgstr ""
 
-#: inc/php/page.php:137
+#: inc/php/page.php:143
 msgid "Yes. But you need to do it properly, like this:"
 msgstr ""
 
-#: inc/php/page.php:147
+#: inc/php/page.php:153
 msgid "How much of PHP code (characters) I can enter in the text field?"
 msgstr ""
 
-#: inc/php/page.php:148
-msgid "I don't limit the number of characters."
-msgstr ""
-
-#: inc/php/page.php:150
-msgid "On the plugin settings page, an error message appears. What could be wrong?"
-msgstr ""
-
-#: inc/php/page.php:151
-msgid "Here are a few of the most likely causes of the error message:"
-msgstr ""
-
-#: inc/php/page.php:153
-msgid "You make a syntax error in the code that you have entered. Check the syntax of your code and try again."
-msgstr ""
-
 #: inc/php/page.php:154
-msgid "You entered two functions with the same name. Use a unique names for your functions."
-msgstr ""
-
-#: inc/php/page.php:155
-msgid ""
-"You have entered function with a name that is already occupied by another function. Use a unique name for your function."
+msgid "We don't limit the number of characters."
 msgstr ""
 
 #: inc/php/page.php:156
-msgid "You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks."
+msgid ""
+"On the plugin settings page, an error message appears. What could be wrong?"
+msgstr ""
+
+#: inc/php/page.php:157
+msgid "Here are a few of the most likely causes of the error message:"
 msgstr ""
 
 #: inc/php/page.php:159
-msgid "Does this plugin requires any modification of the theme?"
-msgstr "¿Este complemento requiere alguna modificación del tema?"
+msgid ""
+"You make a syntax error in the code that you have entered. Check the syntax "
+"of your code and try again."
+msgstr ""
 
 #: inc/php/page.php:160
-msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
-msgstr "Absolutamente NO. Este complemento se puede configurar completamente desde su página de configuración."
+msgid ""
+"You entered two functions with the same name. Use a unique names for your "
+"functions."
+msgstr ""
+
+#: inc/php/page.php:161
+msgid ""
+"You have entered function with a name that is already occupied by another "
+"function. Use a unique name for your function."
+msgstr ""
 
 #: inc/php/page.php:162
-msgid "Does this require any knowledge of HTML or CSS?"
-msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
-
-#: inc/php/page.php:163
 msgid ""
-"This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need "
-"to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin."
+"You are trying to overwrite an existing function (of WordPress, theme, or "
+"plugin). Instead, use filters and hooks."
 msgstr ""
 
 #: inc/php/page.php:165
-msgid "It's not working. What could be wrong?"
-msgstr "No funciona. ¿Qué podría estar mal?"
+msgid "Does this plugin requires any modification of the theme?"
+msgstr "¿Este complemento requiere alguna modificación del tema?"
 
 #: inc/php/page.php:166
 msgid ""
-"As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. "
-"Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server "
-"load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
+"Absolutely not. This plugin is configurable entirely from the plugin "
+"settings page."
 msgstr ""
-"Como con todos los complementos, es posible que las cosas no funcionen. La razón más común para esto es la caché de un "
-"navegador web. Cada navegador web almacena una caché de los sitios web que visitas (páginas, imágenes y etc.) para "
-"reducir el uso del ancho de banda y la carga del servidor. Esto se denomina caché del navegador. Limpiar la caché del "
-"navegador puede resolver el problema."
+"Absolutamente NO. Este complemento se puede configurar completamente desde "
+"su página de configuración."
 
-#: inc/php/page.php:167
-msgid ""
-"It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on "
-"WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, "
-"including a link to your website where the problem can be seen."
-msgstr ""
-"Es imposible decir exactamente lo que podría estar mal, pero si publicas una solicitud de soporte en el foro de soporte "
-"del complemento en WordPress.org, estaría encantado de darle un vistazo e intentar ayudarte. Incluye tanta información "
-"como sea posible, incluyendo un enlace a tu sitio web donde se pueda ver el problema."
+#: inc/php/page.php:168
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
 
 #: inc/php/page.php:169
+msgid ""
+"This plugin can be configured with no knowledge of HTML or CSS, using an "
+"easy-to-use plugin settings page. But you need to know the HTML or CSS in "
+"order to add/remove/modify the HTML or CSS code by using this plugin."
+msgstr ""
+
+#: inc/php/page.php:171
+msgid "It's not working. What could be wrong?"
+msgstr "No funciona. ¿Qué podría estar mal?"
+
+#: inc/php/page.php:172
+msgid ""
+"As with every plugin, it's possible that things don't work. The most common "
+"reason for this is a web browser's cache. Every web browser stores a cache "
+"of the websites you visit (pages, images, and etc.) to reduce bandwidth "
+"usage and server load. This is called the browser's cache.​ Clearing your "
+"browser's cache may solve the problem."
+msgstr ""
+"Como con todos los complementos, es posible que las cosas no funcionen. La "
+"razón más común para esto es la caché de un navegador web. Cada navegador "
+"web almacena una caché de los sitios web que visitas (páginas, imágenes y "
+"etc.) para reducir el uso del ancho de banda y la carga del servidor. Esto "
+"se denomina caché del navegador. Limpiar la caché del navegador puede "
+"resolver el problema."
+
+#: inc/php/page.php:173
+msgid ""
+"It's impossible to tell what could be wrong exactly, but if you post a "
+"support request in the plugin's support forum on WordPress.org, we'd be "
+"happy to give it a look and try to help out. Please include as much "
+"information as possible, including a link to your website where the problem "
+"can be seen."
+msgstr ""
+"Es imposible decir exactamente lo que podría estar mal, pero si publicas una "
+"solicitud de soporte en el foro de soporte del complemento en WordPress.org, "
+"estaría encantado de darle un vistazo e intentar ayudarte. Incluye tanta "
+"información como sea posible, incluyendo un enlace a tu sitio web donde se "
+"pueda ver el problema."
+
+#: inc/php/page.php:175
 msgid "What to do if this plugin crashed the website?"
 msgstr ""
 
-#: inc/php/page.php:170
+#: inc/php/page.php:176
 msgid ""
-"This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. "
-"But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This "
-"is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you "
-"just do the following and all will be fine."
+"This plugin has a built-in functions for checking the custom code for syntax "
+"errors, duplicate functions names, and etc. But plugin is not perfect, so "
+"there are times when the entered custom code causes the error and white "
+"screen (WSOD). This is due to the fact that your custom code has a syntax "
+"error that this plugin could not detect. When this happens with you just do "
+"the following and all will be fine."
 msgstr ""
 
-#: inc/php/page.php:172
-msgid "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>)."
-msgstr ""
-
-#: inc/php/page.php:173
-msgid "Rename the \"START\" file to \"STOP\". This will stop the execution of your custom code."
-msgstr ""
-
-#: inc/php/page.php:174
-msgid "Return to the plugin settings page and edit/fix your custom code that you entered before the crash."
-msgstr ""
-
-#: inc/php/page.php:175
-msgid "Rename the \"STOP\" file to \"START\" and you're done!"
-msgstr ""
-
-#: inc/php/page.php:177
+#: inc/php/page.php:178
 msgid ""
-"This plugin stored you entered code in the database of your website. For getting your code, you also can go to the "
-"<code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>anarcho_cfunctions_settings</code> "
-"&#10145; <code>option_value</code>."
+"Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-"
+"functions/</code>)."
 msgstr ""
 
 #: inc/php/page.php:179
-msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
+msgid ""
+"Rename the \"START\" file to \"STOP\". This will stop the execution of your "
+"custom code."
 msgstr ""
-"La última actualización de WordPress me impide editar mi sitio web que está utilizando este complemento. ¿Porqué sucede "
-"esto?"
 
 #: inc/php/page.php:180
 msgid ""
-"This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could "
-"just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such "
-"as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
+"Return to the plugin settings page and edit/fix your custom code that you "
+"entered before the crash."
 msgstr ""
-"Este complemento no puede causar este problema. Lo más probable es que el problema esté relacionado con la configuración "
-"del sitio web. Podría ser sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser que utilices un "
-"complemento de caché o algún servicio web como CloudFlare) y luego la caché de tu navegador web. También intenta volver a "
-"conectarte al sitio web, esto también puede ayudar."
 
-#: inc/php/page.php:182
+#: inc/php/page.php:181
+msgid "Rename the \"STOP\" file to \"START\" and you're done!"
+msgstr ""
+
+#: inc/php/page.php:183
+msgid ""
+"This plugin stored you entered code in the database of your website. For "
+"getting your code, you also can go to the <code>Database</code> &#10145; "
+"Table <code>wp_options</code> &#10145; Option "
+"<code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>."
+msgstr ""
+
+#: inc/php/page.php:185
+msgid ""
+"The last WordPress update is preventing me from editing the website of the "
+"creator that is using this plugin. Why is this?"
+msgstr ""
+"La última actualización de WordPress me impide editar mi sitio web que está "
+"utilizando este complemento. ¿Porqué sucede esto?"
+
+#: inc/php/page.php:186
+msgid ""
+"This plugin can not cause such problem. More likely, the problem are related "
+"to the settings of the website. It could just be a cache, so please try to "
+"clear your website's cache (may be you using a caching plugin, or some web "
+"service such as the CloudFlare) and then the cache of your web browser. Also "
+"please try to re-login to the website, this too can help."
+msgstr ""
+"Este complemento no puede causar este problema. Lo más probable es que el "
+"problema esté relacionado con la configuración del sitio web. Podría ser "
+"sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser "
+"que utilices un complemento de caché o algún servicio web como CloudFlare) y "
+"luego la caché de tu navegador web. También intenta volver a conectarte al "
+"sitio web, esto también puede ayudar."
+
+#: inc/php/page.php:188
 msgid "Where to report bug if found?"
 msgstr "¿Dónde informar el error si se encuentra?"
 
-#: inc/php/page.php:184
-#, php-format
-msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
-msgstr "Visita la página dedicada del complemento %s en GitHub %s e informa."
-
 #: inc/php/page.php:190
+#, php-format
+msgid ""
+"Please visit %s this page %s and report. Please do not forget to specify the "
+"name of the plugin. Thank you!"
+msgstr ""
+
+#: inc/php/page.php:196
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "¿Dónde compartir ideas o sugerencias para mejorar el complemento?"
 
-#: inc/php/page.php:192
+#: inc/php/page.php:198
 #, php-format
-msgid "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
-msgstr "¡Cualquier sugerencia es muy bienvenida! Por favor envíame un correo electrónico a %s. ¡Muchas Gracias!"
+msgid ""
+"Any suggestions are very welcome! Just contact us %s here %s. Please do not "
+"forget to specify the name of the plugin. Thank you!"
+msgstr ""
 
-#: inc/php/page.php:197
+#: inc/php/page.php:204
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Me encanta este complemento! ¿Puedo ayudar de alguna manera?"
 
-#: inc/php/page.php:199
+#: inc/php/page.php:206
 #, php-format
 msgid ""
-"Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!"
+"Yes, any financial contributions are welcome! Just visit %s the website of "
+"the creator %s, click on the donate button, and thank you!"
 msgstr ""
-"Sí, cualquier contribución financiera es bienvenida! Simplemente visita %s mi sitio web %s, has clic en el botón DONAR y "
-"gracias!"
+"Sí, cualquier contribución financiera es bienvenida! Simplemente visita %s "
+"mi sitio web %s, has clic en el botón DONAR y gracias!"
 
-#: inc/php/page.php:205
+#: inc/php/page.php:212
 msgid "My question wasn't answered here."
 msgstr "Mi pregunta no fue contestada aquí."
 
-#: inc/php/page.php:207
+#: inc/php/page.php:214
 #, php-format
 msgid ""
-"You can ask your question on the plugin support page %s. But please keep in mind that this plugin is free, and there is "
-"no a special support team, so I have no way to answer everyone."
+"You can ask your question on %s this page %s. But please keep in mind that "
+"this plugin is free, and there is no a special support team, so we have no "
+"way to answer everyone."
 msgstr ""
-"Puede hacer tu pregunta en la página de soporte del complementos %s. Pero ten en cuenta que este complemento es gratuito, "
-"y no hay un equipo de soporte especial, así que no tengo forma de responder a todos."
+"Puede hacer tu pregunta en %s la página de soporte del complementos %s. Pero "
+"ten en cuenta que este complemento es gratuito, y no hay un equipo de "
+"soporte especial, así que no tengo forma de responder a todos."
 
-#: inc/php/page.php:220
+#: inc/php/page.php:228
 msgid "Support Me"
 msgstr "Apoyarme!"
 
-#: inc/php/page.php:228 inc/php/settings.php:50 inc/php/sidebar.php:39
+#: inc/php/page.php:236 inc/php/settings.php:50 inc/php/sidebar.php:53
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/page.php:233
-#, php-format
-msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp Studio %s."
-msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp Studio %s."
-
 #: inc/php/page.php:241
+#, php-format
 msgid ""
-"My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like "
-"what I'm doing and hope that you will be enriched by my projects too."
+"Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-"
+"Chimp %s."
 msgstr ""
-"Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy realmente apasionado por mi trabajo, me gusta "
-"lo que estoy haciendo y espero que tú también te enriquezcas con mis proyectos."
+"¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-"
+"Chimp %s."
 
-#: inc/php/page.php:242
+#: inc/php/page.php:249
 msgid ""
-"I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and "
-"the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a "
-"regular income, so every little contribution helps cover my costs and lets me spend more time building things for people "
-"like you to enjoy."
+"My intention is to create projects that will make this world a better place. "
+"I'm really passionate about my work, I like what I'm doing and hope that you "
+"will be enriched by my projects too."
 msgstr ""
-"Paso mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyo sean útiles, "
-"y la prueba definitiva para mí de que son útiles, es que realmente desea utilizarlos. Pero, soy un desarrollador "
-"independiente, sin un ingreso regular, por lo que cada pequeña contribución me ayuda a cubrir mis costos y me deja pasar "
-"más tiempo construyendo cosas para que la gente como tú lo disfrute."
+"Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy "
+"realmente apasionado por mi trabajo, me gusta lo que estoy haciendo y espero "
+"que tú también te enriquezcas con mis proyectos."
 
-#: inc/php/page.php:243
+#: inc/php/page.php:250
+msgid ""
+"I spend a lot of time and effort trying to make sure that the themes, "
+"plugins and other things I build are useful, and the ultimate proof of that "
+"for me is that you actually want to use them. But, I’m an independent "
+"developer, without a regular income, so every little contribution helps "
+"cover my costs and lets me spend more time building things for people like "
+"you to enjoy."
+msgstr ""
+"Paso mucho tiempo y esfuerzo tratando de asegurarme que los temas, "
+"complementos y otras cosas que construyo sean útiles, y la prueba definitiva "
+"para mí de que son útiles, es que realmente desea utilizarlos. Pero, soy un "
+"desarrollador independiente, sin un ingreso regular, por lo que cada pequeña "
+"contribución me ayuda a cubrir mis costos y me deja pasar más tiempo "
+"construyendo cosas para que la gente como tú lo disfrute."
+
+#: inc/php/page.php:251
 msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
 
-#: inc/php/page.php:244
+#: inc/php/page.php:252
 msgid "Thank you for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -432,15 +517,17 @@ msgstr ""
 msgid "Save changes"
 msgstr "Guardar los cambios"
 
-#: inc/php/settings.php:45 inc/php/sidebar.php:34
+#: inc/php/settings.php:45 inc/php/sidebar.php:48
 msgid ""
-"I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me "
-"spend more time building things for people like you to enjoy."
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
 msgstr ""
-"Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis "
-"costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
+"Soy un desarrollador independiente, sin un ingreso regular, por lo que cada "
+"pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo "
+"construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:52 inc/php/sidebar.php:41
+#: inc/php/settings.php:52 inc/php/sidebar.php:55
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -450,21 +537,20 @@ msgstr "Acerca  de"
 
 #: inc/php/sidebar.php:18
 msgid ""
-"This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin "
-"area, without the need to have an external editor."
+"This plugin allows you to easily and safely add your custom functions (PHP "
+"code) directly out of your WordPress Admin area, without the need to have an "
+"external editor."
 msgstr ""
 
 #: inc/php/sidebar.php:23
-msgid "Upgrade"
-msgstr ""
-
-#: inc/php/sidebar.php:46
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/php/sidebar.php:48
+#: inc/php/sidebar.php:25
 msgid "If you have a question, please read the information in the FAQ section."
-msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
+msgstr ""
+"Si tiene alguna pregunta, lee la información en la sección de preguntas "
+"frecuentes."
 
 #. Plugin Name of the plugin/theme
 msgid "My Custom Functions"
@@ -476,8 +562,8 @@ msgstr "https://github.com/ArthurGareginyan/my-custom-functions"
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin area, without the need to "
-"have an external editor."
+"Easily and safely add your custom functions (PHP code) directly out of your "
+"WordPress Admin area, without the need to have an external editor."
 msgstr ""
 
 #. Author of the plugin/theme
@@ -487,15 +573,3 @@ msgstr "Arthur Gareginyan"
 #. Author URI of the plugin/theme
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
-
-#~ msgid "by %s Arthur Gareginyan %s"
-#~ msgstr "por %s Arthur Gareginyan %s"
-
-#~ msgid "Author"
-#~ msgstr "Autor"
-
-#~ msgid "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
-#~ msgstr "por <a href=“https://www.arthurgareginyan.com” target=“_blank”>Arthur Gareginyan</a>"
-
-#~ msgid "Using"
-#~ msgstr "Uso"

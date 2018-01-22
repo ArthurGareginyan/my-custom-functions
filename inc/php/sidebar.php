@@ -19,11 +19,25 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
+            <div class="postbox help">
+                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
+                <div class="inside">
+                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
+                </div>
+            </div>
+
             <div class="postbox banner">
-                <h3 class="title"><?php _e( 'Upgrade', $text ); ?></h3>
                 <div class="inside">
                     <a href="https://www.spacexchimp.com/plugins/my-custom-functions-pro.html" target="_blank">
-                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/plugin-upgrade.png" alt="PRO">
+                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/plugin-upgrade.png" alt="Upgrade" style="margin-top:-16px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="postbox banner">
+                <div class="inside">
+                    <a href="https://www.spacexchimp.com/" target="_blank">
+                        <img src="<?php echo SPACEXCHIMP_P001_URL . 'inc/img/banner.png'; ?>" alt="Space X-Chimp">
                     </a>
                 </div>
             </div>
@@ -39,21 +53,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <?php _e( 'Donate with PayPal', $text ); ?>
                     </a>
                     <p><?php _e( 'Thanks for your support!', $text ); ?></p>
-                </div>
-            </div>
-
-            <div class="postbox help">
-                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
-                <div class="inside">
-                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
-                </div>
-            </div>
-
-            <div class="postbox banner">
-                <div class="inside">
-                    <a href="https://www.spacexchimp.com/" target="_blank">
-                        <img src="<?php echo SPACEXCHIMP_P001_URL . 'inc/img/banner.png'; ?>" alt="Space X-Chimp Studio">
-                    </a>
                 </div>
             </div>
 

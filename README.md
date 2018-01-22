@@ -4,15 +4,17 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in WordPress environment directly out of your WordPress Dashboard and without any need of an external editor. It's purpose is to provide a familiar experience to WordPress users. No need any more editing the functions.php file of your theme. Just add your PHP code in the field on the plugin page and this plugin will do the rest for you.This is a simple and perfect tool to use as your site's functionality plugin.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin page you find the PHP editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin area and without any need for an external editor.Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation.
+
+This is a simple and perfect tool to use as your website's functionality plugin.
 
 
 ## Features
 
 * Responsive & Mobile optimized settings page
 * Checks the entered code for fatal errors (simple checks)
-* Trigger for temporarily disable the custom functions
+* Trigger for temporarily disabling the custom functions
 * Easy disable option for WSOD
 * Syntax highlighting (by CodeMirror)
 * Line numbering
@@ -39,7 +41,7 @@ An easy to use WordPress plugin that gives you the ability to easily and safely 
 >
 >* Unlimited number of functions>* Automatic backup of all functions to a file>* Trigger for temporarily disable the certain functions>* Button for collapse/expand the field with code>* Sidebar items can be collapsed or expanded>* Well documented
 >
->[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
+>[Get the premium version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
 
 ## Contributing
@@ -85,7 +87,7 @@ Arthur Garegnyan
 ## Links
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-functions/)
-* [My Custom Functions PRO](https://www.arthurgareginyan.com/plugin-my-custom-functions-pro.html)
+* [My Custom Functions PRO](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
 
 ---
