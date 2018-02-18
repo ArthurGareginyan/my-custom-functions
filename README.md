@@ -84,7 +84,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 ## Author
 
-Arthur Garegnyan
+Arthur Gareginyan
 
 * Email: arthurgareginyan@gmail.com
 
