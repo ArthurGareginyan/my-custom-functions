@@ -130,7 +130,7 @@ function spacexchimp_p001_render_submenu_page() {
                                               <?php printf(
                                                             __( 'If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the "languages" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update.', $text ),
                                                                 '<a href="https://translate.wordpress.org/projects/wp-plugins/' . $slug . '" target="_blank">translation page</a>',
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
+                                                                '<a href="mailto:support@spacexchimp.com?subject=New translation of the ' . $name . ' plugin">support@spacexchimp.com</a>'
                                                            );
                                               ?><br><br>
                                               <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?><br><br>
@@ -180,14 +180,14 @@ function spacexchimp_p001_render_submenu_page() {
                                                     <li><?php _e( 'Return to the plugin settings page and edit/fix your custom code that you entered before the crash.', $text ); ?></li>
                                                     <li><?php _e( 'Rename the "STOP" file to "START" and you\'re done!', $text ); ?></li>
                                               </ol>
-                                              <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>anarcho_cfunctions_settings</code> &#10145; <code>option_value</code>.', $text ); ?></div>
+                                              <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>.', $text ); ?></div>
 
-                        <div class="question-11 question-red"><?php _e( 'The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="question-11 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
                         <div class="answer-11"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
                         <div class="question-12 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
                         <div class="answer-12"><?php printf(
-                                                            __( 'Please visit %s this page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
+                                                            __( 'Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
@@ -195,7 +195,7 @@ function spacexchimp_p001_render_submenu_page() {
 
                         <div class="question-13"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
                         <div class="answer-13"><?php printf(
-                                                            __( 'Any suggestions are very welcome! Just contact us %s here %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
+                                                            __( 'Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
@@ -203,8 +203,8 @@ function spacexchimp_p001_render_submenu_page() {
 
                         <div class="question-14"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
                         <div class="answer-14"><?php printf(
-                                                            __( 'Yes, any financial contributions are welcome! Just visit %s the website of the creator %s, click on the donate button, and thank you!', $text ),
-                                                                '<a href="https://www.arthurgareginyan.com/donate.html" target="_blank">',
+                                                            __( 'Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!', $text ),
+                                                                '<a href="https://www.spacexchimp.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
