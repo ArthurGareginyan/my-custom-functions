@@ -31,7 +31,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
-    text-shadow: 0 -1px 0 #fff,
+    text-shadow:
+                 0 -1px 0 #fff,
                  0 1px 0 #2e2e2e,
                  0 2px 0 #2a2a2a,
                  0 3px 0 #262626,
@@ -40,7 +41,7 @@ h2 {
                  0 6px 0 #1a1a1a,
                  0 7px 0 #161616,
                  0 8px 0 #121212,
-                 0 22px 30px #000000;
+                 0 22px 30px #000;
     letter-spacing: 0.1em;
     line-height: 50px !important;
     overflow: hidden;
@@ -153,7 +154,7 @@ h2 .version {
     -moz-border-radius: 0.3rem;
     border-radius: 0.3rem;
 }
-.tabs-nav:after {
+.tabs-nav::after {
     content: '';
     display: block;
     height: 0;
@@ -171,7 +172,7 @@ h2 .version {
     -moz-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px;
 }
-.tabs-nav li.active:before {
+.tabs-nav li.active::before {
     position: absolute;
     content: '';
     top: 0;
@@ -180,7 +181,7 @@ h2 .version {
     width: 1px;
     background: #f2f2f2;
 }
-.tabs-nav li.active:after {
+.tabs-nav li.active::after {
     background-color: #f2f2f2;
     position: absolute;
     content: '';
@@ -295,21 +296,21 @@ h2 .version {
     text-decoration: none;
 }
 .panel-title,
-.panel-title:before,
-.panel-body:before  {
+.panel-title::before,
+.panel-body::before {
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
     font-size: 16px;
     font-weight: 400;
     color: #6d6d6d;
     text-shadow: 1px 1px 0 #fff;
 }
-.panel-title:before {
+.panel-title::before {
     content: "Q.";
     display: inline-block;
     color: red;
     padding-right: 8px;
 }
-.panel-title:after {
+.panel-title::after {
     content: "\25BC";
     float: right;
     margin: 0;
@@ -321,7 +322,7 @@ h2 .version {
 .panel-title > div {
     display: inline;
 }
-.panel-body:before {
+.panel-body::before {
     content: "A.";
     display: inline-block;
     color: #00a5e2;
@@ -398,24 +399,24 @@ h2 .version {
     -webkit-border-radius: 3px !important;
     -moz-border-radius: 3px !important;
     border-radius: 3px !important;
-    background-image: -moz-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-    background-image: -ms-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-    background-image: -o-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(49%, rgba(255,255,255,.05)), color-stop(51%, rgba(0,0,0,.05)), to(rgba(0,0,0,.1)));
-    background-image: -webkit-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1));
+    background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), color-stop(49%, rgba(255, 255, 255, 0.05)), color-stop(51%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1));
 }
 .button-labeled:hover,
 .button-labeled:focus {
     color: #32689a;
     background-position: 0;
     background-color: transparent;
-    background-image: -moz-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-    background-image: -ms-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-    background-image: -o-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.15)), color-stop(49%, rgba(255,255,255,.15)), color-stop(51%, rgba(0,0,0,.1)), to(rgba(0,0,0,.15)));
-    background-image: -webkit-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-    background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15));
+    background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), color-stop(49%, rgba(255, 255, 255, 0.15)), color-stop(51%, rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.15)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15));
 }
 .button-labeled .btn-label {
     position: relative;
@@ -469,7 +470,7 @@ h2 .version {
 .wp-color-result {
     height: 30px;
 }
-.wp-color-result:after {
+.wp-color-result::after {
     line-height: 28px;
 }
 
