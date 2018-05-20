@@ -99,3 +99,24 @@ function spacexchimp_p001_admin_footer_text() {
     add_filter( 'admin_footer_text', 'spacexchimp_p001_new_admin_footer_text', 11 );
 }
 add_action( 'current_screen', 'spacexchimp_p001_admin_footer_text' );
+
+/**
+ * Runs during the plugin activation
+ */
+function spacexchimp_p001_activation() {
+
+    // Read the plugin service information from the database and put it into an array
+    $info = get_option( SPACEXCHIMP_P001_SETTINGS . '_service_info' );
+
+    // Make the "$info" array if the plugin service information in the database is not exist
+    if ( ! is_array( $info ) ) $info = array();
+
+    // Get the activation date of the plugin from the database
+    $activation_date = !empty( $info['activation_date'] ) ? $info['activation_date'] : '';
+
+    if ( $activation_date == '' ) {
+        $info['activation_date'] = time();
+        update_option( SPACEXCHIMP_P001_SETTINGS . '_service_info', $info );
+    }
+}
+register_activation_hook( SPACEXCHIMP_P001_FILE, 'spacexchimp_p001_activation' );
