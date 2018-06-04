@@ -120,3 +120,12 @@ function spacexchimp_p001_activation() {
     }
 }
 register_activation_hook( SPACEXCHIMP_P001_FILE, 'spacexchimp_p001_activation' );
+
+/**
+ * Delete options on uninstall
+ */
+function spacexchimp_p001_uninstall() {
+    delete_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
+    delete_option( SPACEXCHIMP_P001_SETTINGS . '_error' );
+}
+register_uninstall_hook( SPACEXCHIMP_P001_FILE, 'spacexchimp_p001_uninstall' );

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.17
+ * Version: 4.18
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
@@ -77,4 +77,3 @@ require_once( SPACEXCHIMP_P001_PATH . 'inc/php/enqueue.php' );
 require_once( SPACEXCHIMP_P001_PATH . 'inc/php/functional.php' );
 require_once( SPACEXCHIMP_P001_PATH . 'inc/php/page.php' );
 require_once( SPACEXCHIMP_P001_PATH . 'inc/php/messages.php' );
-require_once( SPACEXCHIMP_P001_PATH . 'inc/php/uninstall.php' );
