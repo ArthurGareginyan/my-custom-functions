@@ -212,6 +212,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 = 4.19 =
 * CodeMirror library updated to the latest version v5.38.0. The directory structure is changed (files are better organized). Added a test files for the CodeMirror modes.
+* Updated the method of loading the modes and addons of the CodeMirror library.
 
 = 4.18 =
 * Fixed a bug due to which the plugin data that stored in the database to not be deleted during the uninstallation of the plugin.
