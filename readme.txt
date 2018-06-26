@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.19
+Stable tag: 4.20
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -153,12 +153,15 @@ A. As with every plugin, it's possible that things don't work. The most common r
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. What to do if this plugin crashed the website? =
-A. This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you just do the following and all will be fine.
+A. This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps.
 
-1. Via FTP, go to the plugin folder (in 'wp-content/plugins/my-custom-functions/').
-2. Rename the "START" file to "STOP". This will stop the execution of your custom code.
-3. Return to the plugin settings page and edit/fix your custom code that you entered before the crash.
-4. Rename the "STOP" file to "START" and you're done!
+1. Access your server via FTP or SFTP. If you aren’t sure how usually your web hosting provider will have instructions somewhere on their website.
+2. Browse to the directory `wp-content/plugins/my-custom-functions/`. Please contact your web hosting company to get help if you can't find this folder.
+3. Rename the file `START` to `STOP`. This will stop the execution of your custom code.
+4. Log in to Admin Area of your WordPress website.
+5. Go to the plugin settings page `Settings` -> `PHP Inserter`.
+6. Edit/fix your custom code that you entered before the crash.
+7. Return to the plugin folder and rename the file `STOP` to `START` and you're done!
 
 This plugin stored you entered code in the database of your website. For getting your code, you also can go to the `Database` -> Table "`wp_options`" -> Option "`spacexchimp_p001_settings`" -> "`option_value`".
 
@@ -192,7 +195,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+Commercial licensing (e.g. for projects that can’t use an open-source licence) is available upon request.
 
 **Credits**
 
@@ -209,6 +212,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.20 =
+* Updated the method of loading the addons of the CodeMirror library.
+* Added the addon 'autorefresh.js' to the CodeMirror editor. The code for manual refreshing the CodeMirror editor is deleted.
+* Texts on the plugin settings page are updated. Translations are updated.
 
 = 4.19 =
 * CodeMirror library updated to the latest version v5.38.0. The directory structure is changed (files are better organized). Added a test files for the CodeMirror modes.

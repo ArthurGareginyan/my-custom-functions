@@ -173,12 +173,15 @@ function spacexchimp_p001_render_submenu_page() {
                                               <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
 
                         <div class="question-10 question-red"><?php _e( 'What to do if this plugin crashed the website?', $text ); ?></div>
-                        <div class="answer-10"><?php _e( 'This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you just do the following and all will be fine.', $text ); ?>
+                        <div class="answer-10"><?php _e( 'This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps.', $text ); ?>
                                               <ol class="custom-counter">
-                                                    <li><?php _e( 'Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>).', $text ); ?></li>
-                                                    <li><?php _e( 'Rename the "START" file to "STOP". This will stop the execution of your custom code.', $text ); ?></li>
-                                                    <li><?php _e( 'Return to the plugin settings page and edit/fix your custom code that you entered before the crash.', $text ); ?></li>
-                                                    <li><?php _e( 'Rename the "STOP" file to "START" and you\'re done!', $text ); ?></li>
+                                                  <li><?php _e( 'Access your server via FTP or SFTP. If you aren\'t sure how usually your web hosting provider will have instructions somewhere on their website.', $text ); ?></li>
+                                                  <li><?php _e( 'Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>. Please contact your web hosting company to get help if you can\'t find this folder.', $text ); ?></li>
+                                                  <li><?php _e( 'Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code.', $text ); ?></li>
+                                                  <li><?php _e( 'Log in to Admin Area of your WordPress website.', $text ); ?></li>
+                                                  <li><?php _e( 'Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>.', $text ); ?></li>
+                                                  <li><?php _e( 'Edit/fix your custom code that you entered before the crash.', $text ); ?></li>
+                                                  <li><?php _e( 'Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you\'re done!', $text ); ?></li>
                                               </ol>
                                               <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>.', $text ); ?></div>
 

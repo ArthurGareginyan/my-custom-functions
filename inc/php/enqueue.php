@@ -38,9 +38,14 @@ function spacexchimp_p001_load_scripts_admin( $hook ) {
     foreach ( $modes as $mode ) {
         wp_enqueue_script( $prefix . '-codemirror-mode-' . $mode . '-js', $url . 'inc/lib/codemirror/mode/' . $mode . '/' . $mode . '.js', array(), $version, true );
     }
-    $addons = array( 'active-line' );
-    foreach ( $addons as $addon ) {
-        wp_enqueue_script( $prefix . '-codemirror-addon-' . $addon . '-js', $url . 'inc/lib/codemirror/addon/selection/' . $addon . '.js', array(), $version, false );
+    $addons = array(
+                    'display' => array( 'autorefresh' ),
+                    'selection' => array( 'active-line' )
+                   );
+    foreach ( $addons as $addons_group_name => $addons_group ) {
+        foreach ( $addons_group as $addon ) {
+            wp_enqueue_script( $prefix . '-codemirror-addon-' . $addon . '-js', $url . 'inc/lib/codemirror/addon/' . $addons_group_name . '/' . $addon . '.js', array(), $version, false );
+        }
     }
 
     // Other libraries

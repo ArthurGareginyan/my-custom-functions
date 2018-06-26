@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-04-20 01:34+0300\n"
-"PO-Revision-Date: 2018-04-20 01:34+0300\n"
+"POT-Creation-Date: 2018-06-26 18:03+0300\n"
+"PO-Revision-Date: 2018-06-26 18:03+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -265,99 +265,111 @@ msgid "What to do if this plugin crashed the website?"
 msgstr "Что делать, если этот плагин сломал сайт?"
 
 #: inc/php/page.php:176
-msgid "This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you just do the following and all will be fine."
+msgid "This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps."
 msgstr "Этот плагин имеет встроенные функции для проверки пользовательского кода на синтаксические ошибки, дублирования имён функций и т. д. Но плагин не идеален, поэтому бывают случаи, когда введенный пользовательский код вызывает ошибку и белый экран (WSOD). Это связано с тем, что ваш пользовательский код имеет синтаксическую ошибку, которую этот плагин не смог обнаружить. Когда это произойдет с вами, просто выполните следующее, и все будет в порядке."
 
 #: inc/php/page.php:178
-msgid "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>)."
-msgstr "Через FTP, перейдите в папку плагина (в <code>wp-content/plugins/my-custom-functions/</code>)."
+msgid "Access your server via FTP or SFTP. If you aren't sure how usually your web hosting provider will have instructions somewhere on their website."
+msgstr ""
 
 #: inc/php/page.php:179
-msgid "Rename the \"START\" file to \"STOP\". This will stop the execution of your custom code."
-msgstr "Переименуйте файл «START» в «STOP». Это остановит выполнение пользовательского кода."
+msgid "Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>. Please contact your web hosting company to get help if you can't find this folder."
+msgstr ""
 
 #: inc/php/page.php:180
-msgid "Return to the plugin settings page and edit/fix your custom code that you entered before the crash."
-msgstr "Вернитесь на страницу настроек плагина и отредактируйте/исправьте свой код, который вы ввели до сбоя."
+msgid "Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code."
+msgstr ""
 
 #: inc/php/page.php:181
-msgid "Rename the \"STOP\" file to \"START\" and you're done!"
-msgstr "Переименуйте файл \"STOP\" в \"START\", и всё готово!"
+msgid "Log in to Admin Area of your WordPress website."
+msgstr ""
+
+#: inc/php/page.php:182
+msgid "Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>."
+msgstr ""
 
 #: inc/php/page.php:183
+msgid "Edit/fix your custom code that you entered before the crash."
+msgstr ""
+
+#: inc/php/page.php:184
+msgid "Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you're done!"
+msgstr ""
+
+#: inc/php/page.php:186
 msgid "This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>."
 msgstr "Этот плагин хранит введённый код в базе данных вашего сайта. Для получения кода вы также можете перейти в <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>."
 
-#: inc/php/page.php:185
+#: inc/php/page.php:188
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "Последнее обновление WordPress не позволяет мне редактировать мой сайт, который использует этот плагин. Почему так?"
 
-#: inc/php/page.php:186
+#: inc/php/page.php:189
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr "Этот плагин не может вызвать такую проблему. Скорее всего, проблема связана с настройками веб-сайта. Это может быть кеш, поэтому попробуйте очистить кеш вашего сайта (возможно, вы используете плагин для кеширования или какой-либо веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера. Также попробуйте повторно войти на сайт, это тоже может помочь."
 
-#: inc/php/page.php:188
+#: inc/php/page.php:191
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:190
+#: inc/php/page.php:193
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Посетите %s эту страницу %s и сообщите. Не забудьте указать название плагина. Спасибо!"
 
-#: inc/php/page.php:196
+#: inc/php/page.php:199
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:198
+#: inc/php/page.php:201
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Любые предложения приветствуются! Просто свяжитесь с нами %s здесь %s. Не забудьте указать название плагина. Спасибо!"
 
-#: inc/php/page.php:204
+#: inc/php/page.php:207
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
 
-#: inc/php/page.php:206
+#: inc/php/page.php:209
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, нажмите на кнопку пожертвования. Спасибо!"
 
-#: inc/php/page.php:212
+#: inc/php/page.php:215
 msgid "My question wasn't answered here."
 msgstr "Моего вопроса здесь нет."
 
-#: inc/php/page.php:214
+#: inc/php/page.php:217
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Вы можете задать ваш вопрос на %s этой странице %s. Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
-#: inc/php/page.php:228
+#: inc/php/page.php:231
 msgid "Support Me"
 msgstr "Поддержать меня"
 
-#: inc/php/page.php:236 inc/php/settings.php:50 inc/php/sidebar.php:53
+#: inc/php/page.php:239 inc/php/settings.php:50 inc/php/sidebar.php:53
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через Pay Pal"
 
-#: inc/php/page.php:241
+#: inc/php/page.php:244
 #, php-format
 msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
 msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
 
-#: inc/php/page.php:249
+#: inc/php/page.php:252
 msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."
 
-#: inc/php/page.php:250
+#: inc/php/page.php:253
 msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Я трачу много времени и сил, пытаясь убедиться в том, что темы, плагины и другие вещи, которые я создаю, полезны и окончательное доказательство этого для меня состоит в том, что вы на самом деле хотите их использовать. Но Я независимый разработчик, без регулярного дохода, поэтому каждый небольшой вклад помогает мне покрыть расходы и позволяет тратить больше времени на создание программ для людей как вы."
 
-#: inc/php/page.php:251
+#: inc/php/page.php:254
 msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
-#: inc/php/page.php:252
+#: inc/php/page.php:255
 msgid "Thank you for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -412,3 +424,15 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>)."
+#~ msgstr "Через FTP, перейдите в папку плагина (в <code>wp-content/plugins/my-custom-functions/</code>)."
+
+#~ msgid "Rename the file \\`START\\` to \\`STOP\\`. This will stop the execution of your custom code."
+#~ msgstr "Переименуйте файл «START» в «STOP». Это остановит выполнение пользовательского кода."
+
+#~ msgid "Return to the plugin settings page and edit/fix your custom code that you entered before the crash."
+#~ msgstr "Вернитесь на страницу настроек плагина и отредактируйте/исправьте свой код, который вы ввели до сбоя."
+
+#~ msgid "rename the file \\`STOP\\` to \\`START\\` and you're done!"
+#~ msgstr "Переименуйте файл \"STOP\" в \"START\", и всё готово!"
