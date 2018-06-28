@@ -13,8 +13,13 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin Area, without the need to have an external editor.Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin Area, without the need to have an external editor.
+
+Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
+
+It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.
+
+On the plugin settings page you find the PHP editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation.
 
 This is a simple and perfect tool to use as your website's functionality plugin.
 
@@ -49,7 +54,10 @@ This is a simple and perfect tool to use as your website's functionality plugin.
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
 
-**Coming soon:*** Reload the settings page at same position after pushing the save button* Multisite network support
+**Coming soon:**
+
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
 
 **Translation**
 
@@ -195,7 +203,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-Commercial licensing (e.g. for projects that can’t use an open-source licence) is available upon request.
+Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
 **Credits**
 
@@ -420,7 +428,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source licence)
 * Style sheet of settings page improved and better commented.
 * JS code improved.
 * The "thanks.png" image removed.
-* POT file updated.* Russian translation updated.* Chinese (Taiwan) translation updated.
+* POT file updated.
+* Russian translation updated.
+* Chinese (Taiwan) translation updated.
 
 = 2.5.1 =
 * The update_option() returned into _duplicates function.
