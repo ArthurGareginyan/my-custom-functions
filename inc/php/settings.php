@@ -21,19 +21,29 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $options = get_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
 
                         // Set default value if option is empty
-                        $content = !empty( $options['snippets'] ) ? $options['snippets'] : '/* Enter your custom functions here */';
-                        $enable = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : ' ';
+                        $snippets = !empty( $options['snippets'] ) ? $options['snippets'] : '';
+                        $checked = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : '';
                     ?>
 
                     <div class="postbox">
                         <h3 class="title">
                             <label for="spacexchimp_p001_settings[snippets]" ><?php _e( 'Functions (PHP code)', $text ); ?></label>
                             <div class="pull-right">
-                                <input type="checkbox" name="spacexchimp_p001_settings[enable]" id="spacexchimp_p001_settings[enable]" <?php echo $enable; ?> class="control-switch-onoff">
+                                <input
+                                    type="checkbox"
+                                    name="spacexchimp_p001_settings[enable]"
+                                    id="spacexchimp_p001_settings[enable]"
+                                    <?php echo $checked; ?>
+                                    class="control-switch-onoff"
+                                >
                             </div>
                         </h3>
                         <div class="inside">
-                            <textarea name="spacexchimp_p001_settings[snippets]" id="spacexchimp_p001_settings[snippets]" ><?php echo htmlentities( $content ); ?></textarea>
+                            <textarea
+                                name="spacexchimp_p001_settings[snippets]"
+                                id="spacexchimp_p001_settings[snippets]"
+                                placeholder="<?php _e( 'Enter your PHP functions here', $text ); ?>"
+                            ><?php echo htmlentities( $snippets ); ?></textarea>
                         </div>
                     </div>
 

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-06-26 18:02+0300\n"
-"PO-Revision-Date: 2018-06-26 18:02+0300\n"
+"POT-Creation-Date: 2018-06-30 20:01+0300\n"
+"PO-Revision-Date: 2018-06-30 20:01+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -86,7 +86,7 @@ msgstr "Verwendung"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:48 inc/php/settings.php:43 inc/php/sidebar.php:46
+#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:46
 msgid "Support"
 msgstr "Support"
 
@@ -300,76 +300,80 @@ msgstr ""
 msgid "This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>."
 msgstr ""
 
-#: inc/php/page.php:188
+#: inc/php/page.php:187
+msgid "We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website."
+msgstr ""
+
+#: inc/php/page.php:189
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "Das letzte WordPress-Update hindert mich daran, meine Webseite, die dieses Plugin verwendet, zu bearbeiten. Warum ist das so?"
 
-#: inc/php/page.php:189
+#: inc/php/page.php:190
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr "Dieses Plugin kann ein solches Problem nicht verursachen. Wahrscheinlich hängt das Problem mit den Einstellungen der Webseite zusammen. Es könnte einfach nur ein Cache sein. Versuchen Sie daher, den Cache Ihrer Webseite zu löschen (möglicherweise verwenden Sie ein Caching-Plugin oder einen Webservice wie CloudFlare) und danach den Cache Ihres Webbrowsers. Versuchen Sie auch, sich erneut auf der Webseite anzumelden, auch dies kann helfen."
 
-#: inc/php/page.php:191
+#: inc/php/page.php:192
 msgid "Where to report bug if found?"
 msgstr "Wo kann ich eine Fehler melden?"
 
-#: inc/php/page.php:193
+#: inc/php/page.php:194
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Bitte besuchen Sie %s diese Seite %s und berichten Sie. Bitte vergiss nicht den Namen des Plugins anzugeben. Vielen Dank!"
 
-#: inc/php/page.php:199
+#: inc/php/page.php:200
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Wo können Sie Ideen oder Vorschläge loswerden, um das Plugin besser zu machen?"
 
-#: inc/php/page.php:201
+#: inc/php/page.php:202
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Irgendwelche Vorschläge sind sehr willkommen! Kontaktieren Sie uns einfach %s hier %s. Bitte vergiss nicht den Namen des Plugins anzugeben. Vielen Dank!"
 
-#: inc/php/page.php:207
+#: inc/php/page.php:208
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Ich liebe dieses Plugin! Kann ich Irgendwie helfen?"
 
-#: inc/php/page.php:209
+#: inc/php/page.php:210
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Ja, jede finanzielle Unterstützung ist Willkommen! Besuchen Sie %s meine Webseite %s, klicken Sie auf den Spenden Button und Danke!"
 
-#: inc/php/page.php:215
+#: inc/php/page.php:216
 msgid "My question wasn't answered here."
 msgstr "Meine Fragen wurden nicht beantwortet."
 
-#: inc/php/page.php:217
+#: inc/php/page.php:218
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Sie können Ihre Frage auf %s dieser Seite stellen %s. Aber bitte bedenken Sie, dass dieses Plugin kostenlos ist. Es gibt kein Support Team, deshalb habe wir keine Möglichkeit jedem zu antworten."
 
-#: inc/php/page.php:231
+#: inc/php/page.php:232
 msgid "Support Me"
 msgstr "Unterstützen Sie mich"
 
-#: inc/php/page.php:239 inc/php/settings.php:50 inc/php/sidebar.php:53
+#: inc/php/page.php:240 inc/php/settings.php:60 inc/php/sidebar.php:53
 msgid "Donate with PayPal"
 msgstr "Spende mit PayPal"
 
-#: inc/php/page.php:244
+#: inc/php/page.php:245
 #, php-format
 msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
 msgstr "Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space X-Chimp %s."
 
-#: inc/php/page.php:252
+#: inc/php/page.php:253
 msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 msgstr "Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, dass Sie auch von meinen Projekten bereichert werden."
 
-#: inc/php/page.php:253
+#: inc/php/page.php:254
 msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Ich habe viel Zeit und Mühe darauf verwendet sicherzustellen, dass die Themes, Plugins und andere Dinge, die ich entwickle, nützlich sind. Der ultimative Beweis für mich ist, dass Sie sie tatsächlich verwenden. Aber ich bin ein unabhängiger Entwickler ohne regelmäßiges Einkommen. Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und schenkt mir mehr Zeit damit zu verbringen, Dinge für Leute wie Sie zu gestalten."
 
-#: inc/php/page.php:254
+#: inc/php/page.php:255
 msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr "Wenn Ihnen meine Arbeit gefällt, können Sie mir gerne einen Kaffee kaufen!"
 
-#: inc/php/page.php:255
+#: inc/php/page.php:256
 msgid "Thank you for your support!"
 msgstr "Danke für Ihre Unterstützung!"
 
@@ -377,15 +381,19 @@ msgstr "Danke für Ihre Unterstützung!"
 msgid "Functions (PHP code)"
 msgstr ""
 
-#: inc/php/settings.php:40
+#: inc/php/settings.php:45
+msgid "Enter your PHP functions here"
+msgstr ""
+
+#: inc/php/settings.php:50
 msgid "Save changes"
 msgstr "Änderungen speichern"
 
-#: inc/php/settings.php:45 inc/php/sidebar.php:48
+#: inc/php/settings.php:55 inc/php/sidebar.php:48
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Ich bin ein unabhängiger Entwickler ohne regelmäßiges Einkommen. Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und ich kann mehr Zeit damit verbringen, Dinge für Leute wie Sie zu entwickeln."
 
-#: inc/php/settings.php:52 inc/php/sidebar.php:55
+#: inc/php/settings.php:62 inc/php/sidebar.php:55
 msgid "Thanks for your support!"
 msgstr "Danke für Ihre Unterstützung!"
 

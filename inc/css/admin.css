@@ -543,6 +543,9 @@ td.help-text {
     margin-left: 5px;
     margin-right: 5px;
 }
+.CodeMirror pre.CodeMirror-placeholder {
+    color: #999;
+}
 
 /* Messages */
 #setting-error-settings_updated {

@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.20
+Stable tag: 4.21
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -165,6 +165,8 @@ A. This plugin has a built-in functions for checking the custom code for syntax 
 
 This plugin stored you entered code in the database of your website. For getting your code, you also can go to the `Database` -> Table "`wp_options`" -> Option "`spacexchimp_p001_settings`" -> "`option_value`".
 
+We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website.
+
 = Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
@@ -195,7 +197,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-Commercial licensing (e.g. for projects that can’t use an open-source licence) is available upon request.
+Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
 **Credits**
 
@@ -212,6 +214,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source licence)
 
 
 == Changelog ==
+
+= 4.21 =
+* Fixed localization of the word "licence". (Thanks to Garrett Hyder @garrett-eclipse)
+* Settings for the CodeMirror editor are moved to a separate file 'codemirror-settings.js'.
+* Added the addon 'placeholder.js' to the CodeMirror editor. Added a placeholder for code field.
+* Texts on the plugin settings page are updated. Translations are updated.
 
 = 4.20 =
 * Updated the method of loading the addons of the CodeMirror library.
