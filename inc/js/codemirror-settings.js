@@ -20,6 +20,7 @@ jQuery(document).ready(function($) {
             matchBrackets: true,
             indentUnit: 4,
             mode: 'text/x-php',
+            autoRefresh: true,
             styleActiveLine: true
         });
     });
