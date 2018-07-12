@@ -1,6 +1,6 @@
 # My Custom Functions
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
