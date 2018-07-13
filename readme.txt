@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.22
+Stable tag: 4.23
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -214,6 +214,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.23 =
+* The code block that enqueue the CodeMirror library files is moved to a separate function '_load_scripts_codemirror' within the 'enqueue.php' file.
+* Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
+* All translation files are updated.
 
 = 4.22 =
 * Fixed: CodeMirror addon 'autorefresh.js' was added to one of the previous versions of the plugin, but it was not enabled.
