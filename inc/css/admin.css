@@ -99,6 +99,11 @@ h2 .version {
 #side-sortables .banner img {
     width: 265px;
 }
+#side-sortables .banner .btn {
+    width: 95%;
+    height: 40px;
+    margin-bottom: 0;
+}
 
 /* Support - Tab and Addition section
  -------------------------------------------------------------- */

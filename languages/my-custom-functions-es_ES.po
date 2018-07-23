@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-07-12 01:18+0300\n"
-"PO-Revision-Date: 2018-07-12 01:18+0300\n"
+"POT-Creation-Date: 2018-07-24 00:34+0300\n"
+"PO-Revision-Date: 2018-07-24 00:34+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -86,7 +86,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:46
+#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:47
 msgid "Support"
 msgstr "Soporte"
 
@@ -349,28 +349,28 @@ msgid "You can ask your question on %s this page %s. But please keep in mind tha
 msgstr "Puede hacer tu pregunta en %s la página de soporte del complementos %s. Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tengo forma de responder a todos."
 
 #: inc/php/page.php:232
-msgid "Support Me"
-msgstr "Apoyarme!"
+msgid "Support Us"
+msgstr "¡Apoyanos!"
 
-#: inc/php/page.php:240 inc/php/settings.php:60 inc/php/sidebar.php:53
+#: inc/php/page.php:240 inc/php/settings.php:60 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
 #: inc/php/page.php:245
 #, php-format
-msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp %s."
+msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr ""
 
 #: inc/php/page.php:253
-msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-msgstr "Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy realmente apasionado por mi trabajo, me gusta lo que estoy haciendo y espero que tú también te enriquezcas con mis proyectos."
+msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr ""
 
 #: inc/php/page.php:254
-msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Paso mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyo sean útiles, y la prueba definitiva para mí de que son útiles, es que realmente desea utilizarlos. Pero, soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución me ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que la gente como tú lo disfrute."
 
 #: inc/php/page.php:255
-msgid "If you appreciate my work, you can buy me a coffee!"
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
 
 #: inc/php/page.php:256
@@ -389,27 +389,31 @@ msgstr ""
 msgid "Save changes"
 msgstr "Guardar Cambios"
 
-#: inc/php/settings.php:55 inc/php/sidebar.php:48
-msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+#: inc/php/settings.php:55 inc/php/sidebar.php:49
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:62 inc/php/sidebar.php:55
+#: inc/php/settings.php:62 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
 #: inc/php/sidebar.php:16
+msgid "We are «Space X-Chimp»"
+msgstr ""
+
+#: inc/php/sidebar.php:25
 msgid "About"
 msgstr "Acerca de"
 
-#: inc/php/sidebar.php:18
+#: inc/php/sidebar.php:27
 msgid "This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
-#: inc/php/sidebar.php:23
+#: inc/php/sidebar.php:32
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:34
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
@@ -432,3 +436,9 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp %s."
+
+#~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
+#~ msgstr "Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy realmente apasionado por mi trabajo, me gusta lo que estoy haciendo y espero que tú también te enriquezcas con mis proyectos."

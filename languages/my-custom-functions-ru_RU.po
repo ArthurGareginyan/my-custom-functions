@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-07-12 01:18+0300\n"
-"PO-Revision-Date: 2018-07-12 01:18+0300\n"
+"POT-Creation-Date: 2018-07-24 00:35+0300\n"
+"PO-Revision-Date: 2018-07-24 00:35+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -86,7 +86,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:46
+#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:47
 msgid "Support"
 msgstr "Поддержка"
 
@@ -349,28 +349,28 @@ msgid "You can ask your question on %s this page %s. But please keep in mind tha
 msgstr "Вы можете задать ваш вопрос на %s этой странице %s. Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
 #: inc/php/page.php:232
-msgid "Support Me"
-msgstr "Поддержать меня"
+msgid "Support Us"
+msgstr "Поддержать нас"
 
-#: inc/php/page.php:240 inc/php/settings.php:60 inc/php/sidebar.php:53
+#: inc/php/page.php:240 inc/php/settings.php:60 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через Pay Pal"
 
 #: inc/php/page.php:245
 #, php-format
-msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
+msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr ""
 
 #: inc/php/page.php:253
-msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."
+msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr ""
 
 #: inc/php/page.php:254
-msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Я трачу много времени и сил, пытаясь убедиться в том, что темы, плагины и другие вещи, которые я создаю, полезны и окончательное доказательство этого для меня состоит в том, что вы на самом деле хотите их использовать. Но Я независимый разработчик, без регулярного дохода, поэтому каждый небольшой вклад помогает мне покрыть расходы и позволяет тратить больше времени на создание программ для людей как вы."
 
 #: inc/php/page.php:255
-msgid "If you appreciate my work, you can buy me a coffee!"
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
 #: inc/php/page.php:256
@@ -389,27 +389,31 @@ msgstr ""
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:55 inc/php/sidebar.php:48
-msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+#: inc/php/settings.php:55 inc/php/sidebar.php:49
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Я независимый разработчик, без регулярного дохода, так что каждый маленький вклад помогает мне покрыть затраты и позволяет тратить больше времени на создание программ для людей как вы."
 
-#: inc/php/settings.php:62 inc/php/sidebar.php:55
+#: inc/php/settings.php:62 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
 #: inc/php/sidebar.php:16
+msgid "We are «Space X-Chimp»"
+msgstr ""
+
+#: inc/php/sidebar.php:25
 msgid "About"
 msgstr "О плагине"
 
-#: inc/php/sidebar.php:18
+#: inc/php/sidebar.php:27
 msgid "This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr "Это плагин даёт вам возможность легко и безопасно добавлять ваши пользовательские функции (код PHP) непосредственно из области администрирования WordPress без необходимости иметь внешний редактор."
 
-#: inc/php/sidebar.php:23
+#: inc/php/sidebar.php:32
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:34
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
@@ -432,6 +436,12 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
+
+#~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
+#~ msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."
 
 #~ msgid "Via FTP, go to the plugin folder (in <code>wp-content/plugins/my-custom-functions/</code>)."
 #~ msgstr "Через FTP, перейдите в папку плагина (в <code>wp-content/plugins/my-custom-functions/</code>)."
