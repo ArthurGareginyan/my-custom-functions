@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-07-24 00:35+0300\n"
+"POT-Creation-Date: 2018-08-07 01:38+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -105,7 +105,7 @@ msgid "Go to the \"Main\" tab."
 msgstr ""
 
 #: inc/php/page.php:70
-msgid "Place your PHP code in the field."
+msgid "Place your custom PHP code in the field."
 msgstr ""
 
 #: inc/php/page.php:71
@@ -117,7 +117,7 @@ msgid "Note!"
 msgstr ""
 
 #: inc/php/page.php:77
-msgid "Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags."
+msgid "Please do not wrap your custom PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags."
 msgstr ""
 
 #: inc/php/page.php:78
@@ -133,7 +133,7 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:82
-msgid "Enjoy the result of applying your PHP code."
+msgid "Enjoy the result of applying your custom PHP code."
 msgstr ""
 
 #: inc/php/page.php:82
@@ -187,7 +187,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:140
-msgid "On the \"Main\" tab, place your PHP code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your PHP code. It's that simple!"
+msgid "On the \"Main\" tab, place your custom PHP code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your custom PHP code. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:142

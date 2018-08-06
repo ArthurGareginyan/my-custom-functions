@@ -67,19 +67,19 @@ function spacexchimp_p001_render_submenu_page() {
                         <p><?php _e( 'To add your custom functions (the PHP code) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
-                            <li><?php _e( 'Place your PHP code in the field.', $text ); ?><br><br>
+                            <li><?php _e( 'Place your custom PHP code in the field.', $text ); ?><br><br>
                                 <?php _e( 'Example of PHP code:', $text ); ?>
 <pre><code>function NameOfYourFunction {
 
     ...
 
 }</code></pre>
-                                <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Please do not wrap your PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags.', $text ); ?></p>
+                                <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Please do not wrap your custom PHP code in the <code>&lt;?php</code>...<code>?&gt;</code> HTML tags.', $text ); ?></p>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Before use, please read the instructions on the F.A.Q. tab on what to do in case of a website crash.', $text ); ?></p>
                             </li>
                             <li><?php _e( 'Switch the toggle to the "ON" position.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
-                            <li><?php _e( 'Enjoy the result of applying your PHP code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
+                            <li><?php _e( 'Enjoy the result of applying your custom PHP code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                             __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
@@ -137,7 +137,7 @@ function spacexchimp_p001_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your PHP code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your PHP code. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom PHP code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom PHP code. It\'s that simple!', $text ); ?></div>
 
                         <div class="question-4"><?php _e( 'Can I use HTML/CSS/JS code integrated in PHP code?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'Yes. But you need to do it properly, like this:', $text ); ?><br>

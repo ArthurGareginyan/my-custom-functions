@@ -4,7 +4,7 @@ Tags: code, php, function, snippet, custom, execute, edit, editing, editor, func
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.24
+Stable tag: 4.25
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,10 +13,13 @@ Easily and safely add your custom functions (PHP code) directly out of your Word
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin Area, without the need to have an external editor.Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the functions.php file of your theme. Just add your PHP code in the field on the plugin settings page and this plugin will do the rest for you.
-It's really useful in case of any theme update, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme.On the plugin settings page you find the PHP editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin Area, without the need to have an external editor.
 
-This is a simple and perfect tool to use as your website's functionality plugin.
+This is a simple and perfect tool to use as your website's functionality plugin. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the functions.php file of your theme. Just add your custom PHP code in the field on the plugin page and this plugin will do the rest for you.
+
+The plugin works completely independently of the theme, so you can use it with any theme, and regardless of whether the theme does or does not have a functions.php file. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s functions.php file, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
 **Features**
 
@@ -33,17 +36,19 @@ This is a simple and perfect tool to use as your website's functionality plugin.
 * Checks the entered code for fatal errors
 * Ability to temporarily disable all custom functions
 * Easy disable option for WSOD
-* Syntax highlighting (by CodeMirror)
+* Code syntax highlighting
 * Line numbering
 * Active line highlighting
-* Editor allow for tab indentation
+* Editor allow for Tab indentation
 * And much, much more!
 
 **PRO features include...**
 
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
 * Unlimited number of fields
 * Automatic backup of all functions to a file
-* Ability to temporarily disable the certain function
+* Ability to enable/disable the certain function
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
@@ -117,7 +122,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your PHP code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your PHP code. It's that simple!
+A. Simply go to the plugin settings page, place your custom PHP code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom PHP code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`PHP Inserter`".
 
 = Q. Can I use HTML/CSS/JS code integrated in PHP code? =
@@ -215,6 +220,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.25 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
 
 = 4.24 =
 * Dutch translation added. (Thanks to Peter Leenders)
