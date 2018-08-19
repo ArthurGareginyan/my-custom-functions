@@ -6,26 +6,45 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Prepare the user entered code for execution
+ * Prepare the custom code
  */
-function spacexchimp_p001_prepare( $content ) {
+function spacexchimp_p001_prepare() {
 
-    // Cleaning
-    $content = trim( $content );
-    $content = ltrim( $content, '<?php' );
-    $content = rtrim( $content, '?>' );
+    // Read options from database and declare variables
+    $options = get_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
+    $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
+    $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
 
-    // Return prepared code
-    return $content;
+    // Prepare a variable for storing the processed data
+    $data_out = "";
+
+    // If data is not empty...
+    if ( !empty( $data ) ) {
+
+        // If the custom code is enabled...
+        if ( $enable == "on") {
+
+            // Prepare a variable for storing the processing data, and perform data processing
+            $data_tmp = $data;
+            $data_tmp = trim( $data_tmp );           // Cleaning
+            $data_tmp = ltrim( $data_tmp, '<?php' ); // Cleaning
+            $data_tmp = rtrim( $data_tmp, '?>' );    // Cleaning
+
+            $data_out .= $data_tmp;
+        }
+    }
+
+    // Return the processed data
+    return $data_out;
 }
 
 /**
- * Check the user entered code for duplicate names of snippets
+ * Check the custom code for duplicate names of functions
  */
-function spacexchimp_p001_duplicates( $content ) {
+function spacexchimp_p001_duplicates( $data ) {
 
     // Find names of user entered snippets and check for duplicates
-    preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $content, $user_func_names);
+    preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $data, $user_func_names);
     $user_func_a = count( $user_func_names[1] );
     $user_func_b = count( array_unique( $user_func_names[1] ) );
 
@@ -48,45 +67,39 @@ function spacexchimp_p001_duplicates( $content ) {
 }
 
 /**
- * Execute the user entered code
+ * Process the custom code
  */
 function spacexchimp_p001_exec() {
 
-    // If STOP file exist...
+    // If the STOP file exist...
     if ( file_exists( SPACEXCHIMP_P001_PATH . 'STOP' ) ) {
         return;   // EXIT
     }
 
-    // Read options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
-    $content = !empty( $options['snippets'] ) ? $options['snippets'] : ' ';
-    $enable = !empty( $options['enable'] ) ? $options['enable'] : ' ';
+    // Get the custom code by calling the "prepare" function
+    $data = spacexchimp_p001_prepare();
 
-    // If the user entered code is disabled...
-    if ( $enable != 'on') {
-        return;   // EXIT
-    }
-
-    // Prepare the user entered snippets by calling the "prepare" function
-    $content = spacexchimp_p001_prepare( $content );
-
-    // If content is empty...
-    if ( empty( $content ) OR $content == ' ' ) {
+    // If data is empty...
+    if ( empty( $data ) OR $data == ' ' ) {
         return;   // EXIT
     }
 
     // If the duplicates snippets finded...
-    $duplicates = spacexchimp_p001_duplicates( $content );
+    $duplicates = spacexchimp_p001_duplicates( $data );
     if ( $duplicates != 0 ) {
         return;   // EXIT
     }
 
     // Parsing and execute by Eval
-    if ( false === @eval( $content ) ) {
+    if ( false === @eval( $data ) ) {
         update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '1' );   // ERROR
         return;   // EXIT
     } else {
         update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '0' );   // RESET ERROR VALUE
     }
 }
+
+/**
+ * Execute the custom code
+ */
 spacexchimp_p001_exec();

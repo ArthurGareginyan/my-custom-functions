@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-08-07 01:37+0300\n"
-"PO-Revision-Date: 2018-08-07 01:37+0300\n"
+"POT-Creation-Date: 2018-08-18 18:14+0300\n"
+"PO-Revision-Date: 2018-08-18 18:14+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -54,7 +54,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
 #: inc/php/messages.php:91
-msgid "Custom functions updated successfully."
+msgid "Custom code updated successfully."
 msgstr ""
 
 #: inc/php/messages.php:107
@@ -99,7 +99,7 @@ msgid "Usage Instructions"
 msgstr "Instrucciones de uso"
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
+msgid "To add your custom functions (PHP code) to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:69
@@ -437,8 +437,8 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp %s."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "¡Hola! Mi nombre es %s Arthur %s y soy el fundador de %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 #~ msgstr "Mi intención es crear proyectos que hagan de este mundo un lugar mejor. Soy realmente apasionado por mi trabajo, me gusta lo que estoy haciendo y espero que tú también te enriquezcas con mis proyectos."

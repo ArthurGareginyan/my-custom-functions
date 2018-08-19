@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-08-07 01:38+0300\n"
-"PO-Revision-Date: 2018-08-07 01:38+0300\n"
+"POT-Creation-Date: 2018-08-18 18:14+0300\n"
+"PO-Revision-Date: 2018-08-18 18:14+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -54,8 +54,8 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
 #: inc/php/messages.php:91
-msgid "Custom functions updated successfully."
-msgstr "Пользовательские функции успешно обновлены."
+msgid "Custom code updated successfully."
+msgstr "Пользовательский код успешно обновлён."
 
 #: inc/php/messages.php:107
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
@@ -99,7 +99,7 @@ msgid "Usage Instructions"
 msgstr "Инструкция по использованию"
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
+msgid "To add your custom functions (PHP code) to your website, simply follow these steps:"
 msgstr "Чтобы добавить свои пользовательские функции (код PHP) на свой сайт, просто выполните следующие действия:"
 
 #: inc/php/page.php:69
@@ -437,8 +437,8 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Привет! Меня зовут %s Артур %s и Я основатель %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 #~ msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."

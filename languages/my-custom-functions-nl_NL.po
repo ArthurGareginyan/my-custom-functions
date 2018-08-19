@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-08-07 01:37+0300\n"
-"PO-Revision-Date: 2018-08-07 01:38+0300\n"
+"POT-Creation-Date: 2018-08-18 18:14+0300\n"
+"PO-Revision-Date: 2018-08-18 18:14+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -54,7 +54,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Update de plug-in naar de nieuwste versie en alles komt goed."
 
 #: inc/php/messages.php:91
-msgid "Custom functions updated successfully."
+msgid "Custom code updated successfully."
 msgstr "Aangepaste functies zijn geüpdated."
 
 #: inc/php/messages.php:107
@@ -99,7 +99,7 @@ msgid "Usage Instructions"
 msgstr "Gebruiksinstructies"
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
+msgid "To add your custom functions (PHP code) to your website, simply follow these steps:"
 msgstr "Om je eigen aangepaste functies (de PHP code) aan je website toe te voegen, volg deze simpele stappen:"
 
 #: inc/php/page.php:69
@@ -437,8 +437,8 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Hallo! Mijn naam is %s Arthur Gareginyan %s en ik ben de oprichter van %s Space X-Chimp %s."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Hallo! Mijn naam is %s Arthur %s en ik ben de oprichter van %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 #~ msgstr "Het is mijn bedoeling om projecten te maken die van deze wereld een betere plek maken. Ik ben echt gepassioneerd over mijn werk, ik vind het leuk wat ik doe en hoop dat je ook verrijkt zult worden door mijn projecten."

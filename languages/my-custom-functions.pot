@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-08-07 01:38+0300\n"
+"POT-Creation-Date: 2018-08-18 18:14+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -52,7 +52,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
 #: inc/php/messages.php:91
-msgid "Custom functions updated successfully."
+msgid "Custom code updated successfully."
 msgstr ""
 
 #: inc/php/messages.php:107
@@ -97,7 +97,7 @@ msgid "Usage Instructions"
 msgstr ""
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (the PHP code) to your website, simply follow these steps:"
+msgid "To add your custom functions (PHP code) to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:69
