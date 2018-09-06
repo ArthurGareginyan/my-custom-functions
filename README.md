@@ -4,7 +4,7 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-functions/blob/master/assets/banner-772x250.png)
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom functions (PHP code) for execution in the WordPress environment directly out of your WordPress Admin Area, without the need to have an external editor.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
 This is a simple and perfect tool to use as your website's functionality plugin. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the functions.php file of your theme. Just add your custom PHP code in the field on the plugin page and this plugin will do the rest for you.
 
@@ -12,45 +12,75 @@ The plugin works completely independently of the theme, so you can use it with a
 
 On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
+**Features**
 
-## Features
-
-* Responsive & Mobile optimized settings page
-* Checks the entered code for fatal errors (simple checks)
-* Trigger for temporarily disabling the custom functions
-* Easy disable option for WSOD
-* Syntax highlighting (by CodeMirror)
-* Line numbering
-* Active line highlighting
-* Editor allow for tab indentation
-* Ready for translation (POT file included)
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Coming soon:**
+**Key features include...**
 
-* Reload the settings page at same position after pushing the save button
-* Multisite network support
+* Checks the entered code for fatal errors
+* Ability to temporarily disable all custom PHP code
+* Easy disable option for WSOD
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
 
-**Translation:**
+**Supported languages**
 
-* English
-* Russian
-* Chinese (Taiwan)
-* Spanish
-* French
+* PHP
 
-**Consider Going Pro For Additional Features!**
+**PRO features include...**
 
->**Pro Features**
->
->* Unlimited number of functions
->* Automatic backup of all functions to a file
->* Trigger for temporarily disable the certain functions
->* Button for collapse/expand the field with code
->* Sidebar items can be collapsed or expanded
->* Well documented
->
->[Get the premium version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Unlimited number of fields for functions
+* Automatic backup of all functions to a downloadable text file
+* Separate activation and deactivation of functions
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
+
+**Translation**
+
+This plugin is ready for translation and has already been translated into several languages.
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Chinese-Taiwan (translation by Gordon Yu)
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
+* French (translation by Theophil Bethel)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-functions).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-functions?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-functions) if you have any ideas or suggestions to make this plugin better.
 
 
 ## Contributing
