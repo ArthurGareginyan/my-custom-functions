@@ -556,6 +556,22 @@ td.help-text {
 #setting-error-settings_updated {
     display: none;
 }
+#message.updated i {
+    padding-right: 5px;
+    color: green;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+#message.error i {
+    padding-right: 5px;
+    color: red;
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+#message.error span {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /* Titles */
 .meta-box-sortabless .title label {

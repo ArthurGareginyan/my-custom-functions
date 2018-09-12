@@ -64,7 +64,7 @@ function spacexchimp_p001_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add your custom functions (PHP code) to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom PHP code to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
                             <li><?php _e( 'Place your custom PHP code in the field.', $text ); ?><br><br>
@@ -150,7 +150,7 @@ function spacexchimp_p001_render_submenu_page() {
 }</code></pre>
 </div>
 
-                        <div class="question-5"><?php _e( 'How much of PHP code (characters) I can enter in the text field?', $text ); ?></div>
+                        <div class="question-5"><?php _e( 'How much of PHP code (characters) I can enter in the code editor?', $text ); ?></div>
                         <div class="answer-5"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
                         <div class="question-6 question-red"><?php _e( 'On the plugin settings page, an error message appears. What could be wrong?', $text ); ?></div>
@@ -180,7 +180,7 @@ function spacexchimp_p001_render_submenu_page() {
                                                   <li><?php _e( 'Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code.', $text ); ?></li>
                                                   <li><?php _e( 'Log in to Admin Area of your WordPress website.', $text ); ?></li>
                                                   <li><?php _e( 'Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>.', $text ); ?></li>
-                                                  <li><?php _e( 'Edit/fix your custom code that you entered before the crash.', $text ); ?></li>
+                                                  <li><?php _e( 'Edit/fix your custom PHP code that you entered before the crash.', $text ); ?></li>
                                                   <li><?php _e( 'Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you\'re done!', $text ); ?></li>
                                               </ol>
                                               <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>.', $text ); ?><br><br>

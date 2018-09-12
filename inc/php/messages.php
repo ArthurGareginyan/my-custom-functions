@@ -88,7 +88,7 @@ function spacexchimp_p001_successfull_message() {
     if ( isset( $_GET['settings-updated'] ) ) {
         ?>
             <div id="message" class="updated">
-                <p><?php _e( 'Custom code updated successfully.', SPACEXCHIMP_P001_TEXT ); ?></p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> <?php _e( 'Custom code updated successfully.', SPACEXCHIMP_P001_TEXT ); ?></p>
             </div>
         <?php
     }
@@ -100,12 +100,16 @@ function spacexchimp_p001_successfull_message() {
 function spacexchimp_p001_parsing_error_message() {
 
     $error = get_option( SPACEXCHIMP_P001_SETTINGS . '_error' );
+    //$error = '1'; // For testing purposes
     if ( $error == '1' ) {
         ?>
             <div id="message" class="error">
                 <p>
-                    <?php _e( 'Sorry, but your code causes a "Fatal error", so it is not applied!', SPACEXCHIMP_P001_TEXT ); ?><br/>
-                    <?php _e( 'Please, check the code and try again.', SPACEXCHIMP_P001_TEXT ); ?>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <span>
+                        <?php _e( 'Sorry, but your code causes a "Fatal error", so it is not applied!', SPACEXCHIMP_P001_TEXT ); ?><br/>
+                        <?php _e( 'Please, check the code and try again.', SPACEXCHIMP_P001_TEXT ); ?>
+                    </span>
                 </p>
             </div>
         <?php

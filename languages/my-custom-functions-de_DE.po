@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-08-18 18:14+0300\n"
-"PO-Revision-Date: 2018-08-18 18:14+0300\n"
+"POT-Creation-Date: 2018-09-12 18:19+0300\n"
+"PO-Revision-Date: 2018-09-12 18:19+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -57,11 +57,11 @@ msgstr "Bitte installieren Sie die aktuelle Version des Plugins und alles wir gu
 msgid "Custom code updated successfully."
 msgstr ""
 
-#: inc/php/messages.php:107
+#: inc/php/messages.php:110
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr ""
 
-#: inc/php/messages.php:108
+#: inc/php/messages.php:111
 msgid "Please, check the code and try again."
 msgstr ""
 
@@ -99,7 +99,7 @@ msgid "Usage Instructions"
 msgstr "Anleitung"
 
 #: inc/php/page.php:67
-msgid "To add your custom functions (PHP code) to your website, simply follow these steps:"
+msgid "To add your custom PHP code to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:69
@@ -201,7 +201,7 @@ msgid "Yes. But you need to do it properly, like this:"
 msgstr ""
 
 #: inc/php/page.php:153
-msgid "How much of PHP code (characters) I can enter in the text field?"
+msgid "How much of PHP code (characters) I can enter in the code editor?"
 msgstr ""
 
 #: inc/php/page.php:154
@@ -289,7 +289,7 @@ msgid "Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP I
 msgstr ""
 
 #: inc/php/page.php:183
-msgid "Edit/fix your custom code that you entered before the crash."
+msgid "Edit/fix your custom PHP code that you entered before the crash."
 msgstr ""
 
 #: inc/php/page.php:184
@@ -406,7 +406,7 @@ msgid "About"
 msgstr "Über"
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "This plugin allows you to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #: inc/php/sidebar.php:32
@@ -426,7 +426,7 @@ msgid "https://github.com/ArthurGareginyan/my-custom-functions"
 msgstr "https://github.com/ArthurGareginyan/my-custom-functions"
 
 #. Description of the plugin/theme
-msgid "Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "Easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #. Author of the plugin/theme

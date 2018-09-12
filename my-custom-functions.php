@@ -2,10 +2,10 @@
 /**
  * Plugin Name: My Custom Functions
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-functions
- * Description: Easily and safely add your custom functions (PHP code) directly out of your WordPress Admin Area, without the need to have an external editor.
+ * Description: Easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.26
+ * Version: 4.27
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
