@@ -6,7 +6,7 @@
 
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
-This is a simple and perfect tool to use as your website's functionality plugin. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the functions.php file of your theme. Just add your custom PHP code in the field on the plugin page and this plugin will do the rest for you.
+This is a simple and perfect tool to use as your website's functionality plugin. This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the functions.php file of your theme or any of your plugin files for to add custom PHP code. Just add your custom PHP code in the field on the plugin page and this plugin will do the rest for you. It will automatically add your PHP code to your website, without changing any of your theme files and without slowing down your website.
 
 The plugin works completely independently of the theme, so you can use it with any theme, and regardless of whether the theme does or does not have a functions.php file. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s functions.php file, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom PHP code would never be overwritten. Your custom PHP code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
@@ -25,18 +25,15 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 
 **Key features include...**
 
+* Insert custom PHP code into the site
 * Checks the entered code for fatal errors
-* Ability to temporarily disable all custom PHP code
 * Easy disable option for WSOD
+* Ability to temporarily disable all custom PHP code
 * Code syntax highlighting
 * Line numbering
 * Active line highlighting
 * Editor allow for Tab indentation
 * And much, much more!
-
-**Supported languages**
-
-* PHP
 
 **PRO features include...**
 
@@ -49,6 +46,10 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Well documented
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-functions-pro.html)
+
+**Supported languages**
+
+* PHP
 
 **Translation**
 
