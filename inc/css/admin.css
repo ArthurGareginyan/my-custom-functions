@@ -335,6 +335,7 @@ h2 .version {
 }
 .panel-body {
     display: inline-block;
+    width: 100%;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 13px;
 }
