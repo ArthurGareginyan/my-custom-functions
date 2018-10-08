@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-09-22 15:32+0300\n"
-"PO-Revision-Date: 2018-09-22 15:46+0300\n"
+"POT-Creation-Date: 2018-10-08 08:38+0300\n"
+"PO-Revision-Date: 2018-10-08 08:38+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-functions.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -86,7 +86,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:48 inc/php/settings.php:53 inc/php/sidebar.php:47
+#: inc/php/page.php:48 inc/php/settings.php:54 inc/php/sidebar.php:47
 msgid "Support"
 msgstr ""
 
@@ -361,7 +361,7 @@ msgstr ""
 msgid "Support Us"
 msgstr ""
 
-#: inc/php/page.php:263 inc/php/settings.php:60 inc/php/sidebar.php:54
+#: inc/php/page.php:263 inc/php/settings.php:61 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr ""
 
@@ -390,19 +390,23 @@ msgstr ""
 msgid "Functions (PHP code)"
 msgstr "Fonctions (code PHP)"
 
-#: inc/php/settings.php:45
+#: inc/php/settings.php:32
+msgid "NOT SAVED!"
+msgstr ""
+
+#: inc/php/settings.php:46
 msgid "Enter your PHP functions here"
 msgstr ""
 
-#: inc/php/settings.php:50
+#: inc/php/settings.php:51
 msgid "Save changes"
 msgstr "Enregistrer"
 
-#: inc/php/settings.php:55 inc/php/sidebar.php:49
+#: inc/php/settings.php:56 inc/php/sidebar.php:49
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Je suis un développeur indépendant, sans revenus réguliers, aussi chaque modeste contribution m'aide à couvrir les frais et me permet de consacrer plus de temps à créer des choses que vous appréciez."
 
-#: inc/php/settings.php:62 inc/php/sidebar.php:56
+#: inc/php/settings.php:63 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr "Merci pour votre soutien !"
 

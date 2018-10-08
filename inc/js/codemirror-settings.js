@@ -22,6 +22,8 @@ jQuery(document).ready(function($) {
             mode: 'text/x-php',
             autoRefresh: true,
             styleActiveLine: true
+        }).on('change', function() {
+            $( element ).closest('.postbox').children('h3').children('.pull-right').children('.not-saved').show();
         });
     });
 
