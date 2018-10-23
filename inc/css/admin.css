@@ -115,6 +115,7 @@ h2 .version {
 }
 #support-addition {
     display: none;
+    margin-top: 30px;
 }
 
 /* Responsive page
@@ -399,7 +400,6 @@ h2 .version {
     color: #32689a;
     font-family: "Lucida Grande", Tahoma, sans-serif;
     font-size: 18px;
-    font-weight: 600;
     text-shadow: 1px 1px 0 #fff;
     border-bottom-color: rgba(0, 0, 0, 0.4);
     -webkit-border-radius: 3px !important;
@@ -495,6 +495,9 @@ h2 .version {
 .form-table td {
     padding-bottom: 10px;
 }
+.form-table th[scope="row"] {
+    font-weight: normal;
+}
 
 /* Help text
  -------------------------------------------------------------- */
@@ -541,6 +544,15 @@ td.help-text {
 
 /* SPECIFIC TO THIS PLUGIN
  -------------------------------------------------------------- */
+
+ .title {
+     height: 50px;
+ }
+ @media (max-width: 782px) {
+     .title {
+         height: 58px;
+     }
+ }
 
 /* CodeMirror Editor */
 .CodeMirror {

@@ -68,14 +68,6 @@ function spacexchimp_p001_render_submenu_page() {
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab on this page.', $text ); ?></li>
                             <li><?php _e( 'Place your custom PHP code in the code editor field.', $text ); ?><br><br>
-                                <?php _e( 'An example of PHP code:', $text ); ?><br><br>
-<pre><code>$a = array(&#x27;a&#x27; =&#x3E; 1, &#x27;b&#x27; =&#x3E; 2, 3 =&#x3E; &#x27;c&#x27;);
-
-echo &#x22;$a[a] ${a[3] /* } comment */} {$a[b]} \$a[a]&#x22;;
-
-function hello($who) {
-&#x9;return &#x22;Hello $who!&#x22;;
-}</code></pre>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Do not wrap your custom PHP code in HTML tags, such as <code>&lt;?php</code>...<code>?&gt;</code>.', $text ); ?></p>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                                     __( 'Before use, please read the %s instructions %s in our Blog on what to do in case of a website crash.', $text ),
@@ -90,7 +82,7 @@ function hello($who) {
                             <li><?php _e( 'Enjoy the result of applying your custom PHP code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
+                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
                                                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                                                 '</a>'
                                                                                           );

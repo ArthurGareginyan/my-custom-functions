@@ -4,7 +4,7 @@ Tags: inject code, inject function, inject snippet, inject php, insert code, ins
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.29
+Stable tag: 4.30
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,7 +31,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Insert custom PHP code into the site
 * Checks the entered code for fatal errors
@@ -43,10 +43,12 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-**PRO features include...**
+**PRO features include**
 
 * Ability to easily customize the code editor by selecting the desired settings
 * 56 themes for syntax highlighting
+* Toolbar with useful buttons, such as Undo, Redo, etc.
+* Ability to use shortcut keys (both Mac and PC) for Search, Replace, etc.
 * Unlimited number of fields for functions
 * Automatic backup of all functions to a downloadable text file
 * Separate activation and deactivation of functions
@@ -240,6 +242,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.30 =
+* Improvement: Design of the plugin settings page is improved.
+* Content of the "Usage Instructions" section updated.
+* Translation files are updated.
 
 = 4.29 =
 * Added new feature: If the changes in the code editor were made, but not saved, the message "NOT SAVED" is displayed.

@@ -27,7 +27,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                     <div class="postbox">
                         <h3 class="title">
-                            <label for="spacexchimp_p001_settings[snippets]" ><?php _e( 'Functions (PHP code)', $text ); ?></label>
+                            <?php _e( 'Functions (PHP code)', $text ); ?>
                             <div class="pull-right">
                                 <span class="not-saved"><?php _e( 'NOT SAVED!', $text ); ?></span>
                                 <input
