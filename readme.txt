@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject function, inject snippet, inject php, insert code, insert function, insert snippet, insert php, execute code, execute function, execute snippet, execute php, inject custom code, inject custom function, inject custom snippet, inject custom php, insert custom code, insert custom function, insert custom snippet, insert custom php, execute custom code, execute custom function, execute custom snippet, execute custom php, code, function, snippet, php, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 4.9
+Tested up to: 5.0
 Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
