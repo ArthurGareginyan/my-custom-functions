@@ -81,12 +81,12 @@ function spacexchimp_p001_render_submenu_page() {
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the result of applying your custom PHP code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
-                        <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
-                                                                                                '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
-                                                                                                '</a>'
-                                                                                          );
-                                                                              ?>
+                        <p class="note"><?php printf(
+                                                      __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
+                                                      '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
+                                                      '</a>'
+                                                    );
+                                        ?>
                         </p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ function spacexchimp_p001_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '16';
+                                $loopvalue = '17';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -153,23 +153,14 @@ add_action( 'wp_head', 'my_custom_html_code' );</code></pre>
                         <div class="question-5"><?php _e( 'How much of PHP code (characters) I can enter in the code editor?', $text ); ?></div>
                         <div class="answer-5"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
-                        <div class="question-6 question-red"><?php _e( 'On the plugin settings page, an error message appears. What could be wrong?', $text ); ?></div>
-                        <div class="answer-6"><?php _e( 'Here are a few of the most likely causes of the error message:', $text ); ?>
-                                              <ol class="custom-counter">
-                                                    <li><?php _e( 'You make a syntax error in the code that you have entered. Check the syntax of your code and try again.', $text ); ?></li>
-                                                    <li><?php _e( 'You entered two functions with the same name. Use a unique names for your functions.', $text ); ?></li>
-                                                    <li><?php _e( 'You have entered function with a name that is already occupied by another function. Use a unique name for your function.', $text ); ?></li>
-                                                    <li><?php _e( 'You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.', $text ); ?></li>
-                                              </ol></div>
+                        <div class="question-6"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
+                        <div class="answer-6"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
 
-                        <div class="question-7"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
-                        <div class="answer-7"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
+                        <div class="question-7"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
+                        <div class="answer-7"><?php _e( 'This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.', $text ); ?></div>
 
-                        <div class="question-8"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
-                        <div class="answer-8"><?php _e( 'This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.', $text ); ?></div>
-
-                        <div class="question-9"><?php _e( 'Can I add my custom PHP code to a specific page of my website?', $text ); ?></div>
-                        <div class="answer-9"><?php _e( 'For now, this plugin does not have an option to apply the custom PHP code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom PHP code only on specific pages of your website, you need to wrap your custom PHP code in a PHP function that will determine the page you want. You need something like this:', $text ); ?><br><br>
+                        <div class="question-8"><?php _e( 'Can I add my custom PHP code to a specific page of my website?', $text ); ?></div>
+                        <div class="answer-8"><?php _e( 'For now, this plugin does not have an option to apply the custom PHP code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom PHP code only on specific pages of your website, you need to wrap your custom PHP code in a PHP function that will determine the page you want. You need something like this:', $text ); ?><br><br>
 <pre><code>function my_custom_php_code() {
 
     // Stop the function if this is not the Home page of website
@@ -183,13 +174,30 @@ add_action( 'wp_head', 'my_custom_html_code' );</code></pre>
 my_custom_php_code();</code></pre>
                         </div>
 
-                        <div class="question-10 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
-                        <div class="answer-10"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
-                                              <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
-
-                        <div class="question-11 question-red"><?php _e( 'What to do if this plugin crashed the website?', $text ); ?></div>
-                        <div class="answer-11"><?php _e( 'This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps.', $text ); ?>
+                        <div class="question-9 question-red"><?php _e( 'On the plugin settings page, an error message appears. What could be wrong?', $text ); ?></div>
+                        <div class="answer-9"><?php _e( 'Here are a few of the most likely causes of the error message:', $text ); ?>
                                               <ol class="custom-counter">
+                                                    <li><?php _e( 'You make a syntax error in the code that you have entered. Check the syntax of your code and try again.', $text ); ?></li>
+                                                    <li><?php _e( 'You entered two functions with the same name. Use a unique names for your functions.', $text ); ?></li>
+                                                    <li><?php _e( 'You have entered function with a name that is already occupied by another function. Use a unique name for your function.', $text ); ?></li>
+                                                    <li><?php _e( 'You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.', $text ); ?></li>
+                                              </ol></div>
+
+                        <div class="question-10 question-red"><?php _e( 'My custom PHP code is not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-10"><?php _e( 'It happens that your custom PHP code that you insert on the plugin page does not work, even if an error message does not appear. Here are a few of the most likely causes of the issue:', $text ); ?>
+                                               <ol class="custom-counter">
+                                                    <li><?php _e( 'You have a typo during the insertion of your custom PHP code.', $text ); ?></li>
+                                                    <li><?php _e( 'Your custom PHP code has a syntax error.', $text ); ?></li>
+                                                    <li><?php _e( 'Your custom PHP code is incorrect and may not work.', $text ); ?></li>
+                                               </ol></div>
+
+                        <div class="question-11 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-11"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
+                                               <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
+
+                        <div class="question-12 question-red"><?php _e( 'What to do if this plugin crashed the website?', $text ); ?></div>
+                        <div class="answer-12"><?php _e( 'This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps.', $text ); ?>
+                                               <ol class="custom-counter">
                                                   <li><?php _e( 'Access your server via FTP or SFTP. If you aren\'t sure how usually your web hosting provider will have instructions somewhere on their website.', $text ); ?></li>
                                                   <li><?php _e( 'Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>. Please contact your web hosting company to get help if you can\'t find this folder.', $text ); ?></li>
                                                   <li><?php _e( 'Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code.', $text ); ?></li>
@@ -197,39 +205,39 @@ my_custom_php_code();</code></pre>
                                                   <li><?php _e( 'Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>.', $text ); ?></li>
                                                   <li><?php _e( 'Edit/fix your custom PHP code that you entered before the crash.', $text ); ?></li>
                                                   <li><?php _e( 'Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you\'re done!', $text ); ?></li>
-                                              </ol>
-                                              <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>.', $text ); ?><br><br>
-                                              <?php _e( 'We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website.', $text ); ?></div>
+                                               </ol>
+                                               <?php _e( 'This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>.', $text ); ?><br><br>
+                                               <?php _e( 'We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website.', $text ); ?></div>
 
-                        <div class="question-12 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
-                        <div class="answer-12"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
+                        <div class="question-13 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="answer-13"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
-                        <div class="question-13 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
-                        <div class="answer-13"><?php printf(
+                        <div class="question-14 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
+                        <div class="answer-14"><?php printf(
                                                             __( 'Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-14"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
-                        <div class="answer-14"><?php printf(
+                        <div class="question-15"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
+                        <div class="answer-15"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-15"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
-                        <div class="answer-15"><?php printf(
+                        <div class="question-16"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
+                        <div class="answer-16"><?php printf(
                                                             __( 'Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-16"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
-                        <div class="answer-16"><?php printf(
+                        <div class="question-17"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
+                        <div class="answer-17"><?php printf(
                                                             __( 'You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone.', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'

@@ -4,7 +4,7 @@ Tags: inject code, inject function, inject snippet, inject php, insert code, ins
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.0
-Stable tag: 4.31
+Stable tag: 4.32
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -144,14 +144,6 @@ add_action( 'wp_head', 'my_custom_html_code' );`
 = Q. How much of PHP code (characters) I can enter in the code editor? =
 A. We don't limit the number of characters.
 
-= Q. On the plugin settings page, an error message appears. What could be wrong? =
-A. Here are a few of the most likely causes of the error message:
-
-1. You make a syntax error in the code that you have entered. Check the syntax of your code and try again.
-2. You entered two functions with the same name. Use a unique names for your functions.
-3. You have entered function with a name that is already occupied by another function. Use a unique name for your function.
-4. You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.
-
 = Q. Does this plugin requires any modification of the theme? =
 A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
 
@@ -172,6 +164,21 @@ A. For now, this plugin does not have an option to apply the custom PHP code onl
 
 }
 my_custom_php_code();`
+
+= Q. On the plugin settings page, an error message appears. What could be wrong? =
+A. Here are a few of the most likely causes of the error message:
+
+1. You make a syntax error in the code that you have entered. Check the syntax of your code and try again.
+2. You entered two functions with the same name. Use a unique names for your functions.
+3. You have entered function with a name that is already occupied by another function. Use a unique name for your function.
+4. You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks.
+
+= Q. My custom PHP code is not working. What could be wrong? =
+A. It happens that your custom PHP code that you insert on the plugin page does not work, even if an error message does not appear. Here are a few of the most likely causes of the issue:
+
+1. You have a typo during the insertion of your custom PHP code.
+2. Your custom PHP code has a syntax error.
+3. Your custom PHP code is incorrect and may not work.
 
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
@@ -242,6 +249,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.32 =
+* Content of the "Usage" section updated.
+* Content of the "FAQ" section updated.
+* Code formatting in the "admin.js" file improved.
+* Code commenting improved.
+* The copyright date updated.
+* Translation files are updated.
 
 = 4.31 =
 * Improvement: Design of the plugin settings page is improved.

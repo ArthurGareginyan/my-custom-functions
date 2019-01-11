@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2018-10-23 19:14+0300\n"
-"PO-Revision-Date: 2018-10-23 19:14+0300\n"
+"POT-Creation-Date: 2019-01-11 20:36+0200\n"
+"PO-Revision-Date: 2019-01-11 20:37+0200\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -110,7 +110,7 @@ msgstr "Debes ir a la pestaña “Principal”."
 msgid "Place your custom PHP code in the code editor field."
 msgstr ""
 
-#: inc/php/page.php:71 inc/php/page.php:72 inc/php/page.php:84
+#: inc/php/page.php:71 inc/php/page.php:72
 msgid "Note!"
 msgstr "¡Nota!"
 
@@ -206,179 +206,200 @@ msgid "We don't limit the number of characters."
 msgstr ""
 
 #: inc/php/page.php:156
-msgid "On the plugin settings page, an error message appears. What could be wrong?"
-msgstr ""
-
-#: inc/php/page.php:157
-msgid "Here are a few of the most likely causes of the error message:"
-msgstr ""
-
-#: inc/php/page.php:159
-msgid "You make a syntax error in the code that you have entered. Check the syntax of your code and try again."
-msgstr ""
-
-#: inc/php/page.php:160
-msgid "You entered two functions with the same name. Use a unique names for your functions."
-msgstr ""
-
-#: inc/php/page.php:161
-msgid "You have entered function with a name that is already occupied by another function. Use a unique name for your function."
-msgstr ""
-
-#: inc/php/page.php:162
-msgid "You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks."
-msgstr ""
-
-#: inc/php/page.php:165
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "¿Este complemento requiere alguna modificación del tema?"
 
-#: inc/php/page.php:166
+#: inc/php/page.php:157
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr "Absolutamente NO. Este complemento se puede configurar completamente desde su página de configuración."
 
-#: inc/php/page.php:168
+#: inc/php/page.php:159
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
 
-#: inc/php/page.php:169
+#: inc/php/page.php:160
 msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin."
 msgstr ""
 
-#: inc/php/page.php:171
+#: inc/php/page.php:162
 msgid "Can I add my custom PHP code to a specific page of my website?"
 msgstr ""
 
-#: inc/php/page.php:172
+#: inc/php/page.php:163
 msgid "For now, this plugin does not have an option to apply the custom PHP code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom PHP code only on specific pages of your website, you need to wrap your custom PHP code in a PHP function that will determine the page you want. You need something like this:"
 msgstr ""
 
+#: inc/php/page.php:177
+msgid "On the plugin settings page, an error message appears. What could be wrong?"
+msgstr ""
+
+#: inc/php/page.php:178
+msgid "Here are a few of the most likely causes of the error message:"
+msgstr ""
+
+#: inc/php/page.php:180
+msgid "You make a syntax error in the code that you have entered. Check the syntax of your code and try again."
+msgstr ""
+
+#: inc/php/page.php:181
+msgid "You entered two functions with the same name. Use a unique names for your functions."
+msgstr ""
+
+#: inc/php/page.php:182
+msgid "You have entered function with a name that is already occupied by another function. Use a unique name for your function."
+msgstr ""
+
+#: inc/php/page.php:183
+msgid "You are trying to overwrite an existing function (of WordPress, theme, or plugin). Instead, use filters and hooks."
+msgstr ""
+
 #: inc/php/page.php:186
-msgid "It's not working. What could be wrong?"
-msgstr "No funciona. ¿Qué podría estar mal?"
+#| msgid "It's not working. What could be wrong?"
+msgid "My custom PHP code is not working. What could be wrong?"
+msgstr ""
 
 #: inc/php/page.php:187
-msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
-msgstr "Como con todos los complementos, es posible que las cosas no funcionen. La razón más común para esto es la caché de un navegador web. Cada navegador web almacena una caché de los sitios web que visitas (páginas, imágenes y etc.) para reducir el uso del ancho de banda y la carga del servidor. Esto se denomina caché del navegador. Limpiar la caché del navegador puede resolver el problema."
+msgid "It happens that your custom PHP code that you insert on the plugin page does not work, even if an error message does not appear. Here are a few of the most likely causes of the issue:"
+msgstr ""
 
-#: inc/php/page.php:188
-msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
-msgstr "Es imposible decir exactamente lo que podría estar mal, pero si publicas una solicitud de soporte en el foro de soporte del complemento en WordPress.org, estaría encantado de darle un vistazo e intentar ayudarte. Incluye tanta información como sea posible, incluyendo un enlace a tu sitio web donde se pueda ver el problema."
+#: inc/php/page.php:189
+msgid "You have a typo during the insertion of your custom PHP code."
+msgstr ""
 
 #: inc/php/page.php:190
-msgid "What to do if this plugin crashed the website?"
+msgid "Your custom PHP code has a syntax error."
 msgstr ""
 
 #: inc/php/page.php:191
-msgid "This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps."
-msgstr ""
-
-#: inc/php/page.php:193
-msgid "Access your server via FTP or SFTP. If you aren't sure how usually your web hosting provider will have instructions somewhere on their website."
+msgid "Your custom PHP code is incorrect and may not work."
 msgstr ""
 
 #: inc/php/page.php:194
-msgid "Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>. Please contact your web hosting company to get help if you can't find this folder."
-msgstr ""
+msgid "It's not working. What could be wrong?"
+msgstr "No funciona. ¿Qué podría estar mal?"
 
 #: inc/php/page.php:195
-msgid "Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code."
-msgstr ""
+msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
+msgstr "Como con todos los complementos, es posible que las cosas no funcionen. La razón más común para esto es la caché de un navegador web. Cada navegador web almacena una caché de los sitios web que visitas (páginas, imágenes y etc.) para reducir el uso del ancho de banda y la carga del servidor. Esto se denomina caché del navegador. Limpiar la caché del navegador puede resolver el problema."
 
 #: inc/php/page.php:196
-msgid "Log in to Admin Area of your WordPress website."
-msgstr ""
-
-#: inc/php/page.php:197
-msgid "Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>."
-msgstr ""
+msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr "Es imposible decir exactamente lo que podría estar mal, pero si publicas una solicitud de soporte en el foro de soporte del complemento en WordPress.org, estaría encantado de darle un vistazo e intentar ayudarte. Incluye tanta información como sea posible, incluyendo un enlace a tu sitio web donde se pueda ver el problema."
 
 #: inc/php/page.php:198
-msgid "Edit/fix your custom PHP code that you entered before the crash."
+msgid "What to do if this plugin crashed the website?"
 msgstr ""
 
 #: inc/php/page.php:199
-msgid "Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you're done!"
+msgid "This plugin has a built-in functions for checking the custom code for syntax errors, duplicate functions names, and etc. But plugin is not perfect, so there are times when the entered custom code causes the error and white screen (WSOD). This is due to the fact that your custom code has a syntax error that this plugin could not detect. When this happens with you, please perform the following steps."
 msgstr ""
 
 #: inc/php/page.php:201
-msgid "This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>."
+msgid "Access your server via FTP or SFTP. If you aren't sure how usually your web hosting provider will have instructions somewhere on their website."
 msgstr ""
 
 #: inc/php/page.php:202
-msgid "We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website."
+msgid "Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>. Please contact your web hosting company to get help if you can't find this folder."
+msgstr ""
+
+#: inc/php/page.php:203
+msgid "Rename the file <code>START</code> to <code>STOP</code>. This will stop the execution of your custom code."
 msgstr ""
 
 #: inc/php/page.php:204
+msgid "Log in to Admin Area of your WordPress website."
+msgstr ""
+
+#: inc/php/page.php:205
+msgid "Go to the plugin settings page <code>Settings</code> &#10145; <code>PHP Inserter</code>."
+msgstr ""
+
+#: inc/php/page.php:206
+msgid "Edit/fix your custom PHP code that you entered before the crash."
+msgstr ""
+
+#: inc/php/page.php:207
+msgid "Return to the plugin folder and rename the file <code>STOP</code> to <code>START</code> and you're done!"
+msgstr ""
+
+#: inc/php/page.php:209
+msgid "This plugin stored you entered code in the database of your website. For getting your code, you also can go to the <code>Database</code> &#10145; Table <code>wp_options</code> &#10145; Option <code>spacexchimp_p001_settings</code> &#10145; <code>option_value</code>."
+msgstr ""
+
+#: inc/php/page.php:210
+msgid "We are already working on a feature to automatically stop the execution of users custom PHP code for cases when this plugin could not detect the error, and this caused the inaccessibility of the website."
+msgstr ""
+
+#: inc/php/page.php:212
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "La última actualización de WordPress me impide editar mi sitio web que está utilizando este complemento. ¿Porqué sucede esto?"
 
-#: inc/php/page.php:205
+#: inc/php/page.php:213
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr "Este complemento no puede causar este problema. Lo más probable es que el problema esté relacionado con la configuración del sitio web. Podría ser sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser que utilices un complemento de caché o algún servicio web como CloudFlare) y luego la caché de tu navegador web. También intenta volver a conectarte al sitio web, esto también puede ayudar."
 
-#: inc/php/page.php:207
+#: inc/php/page.php:215
 msgid "Where to report bug if found?"
 msgstr "¿Dónde informar el error si se encuentra?"
 
-#: inc/php/page.php:209
+#: inc/php/page.php:217
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:215
+#: inc/php/page.php:223
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "¿Dónde compartir ideas o sugerencias para mejorar el complemento?"
 
-#: inc/php/page.php:217
+#: inc/php/page.php:225
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:223
+#: inc/php/page.php:231
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Me encanta este complemento! ¿Puedo ayudar de alguna manera?"
 
-#: inc/php/page.php:225
+#: inc/php/page.php:233
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Sí, cualquier contribución financiera es bienvenida! Simplemente visita %s mi sitio web %s, has clic en el botón DONAR y gracias!"
 
-#: inc/php/page.php:231
+#: inc/php/page.php:239
 msgid "My question wasn't answered here."
 msgstr "Mi pregunta no fue contestada aquí."
 
-#: inc/php/page.php:233
+#: inc/php/page.php:241
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Puede hacer tu pregunta en %s la página de soporte del complementos %s. Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tengo forma de responder a todos."
 
-#: inc/php/page.php:247
+#: inc/php/page.php:255
 msgid "Support Us"
 msgstr "¡Apoyanos!"
 
-#: inc/php/page.php:255 inc/php/settings.php:61 inc/php/sidebar.php:54
+#: inc/php/page.php:263 inc/php/settings.php:61 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/page.php:260
+#: inc/php/page.php:268
 #, php-format
 msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
-#: inc/php/page.php:268
+#: inc/php/page.php:276
 msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
-#: inc/php/page.php:269
+#: inc/php/page.php:277
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Paso mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyo sean útiles, y la prueba definitiva para mí de que son útiles, es que realmente desea utilizarlos. Pero, soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución me ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que la gente como tú lo disfrute."
 
-#: inc/php/page.php:270
+#: inc/php/page.php:278
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
 
-#: inc/php/page.php:271
+#: inc/php/page.php:279
 msgid "Thank you for your support!"
 msgstr "¡Gracias por tu apoyo!"
 

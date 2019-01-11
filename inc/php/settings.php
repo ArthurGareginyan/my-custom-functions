@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( SPACEXCHIMP_P001_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the database
+                        // Retrieve options from database
                         $options = get_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
 
                         // Set default value if option is empty
