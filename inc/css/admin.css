@@ -441,6 +441,33 @@ p {
     overflow: hidden;
 }
 
+/* Custom List
+ -------------------------------------------------------------- */
+.custom-list {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+.custom-list li {
+    counter-increment: step-counter;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.custom-list li::before {
+    content: '+';
+    margin-left: -30px;
+    margin-right: 8px;
+    padding: 4px 7px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #00c8c8;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
 /* Custom List Numbers
  -------------------------------------------------------------- */
 .custom-counter {

@@ -19,12 +19,14 @@
 
    Name: Arthur Gareginyan
    Title: Founder and CTO
-   Site: www.arthurgareginyan.com
    Instagram: arthur_gareginyan
 
 
 /* THANKS */
-
+   Isabella M.
+   Bożena L.
+   Thomas T.
+   Monica K.
 
 /* META */
    Last update: 2018/04/14

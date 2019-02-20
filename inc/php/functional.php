@@ -39,9 +39,9 @@ function spacexchimp_p001_prepare() {
 }
 
 /**
- * Check the custom code for duplicate names of functions
+ * Preparation of the custom code: Check the custom code for duplicate names of functions
  */
-function spacexchimp_p001_duplicates( $data ) {
+function spacexchimp_p001_preparation_duplicates( $data ) {
 
     // Find names of user entered snippets and check for duplicates
     preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $data, $user_func_names);
@@ -85,7 +85,7 @@ function spacexchimp_p001_exec() {
     }
 
     // If the duplicates snippets finded...
-    $duplicates = spacexchimp_p001_duplicates( $data );
+    $duplicates = spacexchimp_p001_preparation_duplicates( $data );
     if ( $duplicates != 0 ) {
         return;   // EXIT
     }
@@ -100,6 +100,6 @@ function spacexchimp_p001_exec() {
 }
 
 /**
- * Execute the custom code
+ * Inject the custom code into the website's backend and frontend
  */
 spacexchimp_p001_exec();
