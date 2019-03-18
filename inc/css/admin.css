@@ -51,7 +51,7 @@ p {
     display: block;
     margin-top: 15px;
     font-size: 16px;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     text-shadow: none;
     line-height: 20px;
 }
@@ -280,6 +280,28 @@ p {
     text-align: center;
 }
 
+/* Messages
+ -------------------------------------------------------------- */
+#setting-error-settings_updated {
+    display: none;
+}
+#message.updated i {
+    padding-right: 5px;
+    color: green;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+#message.error i {
+    padding-right: 5px;
+    color: red;
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+#message.error span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* Notes
  -------------------------------------------------------------- */
 .note {
@@ -291,6 +313,19 @@ p {
     color: #646464;
     padding-left: 15px;
     letter-spacing: 0.1px;
+}
+
+/* Help text
+ -------------------------------------------------------------- */
+td.help-text {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0;
 }
 
 /* Spoilers
@@ -528,19 +563,6 @@ p {
     font-weight: normal;
 }
 
-/* Help text
- -------------------------------------------------------------- */
-td.help-text {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
-    font-style: italic;
-    float: left;
-    clear: left;
-    color: #797979;
-    line-height: 15px;
-    padding-top: 0;
-}
-
 /* Control: Field
  -------------------------------------------------------------- */
 .control-field,
@@ -573,6 +595,16 @@ td.help-text {
 /* SPECIFIC TO THIS PLUGIN
  -------------------------------------------------------------- */
 
+/* Messages */
+.not-saved {
+    display: none;
+    margin-right: 15px;
+    font-family: Helvetica;
+    line-height: 35px;
+    vertical-align: middle;
+    color: red;
+}
+
 /* CodeMirror Editor */
 .CodeMirror {
     height: 100% !important;
@@ -582,35 +614,6 @@ td.help-text {
 }
 .CodeMirror pre.CodeMirror-placeholder {
     color: #999;
-}
-
-/* Messages */
-#setting-error-settings_updated {
-    display: none;
-}
-#message.updated i {
-    padding-right: 5px;
-    color: green;
-    font-size: 1.5em;
-    vertical-align: middle;
-}
-#message.error i {
-    padding-right: 5px;
-    color: red;
-    font-size: 2.5em;
-    vertical-align: middle;
-}
-#message.error span {
-    display: inline-block;
-    vertical-align: middle;
-}
-.not-saved {
-    display: none;
-    margin-right: 15px;
-    font-family: Helvetica;
-    line-height: 35px;
-    vertical-align: middle;
-    color: red;
 }
 
 /* Titles */

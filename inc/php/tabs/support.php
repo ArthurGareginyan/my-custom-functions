@@ -31,7 +31,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         '<a href="https://www.spacexchimp.com" target="_blank">',
                         '</a>'
                     );
-               ?>
+                ?>
             </p>
             <p>
                 <?php _e( 'Our intention is to create projects that will make this world a better place.', $text ); ?>

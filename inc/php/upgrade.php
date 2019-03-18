@@ -28,7 +28,7 @@ function spacexchimp_p001_upgrade_4_7() {
     $service_info_new = is_array( $service_info_old ) ? $service_info_old : array();
     $service_info_new['upgrade'] = $upgrade_number_new;
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( $upgrade_number_current >= $upgrade_number_new ) return;
 
     // Update service info in the database
@@ -50,7 +50,7 @@ function spacexchimp_p001_upgrade_4_7() {
     $settings_new['enable'] = $enable_old;
     unset($settings_new['anarcho_cfunctions-content']);
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( empty( $settings_current ) ) return;
 
     // Update plugin setting in the database
