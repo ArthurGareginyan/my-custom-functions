@@ -10,8 +10,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p001_prepare() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p001_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P001_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
 
@@ -19,7 +22,7 @@ function spacexchimp_p001_prepare() {
     $data_out = "";
 
     // If data is not empty...
-    if ( !empty( $data ) ) {
+    if ( ! empty( $data ) ) {
 
         // If the custom code is enabled...
         if ( $enable == "on") {
@@ -43,6 +46,9 @@ function spacexchimp_p001_prepare() {
  */
 function spacexchimp_p001_preparation_duplicates( $data ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p001_plugin();
+
     // Find names of user entered snippets and check for duplicates
     preg_match_all('/function[\s\n]+(\S+)[\s\n]*\(/i', $data, $user_func_names);
     $user_func_a = count( $user_func_names[1] );
@@ -55,10 +61,10 @@ function spacexchimp_p001_preparation_duplicates( $data ) {
 
     // Update error status
     if ( $user_func_a != $user_func_b OR count( $declared_func_user ) != 0 OR count( $declared_func_internal ) != 0 ) {
-        update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '1' );   // ERROR
+        update_option( $plugin['settings'] . '_error', '1' );   // ERROR
         $error_status = '1';
     } else {
-        update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '0' );   // RESET ERROR VALUE
+        update_option( $plugin['settings'] . '_error', '0' );   // RESET ERROR VALUE
         $error_status = '0';
     }
 
@@ -71,8 +77,11 @@ function spacexchimp_p001_preparation_duplicates( $data ) {
  */
 function spacexchimp_p001_exec() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p001_plugin();
+
     // If the STOP file exist...
-    if ( file_exists( SPACEXCHIMP_P001_PATH . 'STOP' ) ) {
+    if ( file_exists( $plugin['path'] . 'STOP' ) ) {
         return;   // EXIT
     }
 
@@ -92,10 +101,10 @@ function spacexchimp_p001_exec() {
 
     // Parsing and execute by Eval
     if ( false === @eval( $data ) ) {
-        update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '1' );   // ERROR
+        update_option( $plugin['settings'] . '_error', '1' );   // ERROR
         return;   // EXIT
     } else {
-        update_option( SPACEXCHIMP_P001_SETTINGS . '_error', '0' );   // RESET ERROR VALUE
+        update_option( $plugin['settings'] . '_error', '0' );   // RESET ERROR VALUE
     }
 }
 

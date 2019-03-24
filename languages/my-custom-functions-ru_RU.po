@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-03-18 21:13+0300\n"
-"PO-Revision-Date: 2019-03-18 21:13+0300\n"
+"POT-Creation-Date: 2019-03-23 04:29+0300\n"
+"PO-Revision-Date: 2019-03-23 04:29+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,81 +20,81 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23
+#: inc/php/core.php:32
 msgid "Settings"
 msgstr "Настройки"
 
-#: inc/php/core.php:33 inc/php/core.php:48
+#: inc/php/core.php:40 inc/php/core.php:65
 msgid "Upgrade to PRO"
 msgstr "Обновить до PRO"
 
-#: inc/php/core.php:47
+#: inc/php/core.php:61
 msgid "Donate"
 msgstr "Поддержать"
 
-#: inc/php/core.php:63
+#: inc/php/core.php:90
 msgid "PHP Inserter"
 msgstr "PHP Inserter"
 
-#: inc/php/messages.php:35 inc/php/tabs/support.php:25
+#: inc/php/messages.php:33 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "Привет!"
 
-#: inc/php/messages.php:36
+#: inc/php/messages.php:34
 msgid "We are the team of Space X-Chimp."
 msgstr "Мы - команда Space X-Chimp."
 
-#: inc/php/messages.php:41
+#: inc/php/messages.php:39
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Благодарим вас за установку нашего плагина! Надеемся, он вам полюбится! %s"
 
-#: inc/php/messages.php:93
+#: inc/php/messages.php:90
 msgid "You have installed an old version of this plugin."
 msgstr "Вы установили устаревшую версию этого плагина."
 
-#: inc/php/messages.php:94
+#: inc/php/messages.php:91
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
-#: inc/php/messages.php:129
+#: inc/php/messages.php:126
 msgid "Custom code saved successfully."
 msgstr "Пользовательский код успешно обновлён."
 
-#: inc/php/messages.php:149
+#: inc/php/messages.php:146
 msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
 msgstr "Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
 
-#: inc/php/messages.php:150
+#: inc/php/messages.php:147
 msgid "Please, check the code and try again."
 msgstr "Пожалуйста, проверьте код и попробуйте ещё раз."
 
-#: inc/php/page.php:34
+#: inc/php/page.php:30
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "от %s Space X-Chimp %s"
 
-#: inc/php/page.php:40
+#: inc/php/page.php:36
 msgid "Version"
 msgstr "Версия"
 
-#: inc/php/page.php:47
+#: inc/php/page.php:43
 msgid "Main"
 msgstr "Главная"
 
-#: inc/php/page.php:48
+#: inc/php/page.php:44
 msgid "Usage"
 msgstr "Применение"
 
-#: inc/php/page.php:49
+#: inc/php/page.php:45
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:54
+#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:54
 msgid "Support"
 msgstr "Поддержка"
 
-#: inc/php/page.php:51
+#: inc/php/page.php:47
 msgid "Store"
 msgstr "Магазин"
 

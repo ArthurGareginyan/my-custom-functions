@@ -14,15 +14,17 @@ function spacexchimp_p001_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
-    // Put value of constants to variables for easier access
-    $version_files = SPACEXCHIMP_P001_VERSION;
-    $settings = SPACEXCHIMP_P001_SETTINGS;
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p001_plugin();
+    $version_files = $plugin['version'];
 
     // Read the plugin service information from the database and put it into an array
-    $info = get_option( $settings . '_service_info' );
+    $info = get_option( $plugin['settings'] . '_service_info' );
 
     // Make the "$info" array if the plugin service information in the database is not exist
-    if ( ! is_array( $info ) ) $info = array();
+    if ( ! is_array( $info ) ) {
+        $info = array();
+    }
 
     // Get the current plugin version number from the database
     $version_db = !empty( $info['version'] ) ? $info['version'] : '0';
@@ -69,7 +71,7 @@ function spacexchimp_p001_versioning() {
         if ( $info['old_version'] == '1' ) {
 
             $info['old_version'] = '0';
-            update_option( $settings . '_service_info', $info );
+            update_option( $plugin['settings'] . '_service_info', $info );
 
         }
 
@@ -84,7 +86,7 @@ function spacexchimp_p001_versioning() {
 
         $info['version'] = $version_files;
         $info['old_version'] = '0';
-        update_option( $settings . '_service_info', $info );
+        update_option( $plugin['settings'] . '_service_info', $info );
 
         return;
     }
@@ -95,7 +97,7 @@ function spacexchimp_p001_versioning() {
     if ( $version_files < $version_db ) {
 
         $info['old_version'] = '1';
-        update_option( $settings . '_service_info', $info );
+        update_option( $plugin['settings'] . '_service_info', $info );
 
         return;
     }
