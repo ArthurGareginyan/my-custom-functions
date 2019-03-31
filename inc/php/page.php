@@ -48,38 +48,39 @@ function spacexchimp_p001_render_submenu_page() {
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
-            <!-- TAB 1 -->
+            <!-- TAB SETTINGS -->
             <div class="tab-page fade active in" id="tab-core">
+
                 <!-- INCLUDE SIDEBAR -->
                 <?php require_once( $plugin['path'] . 'inc/php/sidebar.php' ); ?>
-                <!-- INCLUDE SETTINGS -->
+
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/settings.php' ); ?>
             </div>
-            <!-- END-TAB 1 -->
+            <!-- END-TAB SETTINGS -->
 
-            <!-- TAB 2 -->
+            <!-- TAB USAGE -->
             <div class="tab-page fade" id="tab-usage">
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/usage.php' ); ?>
             </div>
-            <!-- END-TAB 2 -->
+            <!-- END-TAB USAGE -->
 
-            <!-- TAB 3 -->
+            <!-- TAB FAQ -->
             <div class="tab-page fade" id="tab-faq">
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/faq.php' ); ?>
             </div>
-            <!-- END-TAB 3 -->
+            <!-- END-TAB FAQ -->
 
-            <!-- TAB 4 -->
+            <!-- TAB SUPPORT -->
             <div class="tab-page fade" id="tab-support">
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/support.php' ); ?>
             </div>
-            <!-- END-TAB 4 -->
+            <!-- END-TAB SUPPORT -->
 
-            <!-- TAB 5 -->
+            <!-- TAB STORE -->
             <div class="tab-page fade" id="tab-store">
                 <div class="include-tab-store"></div>
             </div>
-            <!-- END-TAB 5 -->
+            <!-- END-TAB STORE -->
 
         </div>
 

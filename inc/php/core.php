@@ -63,7 +63,7 @@ function spacexchimp_p001_plugin_row_meta( $links, $file ) {
 
         $url_upgrade = "https://www.spacexchimp.com/plugins/my-custom-functions-pro.html";
         $text_upgrade = __( 'Upgrade to PRO', $plugin['text'] );
-        $link_upgrade = '<a href="' . $url_upgrade  . '" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . $text_upgrade . '</a>';
+        $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . $text_upgrade . '</a>';
 
         $new_links = array(
                            'donate' => $link_donate,

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-03-23 04:29+0300\n"
-"PO-Revision-Date: 2019-03-23 04:29+0300\n"
+"POT-Creation-Date: 2019-03-31 16:12+0300\n"
+"PO-Revision-Date: 2019-03-31 16:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -90,7 +90,7 @@ msgstr "Utilisation"
 msgid "F.A.Q."
 msgstr "FAQ."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:54
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:57
 msgid "Support"
 msgstr ""
 
@@ -98,36 +98,36 @@ msgstr ""
 msgid "Store"
 msgstr ""
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:33
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "A propos"
 
-#: inc/php/sidebar.php:35
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr "Ce plugin vous permet d'ajouter facilement et en toute sécurité votre code PHP personnalisé à votre site WordPress, directement hors de la zone d'administration de WordPress, sans avoir besoin d'avoir un éditeur externe."
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Aide"
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si vous avez une question, veuillez lire les informations dans la section FAQ."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:56
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:59
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Toute contribution même minime nous aident à couvrir nos frais et nous laisse plus de temps pour ajouter des fonctionnalités que les utilisateurs comme vous apprécient."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:61
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:64
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Faire un don avec PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:63
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:66
 msgid "Thanks for your support!"
 msgstr "Merci pour votre soutien!"
 
@@ -666,7 +666,7 @@ msgstr "N'EST PAS SAUVÉ!"
 msgid "Enter your PHP functions here"
 msgstr "Entrez votre fonction PHP ici"
 
-#: inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:52
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 

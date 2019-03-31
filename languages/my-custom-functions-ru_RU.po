@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-03-23 04:29+0300\n"
-"PO-Revision-Date: 2019-03-23 04:29+0300\n"
+"POT-Creation-Date: 2019-03-31 16:12+0300\n"
+"PO-Revision-Date: 2019-03-31 16:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -90,7 +90,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:54
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:57
 msgid "Support"
 msgstr "Поддержка"
 
@@ -98,36 +98,36 @@ msgstr "Поддержка"
 msgid "Store"
 msgstr "Магазин"
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr "Мы «Space X-Chimp»"
 
-#: inc/php/sidebar.php:33
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "О плагине"
 
-#: inc/php/sidebar.php:35
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr "Этот плагин даёт вам возможность легко и безопасно добавлять ваш пользовательский PHP код, непосредственно из области администрирования WordPress, без необходимости иметь внешний редактор."
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:56
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:59
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:61
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:64
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:63
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:66
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -666,7 +666,7 @@ msgstr ""
 msgid "Enter your PHP functions here"
 msgstr ""
 
-#: inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:52
 msgid "Save changes"
 msgstr "Сохранить изменения"
 

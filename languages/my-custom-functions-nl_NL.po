@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-03-23 04:29+0300\n"
-"PO-Revision-Date: 2019-03-23 04:29+0300\n"
+"POT-Creation-Date: 2019-03-31 16:12+0300\n"
+"PO-Revision-Date: 2019-03-31 16:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -90,7 +90,7 @@ msgstr "Gebruik"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:54
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:57
 msgid "Support"
 msgstr "Ondersteuning"
 
@@ -98,36 +98,36 @@ msgstr "Ondersteuning"
 msgid "Store"
 msgstr "Winkel"
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr "Wij zijn «Space X-Chimp»"
 
-#: inc/php/sidebar.php:33
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "Over"
 
-#: inc/php/sidebar.php:35
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr "Met deze plug-in kunt u eenvoudig en veilig uw aangepaste functies (PHP-code) rechtstreeks toevoegen via uw WordPress-Admin, zonder dat u een externe editor nodig hebt."
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Helpen"
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Als je een vraag hebt, lees dan de informatie in de FAQ-sectie."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:56
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:59
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:61
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:64
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Doneer via PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:63
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:66
 msgid "Thanks for your support!"
 msgstr "Bedankt voor uw steun!"
 
@@ -666,7 +666,7 @@ msgstr ""
 msgid "Enter your PHP functions here"
 msgstr "Voer hier uw PHP-functies in"
 
-#: inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:52
 msgid "Save changes"
 msgstr "Wijzigingen opslaan"
 
