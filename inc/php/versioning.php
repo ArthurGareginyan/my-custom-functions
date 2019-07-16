@@ -37,10 +37,10 @@ function spacexchimp_p001_versioning() {
     $version_db = substr( $version_db, 0, 4 );
     $version_files = substr( $version_files, 0, 4 );
     if  ( ! is_numeric( $version_db ) ) {
-        $version_db = number_format( floor( $version_db * 100 ) / 100, 1, '.', '' );
+        $version_db = number_format( floor( floatval( $version_db ) * 100 ) / 100, 1, '.', '' );
     }
     if  ( ! is_numeric( $version_files ) ) {
-        $version_files = number_format( floor( $version_files * 100 ) / 100, 1, '.', '' );
+        $version_files = number_format( floor( floatval( $version_files ) * 100 ) / 100, 1, '.', '' );
     }
 
     // Count the number of decimal digits in version number
