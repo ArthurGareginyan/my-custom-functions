@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-03-31 16:12+0300\n"
-"PO-Revision-Date: 2019-03-31 16:12+0300\n"
+"POT-Creation-Date: 2019-10-01 01:11+0300\n"
+"PO-Revision-Date: 2019-10-01 01:27+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-functions.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -38,7 +38,7 @@ msgstr "PHP Inserter"
 
 #: inc/php/messages.php:33 inc/php/tabs/support.php:25
 msgid "Hello!"
-msgstr "Salut."
+msgstr "Salut!"
 
 #: inc/php/messages.php:34
 msgid "We are the team of Space X-Chimp."
@@ -92,11 +92,11 @@ msgstr "FAQ."
 
 #: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:57
 msgid "Support"
-msgstr ""
+msgstr "Soutien"
 
 #: inc/php/page.php:47
 msgid "Store"
-msgstr ""
+msgstr "Le magasin"
 
 #: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
@@ -141,12 +141,12 @@ msgstr "Si vous avez une question, veuillez lire la Foire aux questions ci-desso
 
 #: inc/php/tabs/faq.php:42
 msgid "Where can I find a documentation for this plugin?"
-msgstr ""
+msgstr "Où puis-je trouver une documentation pour ce plugin?"
 
 #: inc/php/tabs/faq.php:47
 #, php-format
 msgid "Please visit our %s Documentation site %s to view documentation."
-msgstr ""
+msgstr "Veuillez visiter notre %s site de documentation %s pour voir la documentation."
 
 #: inc/php/tabs/faq.php:55
 msgid "Will this plugin work on my wordpress.COM website?"
@@ -158,64 +158,64 @@ msgstr "Désolé, ce plugin est disponible pour une utilisation uniquement sur l
 
 #: inc/php/tabs/faq.php:60
 msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
-msgstr ""
+msgstr "Veuillez noter qu'il y a une différence entre wordpress.COM et wordpress.ORG."
 
 #: inc/php/tabs/faq.php:61
 msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
-msgstr ""
+msgstr "Le wordpress.COM est un service d'hébergement de blog qui offre une version limitée du populaire logiciel WordPress auto-hébergé."
 
 #: inc/php/tabs/faq.php:64
 #, php-format
 msgid "You can learn more about the difference here: %s ."
-msgstr ""
+msgstr "Vous pouvez en apprendre davantage sur la différence ici: %s ."
 
 #: inc/php/tabs/faq.php:71
 msgid "Will this plugin work/compatible with the theme I use?"
-msgstr ""
+msgstr "Ce plugin fonctionnera-t-il / sera-t-il compatible avec le thème que j'utilise?"
 
 #: inc/php/tabs/faq.php:74
 msgid "This plugin is compatible with most themes."
-msgstr ""
+msgstr "Ce plugin est compatible avec la plupart des thèmes."
 
 #: inc/php/tabs/faq.php:75
 msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
-msgstr ""
+msgstr "Mais, malheureusement, nous ne pouvons pas le vérifier avec tous les thèmes tiers (en particulier ceux payés) pour la compatibilité, donc il y a des cas où ce plugin ne fonctionne pas avec un thème tiers."
 
 #: inc/php/tabs/faq.php:76
 msgid "We constantly check this plugin for compatibility with third-party themes."
-msgstr ""
+msgstr "Nous vérifions constamment ce plugin pour la compatibilité avec des thèmes tiers."
 
 #: inc/php/tabs/faq.php:77
 msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
+msgstr "Si nous constatons que ce plugin est incompatible avec un thème tiers, et si nous pouvons le corriger de notre part, nous publions une mise à jour de notre plugin pour résoudre le problème."
 
 #: inc/php/tabs/faq.php:79
 msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
+msgstr "Si vous trouvez un conflit entre notre plugin et un thème tiers, s'il vous plaît laissez-nous savoir et nous allons certainement libérer une mise à jour de notre plugin pour résoudre le problème."
 
 #: inc/php/tabs/faq.php:83
 msgid "Will this plugin work/compatible with other plugins that I use?"
-msgstr ""
+msgstr "Ce plugin fonctionnera-t-il / sera-t-il compatible avec les autres plug-ins que j'utilise?"
 
 #: inc/php/tabs/faq.php:86
 msgid "This plugin is compatible with most plugins."
-msgstr ""
+msgstr "Ce plugin est compatible avec la plupart des plugins."
 
 #: inc/php/tabs/faq.php:87
 msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
-msgstr ""
+msgstr "Mais, malheureusement, nous ne pouvons pas le vérifier avec tous les plugins tiers (en particulier ceux payés) pour la compatibilité, donc il y a des cas où ce plugin ne fonctionne pas avec un plugin tiers."
 
 #: inc/php/tabs/faq.php:88
 msgid "We constantly check this plugin for compatibility with third-party plugins."
-msgstr ""
+msgstr "Nous vérifions constamment ce plugin pour la compatibilité avec des plugins tiers."
 
 #: inc/php/tabs/faq.php:89
 msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
+msgstr "Si nous constatons que ce plugin est incompatible avec un plugin tiers, et si nous pouvons le corriger de notre part, nous publions une mise à jour de notre plugin pour résoudre le problème."
 
 #: inc/php/tabs/faq.php:91
 msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
+msgstr "Si vous trouvez un conflit entre notre plugin et un plugin tiers, s'il vous plaît laissez-nous savoir et nous allons certainement libérer une mise à jour de notre plugin pour résoudre le problème."
 
 #: inc/php/tabs/faq.php:95
 msgid "Can I use this plugin on my language?"
@@ -231,7 +231,7 @@ msgstr "Ce plugin est prêt pour la traduction et a déjà été traduit en plus
 
 #: inc/php/tabs/faq.php:100
 msgid "But If your language is not available then you can make one."
-msgstr ""
+msgstr "Mais si votre langue n'est pas disponible, alors vous pouvez en faire une."
 
 #: inc/php/tabs/faq.php:101
 msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
@@ -533,7 +533,7 @@ msgstr "Aussi s'il vous plaît essayer de re-login sur le site, cela aussi peut 
 
 #: inc/php/tabs/faq.php:290
 msgid "Where to report bug if found?"
-msgstr "Où signaler un bug ?"
+msgstr "Où signaler un bug?"
 
 #: inc/php/tabs/faq.php:293
 msgid "Bug reports are very welcome!"
@@ -554,35 +554,35 @@ msgstr "Merci!"
 
 #: inc/php/tabs/faq.php:305
 msgid "Describe in more detail what exactly you are seeing."
-msgstr ""
+msgstr "Décrivez plus en détail ce que vous voyez exactement."
 
 #: inc/php/tabs/faq.php:306
 msgid "Here are some examples:"
-msgstr ""
+msgstr "Voici quelques exemples:"
 
 #: inc/php/tabs/faq.php:309
 msgid "Elements of the plugin settings page are not working."
-msgstr ""
+msgstr "Les éléments de la page de réglages de plugin ne fonctionnent pas."
 
 #: inc/php/tabs/faq.php:310
 msgid "An error message is displayed on the plugin settings page."
-msgstr ""
+msgstr "Un message d'erreur s'affiche sur la page des paramètres de plugin."
 
 #: inc/php/tabs/faq.php:311
 msgid "An error message is displayed on the front end of website."
-msgstr ""
+msgstr "Un message d'erreur s'affiche à l'extrémité avant du site Web."
 
 #: inc/php/tabs/faq.php:312
 msgid "An error message is displayed on the back end of website."
-msgstr ""
+msgstr "Un message d'erreur s'affiche à l'arrière du site Web."
 
 #: inc/php/tabs/faq.php:313
 msgid "Custom code is inserted on the plugin settings page, but it is not applied on the website."
-msgstr ""
+msgstr "Le code personnalisé est inséré sur la page des paramètres de plugin, mais il n'est pas appliqué sur le site Web."
 
 #: inc/php/tabs/faq.php:314
 msgid "Website is crashed."
-msgstr ""
+msgstr "Le site est cassé."
 
 #: inc/php/tabs/faq.php:319
 msgid "Where to share any ideas or suggestions to make the plugin better?"
@@ -603,7 +603,7 @@ msgstr "J'aime ce plugin!"
 
 #: inc/php/tabs/faq.php:336
 msgid "Can I help somehow?"
-msgstr "Puis-je aider ?"
+msgstr "Puis-je aider?"
 
 #: inc/php/tabs/faq.php:339
 msgid "Yes, any contributions are very welcome!"
@@ -616,30 +616,30 @@ msgstr "Veuillez visiter notre page de %s Support Us %s."
 
 #: inc/php/tabs/faq.php:351
 msgid "Where can I find information about your licenses, payment process and refunds?"
-msgstr ""
+msgstr "Où puis-je trouver des informations sur vos licences, processus de paiement et remboursements?"
 
 #: inc/php/tabs/faq.php:356
 #, php-format
 msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
-msgstr ""
+msgstr "Les réponses aux questions courantes sur nos licences, processus de paiement et remboursements peuvent être trouvées sur notre page %s Questions Réponses %s."
 
 #: inc/php/tabs/faq.php:364
 msgid "Where can I find information about your customer support?"
-msgstr ""
+msgstr "Où puis-je trouver des informations sur votre support client?"
 
 #: inc/php/tabs/faq.php:369
 #, php-format
 msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
-msgstr ""
+msgstr "Les réponses aux questions courantes sur notre support client peuvent être trouvées sur notre page %s Questions Réponses %s."
 
 #: inc/php/tabs/faq.php:377
 msgid "Where can I find information about your affiliate program?"
-msgstr ""
+msgstr "Où puis-je trouver des informations sur votre programme d'affiliation?"
 
 #: inc/php/tabs/faq.php:382
 #, php-format
 msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
-msgstr ""
+msgstr "Les réponses aux questions courantes sur notre programme d'affiliation peuvent être trouvées sur notre page %s Questions Réponses %s."
 
 #: inc/php/tabs/faq.php:390
 msgid "My question wasn't answered here."
@@ -672,7 +672,7 @@ msgstr "Enregistrer les modifications"
 
 #: inc/php/tabs/support.php:13
 msgid "Support Us"
-msgstr ""
+msgstr "Nous soutenir"
 
 #: inc/php/tabs/support.php:28
 #, php-format
@@ -705,7 +705,7 @@ msgstr ""
 
 #: inc/php/tabs/support.php:49
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Merci pour votre soutien!"
 
 #: inc/php/tabs/usage.php:13
 msgid "Usage Instructions"
