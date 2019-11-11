@@ -577,6 +577,24 @@ td.help-text {
     border-radius: 3px;
 }
 
+/* Control: List
+ -------------------------------------------------------------- */
+.control-list input[type=radio] {
+    padding: 2px;
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+}
+.control-list input[type="radio"]:checked::before {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top, #5cb85c 0, #419641 100%);
+    background-image: -o-linear-gradient(top, #5cb85c 0, #419641 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));
+    background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+}
+
 /* Control: Number
  -------------------------------------------------------------- */
 .control-number {
