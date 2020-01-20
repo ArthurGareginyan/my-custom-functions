@@ -5,12 +5,12 @@
  * Description: Easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.40
+ * Version: 4.41
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
  *
- * Copyright 2014-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2014-2020 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
