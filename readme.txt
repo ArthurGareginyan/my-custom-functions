@@ -256,6 +256,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+=  - Mar 20, 2020 =
+* Maintenance: Ensure compatibility with upcoming WordPress 5.4.
+* Maintenance: Minimum WordPress version requirement is set to 4.9. Support for WordPress 4.8 and below has been discontinued.
+* Maintenance: Minimum PHP version requirement is set to 5.6. Support for PHP 5.5 and below has been discontinued.
+
 = 4.41 - Jan 20, 2020 =
 * Maintenance: The copyright date updated to support the 2020 year.
 
