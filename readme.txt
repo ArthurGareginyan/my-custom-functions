@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.4
 Requires PHP: 5.6
-Stable tag: 4.41
+Stable tag: 4.42
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -256,7 +256,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-=  - Mar 20, 2020 =
+= 4.42 - Mar 20, 2020 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.4.
 * Maintenance: Minimum WordPress version requirement is set to 4.9. Support for WordPress 4.8 and below has been discontinued.
 * Maintenance: Minimum PHP version requirement is set to 5.6. Support for PHP 5.5 and below has been discontinued.
