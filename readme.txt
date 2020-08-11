@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.5
 Requires PHP: 5.6
-Stable tag: 4.42
+Stable tag: 4.43
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -255,6 +255,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.43 - Aug 10, 2020 =
+* Maintenance: Ensure compatibility with upcoming WordPress 5.5.
+* Enhancement: Remove the second ask for an upgrade on the "Plugins" page and change the color of some links to the right emotional colors. (Thanks to Abdulla Hussain)
 
 = 4.42 - Mar 20, 2020 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.4.

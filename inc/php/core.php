@@ -38,7 +38,7 @@ function spacexchimp_p001_settings_link( $links ) {
     // Declare variables
     $url_upgrade = "https://www.spacexchimp.com/plugins/my-custom-functions-pro.html";
     $text_upgrade = __( 'Upgrade to PRO', $plugin['text'] );
-    $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><b style="color:red;">' . $text_upgrade . '</b></a>';
+    $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><b style="color:#0f9f44;">' . $text_upgrade . '</b></a>';
 
     array_unshift( $links, $link_upgrade );
 
@@ -59,15 +59,10 @@ function spacexchimp_p001_plugin_row_meta( $links, $file ) {
         // Declare variables
         $url_donate = "https://www.spacexchimp.com/donate.html";
         $text_donate = __( 'Donate', $plugin['text'] );
-        $link_donate = '<a href="' . $url_donate . '" target="_blank"><span class="dashicons dashicons-heart"></span> ' . $text_donate . '</a>';
-
-        $url_upgrade = "https://www.spacexchimp.com/plugins/my-custom-functions-pro.html";
-        $text_upgrade = __( 'Upgrade to PRO', $plugin['text'] );
-        $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . $text_upgrade . '</a>';
+        $link_donate = '<a href="' . $url_donate . '" target="_blank"><span class="dashicons dashicons-heart" style="color:pink;"></span> ' . $text_donate . '</a>';
 
         $new_links = array(
-                           'donate' => $link_donate,
-                           'upgrage' => $link_upgrade
+                           'donate' => $link_donate
                            );
 
         $links = array_merge( $links, $new_links );

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.42
+ * Version: 4.43
  * License: GPL3
  * Text Domain: my-custom-functions
  * Domain Path: /languages/
