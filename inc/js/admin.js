@@ -19,8 +19,8 @@ jQuery(document).ready(function($) {
         }, 3000);
     }
 
-    // Add dynamic content to page tabs. Needed for having an up to date content.
-    $('.include-tab-store').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-store');
+    // Add a dynamic content to the plugin settings page. Needed for having an up to date banners
+    $('.include-tab-store').load('https://resources.spacexchimp.com/wordpress/plugins/dynamic-content/page.html');
 
     // Add questions and answers into spoilers and color them in different colors
     $('.panel-group .panel').each(function(i) {
