@@ -126,6 +126,14 @@ function spacexchimp_p001_message_save() {
                 <?php _e( 'Custom code saved successfully.', $plugin['text'] ); ?>
             </p>
         </div>
+        <style>
+            #message.updated {
+                z-index: 9999;
+                position: fixed;
+                top: 40px;
+                right: 40px;
+            }
+        </style>
     <?php
 }
 

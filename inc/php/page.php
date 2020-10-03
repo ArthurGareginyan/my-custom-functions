@@ -55,6 +55,9 @@ function spacexchimp_p001_render_submenu_page() {
                 <?php require_once( $plugin['path'] . 'inc/php/sidebar.php' ); ?>
 
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/settings.php' ); ?>
+
+                <!-- INCLUDE PHP-JS FILE -->
+                <?php require_once( $plugin['path'] . 'inc/php/inline-js.php' ); ?>
             </div>
             <!-- END-TAB SETTINGS -->
 
