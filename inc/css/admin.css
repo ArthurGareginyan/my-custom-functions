@@ -19,6 +19,9 @@ p {
 .postbox a {
     text-decoration: none;
 }
+.postbox button.btn {
+    height: 34px;
+}
 
 /* Title and Description of page
  -------------------------------------------------------------- */
