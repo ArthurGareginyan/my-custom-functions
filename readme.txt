@@ -257,8 +257,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 == Changelog ==
 
 = 4.44 - Oct 3, 2020 =
-* New feature: Restoring screen position after saving changes. No more annoying return to the top of the page after clicking the "Save" button.
-* Maintenance: Loading of dynamic content on the settings page has been updated to more versatile.
+* New feature: Restoring screen position after saving changes. No more annoying return to the top of the page after clicking the "Save" button on the plugin settings page.
+* Maintenance: Loading of dynamic content on the plugin settings page has been updated to more versatile.
 
 = 4.43 - Aug 10, 2020 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.5.
