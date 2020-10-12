@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.5
 Requires PHP: 5.6
-Stable tag: 4.44
+Stable tag: 4.45
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -255,6 +255,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.45 - Oct 12, 2020 =
+* Fixed: On the plugin settings page, the height of the buttons is too small compared to the width.
+* Enhancement: The plugin settings page has been redesigned. The sidebar added to all tabs for better usability.
 
 = 4.44 - Oct 3, 2020 =
 * New feature: Restoring screen position after saving changes. No more annoying return to the top of the page after clicking the "Save" button on the plugin settings page.
