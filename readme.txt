@@ -47,7 +47,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 **PRO features include**
 
 * Ability to easily customize the code editor by selecting the desired settings
-* 56 themes for syntax highlighting
+* 64 themes for syntax highlighting
 * Toolbar with useful buttons, such as Undo, Redo, etc.
 * Ability to use shortcut keys (both Mac and PC) for Search, Replace, etc.
 * Unlimited number of fields for functions
