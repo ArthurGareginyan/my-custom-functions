@@ -36,7 +36,7 @@ function spacexchimp_p001_settings_link( $links ) {
     array_unshift( $links, $link_settings );
 
     // Declare variables
-    $url_upgrade = "https://www.spacexchimp.com/plugins/my-custom-functions-pro.html";
+    $url_upgrade = "https://www.spacexchimp.com/plugins/" . $plugin['slug'] . "-pro.html";
     $text_upgrade = __( 'Upgrade to PRO', $plugin['text'] );
     $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><b style="color:#0f9f44;">' . $text_upgrade . '</b></a>';
 

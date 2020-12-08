@@ -261,7 +261,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     <?php _e( 'If you aren\'t sure how usually your web hosting provider will have instructions somewhere on their website.', $plugin['text'] ); ?>
                                 </li>
                                 <li>
-                                    <?php _e( 'Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>.', $plugin['text'] ); ?>
+                                    <?php _e( 'Browse to the directory <code>wp-content/plugins/' . $plugin['slug'] . '/</code>.', $plugin['text'] ); ?>
                                     <?php _e( 'Please contact your web hosting company to get help if you can\'t find this folder.', $plugin['text'] ); ?>
                                 </li>
                                 <li>
