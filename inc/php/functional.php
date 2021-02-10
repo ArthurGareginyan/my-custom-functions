@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Prepare the custom code
+ * @return string
  */
 function spacexchimp_p001_prepare() {
 
@@ -43,6 +44,7 @@ function spacexchimp_p001_prepare() {
 
 /**
  * Preparation of the custom code: Check the custom code for duplicate names of functions
+ * @return string
  */
 function spacexchimp_p001_preparation_duplicates( $data ) {
 
@@ -68,7 +70,7 @@ function spacexchimp_p001_preparation_duplicates( $data ) {
         $error_status = '0';
     }
 
-    // Return error status
+    // Return the processed data
     return $error_status;
 }
 
