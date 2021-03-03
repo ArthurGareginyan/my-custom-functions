@@ -5,13 +5,8 @@
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
-// Retrieve options from database and declare variables
-$options = get_option( $plugin['settings'] . '_settings' );
-
-// Make the "$options" array if the plugin options data in the database is not exist
-if ( ! is_array( $options ) ) {
-    $options = array();
-}
+// Put the value of the plugin options into an array for easier access
+$options = spacexchimp_p001_options();
 
 $hidden_scrollto = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
 
