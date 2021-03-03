@@ -8,6 +8,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 // Put the value of the plugin options into an array for easier access
 $options = spacexchimp_p001_options();
 
+// Declare variables
 $hidden_scrollto = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
 
 ?>
