@@ -1,7 +1,8 @@
 <?php
 
 /**
- * A useful function that returns an array with the value of the plugin options
+ * Callback function that returns an array with the value of the plugin options
+ * @return array
  */
 function spacexchimp_p001_options() {
 
