@@ -14,8 +14,9 @@ function spacexchimp_p001_prepare() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p001_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p001_options();
+
     $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
 
