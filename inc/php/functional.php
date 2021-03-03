@@ -17,6 +17,7 @@ function spacexchimp_p001_prepare() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p001_options();
 
+    // Declare variables
     $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
 
