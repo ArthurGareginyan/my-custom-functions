@@ -13,8 +13,8 @@ function spacexchimp_p001_message_hello() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p001_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p001_options();
 
     // Exit if options are already set in database
     if ( ! empty( $options ) ) {
