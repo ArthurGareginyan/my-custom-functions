@@ -18,8 +18,8 @@ function spacexchimp_p001_prepare() {
     $options = spacexchimp_p001_options();
 
     // Declare variables
-    $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
-    $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
+    $data = $options['snippets'];
+    $enable = $options['enable'];
 
     // Prepare a variable for storing the processed data
     $data_out = "";

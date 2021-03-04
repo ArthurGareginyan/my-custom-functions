@@ -22,6 +22,8 @@ function spacexchimp_p001_options() {
 
     // Set default value if option is empty
     $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
+    $array['snippets'] = !empty( $options['snippets'] ) ? $options['snippets'] : '';
+    $array['enable'] = !empty( $options['enable'] ) ? $options['enable'] : '';
 
     // Return the processed data
     return $array;
