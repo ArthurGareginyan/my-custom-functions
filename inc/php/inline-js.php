@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 $options = spacexchimp_p001_options();
 
 // Declare variables
-$hidden_scrollto = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
+$hidden_scrollto = $options['hidden_scrollto'];
 
 ?>
     <script type="text/javascript">
