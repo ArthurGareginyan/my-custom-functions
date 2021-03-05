@@ -82,6 +82,5 @@ function spacexchimp_p001_load_scripts_admin( $hook ) {
 
     // Call the function that enqueue the CodeMirror library
     spacexchimp_p001_load_scripts_codemirror();
-
 }
 add_action( 'admin_enqueue_scripts', $plugin['prefix'] . '_load_scripts_admin' );
