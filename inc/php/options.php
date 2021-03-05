@@ -25,6 +25,9 @@ function spacexchimp_p001_options() {
     $array['snippets'] = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $array['enable'] = !empty( $options['enable'] ) ? $options['enable'] : '';
 
+    // Sanitize data
+
+
     // Return the processed data
     return $array;
 }
