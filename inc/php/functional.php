@@ -17,21 +17,17 @@ function spacexchimp_p001_prepare() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p001_options();
 
-    // Declare variables
-    $data = $options['snippets'];
-    $enable = $options['enable'];
-
     // Prepare a variable for storing the processed data
     $data_out = "";
 
     // If data is not empty...
-    if ( ! empty( $data ) ) {
+    if ( ! empty( $options['snippets'] ) ) {
 
         // If the custom code is enabled...
-        if ( $enable == "on") {
+        if ( $options['enable'] == "on") {
 
             // Prepare a variable for storing the processing data, and perform data processing
-            $data_tmp = $data;
+            $data_tmp = $options['snippets'];
             $data_tmp = trim( $data_tmp );           // Cleaning
             $data_tmp = ltrim( $data_tmp, '<?php' ); // Cleaning
             $data_tmp = rtrim( $data_tmp, '?>' );    // Cleaning
