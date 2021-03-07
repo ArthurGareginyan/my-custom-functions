@@ -24,7 +24,7 @@ function spacexchimp_p001_prepare() {
     if ( ! empty( $options['snippets'] ) ) {
 
         // If the custom code is enabled...
-        if ( $options['enable'] == "on") {
+        if ( $options['enable'] === true ) {
 
             // Prepare a variable for storing the processing data, and perform data processing
             $data_tmp = $options['snippets'];
