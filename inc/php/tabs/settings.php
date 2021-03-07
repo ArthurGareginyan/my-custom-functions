@@ -20,8 +20,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         // Put the value of the plugin options into an array for easier access
                         $options = spacexchimp_p001_options();
 
-                        // Set default value if option is empty
-                        $checked = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : '';
+                        // Declare variables
+                        if ( $options['enable'] === true ) {
+                            $checked = 'checked';
+                        } else {
+                            $checked = ''; // Empty value
+                        }
                     ?>
 
                     <div class="postbox">
