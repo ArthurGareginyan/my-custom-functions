@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2021-01-02 21:06+0300\n"
+"POT-Creation-Date: 2021-03-09 01:17+0300\n"
 "PO-Revision-Date: 2015-08-30 16:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -88,7 +88,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:65
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:68
 msgid "Support"
 msgstr ""
 
@@ -116,16 +116,16 @@ msgstr ""
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:67
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:70
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:72
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:75
 #: inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:74
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:77
 msgid "Thanks for your support!"
 msgstr ""
 
@@ -652,19 +652,19 @@ msgstr ""
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/tabs/settings.php:30
+#: inc/php/tabs/settings.php:33
 msgid "Functions (PHP code)"
 msgstr ""
 
-#: inc/php/tabs/settings.php:32
+#: inc/php/tabs/settings.php:35
 msgid "NOT SAVED!"
 msgstr ""
 
-#: inc/php/tabs/settings.php:46
+#: inc/php/tabs/settings.php:49
 msgid "Enter your PHP functions here"
 msgstr ""
 
-#: inc/php/tabs/settings.php:60
+#: inc/php/tabs/settings.php:63
 msgid "Save changes"
 msgstr ""
 
