@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 4.48
+Stable tag: 4.49
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -256,6 +256,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.49 - Mar 8, 2021 =
+* Maintenance: Ensure compatibility with upcoming WordPress 5.7.
+* Maintenance: Processing of options has been improved. Direct retrieving of options from the database is replaced by the "_options" callback. The "options.php" file with the "_options" function added.
+* Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 
 = 4.48 - Jan 1, 2021 =
 * Maintenance: The copyright date updated to support the 2021 year.
