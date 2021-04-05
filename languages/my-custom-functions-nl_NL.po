@@ -464,10 +464,8 @@ msgid "If you aren't sure how usually your web hosting provider will have instru
 msgstr "Als u niet zeker bent hoe, vaak heeft je webhostingprovider ergens op hun website instructies staan."
 
 #: inc/php/tabs/faq.php:264
-#, fuzzy
-#| msgid "Browse to the directory <code>wp-content/plugins/my-custom-functions/</code>."
 msgid "Browse to the directory <code>wp-content/plugins/"
-msgstr "Blader naar de map <code>wp-content/plugins/my-custom-functions/</code> ."
+msgstr "Blader naar de map <code>wp-content/plugins/"
 
 #: inc/php/tabs/faq.php:265
 msgid "Please contact your web hosting company to get help if you can't find this folder."
