@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 4.50
+Stable tag: 4.51
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -257,7 +257,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-=  - Sep 6, 2021 =
+= 4.51 - Sep 6, 2021 =
 * Fixed: Strange behavior of the toggle switches (ON/OFF buttons) on the plugin settings page. (Thanks to Werner Krauß)
 
 = 4.50 - Jul 19, 2021 =
