@@ -34,7 +34,7 @@ function spacexchimp_p001_options() {
 
 
     // Modify data
-    $array['enable'] = ( $array['enable'] == 'on' ) ? true : false ;
+    $array['enable'] = ( $array['enable'] == 'on' || $array['enable'] == '1' || $array['enable'] == 'true' ) ? true : false;
 
     // Return the processed data
     return $array;
