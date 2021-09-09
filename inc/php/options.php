@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * Prevent Direct Access
+ */
+defined( 'ABSPATH' ) or die( "Restricted access!" );
+
+/**
  * Callback function that returns an array with the value of the plugin options
  * @return array
  */
