@@ -259,6 +259,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 =  =
 * Security improvement: Prevent direct access to the "inc/php/options.php" file.
+* Maintenance: Processing of options has been improved. The "_options" function has been rewritten.
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 
 = 4.51 - Sep 6, 2021 =

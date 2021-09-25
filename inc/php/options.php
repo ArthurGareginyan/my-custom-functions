@@ -27,9 +27,9 @@ function spacexchimp_p001_options() {
 
     // Set default value if option is empty
     $list = array(
-        'enable' => '', // custom
-        'hidden_scrollto' => '0', // _control_hidden
-        'snippets' => '', // custom
+        'enable' => (boolean) '', // custom
+        'hidden_scrollto' => (integer) '0', // _control_hidden
+        'snippets' => (string) '', // custom
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
