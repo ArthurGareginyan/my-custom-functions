@@ -24,14 +24,14 @@ function spacexchimp_p001_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'enable' => (boolean) '', // custom
         'hidden_scrollto' => (integer) '0', // _control_hidden
         'snippets' => (string) '', // custom
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 
