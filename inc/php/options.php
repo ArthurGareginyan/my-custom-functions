@@ -33,6 +33,11 @@ function spacexchimp_p001_options() {
 
         // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+
+        // Sanitize and modify by type of option
+        if ( is_bool( $default ) === true ) {
+            $array[$name] = ( $array[$name] == 'on' || $array[$name] == '1' || $array[$name] == 'true' ) ? true : false;
+        }
     }
 
     // Sanitize data
@@ -41,7 +46,7 @@ function spacexchimp_p001_options() {
     //$array['snippets'] = esc_textarea( $array['snippets'] );
 
     // Modify data
-    $array['enable'] = ( $array['enable'] == 'on' || $array['enable'] == '1' || $array['enable'] == 'true' ) ? true : false;
+
 
     // Return the processed data
     return $array;
