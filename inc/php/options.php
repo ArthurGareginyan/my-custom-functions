@@ -45,8 +45,6 @@ function spacexchimp_p001_options() {
     }
 
     // Sanitize data
-    //$array['enable'] = esc_textarea( $array['enable'] );
-    //$array['hidden_scrollto'] = esc_textarea( $array['hidden_scrollto'] );
     //$array['snippets'] = esc_textarea( $array['snippets'] );
 
     // Modify data
