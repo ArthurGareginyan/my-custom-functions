@@ -14,15 +14,15 @@ function spacexchimp_p001_options() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p001_plugin();
 
-    // Retrieve options from database
+    // Retrieve the plugin options data from the database
     $array = get_option( $plugin['settings'] . '_settings' );
 
-    // Make the "$options" array if the plugin options data in the database is not exist
+    // Fill in the "$array" variable if the plugin options data in the database is not exist
     if ( ! is_array( $array ) ) {
         $array = array();
     }
 
-    // Create an array with options
+    // Prepare the plugin options data for use
     $list = array(
         'enable' => (boolean) '', // custom
         'hidden_scrollto' => (integer) '0', // _control_hidden
