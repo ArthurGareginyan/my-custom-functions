@@ -53,3 +53,28 @@ function spacexchimp_p001_options() {
     // Return the processed data
     return $array;
 }
+
+/**
+ * Write the options to a text file for development/testing purposes
+ */
+function spacexchimp_p001_test() {
+
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p001_plugin();
+
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p001_options();
+
+    // Prepare a variable for storing the processed data
+    $data = print_r( $options, true );
+
+    // Name and destination of the backup files
+    $date = date( 'm-d-Y_hia' );
+    $file_location_date = $plugin['path'] . '/test/' . $date . '.txt';
+    $file_location_last = $plugin['path'] . '/test/last.txt';
+
+    // Make two backup files
+    file_put_contents( $file_location_date, $data );
+    file_put_contents( $file_location_last, $data );
+}
+//spacexchimp_p001_test();

@@ -263,6 +263,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Maintenance: Processing of options has been improved. Explicit type definition technique is now used in variable declarations.
 * Enhancement: Processing of options has been improved. All data is now sanitized and validated before use.
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
+* Maintenance: The "_test" function has been added to the "inc/php/options.php" file for development/testing purposes. It writes the options to a text file for the visualisation of options processing.
 
 = 4.51 - Sep 6, 2021 =
 * Fixed: Strange behavior of the toggle switches (ON/OFF buttons) on the plugin settings page. (Thanks to Werner Krauß)
