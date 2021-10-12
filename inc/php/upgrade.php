@@ -22,7 +22,7 @@ function spacexchimp_p001_upgrade_4_7() {
     // Read plugin service info from the database
     $service_info_old = get_option( $prefix_old . '_service_info' );
     $service_info_current = get_option( $prefix_new . '_service_info' );
-    $upgrade_number_current = !empty( $service_info_current['upgrade'] ) ? $service_info_current['upgrade'] : '0000';
+    $upgrade_number_current = ! empty( $service_info_current['upgrade'] ) ? $service_info_current['upgrade'] : '0000';
 
     // Setting array with new data
     $service_info_new = is_array( $service_info_old ) ? $service_info_old : array();
@@ -41,8 +41,8 @@ function spacexchimp_p001_upgrade_4_7() {
 
     // Read plugin settings from the database
     $settings_current = get_option( $prefix_old . '_settings' );
-    $snippets_old = !empty( $settings_current['anarcho_cfunctions-content'] ) ? $settings_current['anarcho_cfunctions-content'] : '';
-    $enable_old = ( !empty( $settings_current['enable'] ) AND $settings_current['enable'] == 'on' ) ? '' : 'on';
+    $snippets_old = ! empty( $settings_current['anarcho_cfunctions-content'] ) ? $settings_current['anarcho_cfunctions-content'] : '';
+    $enable_old = ( ! empty( $settings_current['enable'] ) AND $settings_current['enable'] == 'on' ) ? '' : 'on';
 
     // Setting array with new data
     $settings_new = is_array( $settings_current ) ? $settings_current : array();

@@ -74,7 +74,7 @@ function spacexchimp_p001_message_error_version() {
 
     // Retrieve options from database and declare variables
     $info = get_option( $plugin['settings'] . '_service_info' );
-    $old_version = !empty( $info['old_version'] ) ? $info['old_version'] : '0';
+    $old_version = ! empty( $info['old_version'] ) ? $info['old_version'] : '0';
 
     // Exit if this is not the old version of the plugin
     if ( $old_version != '1' ) {

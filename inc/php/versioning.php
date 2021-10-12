@@ -27,7 +27,7 @@ function spacexchimp_p001_versioning() {
     }
 
     // Get the current plugin version number from the database
-    $version_db = !empty( $info['version'] ) ? $info['version'] : '0';
+    $version_db = ! empty( $info['version'] ) ? $info['version'] : '0';
 
     ///////////////////////////////////////////////////////////////////
     //                       FORMATTING NUMBERS                      //
