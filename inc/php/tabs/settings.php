@@ -21,11 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $options = spacexchimp_p001_options();
 
                         // Declare variables
-                        if ( $options['enable'] === true ) {
-                            $checked = 'checked';
-                        } else {
-                            $checked = ''; // Empty value
-                        }
+                        $checked = ( $options['enable'] === true ) ? 'checked' : '' ;
                     ?>
 
                     <div class="postbox">
